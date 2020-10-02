@@ -42,6 +42,11 @@ npm version minor
 npm version major
 ```
 
+To remove all generated files run the clean script
+```bash
+npm run clean
+```
+
 ## Information
 
 About Bits is a company based in South Tyrol, Italy. You can find more information about us on [our website](https://aboutbits.it).
