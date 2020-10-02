@@ -30,8 +30,12 @@ SVG related parameters like height and width can be passed as props
 
 ## Build & Publish
 
-To build and publish the package, simply commit all changes and push them to master. Then run one of the following commands locally:
+To build the package, simply run the following command
+```bash
+npm run build
+```
 
+To publish the package commit all changes and push them to master. Then run one of the following commands locally:
 ```bash
 npm version patch
 npm version minor
