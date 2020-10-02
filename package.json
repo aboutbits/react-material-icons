@@ -4,7 +4,8 @@
   "description": "",
   "main": "generator.js",
   "scripts": {
-    "build": "node generator.js"
+    "build": "node generator.js",
+    "clean": "rm components/*.tsx && rm index.tsx"
   },
   "devDependencies": {
     "axios": "^0.20.0"
