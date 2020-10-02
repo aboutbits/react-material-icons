@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node generator.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "axios": "^0.20.0"
   },
   "keywords": [],
