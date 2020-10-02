@@ -37,7 +37,7 @@ function componentTemplate(name, svg) {
     let component = "import React from 'react'\n";
     component += "import { IconProps } from './types'\n";
     component += `const ${name}: React.FC<IconProps> = (props) => (`;
-    component += svg + "\n\n";
+    component += svg + ")\n\n";
     component += `export { ${name} }`;
 
     return component;
@@ -59,6 +59,28 @@ function generateComponent(icon) {
             componentTemplate(name, svg)
         )
     });
+}
+
+/**
+ * Generate index tsx file for easy import
+ *
+ * @param icons - Array of icons
+ */
+function generateIndex(icons) {
+    let imports = "";
+    let exports = "export {\n";
+
+    icons.forEach(icon => {
+        const name = formatName(icon.name)
+        imports += `import { ${name} } from './components/${name}'\n`
+        exports += `\t${name},\n`
+    });
+    exports += "}";
+
+    fs.writeFileSync(
+        "./index.tsx",
+        (imports + "\n" + exports)
+    );
 }
 
 /**
@@ -87,12 +109,8 @@ async function getSVGFile(icon, version) {
     // Parse response from json to js object
     const icons = await JSON.parse(data);
 
-    // Used form development only
-    const icr = [];
-    for(let i = 0; i < 2; i++) {
-        icr.push(icons.icons[i])
-    }
-
-    await generateComponent(icr);
+    // Generate icon components and Index
+    await generateComponent(icons.icons);
+    await generateIndex(icons.icons);
 
 })();
