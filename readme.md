@@ -1,6 +1,8 @@
 React Material Icons
 ====================
 
+[![npm version](https://badge.fury.io/js/%40aboutbits%2Freact-material-icons.svg)](https://badge.fury.io/js/%40aboutbits%2Freact-material-icons)
+
 This package includes all [Material Icons](https://material.io/resources/icons/?style=baseline) as reusable React components.
 
 ## Table of content
@@ -13,11 +15,13 @@ This package includes all [Material Icons](https://material.io/resources/icons/?
 ## Usage
 
 First, you have to install the package:
+
 ```bash
 npm install @aboutbits/react-material-icons
 ```
 
 Second, you can use the icons in you React application like this:
+
 ```jsx
 import React from 'react'
 
@@ -33,6 +37,7 @@ SVG related parameters like height and width can be passed as props.
 ## Generate Components
 
 To generate the components, simply run the following command:
+
 ```bash
 npm run generate
 ```
@@ -40,6 +45,7 @@ npm run generate
 ## Build & Publish
 
 To publish the package commit all changes and push them to master. Then run one of the following commands locally:
+
 ```bash
 npm version patch
 npm version minor
