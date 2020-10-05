@@ -4,6 +4,7 @@ React Material Icons
 This package includes all [Material Icons](https://material.io/resources/icons/?style=baseline) as reusable React components.
 
 ## Table of content
+
 - [Usage](#usage)
 - [Generate Components](#generate-components)
 - [Build & Publish](#build--publish)
