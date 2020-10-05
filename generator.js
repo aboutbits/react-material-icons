@@ -5,6 +5,17 @@ const axios = require('axios')
 // Base url for icons
 const iconURL = 'https://fonts.google.com/metadata/icons'
 
+function setup() {
+  // Create components folder
+  fs.mkdirSync(path.join(__dirname, 'src', 'components'))
+
+  // Create types file
+  fs.writeFileSync(
+    path.join(__dirname, 'src', 'components', 'types.ts'),
+    'import React from "react" \nexport type IconProps = React.SVGProps<SVGSVGElement>'
+  )
+}
+
 /**
  * Format name.
  * Covert from snake case to camel case and prevent numbers at the beginning
@@ -23,57 +34,20 @@ function formatName(string) {
 }
 
 /**
- * Setup the dist folder and some static files
- */
-function setup() {
-  // Create the dist folder
-  fs.mkdirSync(path.join(__dirname, '..', 'dist'))
-
-  // Create the components folder
-  fs.mkdirSync(path.join(__dirname, '..', 'dist', 'components'))
-
-  // Add the type declaration file to the components folder
-  fs.writeFileSync(
-    path.join(__dirname, '..', 'dist', 'components', 'types.d.ts'),
-    '/// <reference types="react" />\nexport type IconProps = React.SVGProps<SVGSVGElement>\n'
-  )
-
-  // Add type file to the components folder
-  fs.writeFileSync(
-    path.join(__dirname, '..', 'dist', 'components', 'types.js'),
-    '"use strict"\nexports.__esModule = true;'
-  )
-}
-
-/**
- * Component template for functional Javascript react icon component
+ * Component template for functional react icon component
  *
  * @param name - Component name
  * @param svg - Icon SVG
  * @returns {string} - Component
  */
-function componentJSTemplate(name, svg) {
+function componentTemplate(name, svg) {
   let component = "import React from 'react'\n"
-  component += `const ${name} = (props) => (`
+  component += "import { IconProps } from './types'\n"
+  component += `const ${name}: React.FC<IconProps> = (props) => (`
   component += svg + ')\n\n'
   component += `export { ${name} }`
 
   return component
-}
-
-/**
- * Generate Declaration file for icon components
- *
- * @param name - Icon name
- * @returns {string} - Declaration file template
- */
-function componentDeclarationTemplate(name) {
-  let declaration = "import React from 'react';\n"
-  declaration += "import { IconProps } from './types';\n\n"
-  declaration += `declare const ${name}: React.FC<IconProps>;\n\n`
-  declaration += `export { ${name} };`
-
-  return declaration
 }
 
 /**
@@ -86,16 +60,9 @@ function generateComponent(icon) {
     const name = formatName(c.name)
     const svg = await getSVGFile(c.name, c.version)
 
-    // Generate js component
     fs.writeFileSync(
-      path.join(__dirname, '..', 'dist', 'components', `${name}.jsx`),
-      componentJSTemplate(name, svg)
-    )
-
-    // Generate ts declaration file for js component
-    fs.writeFileSync(
-      path.join(__dirname, '..', 'dist', 'components', `${name}.d.ts`),
-      componentDeclarationTemplate(name)
+      path.join(__dirname, 'src', 'components', `${name}.tsx`),
+      componentTemplate(name, svg)
     )
   })
 }
@@ -116,15 +83,8 @@ function generateIndex(icons) {
   })
   exports += '}'
 
-  // Write js index
   fs.writeFileSync(
-    path.join(__dirname, '..', 'dist', 'index.js'),
-    imports + '\n' + exports
-  )
-
-  // Write ts index
-  fs.writeFileSync(
-    path.join(__dirname, '..', 'dist', 'index.d.ts'),
+    path.join(__dirname, 'src', 'index.ts'),
     imports + '\n' + exports
   )
 }
@@ -147,20 +107,19 @@ async function getSVGFile(icon, version) {
 /**
  * Main function
  */
-;(async function () {
-  // Setup environment
+;(async () => {
+  // Setup source folder
   setup()
 
   // Get icon information from google fonts
   const res = await axios.get(iconURL)
-
   // remove )]}' from the response
   const data = res.data.substring(4)
 
   // Parse response from json to js object
   const icons = await JSON.parse(data)
-  // Generate icon components and Index
 
+  // Generate icon components and Index
   await generateComponent(icons.icons)
   await generateIndex(icons.icons)
 })()
