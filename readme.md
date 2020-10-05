@@ -1,10 +1,11 @@
 React Material Icons
 ====================
 
-This package includes all [Material Icons](https://material.io/resources/icons/?style=baseline) as reusable react components
+This package includes all [Material Icons](https://material.io/resources/icons/?style=baseline) as reusable React components
 
 ## Table of content
 - [Usage](#usage)
+- [Generate Component](#generate-component)
 - [Build & Publish](#build--publish)
 - [Information](#information)
 
@@ -15,7 +16,7 @@ In order to use this package you have to install it through npm
 npm install @aboutbits/react-material-icons
 ```
 
-After you successfully installed the package you can simply use the icons in you react application like this
+After you successfully installed the package you can simply use the icons in you React application like this
 ```jsx
 import React from 'react'
 
@@ -28,12 +29,13 @@ const MyCommponent = () => {
 
 SVG related parameters like height and width can be passed as props
 
-## Build & Publish
-
-To build the package, simply run the following command
+## Generate Component 
+To generate the components, simply run the following command
 ```bash
 npm run build
 ```
+
+## Build & Publish
 
 To publish the package commit all changes and push them to master. Then run one of the following commands locally:
 ```bash
