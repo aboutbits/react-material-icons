@@ -2,7 +2,7 @@
   "name": "@aboutbits/react-material-icons",
   "version": "0.1.5",
   "description": "Material design icon components for React",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "generate": "rm -rf src/* && node generator.js",
