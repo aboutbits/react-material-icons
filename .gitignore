@@ -1,6 +1,11 @@
-# IDE Stuff
-.idea
+# Basic
+.DS_Store
 
+# IDE
+/.idea
+/.vscode
 
-# Node and Javascirpt
-node_modules
+# Project
+/package-lock.json
+/node_modules
+/dist
