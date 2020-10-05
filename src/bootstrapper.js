@@ -73,7 +73,7 @@ function componentDeclarationTemplate(name) {
   declaration += `declare const ${name}: React.FC<IconProps>;\n\n`
   declaration += `export { ${name} };`
 
-  return declaration;
+  return declaration
 }
 
 /**
