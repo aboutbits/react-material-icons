@@ -35,6 +35,12 @@ To generate the components, simply run the following command
 npm run build
 ```
 
+or
+
+```bash
+npm run bootstrapping
+```
+
 ## Build & Publish
 
 To publish the package commit all changes and push them to master. Then run one of the following commands locally:
