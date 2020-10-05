@@ -1,16 +1,55 @@
 {
-  "name": "material-design-icons-crawler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "generator.js",
+  "name": "@aboutbits/material-design-icons",
+  "version": "0.1.0",
+  "description": "Material design icon components for React",
+  "main": "dist/index.ts",
   "scripts": {
-    "build": "node generator.js",
-    "clean": "rm components/*.tsx && rm index.tsx"
+    "build": "npm run bootstrapping",
+    "bootstrapping": "node src/bootstrapper.js",
+    "clean": "rm -rf dist/",
+    "lint": "eslint --ext js,ts,tsx src",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest --config jestconfig.json --passWithNoTests",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test && npm run lint",
+    "version": "npm run test && npm run lint && git add -A src",
+    "postversion": "git push && git push --tags"
   },
+  "keywords": [
+    "material design icons",
+    "react"
+  ],
+  "private": false,
+  "author": "Aboutbits",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboutbits/react-material-icons"
+  },
+  "files": [
+    "readme.md",
+    "dist/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/aboutbits/react-material-icons/issues"
+  },
+  "homepage": "https://github.com/aboutbits/react-material-icons#readme",
   "devDependencies": {
-    "axios": "^0.20.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "@types/jest": "^26.0.14",
+    "@typescript-eslint/parser": "^4.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "axios": "^0.20.0",
+    "jest": "^26.4.2",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  }
 }
