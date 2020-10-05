@@ -2,11 +2,11 @@
   "name": "@aboutbits/material-design-icons",
   "version": "0.1.0",
   "description": "Material design icon components for React",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "generate": "rm -rf src/* && node generator.js",
-    "lint": "eslint --ext js,ts,tsx ./generator.js",
+    "lint": "eslint --ext js,ts,tsx src ./generator.js",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --config jestconfig.json --passWithNoTests",
     "prepare": "npm run build",
@@ -39,6 +39,7 @@
   "homepage": "https://github.com/aboutbits/react-material-icons#readme",
   "devDependencies": {
     "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.50",
     "@typescript-eslint/parser": "^4.3.0",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "axios": "^0.20.0",
@@ -50,7 +51,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.1",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "peerDependencies": {
     "react": "^16.13.1",
