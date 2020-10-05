@@ -15,7 +15,8 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [
-    "material design icons",
+    "material design",
+    "icons",
     "react"
   ],
   "private": false,
