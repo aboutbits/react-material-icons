@@ -29,16 +29,10 @@ const MyCommponent = () => {
 
 SVG related parameters like height and width can be passed as props
 
-## Generate Component 
+## Generate Components
 To generate the components, simply run the following command
 ```bash
-npm run build
-```
-
-or
-
-```bash
-npm run bootstrapping
+npm run generate
 ```
 
 ## Build & Publish
@@ -48,11 +42,6 @@ To publish the package commit all changes and push them to master. Then run one 
 npm version patch
 npm version minor
 npm version major
-```
-
-To remove all generated files run the clean script
-```bash
-npm run clean
 ```
 
 ## Information
