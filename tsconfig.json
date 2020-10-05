@@ -1,18 +1,14 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "target": "ES6",
-    "jsx": "react",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "outDir": "./dist",
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
     "declaration": true,
-    "sourceMap": false
+    "outDir": "./dist",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules", "**/__test__/*", "**/__tests__/*"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__test__/*", "**/__tests__/*"]
 }
