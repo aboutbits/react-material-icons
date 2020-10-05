@@ -5,7 +5,7 @@ This package includes all [Material Icons](https://material.io/resources/icons/?
 
 ## Table of content
 - [Usage](#usage)
-- [Generate Component](#generate-component)
+- [Generate Components](#generate-components)
 - [Build & Publish](#build--publish)
 - [Information](#information)
 
