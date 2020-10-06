@@ -1,5 +1,6 @@
 import React from 'react'
 import { IconProps } from './types'
+
 const Icon5g: React.FC<IconProps> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

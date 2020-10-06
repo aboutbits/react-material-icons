@@ -42,7 +42,7 @@ function formatName(string) {
  */
 function componentTemplate(name, svg) {
   let component = "import React from 'react'\n"
-  component += "import { IconProps } from './types'\n"
+  component += "import { IconProps } from './types'\n\n"
   component += `const ${name}: React.FC<IconProps> = (props) => (`
   component += svg + ')\n\n'
   component += `export { ${name} }`
@@ -101,7 +101,10 @@ async function getSVGFile(icon, version) {
     `https://fonts.gstatic.com/s/i/materialicons/${icon}/v${version}/24px.svg`
   )
 
-  return svg.data.replace('height="24"', '').replace('width="24"', '{...props}')
+  return svg.data
+    .replace('height="24"', '')
+    .replace('width="24"', '{...props}')
+    .replace(/class/g, 'className')
 }
 
 /**

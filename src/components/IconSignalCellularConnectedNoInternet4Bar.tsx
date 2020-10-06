@@ -1,5 +1,6 @@
 import React from 'react'
 import { IconProps } from './types'
+
 const IconSignalCellularConnectedNoInternet4Bar: React.FC<IconProps> = (
   props
 ) => (

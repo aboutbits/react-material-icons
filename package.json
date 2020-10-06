@@ -39,6 +39,7 @@
   "homepage": "https://github.com/aboutbits/react-material-icons#readme",
   "devDependencies": {
     "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.50",
     "@typescript-eslint/parser": "^4.3.0",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "react": "^16.13.1",

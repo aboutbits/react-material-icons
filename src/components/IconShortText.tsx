@@ -1,5 +1,6 @@
 import React from 'react'
 import { IconProps } from './types'
+
 const IconShortText: React.FC<IconProps> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

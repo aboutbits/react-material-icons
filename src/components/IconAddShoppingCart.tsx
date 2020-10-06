@@ -1,5 +1,6 @@
 import React from 'react'
 import { IconProps } from './types'
+
 const IconAddShoppingCart: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
     <path d="M0 0h24v24H0zm18.31 6l-2.76 5z" fill="none" />
