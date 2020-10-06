@@ -6,12 +6,9 @@ const axios = require('axios')
 const iconURL = 'https://fonts.google.com/metadata/icons'
 
 function setup() {
-  // Create components folder
-  fs.mkdirSync(path.join(__dirname, 'src', 'components'))
-
   // Create types file
   fs.writeFileSync(
-    path.join(__dirname, 'src', 'components', 'types.ts'),
+    path.join(__dirname, 'src', 'types.ts'),
     'import React from "react" \nexport type IconProps = React.SVGProps<SVGSVGElement>'
   )
 }
@@ -45,7 +42,7 @@ function componentTemplate(name, svg) {
   component += "import { IconProps } from './types'\n\n"
   component += `const ${name}: React.FC<IconProps> = (props) => (`
   component += svg + ')\n\n'
-  component += `export { ${name} }`
+  component += `export { ${name} as default }`
 
   return component
 }
@@ -61,32 +58,10 @@ function generateComponent(icon) {
     const svg = await getSVGFile(c.name, c.version)
 
     fs.writeFileSync(
-      path.join(__dirname, 'src', 'components', `${name}.tsx`),
+      path.join(__dirname, 'src', `${name}.tsx`),
       componentTemplate(name, svg)
     )
   })
-}
-
-/**
- * Generate index tsx file for easy import
- *
- * @param icons - Array of icons
- */
-function generateIndex(icons) {
-  let imports = ''
-  let exports = 'export {\n'
-
-  icons.forEach((icon) => {
-    const name = formatName(icon.name)
-    imports += `import { ${name} } from './components/${name}'\n`
-    exports += `  ${name},\n`
-  })
-  exports += '}'
-
-  fs.writeFileSync(
-    path.join(__dirname, 'src', 'index.ts'),
-    imports + '\n' + exports
-  )
 }
 
 /**
@@ -105,6 +80,9 @@ async function getSVGFile(icon, version) {
     .replace('height="24"', '')
     .replace('width="24"', '{...props}')
     .replace(/class/g, 'className')
+    .replace(/enable-background/g, 'enableBackground')
+    .replace(/clip-rule/g, 'clipRule')
+    .replace(/fill-rule/g, 'fillRule')
 }
 
 /**
@@ -124,5 +102,4 @@ async function getSVGFile(icon, version) {
 
   // Generate icon components and Index
   await generateComponent(icons.icons)
-  await generateIndex(icons.icons)
 })()

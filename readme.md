@@ -24,6 +24,7 @@ Second, you can use the icons in you React application like this:
 
 ```jsx
 import React from 'react'
+import IconCached from '@aboutbits/react-material-icons/dist/IconCached'
 
 const MyCommponent = () => {
     return (
