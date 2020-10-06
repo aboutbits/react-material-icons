@@ -80,6 +80,9 @@ async function getSVGFile(icon, version) {
     .replace('height="24"', '')
     .replace('width="24"', '{...props}')
     .replace(/class/g, 'className')
+    .replace(/enable-background/g, 'enableBackground')
+    .replace(/clip-rule/g, 'clipRule')
+    .replace(/fill-rule/g, 'fillRule')
 }
 
 /**
