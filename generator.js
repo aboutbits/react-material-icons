@@ -42,8 +42,8 @@ function formatName(string) {
  */
 function componentTemplate(name, svg) {
   let component = "import React from 'react'\n"
-  component += "import { IconProps } from './types'\n"
-  component += `const ${name}: React.FC<IconProps> = (props: IconProps):any => (`
+  component += "import { IconProps } from './types'\n\n"
+  component += `const ${name}: React.FC<IconProps> = (props) => (`
   component += svg + ')\n\n'
   component += `export { ${name} }`
 
