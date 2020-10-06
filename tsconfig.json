@@ -10,10 +10,6 @@
     "strict": true,
     "sourceMap": false
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules", "**/__test__/*", "**/__tests__/*"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__test__/*", "**/__tests__/*"]
 }
