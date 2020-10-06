@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
-const IconChildCare: React.FC<IconProps> = (props: IconProps): any => (
+
+const IconChildCare: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
     <path d="M0 0h24v24H0z" fill="none" />
     <circle cx="14.5" cy="10.5" r="1.25" />

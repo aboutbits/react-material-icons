@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
-const IconRecordVoiceOver: React.FC<IconProps> = (props: IconProps): any => (
+
+const IconRecordVoiceOver: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
     <path d="M0 0h24v24H0z" fill="none" />
     <circle cx="9" cy="9" r="4" />

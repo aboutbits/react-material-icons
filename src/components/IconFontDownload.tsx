@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
-const IconFontDownload: React.FC<IconProps> = (props: IconProps): any => (
+
+const IconFontDownload: React.FC<IconProps> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     baseProfile="tiny"

@@ -1,8 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
-const IconSignalCellularNoSim: React.FC<IconProps> = (
-  props: IconProps
-): any => (
+
+const IconSignalCellularNoSim: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
     <path
       d="M-618-2872H782V728H-618zM-1 0h26v24H-1zm1 0h24v24H0z"

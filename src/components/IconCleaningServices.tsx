@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
-const IconCleaningServices: React.FC<IconProps> = (props: IconProps): any => (
+
+const IconCleaningServices: React.FC<IconProps> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     enable-background="new 0 0 24 24"
