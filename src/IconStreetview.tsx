@@ -1,9 +1,12 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconStreetview: React.FC<IconProps> = (props) => (
+const IconStreetview: React.FC<IconProps> = ({
+  title = 'IconStreetview',
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-    <title>{props.title === undefined ? 'IconStreetview' : props.title}</title>
+    <title>{title}</title>
     <path d="M0 0h24v24H0z" fill="none" />
     <path d="M12.56 14.33c-.34.27-.56.7-.56 1.17V21h7c1.1 0 2-.9 2-2v-5.98c-.94-.33-1.95-.52-3-.52-2.03 0-3.93.7-5.44 1.83z" />
     <circle cx="18" cy="6" r="5" />

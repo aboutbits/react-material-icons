@@ -1,16 +1,17 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconAlignVerticalTop: React.FC<IconProps> = (props) => (
+const IconAlignVerticalTop: React.FC<IconProps> = ({
+  title = 'IconAlignVerticalTop',
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     enableBackground="new 0 0 24 24"
     viewBox="0 0 24 24"
     {...props}
   >
-    <title>
-      {props.title === undefined ? 'IconAlignVerticalTop' : props.title}
-    </title>
+    <title>{title}</title>
     <rect fill="none" height="24" width="24" />
     <path d="M22,2v2H2V2H22z M7,22h3V6H7V22z M14,16h3V6h-3V16z" />
   </svg>

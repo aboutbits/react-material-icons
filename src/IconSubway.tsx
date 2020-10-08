@@ -1,9 +1,12 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconSubway: React.FC<IconProps> = (props) => (
+const IconSubway: React.FC<IconProps> = ({
+  title = 'IconSubway',
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-    <title>{props.title === undefined ? 'IconSubway' : props.title}</title>
+    <title>{title}</title>
     <path
       d="M0 0v24h24V0H0zm22 22H2V8.86C2 6.05 3.53 3.84 6.2 2.8 8 2.09 10.14 2 12 2c1.86 0 4 .09 5.8.8C20.47 3.84 22 6.05 22 8.86V22z"
       fill="none"

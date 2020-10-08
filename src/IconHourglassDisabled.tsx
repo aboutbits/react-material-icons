@@ -1,16 +1,17 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconHourglassDisabled: React.FC<IconProps> = (props) => (
+const IconHourglassDisabled: React.FC<IconProps> = ({
+  title = 'IconHourglassDisabled',
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     enableBackground="new 0 0 24 24"
     viewBox="0 0 24 24"
     {...props}
   >
-    <title>
-      {props.title === undefined ? 'IconHourglassDisabled' : props.title}
-    </title>
+    <title>{title}</title>
     <g>
       <rect fill="none" height="24" width="24" />
     </g>

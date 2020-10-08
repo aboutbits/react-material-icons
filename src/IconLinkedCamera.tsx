@@ -1,11 +1,12 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconLinkedCamera: React.FC<IconProps> = (props) => (
+const IconLinkedCamera: React.FC<IconProps> = ({
+  title = 'IconLinkedCamera',
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-    <title>
-      {props.title === undefined ? 'IconLinkedCamera' : props.title}
-    </title>
+    <title>{title}</title>
     <circle cx="12" cy="14" r="3.2" />
     <circle cx="12" cy="14" fill="none" r="5" />
     <path d="M16 3.33c2.58 0 4.67 2.09 4.67 4.67H22c0-3.31-2.69-6-6-6v1.33M16 6c1.11 0 2 .89 2 2h1.33c0-1.84-1.49-3.33-3.33-3.33V6" />
