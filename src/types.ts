@@ -1,2 +1,5 @@
 import React from 'react'
-export type IconProps = React.SVGProps<SVGSVGElement>
+
+export interface IconProps extends React.SVGProps<SVGSVGElement> {
+  title?: string
+}
