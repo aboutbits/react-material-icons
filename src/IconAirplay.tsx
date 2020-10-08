@@ -8,6 +8,7 @@ const IconAirplay: React.FC<IconProps> = (props) => (
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>{props.title === undefined ? 'IconAirplay' : props.title}</title>
     <rect fill="none" height="24" width="24" />
     <g>
       <polygon points="6,22 18,22 12,16" />

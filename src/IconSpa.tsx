@@ -3,6 +3,7 @@ import { IconProps } from './types'
 
 const IconSpa: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>{props.title === undefined ? 'IconSpa' : props.title}</title>
     <path
       d="M0 0h24v24H0V0zm13.97 21.49c-.63.23-1.29.4-1.97.51.68-.12 1.33-.29 1.97-.51zM12 22c-.68-.12-1.33-.29-1.97-.51.64.22 1.29.39 1.97.51z"
       fill="none"

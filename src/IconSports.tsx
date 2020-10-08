@@ -8,6 +8,7 @@ const IconSports: React.FC<IconProps> = (props) => (
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>{props.title === undefined ? 'IconSports' : props.title}</title>
     <g>
       <rect fill="none" height="24" width="24" />
     </g>

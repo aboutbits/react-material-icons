@@ -3,6 +3,7 @@ import { IconProps } from './types'
 
 const IconWifiOff: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>{props.title === undefined ? 'IconWifiOff' : props.title}</title>
     <path
       d="M24 .01c0-.01 0-.01 0 0L0 0v24h24V.01zM0 0h24v24H0V0zm0 0h24v24H0V0z"
       fill="none"

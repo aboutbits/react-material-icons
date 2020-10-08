@@ -8,6 +8,7 @@ const IconReplay30: React.FC<IconProps> = (props) => (
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>{props.title === undefined ? 'IconReplay30' : props.title}</title>
     <g>
       <rect fill="none" height="24" width="24" />
     </g>

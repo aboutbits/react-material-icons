@@ -3,6 +3,7 @@ import { IconProps } from './types'
 
 const IconSortByAlpha: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>{props.title === undefined ? 'IconSortByAlpha' : props.title}</title>
     <path
       d="M0 0h24v24H0V0zm0 0h24v24H0V0zm.75.75h22.5v22.5H.75z"
       fill="none"

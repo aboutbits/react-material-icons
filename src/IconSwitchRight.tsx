@@ -8,6 +8,7 @@ const IconSwitchRight: React.FC<IconProps> = (props) => (
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>{props.title === undefined ? 'IconSwitchRight' : props.title}</title>
     <rect
       fill="none"
       height="24"

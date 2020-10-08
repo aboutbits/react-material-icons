@@ -8,6 +8,9 @@ const IconHorizontalRule: React.FC<IconProps> = (props) => (
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>
+      {props.title === undefined ? 'IconHorizontalRule' : props.title}
+    </title>
     <g>
       <rect fill="none" fillRule="evenodd" height="24" width="24" />
       <rect fillRule="evenodd" height="2" width="16" x="4" y="11" />

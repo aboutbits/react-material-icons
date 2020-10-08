@@ -3,6 +3,7 @@ import { IconProps } from './types'
 
 const IconPets: React.FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>{props.title === undefined ? 'IconPets' : props.title}</title>
     <path d="M0 0h24v24H0z" fill="none" />
     <circle cx="4.5" cy="9.5" r="2.5" />
     <circle cx="9" cy="5.5" r="2.5" />

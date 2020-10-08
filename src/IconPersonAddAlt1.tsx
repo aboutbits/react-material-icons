@@ -8,6 +8,9 @@ const IconPersonAddAlt1: React.FC<IconProps> = (props) => (
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>
+      {props.title === undefined ? 'IconPersonAddAlt1' : props.title}
+    </title>
     <g>
       <rect fill="none" height="24" width="24" />
     </g>
