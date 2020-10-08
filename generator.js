@@ -43,7 +43,7 @@ function formatName(string) {
 function componentTemplate(name, svg) {
   let component = "import React from 'react'\n"
   component += "import { IconProps } from './types'\n\n"
-  component += `const ${name}: React.FC<IconProps> = (props) => (`
+  component += `const ${name}: React.FC<IconProps> = ({ title = '${name}', ...props }) => (`
   component += svg + ')\n\n'
   component += `export { ${name} as default }`
 
@@ -86,12 +86,7 @@ async function getSVGFile(icon, version) {
     .replace(/enable-background/g, 'enableBackground')
     .replace(/clip-rule/g, 'clipRule')
     .replace(/fill-rule/g, 'fillRule')
-    .replace(
-      '>',
-      `><title>{props.title === undefined ? '${formatName(
-        icon
-      )}' : props.title}</title>`
-    )
+    .replace('>', '><title>{title}</title>')
 }
 
 /**
