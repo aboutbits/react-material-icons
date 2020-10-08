@@ -1,8 +1,12 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconVideogameAsset: React.FC<IconProps> = (props) => (
+const IconVideogameAsset: React.FC<IconProps> = ({
+  title = 'IconVideogameAsset',
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>{title}</title>
     <path
       d="M0 0v24h24V0H0zm23 16c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h18c1.1 0 2 .9 2 2v8z"
       fill="none"

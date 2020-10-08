@@ -6,11 +6,14 @@ const axios = require('axios')
 const iconURL = 'https://fonts.google.com/metadata/icons'
 
 function setup() {
+  let typesFile = "import React from 'react'\n\n"
+  typesFile +=
+    'export interface IconProps extends React.SVGProps<SVGSVGElement> {\n'
+  typesFile += '\ttitle?: string\n'
+  typesFile += '}\n'
+
   // Create types file
-  fs.writeFileSync(
-    path.join(__dirname, 'src', 'types.ts'),
-    'import React from "react" \nexport type IconProps = React.SVGProps<SVGSVGElement>'
-  )
+  fs.writeFileSync(path.join(__dirname, 'src', 'types.ts'), typesFile)
 }
 
 /**
@@ -40,7 +43,7 @@ function formatName(string) {
 function componentTemplate(name, svg) {
   let component = "import React from 'react'\n"
   component += "import { IconProps } from './types'\n\n"
-  component += `const ${name}: React.FC<IconProps> = (props) => (`
+  component += `const ${name}: React.FC<IconProps> = ({ title = '${name}', ...props }) => (`
   component += svg + ')\n\n'
   component += `export { ${name} as default }`
 
@@ -83,6 +86,7 @@ async function getSVGFile(icon, version) {
     .replace(/enable-background/g, 'enableBackground')
     .replace(/clip-rule/g, 'clipRule')
     .replace(/fill-rule/g, 'fillRule')
+    .replace('>', '><title>{title}</title>')
 }
 
 /**

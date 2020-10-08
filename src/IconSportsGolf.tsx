@@ -1,13 +1,17 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconSportsGolf: React.FC<IconProps> = (props) => (
+const IconSportsGolf: React.FC<IconProps> = ({
+  title = 'IconSportsGolf',
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     enableBackground="new 0 0 24 24"
     viewBox="0 0 24 24"
     {...props}
   >
+    <title>{title}</title>
     <g>
       <rect fill="none" height="24" width="24" />
     </g>

@@ -1,8 +1,12 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconHomeWork: React.FC<IconProps> = (props) => (
+const IconHomeWork: React.FC<IconProps> = ({
+  title = 'IconHomeWork',
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>{title}</title>
     <path d="M0 0h24v24H0z" fill="none" />
     <path d="M8.17 5.7L1 10.48V21h5v-8h4v8h5V10.25z" />
     <path d="M17 7h2v2h-2z" fill="none" />
