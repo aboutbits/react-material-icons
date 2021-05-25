@@ -1,12 +1,9 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconRateReview: React.FC<IconProps> = ({
-  title = 'IconRateReview',
-  ...props
-}) => (
+const IconRateReview: React.FC<IconProps> = ({ ...props }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-    <title>{title}</title>
+    {props.title && <title>{props.title}</title>}
     <path
       d="M0 0h24v24H0zm15.35 6.41l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47l6.88-6.88c.2-.19.2-.51 0-.71z"
       fill="none"
