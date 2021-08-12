@@ -1,8 +1,8 @@
 React Material Icons
 ====================
 
-[![npm version](https://badge.fury.io/js/%40aboutbits%2Freact-material-icons.svg)](https://badge.fury.io/js/%40aboutbits%2Freact-material-icons)
-[![GitHub license](https://img.shields.io/github/license/aboutbits/react-material-icons)](https://github.com/aboutbits/react-material-icons/blob/master/license.md)
+[![npm package](https://badge.fury.io/js/%40aboutbits%2Freact-material-icons.svg)](https://badge.fury.io/js/%40aboutbits%2Freact-material-icons)
+[![license](https://img.shields.io/github/license/aboutbits/react-material-icons)](https://github.com/aboutbits/react-material-icons/blob/master/license.md)
 
 This package includes all [Material Icons](https://material.io/resources/icons/?style=baseline) as reusable React components.
 
