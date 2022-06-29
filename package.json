@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Material design icon components for React",
   "main": "dist/",
+  "engines": {
+    "npm": "^8",
+    "node": "^16"
+  },
   "scripts": {
     "build": "tsc",
     "generate": "rm -rf src/* && node generator.js",
