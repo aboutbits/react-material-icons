@@ -2,10 +2,26 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconStackedBarChart: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    enableBackground="new 0 0 24 24"
+    viewBox="0 0 24 24"
+    {...props}
+  >
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0z" fill="none" />
-    <path d="M6 10h3v10H6zm0-5h3v4H6zm10 11h3v4h-3zm0-3h3v2h-3zm-5 0h3v7h-3zm0-4h3v3h-3z" />
+    <g>
+      <rect fill="none" height="24" width="24" />
+    </g>
+    <g>
+      <g>
+        <rect height="11" width="4" x="4" y="9" />
+        <rect height="4" width="4" x="4" y="4" />
+        <rect height="4" width="4" x="10" y="7" />
+        <rect height="4" width="4" x="16" y="10" />
+        <rect height="5" width="4" x="16" y="15" />
+        <rect height="8" width="4" x="10" y="12" />
+      </g>
+    </g>
   </svg>
 )
 
