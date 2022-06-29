@@ -91,6 +91,8 @@ async function getSVGFile(icon, version) {
     .replace(/clip-rule/g, 'clipRule')
     .replace(/fill-rule/g, 'fillRule')
     .replace('>', '>{props.title && <title>{props.title}</title>}')
+    .replace(/style="enableBackground:(.*?);?"/g, 'enableBackground="$1"')
+    .replace(/style="fill:(.*?);?"/g, 'fill="$1"')
 }
 
 /**
