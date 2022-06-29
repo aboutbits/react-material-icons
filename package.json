@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Material design icon components for React",
   "main": "dist/",
+  "engines": {
+    "npm": "^8",
+    "node": "^16"
+  },
   "scripts": {
     "build": "tsc",
     "generate": "rm -rf src/* && node generator.js",
@@ -38,22 +42,23 @@
   },
   "homepage": "https://github.com/aboutbits/react-material-icons#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.14",
-    "@types/react": "^16.9.50",
-    "@typescript-eslint/eslint-plugin": "^4.3.0",
-    "@typescript-eslint/parser": "^4.3.0",
-    "axios": "^0.21.1",
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.0.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "jest": "^26.4.2",
-    "prettier": "^2.1.2",
+    "@types/jest": "^28.1.3",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "axios": "^0.27.2",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.1.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "prettier": "^2.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "ts-jest": "^26.4.1",
-    "typescript": "^4.0.3"
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
   },
   "peerDependencies": {
     "react": "^16.8.0 || 17.x",
