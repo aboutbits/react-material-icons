@@ -65,6 +65,8 @@ async function getSVGFile(icon, familyId, version) {
     .replace('>', '>{props.title && <title>{props.title}</title>}')
     .replace(/style="enableBackground:(.*?);?"/g, 'enableBackground="$1"')
     .replace(/style="fill:(.*?);?"/g, 'fill="$1"')
+    .replace(/xmlns:xlink/g, 'xmlnsXlink')
+    .replace(/xlink:href/g, 'xlinkHref')
 }
 
 async function generateComponent(icons) {
