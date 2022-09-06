@@ -2,10 +2,18 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 
-// Base url for icons
-const iconURL = 'https://fonts.google.com/metadata/icons'
+// This is the number of icons each thread will be downloading
+const DOWNLOAD_CHUNK_SIZE = 500
+const GOOGLE_FONTS_URL = 'https://fonts.google.com/metadata/icons'
+const ICON_FAMILTIES = [
+  { id: 'materialicons', namePostfix: '' },
+  { id: 'materialiconsoutlined', namePostfix: 'Outlined' },
+  { id: 'materialiconsround', namePostfix: 'Round' },
+  { id: 'materialiconssharp', namePostfix: 'Sharp' },
+  { id: 'materialiconstwotone', namePostfix: 'TwoTone' },
+]
 
-function setup() {
+function generateIconPropsFile() {
   const typesFile = `
     import React from 'react'
     export interface IconProps extends React.SVGProps<SVGSVGElement> {
@@ -13,34 +21,20 @@ function setup() {
     }
     `
 
-  // Create types file
   fs.writeFileSync(path.join(__dirname, 'src', 'types.ts'), typesFile)
 }
 
-/**
- * Format name.
- * Covert from snake case to camel case and prevent numbers at the beginning
- *
- * @param string - String to format
- * @returns {string} - Formatted string
- */
-function formatName(string) {
+function formatName(string, familyName) {
   const formattedString = string
     .replace(/_/g, ' ')
     .replace(/\w\S*/g, (txt) => {
       return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
     })
     .replace(/ /g, '')
-  return 'Icon' + formattedString
+
+  return 'Icon' + formattedString + familyName
 }
 
-/**
- * Component template for functional react icon component
- *
- * @param name - Component name
- * @param svg - Icon SVG
- * @returns {string} - Component
- */
 function componentTemplate(name, svg) {
   return `
     import React from 'react'
@@ -54,34 +48,12 @@ function componentTemplate(name, svg) {
   `
 }
 
-/**
- * Generate React Icon components
- *
- * @param icon - Icon object
- */
-function generateComponent(icon) {
-  icon.forEach(async (c) => {
-    const name = formatName(c.name)
-    const svg = await getSVGFile(c.name, c.version)
-
-    fs.writeFileSync(
-      path.join(__dirname, 'src', `${name}.tsx`),
-      componentTemplate(name, svg)
+async function getSVGFile(icon, familyId, version) {
+  const svg = await axios
+    .get(
+      `https://fonts.gstatic.com/s/i/${familyId}/${icon}/v${version}/24px.svg`
     )
-  })
-}
-
-/**
- * Get SVG data form google static fonts api
- *
- * @param icon - Icon name
- * @param version - Icon Version
- * @returns {Promise<any>} - SVG Data
- */
-async function getSVGFile(icon, version) {
-  const svg = await axios.get(
-    `https://fonts.gstatic.com/s/i/materialicons/${icon}/v${version}/24px.svg`
-  )
+    .catch((err) => console.log(err))
 
   return svg.data
     .replace('height="24"', '')
@@ -95,21 +67,42 @@ async function getSVGFile(icon, version) {
     .replace(/style="fill:(.*?);?"/g, 'fill="$1"')
 }
 
-/**
- * Main function
- */
-;(async () => {
-  // Setup source folder
-  setup()
+async function generateComponent(icons) {
+  for (let i = 0; i < icons.length; i++) {
+    const icon = icons[i]
 
-  // Get icon information from google fonts
-  const res = await axios.get(iconURL)
+    for (let j = 0; j < ICON_FAMILTIES.length; j++) {
+      const family = ICON_FAMILTIES[j]
+
+      const name = formatName(icon.name, family.namePostfix)
+      const svg = await getSVGFile(icon.name, family.id, icon.version)
+
+      console.log(`Downloading ${name} (${i + 1}/${icons.length})`)
+
+      await fs.writeFileSync(
+        path.join(__dirname, 'src', `${name}.tsx`),
+        componentTemplate(name, svg)
+      )
+    }
+  }
+}
+
+;(async () => {
+  generateIconPropsFile()
+
+  const res = await axios.get(GOOGLE_FONTS_URL)
+
   // remove )]}' from the response
   const data = res.data.substring(4)
-
-  // Parse response from json to js object
   const icons = await JSON.parse(data)
 
-  // Generate icon components and Index
-  await generateComponent(icons.icons)
+  const iconChunks = new Array(
+    Math.ceil(icons.icons.length / DOWNLOAD_CHUNK_SIZE)
+  )
+    .fill()
+    .map(() => icons.icons.splice(0, DOWNLOAD_CHUNK_SIZE))
+
+  for (let i = 0; i < iconChunks.length; i++) {
+    generateComponent(iconChunks[i])
+  }
 })()
