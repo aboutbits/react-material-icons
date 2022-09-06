@@ -5,7 +5,7 @@ const axios = require('axios')
 // This is the number of icons each thread will be downloading
 const DOWNLOAD_CHUNK_SIZE = 500
 const GOOGLE_FONTS_URL = 'https://fonts.google.com/metadata/icons'
-const ICON_FAMILTIES = [
+const ICON_FAMILIES = [
   { id: 'materialicons', namePostfix: '' },
   { id: 'materialiconsoutlined', namePostfix: 'Outlined' },
   { id: 'materialiconsround', namePostfix: 'Round' },
@@ -73,8 +73,8 @@ async function generateComponent(icons) {
   for (let i = 0; i < icons.length; i++) {
     const icon = icons[i]
 
-    for (let j = 0; j < ICON_FAMILTIES.length; j++) {
-      const family = ICON_FAMILTIES[j]
+    for (let j = 0; j < ICON_FAMILIES.length; j++) {
+      const family = ICON_FAMILIES[j]
 
       const name = formatName(icon.name, family.namePostfix)
       const svg = await getSVGFile(icon.name, family.id, icon.version)
