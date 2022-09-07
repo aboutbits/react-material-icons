@@ -12,7 +12,7 @@ const ICON_FAMILIES = [
 ]
 
 ;(async () => {
-  generateIconPropsFile()
+  generatePropsFile()
 
   const res = await axios.get(GOOGLE_FONTS_URL)
 
@@ -21,11 +21,11 @@ const ICON_FAMILIES = [
   const icons = await JSON.parse(data)
 
   for (let i = 0; i < icons.icons.length; i++) {
-    generateComponents(icons.icons[i])
+    generateComponentsForAllFamilies(icons.icons[i])
   }
 })()
 
-function generateIconPropsFile() {
+function generatePropsFile() {
   const typesFile = `
     import React from 'react'
     export interface IconProps extends React.SVGProps<SVGSVGElement> {
@@ -36,7 +36,7 @@ function generateIconPropsFile() {
   fs.writeFileSync(path.join(__dirname, 'src', 'types.ts'), typesFile)
 }
 
-async function generateComponents(icon) {
+async function generateComponentsForAllFamilies(icon) {
   for (let i = 0; i < ICON_FAMILIES.length; i++) {
     await generateComponent(icon, ICON_FAMILIES[i])
   }
