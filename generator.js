@@ -2,16 +2,28 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 
-// This is the number of icons each thread will be downloading
-const DOWNLOAD_CHUNK_SIZE = 500
 const GOOGLE_FONTS_URL = 'https://fonts.google.com/metadata/icons'
 const ICON_FAMILIES = [
-  { id: 'materialicons', namePostfix: '' },
-  { id: 'materialiconsoutlined', namePostfix: 'Outlined' },
-  { id: 'materialiconsround', namePostfix: 'Round' },
-  { id: 'materialiconssharp', namePostfix: 'Sharp' },
-  { id: 'materialiconstwotone', namePostfix: 'TwoTone' },
+  { id: 'materialicons', postfix: '' },
+  { id: 'materialiconsoutlined', postfix: 'Outlined' },
+  { id: 'materialiconsround', postfix: 'Round' },
+  { id: 'materialiconssharp', postfix: 'Sharp' },
+  { id: 'materialiconstwotone', postfix: 'TwoTone' },
 ]
+
+;(async () => {
+  generateIconPropsFile()
+
+  const res = await axios.get(GOOGLE_FONTS_URL)
+
+  // remove )]}' from the response
+  const data = res.data.substring(4)
+  const icons = await JSON.parse(data)
+
+  for (let i = 0; i < icons.icons.length; i++) {
+    generateComponents(icons.icons[i])
+  }
+})()
 
 function generateIconPropsFile() {
   const typesFile = `
@@ -24,7 +36,29 @@ function generateIconPropsFile() {
   fs.writeFileSync(path.join(__dirname, 'src', 'types.ts'), typesFile)
 }
 
-function formatName(string, familyName) {
+async function generateComponents(icon) {
+  for (let i = 0; i < ICON_FAMILIES.length; i++) {
+    await generateComponent(icon, ICON_FAMILIES[i])
+  }
+}
+
+async function generateComponent(icon, family) {
+  try {
+    const name = formatName(icon.name, family.postfix)
+    const svg = await downloadSVG(icon.name, family.id, icon.version)
+
+    console.log(`Downloading ${name}`)
+
+    await fs.writeFileSync(
+      path.join(__dirname, 'src', `${name}.tsx`),
+      mapSVGToTemplate(name, svg)
+    )
+  } catch {
+    process.abort()
+  }
+}
+
+function formatName(string, familyPostfix) {
   const formattedString = string
     .replace(/_/g, ' ')
     .replace(/\w\S*/g, (txt) => {
@@ -32,23 +66,10 @@ function formatName(string, familyName) {
     })
     .replace(/ /g, '')
 
-  return 'Icon' + formattedString + familyName
+  return 'Icon' + formattedString + familyPostfix
 }
 
-function componentTemplate(name, svg) {
-  return `
-    import React from 'react'
-    import { IconProps } from './types'
-    
-    const ${name}: React.FC<IconProps> = ({ ...props }) => (
-        ${svg}
-    )
-    
-    export { ${name} as default } 
-  `
-}
-
-async function getSVGFile(icon, familyId, version) {
+async function downloadSVG(icon, familyId, version) {
   const svg = await axios
     .get(
       `https://fonts.gstatic.com/s/i/${familyId}/${icon}/v${version}/24px.svg`
@@ -69,42 +90,15 @@ async function getSVGFile(icon, familyId, version) {
     .replace(/xlink:href/g, 'xlinkHref')
 }
 
-async function generateComponent(icons) {
-  for (let i = 0; i < icons.length; i++) {
-    const icon = icons[i]
-
-    for (let j = 0; j < ICON_FAMILIES.length; j++) {
-      const family = ICON_FAMILIES[j]
-
-      const name = formatName(icon.name, family.namePostfix)
-      const svg = await getSVGFile(icon.name, family.id, icon.version)
-
-      console.log(`Downloading ${name} (${i + 1}/${icons.length})`)
-
-      await fs.writeFileSync(
-        path.join(__dirname, 'src', `${name}.tsx`),
-        componentTemplate(name, svg)
-      )
-    }
-  }
+function mapSVGToTemplate(name, svg) {
+  return `
+    import React from 'react'
+    import { IconProps } from './types'
+    
+    const ${name}: React.FC<IconProps> = ({ ...props }) => (
+        ${svg}
+    )
+    
+    export { ${name} as default } 
+  `
 }
-
-;(async () => {
-  generateIconPropsFile()
-
-  const res = await axios.get(GOOGLE_FONTS_URL)
-
-  // remove )]}' from the response
-  const data = res.data.substring(4)
-  const icons = await JSON.parse(data)
-
-  const iconChunks = new Array(
-    Math.ceil(icons.icons.length / DOWNLOAD_CHUNK_SIZE)
-  )
-    .fill()
-    .map(() => icons.icons.splice(0, DOWNLOAD_CHUNK_SIZE))
-
-  for (let i = 0; i < iconChunks.length; i++) {
-    generateComponent(iconChunks[i])
-  }
-})()
