@@ -29,12 +29,20 @@ import IconCached from '@aboutbits/react-material-icons/dist/IconCached'
 
 const MyCommponent = () => {
     return (
-        <IconCached />
-    );   
+        <IconCached/>
+    );
 }
 ``` 
 
 SVG related parameters like height and width can be passed as props.
+
+To import the different variants of an icon you can add the variants as a postfix:
+
+- `Icon10k` > Default filled
+- `Icon10kOutlined` > Outlined
+- `Icon10kRound` > Rounded
+- `Icon10kSharp` > Sharp
+- `Icon10kTwoTone` > Tow tone
 
 ## Generate Components
 
