@@ -6,7 +6,7 @@ const GOOGLE_FONTS_URL = 'https://fonts.google.com/metadata/icons'
 const ICON_FAMILIES = [
   { id: 'materialicons', postfix: '' },
   { id: 'materialiconsoutlined', postfix: 'Outlined' },
-  { id: 'materialiconsround', postfix: 'Round' },
+  { id: 'materialiconsround', postfix: 'Rounded' },
   { id: 'materialiconssharp', postfix: 'Sharp' },
   { id: 'materialiconstwotone', postfix: 'TwoTone' },
 ]

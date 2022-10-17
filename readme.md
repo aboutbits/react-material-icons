@@ -40,7 +40,7 @@ To import the different variants of an icon you can add the variants as a postfi
 
 - `Icon10k` > Default filled
 - `Icon10kOutlined` > Outlined
-- `Icon10kRound` > Rounded
+- `Icon10kRounded` > Rounded
 - `Icon10kSharp` > Sharp
 - `Icon10kTwoTone` > Tow tone
 
