@@ -46,6 +46,12 @@ To import the different variants of an icon you can add the variants as a postfi
 
 ## Generate Components
 
+To clear the directory with the existing icons before regenerating them:
+
+```bash
+npm run clear
+```
+
 To generate the components, simply run the following command:
 
 ```bash
