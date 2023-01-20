@@ -11,7 +11,7 @@ const IconPaymentsSharp: React.FC<IconProps> = ({ ...props }) => (
     {props.title && <title>{props.title}</title>}
     <g>
       <rect fill="none" height="24" width="24" />
-      <path d="M23,7v13H4v-2h17V7H23z M19,16H1V4h18V16z M13,10c0-1.66-1.34-3-3-3s-3,1.34-3,3s1.34,3,3,3S13,11.66,13,10z" />
+      <path d="M23 7v13H4v-2h17V7h2zm-4 9H1V4h18v12zm-6-6c0-1.66-1.34-3-3-3s-3 1.34-3 3 1.34 3 3 3 3-1.34 3-3z" />
     </g>
   </svg>
 )
