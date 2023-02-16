@@ -11,7 +11,7 @@
     "build": "tsc",
     "clear": "rm -rf src/*",
     "generate": "node generator.js",
-    "lint": "eslint --cache --ext js,ts,tsx src ./generator.js",
+    "lint": "eslint --cache --ext js,ts,tsx,json .",
     "lint:fix": "npm run lint -- --cache --fix",
     "typecheck": "tsc --noEmit",
     "test": "jest --config jestconfig.json --passWithNoTests",
@@ -20,7 +20,11 @@
     "version": "npm run test && npm run lint && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["material design", "icons", "react"],
+  "keywords": [
+    "material design",
+    "icons",
+    "react"
+  ],
   "private": false,
   "author": "AboutBits",
   "license": "MIT",
@@ -28,7 +32,10 @@
     "type": "git",
     "url": "git+https://github.com/aboutbits/react-material-icons"
   },
-  "files": ["readme.md", "dist/**/*"],
+  "files": [
+    "readme.md",
+    "dist/**/*"
+  ],
   "publishConfig": {
     "access": "public"
   },
