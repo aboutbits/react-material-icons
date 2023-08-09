@@ -11,7 +11,9 @@ const ICON_FAMILIES = [
   { id: 'materialiconstwotone', postfix: 'TwoTone' },
 ]
 
-const ignoredIcons = ['addchart']
+const ignoredIcons = [
+  'addchart', // This icon exists twice 'addchart' and 'add_chart'. That's why we decide to only use one version, so that we don't get naming collisions.
+]
 
 ;(async () => {
   generatePropsFile()
