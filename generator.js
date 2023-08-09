@@ -11,6 +11,8 @@ const ICON_FAMILIES = [
   { id: 'materialiconstwotone', postfix: 'TwoTone' },
 ]
 
+const ignoredIcons = ['addchart']
+
 ;(async () => {
   generatePropsFile()
 
@@ -21,6 +23,8 @@ const ICON_FAMILIES = [
   const icons = await JSON.parse(data)
 
   for (let i = 0; i < icons.icons.length; i++) {
+    if (ignoredIcons.includes(icons.icons[i].name)) continue
+
     generateComponentsForAllFamilies(icons.icons[i])
   }
 })()

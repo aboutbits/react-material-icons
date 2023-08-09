@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconAddchartTwoTone: React.FC<IconProps> = ({ ...props }) => (
+const IconAddChartTwoTone: React.FC<IconProps> = ({ ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     enableBackground="new 0 0 24 24"
@@ -11,9 +11,17 @@ const IconAddchartTwoTone: React.FC<IconProps> = ({ ...props }) => (
     {props.title && <title>{props.title}</title>}
     <g>
       <rect fill="none" height="24" width="24" />
-      <path d="M22,5v2h-3v3h-2V7h-3V5h3V2h2v3H22z M19,19H5V5h6V3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2v-6h-2V19z M15,13v4h2v-4H15z M11,17h2V9h-2V17z M9,17v-6H7v6H9z" />
+    </g>
+    <g>
+      <g>
+        <rect height="10" width="2" x="11" y="7" />
+        <rect height="4" width="2" x="15" y="13" />
+        <path d="M19,19H5V5h9V3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2v-9h-2V19z" />
+        <rect height="7" width="2" x="7" y="10" />
+        <polygon points="19,5 19,3 17,3 17,5 15,5 15,7 17,7 17,9 19,9 19,7 21,7 21,5" />
+      </g>
     </g>
   </svg>
 )
 
-export { IconAddchartTwoTone as default }
+export { IconAddChartTwoTone as default }
