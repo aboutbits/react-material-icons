@@ -1,6 +1,6 @@
 {
   "name": "@aboutbits/react-material-icons",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Material design icon components for React",
   "main": "dist/",
   "engines": {
