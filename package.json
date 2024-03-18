@@ -4,8 +4,8 @@
   "description": "Material design icon components for React",
   "main": "dist/",
   "engines": {
-    "npm": "^8",
-    "node": ">=16 <19"
+    "npm": ">=8",
+    "node": ">=16"
   },
   "scripts": {
     "build": "tsc",
