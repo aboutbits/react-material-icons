@@ -14,7 +14,7 @@ const IconAddChartOutlined: React.FC<IconProps> = ({ ...props }) => (
     </g>
     <g>
       <g>
-        <path d="M19,19H5V5h9V3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2v-9h-2V19z" />
+        <path d="M19 19H5V5h9V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-9h-2v9z" />
         <rect height="4" width="2" x="15" y="13" />
         <rect height="7" width="2" x="7" y="10" />
         <rect height="10" width="2" x="11" y="7" />
