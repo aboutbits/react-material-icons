@@ -57,7 +57,7 @@ async function generateComponent(icon, family) {
 
     await fs.writeFileSync(
       path.join(__dirname, 'src', `${name}.tsx`),
-      mapSVGToTemplate(name, svg)
+      mapSVGToTemplate(name, svg),
     )
   } catch {
     process.abort()
@@ -78,7 +78,7 @@ function formatName(string, familyPostfix) {
 async function downloadSVG(icon, familyId, version) {
   const svg = await axios
     .get(
-      `https://fonts.gstatic.com/s/i/${familyId}/${icon}/v${version}/24px.svg`
+      `https://fonts.gstatic.com/s/i/${familyId}/${icon}/v${version}/24px.svg`,
     )
     .catch((err) => console.log(err))
 
