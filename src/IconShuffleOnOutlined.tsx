@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconShuffleOnOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M21,1H3C1.9,1,1,1.9,1,3v18c0,1.1,0.9,2,2,2h18c1.1,0,2-0.9,2-2V3C23,1.9,22.1,1,21,1z M5.41,4l5.18,5.17l-1.41,1.42 L4,5.42L5.41,4z M20,20h-6v-2h2.61l-3.2-3.2l1.42-1.42l3.13,3.13L18,16.55V14h2V20z M20,10h-2V7.42L5.41,20L4,18.59L16.58,6H14V4h6 V10z" />
-    </g>
+    <path d="M120-40q-33 0-56.5-23.5T40-120v-720q0-33 23.5-56.5T120-920h720q33 0 56.5 23.5T920-840v720q0 33-23.5 56.5T840-40H120Zm440-120h240v-240h-80v102L594-424l-57 57 127 127H560v80Zm-344 0 504-504v104h80v-240H560v80h104L160-216l56 56Zm151-377 56-56-207-207-56 56 207 207Z" />
   </svg>
 )
 

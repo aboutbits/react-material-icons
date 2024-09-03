@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconContactPageSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M14,2H4v20h16V8L14,2z M12,10c1.1,0,2,0.9,2,2c0,1.1-0.9,2-2,2s-2-0.9-2-2C10,10.9,10.9,10,12,10z M16,18H8v-0.57 c0-0.81,0.48-1.53,1.22-1.85C10.07,15.21,11.01,15,12,15c0.99,0,1.93,0.21,2.78,0.58C15.52,15.9,16,16.62,16,17.43V18z" />
+    <path d="M480-400q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400ZM320-240h320v-23q0-24-13-44t-36-30q-26-11-54-17t-57-6q-29 0-57 6t-54 17q-23 10-36 30t-13 44v23ZM800-80H160v-800h400l240 240v560Zm-80-80v-446L526-800H240v640h480Zm-480 0v-640 640Z" />
   </svg>
 )
 

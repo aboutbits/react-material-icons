@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconOutboxSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="11,14 13,14 13,11 16,11 12,7 8,11 11,11" />
-        <path d="M3,3v18h18V3H3z M19,14h-4.18c-0.41,1.16-1.51,2-2.82,2s-2.4-0.84-2.82-2H5V5h14V14z" />
-      </g>
-    </g>
+    <path d="M120-120v-720h720v720H120Zm80-80h560v-120H640q-30 38-71.5 59T480-240q-47 0-88.5-21T320-320H200v120Zm280-120q38 0 69-22t43-58h168v-360H200v360h168q12 36 43 58t69 22ZM200-200h560-560Zm240-200v-166l-64 64-56-58 160-160 160 160-56 58-64-64v166h-80Z" />
   </svg>
 )
 

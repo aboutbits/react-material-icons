@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMicExternalOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M10,5c0-1.66-1.34-3-3-3C6.38,2,5.81,2.19,5.33,2.5l4.15,4.15C9.8,6.18,10,5.61,10,5z" />
-        <polygon points="14,4 18,4 18,15.17 20,17.17 20,2 12,2 12,9.17 14,11.17" />
-        <path d="M2.1,2.1L0.69,3.51L5.17,8H4l1,10h1c0,2.21,0,4,0,4h8v-5.17l6.49,6.49l1.41-1.41L2.1,2.1z M12,20H8v-2h1l0.56-5.61 L12,14.83V20z" />
-      </g>
-    </g>
+    <path d="M380-694 214-860q14-11 31-15.5t35-4.5q50 0 85 34.5t35 85.5q0 18-5.5 34.5T380-694Zm420 420-80-80v-446H560v286l-80-80v-286h320v606ZM240-80v-160h-40l-40-400h46L28-820l56-56L876-84l-56 56-260-260v208H240Zm32-240h16l22-218-24-22h-38l24 240Zm208 160v-208l-98-98-22 226h-40v80h160ZM272-560h-24 62-38Z" />
   </svg>
 )
 

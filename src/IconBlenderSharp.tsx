@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBlenderSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M18,3h-4V2h-4v1H3v8h4.23l0.64,4.13L6,17v5h12v-5l-1.87-1.87L18,3z M5,9V5h1.31l0.62,4H5z M12,19c-0.55,0-1-0.45-1-1 s0.45-1,1-1s1,0.45,1,1S12.55,19,12,19z M14.29,14H9.72L8.33,5h7.34L14.29,14z" />
-      </g>
-    </g>
+    <path d="M240-80v-190l74-84-25-166H120v-320h280v-40h160v40h159l-73 486 74 84v190H240Zm37-520-24-160h-53v160h77Zm203 400q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200Zm-92-200h184l54-360H334l54 360Zm-68 240h320v-80l-71-80H391l-71 80v80Zm160-80Z" />
   </svg>
 )
 

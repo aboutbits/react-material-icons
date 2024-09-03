@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRepartitionSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M3,21h18v-6H3V21z M10.33,19v-2h3.33v2H10.33z M19,19h-3.33v-2H19V19z M5,17h3.33v2H5V17z" />
-        <path d="M6,10l1.42-1.42L5.83,7H17c1.1,0,2,0.9,2,2s-0.9,2-2,2H3v2h14c2.21,0,4-1.79,4-4s-1.79-4-4-4H5.83l1.59-1.59L6,2L2,6L6,10 z" />
-      </g>
-    </g>
+    <path d="M120-400v-80h560q33 0 56.5-23.5T760-560q0-33-23.5-56.5T680-640H233l64 63-57 57L80-680l160-160 57 56-64 64h447q66 0 113 47t47 113q0 66-47 113t-113 47H120Zm0 320v-240h720v240H120Zm80-80h133v-80H200v80Zm213 0h133v-80H413v80Zm214 0h133v-80H627v80Z" />
   </svg>
 )
 

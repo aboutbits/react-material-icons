@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRollerShadesClosedRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,19V5c0-1.1-0.9-2-2-2H6C4.9,3,4,3.9,4,5v14H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h7.25 c0,0.97,0.78,1.75,1.75,1.75s1.75-0.78,1.75-1.75H21c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H20z M6,19v-2h5v2H6z M13,19v-2h5v2H13 z" />
-      </g>
-    </g>
+    <path d="M480-50q-29 0-49.5-20.5T410-120H120q-17 0-28.5-11.5T80-160q0-17 11.5-28.5T120-200h40v-560q0-33 23.5-56.5T240-840h480q33 0 56.5 23.5T800-760v560h40q17 0 28.5 11.5T880-160q0 17-11.5 28.5T840-120H550q0 29-20.5 49.5T480-50ZM240-360h480v-400H240v400Zm0 160h200v-80H240v80Zm280 0h200v-80H520v80ZM240-760h480-480Z" />
   </svg>
 )
 

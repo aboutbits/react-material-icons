@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFaxSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M22,9h-4V4H8v14.5V20h14V9z M10,6h6v3h-6V6z M14,17h-4v-5h4V17z M16,17c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1 C17,16.55,16.55,17,16,17z M16,14c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C17,13.55,16.55,14,16,14z M19,17 c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C20,16.55,19.55,17,19,17z M19,14c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1 s1,0.45,1,1C20,13.55,19.55,14,19,14z" />
-        <rect height="13" width="5" x="2" y="8" />
-      </g>
-    </g>
+    <path d="M80-120v-520h240v40-200h400v200h160v440H320v40H80Zm80-80h80v-360h-80v360Zm240-400h240v-120H400v120Zm-80 360h480v-280H320v280Zm40-40h160v-200H360v200Zm-40 40v-280 280Zm240-160h80v-80h-80v80Zm120 0h80v-80h-80v80ZM560-280h80v-80h-80v80Zm120 0h80v-80h-80v80Z" />
   </svg>
 )
 

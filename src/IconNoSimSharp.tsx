@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconNoSimSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0z" fill="none" />
-    <path d="M3.79 3.74L2.38 5.15l2.74 2.74-.12.12V21h13.27l1.58 1.62 1.41-1.41zM19 16.11V3h-8.99L7.95 5.06z" />
+    <path d="m800-273-80-80v-447H434l-80 80-58-56 104-104h400v607Zm20 245L240-608v448h480v-81l80 80v81H160v-560l24-24L28-820l57-56L876-85l-56 57ZM541-533Zm-75 152Z" />
   </svg>
 )
 

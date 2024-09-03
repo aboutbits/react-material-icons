@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVaccinesSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M12,5.5H8V4h1.5V2h-5v2H6v1.5H2v2c0,0,0.45,0,1,0V17h3v4l2,1.5V17h3V7.5c0.55,0,1,0,1,0V5.5z M9,9H6.5v1.5H9V12H6.5v1.5H9 L9,15H5V7.5h4V9z M19.5,10.5V10h1V8h-7l-0.01,2h1.01v0.5c0,0.5-1.5,1.16-1.5,3V22h8v-8.5C21,11.66,19.5,11,19.5,10.5z M16.5,10.5V10 h1v0.5c0,1.6,1.5,2,1.5,3V14h-4c0-0.21,0-0.39,0-0.5C15,12.5,16.5,12.1,16.5,10.5z M15,20c0,0,0-0.63,0-1.5h4V20H15z" />
+    <path d="m320-60-80-60v-160H120v-380H80v-80h160v-60h-60v-80h200v80h-60v60h160v80h-40v380H320v220ZM200-360h160v-60H260v-60h100v-60H260v-60h100v-60H200v300ZM520-80v-340q0-29 10-48t21-33q11-14 20-22.5t9-16.5v-20h-40v-80h280v80h-40v20q0 8 10 18t22 24q11 14 19.5 33t8.5 45v340H520Zm80-320h160v-20q0-15-9-26t-20-24q-11-13-21-29t-10-41v-20h-40v20q0 24-9.5 40T630-471q-11 13-20.5 24.5T600-420v20Zm0 120h160v-60H600v60Zm0 120h160v-60H600v60Zm0-120h160-160Z" />
   </svg>
 )
 

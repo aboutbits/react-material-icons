@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMan2Rounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M14,7h-4C8.9,7,8,7.9,8,9v5c0,0.55,0.45,1,1,1h1.5v5.5c0,0.83,0.67,1.5,1.5,1.5h0c0.83,0,1.5-0.67,1.5-1.5V15H15 c0.55,0,1-0.45,1-1V9C16,7.9,15.1,7,14,7z" />
-        <circle cx="12" cy="4" r="2" />
-      </g>
-    </g>
+    <path d="M420-120v-240h-60q-17 0-28.5-11.5T320-400v-200q0-33 23.5-56.5T400-680h160q33 0 56.5 23.5T640-600v200q0 17-11.5 28.5T600-360h-60v240q0 17-11.5 28.5T500-80h-40q-17 0-28.5-11.5T420-120Zm60-600q-33 0-56.5-23.5T400-800q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800q0 33-23.5 56.5T480-720Z" />
   </svg>
 )
 

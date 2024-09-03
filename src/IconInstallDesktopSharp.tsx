@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconInstallDesktopSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="20,17 4,17 4,5 12,5 12,3 2,3 2,19 8,19 8,21 16,21 16,19 22,19 22,14 20,14" />
-        <polygon points="17,14 22,9 20.59,7.59 18,10.17 18,3 16,3 16,10.17 13.41,7.59 12,9" />
-      </g>
-    </g>
+    <path d="M320-120v-80H80v-640h400v80H160v480h640v-120h80v200H640v80H320Zm360-280L480-600l56-56 104 103v-287h80v287l104-103 56 56-200 200Z" />
   </svg>
 )
 

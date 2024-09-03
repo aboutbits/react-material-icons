@@ -4,10 +4,9 @@ import { IconProps } from './types'
 const IconAirlineSeatLegroomReducedRounded: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M19.97 19.2c.18.96-.55 1.8-1.47 1.8h-2.69c-1.3 0-2.26-1.22-1.94-2.49L15 14H9c-1.65 0-3-1.35-3-3V3h6v6h5c1.1 0 2 .9 2 2l-2 7h1.44c.73 0 1.39.49 1.53 1.2zM5 12V4c0-.55-.45-1-1-1s-1 .45-1 1v8c0 2.76 2.24 5 5 5h3c.55 0 1-.45 1-1s-.45-1-1-1H8c-1.66 0-3-1.34-3-3z" />
+    <path d="M620-120q-32 0-54.5-26T551-203l49-197H320q-33 0-56.5-23.5T240-480v-320q0-17 11.5-28.5T280-840h160q17 0 28.5 11.5T480-800v200h197q40 0 64 32t13 70l-74 258h58q27 0 44.5 16.5T800-180q0 27-16.5 43.5T740-120H620ZM200-280q-33 0-56.5-23.5T120-360v-440q0-17 11.5-28.5T160-840q17 0 28.5 11.5T200-800v440h240q17 0 28.5 11.5T480-320q0 17-11.5 28.5T440-280H200Z" />
   </svg>
 )
 

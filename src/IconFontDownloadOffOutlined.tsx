@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFontDownloadOffOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M4.83,2H20c1.1,0,2,0.9,2,2v15.17l-2-2V4H6.83L4.83,2z M10.92,6l-0.57,1.52l1.36,1.36l0.23-0.66h0.1l0.54,1.52l3.04,3.04 L13.07,6H10.92z M20.49,23.31L19.17,22H4c-1.1,0-2-0.9-2-2V4.83L0.69,3.51L2.1,2.1l19.8,19.8L20.49,23.31z M17.17,20l-5.07-5.07 H9.58L8.49,18H6.41l2.39-6.37L4,6.83V20H17.17z" />
+    <path d="m819-28-52-52H160q-33 0-56.5-23.5T80-160v-607l-53-53 57-57L876-85l-57 57ZM160-160h527L160-687v527Zm720-35-80-80v-525H275l-80-80h605q33 0 56.5 23.5T880-800v605ZM624-451 502-573l-20-57h-4l-9 24-54-54 23-60h84l102 269Zm-200 27Zm114-114Zm82 298-57-158 131 131 10 27h-84Zm-364 0 128-337 56 56-32 89h121l70 70H384l-44 122h-84Z" />
   </svg>
 )
 

@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPianoSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M21,3H3v18h18V3z M13,14.5h1.25V19h-4.5v-4.5H11V5h2V14.5z M5,5h2v9.5h1.25V19H5V5z M19,19h-3.25v-4.5H17V5h2V19z" />
+    <path d="M120-120v-720h720v720H120Zm80-80h130v-180h-50v-380h-80v560Zm430 0h130v-560h-80v380h-50v180Zm-240 0h180v-180h-50v-380h-80v380h-50v180Z" />
   </svg>
 )
 

@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconGifSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M11.5 9H13v6h-1.5V9zM10 9H5v6h5v-3H8.5v1.5h-2v-3H10V9zm9 1.5V9h-4.5v6H16v-2h2v-1.5h-2v-1h3z" />
+    <path d="M460-360v-240h60v240h-60Zm-260 0v-240h200v60H260v120h80v-60h60v120H200Zm380 0v-240h180v60H640v40h80v60h-80v80h-60Z" />
   </svg>
 )
 

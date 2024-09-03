@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconEditOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0 0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="m21.41 6.33-3.75-3.75-2.53 2.54 3.75 3.75 2.53-2.54zM1.39 4.22l7.32 7.32L3 17.25V21h3.75l5.71-5.71 7.32 7.32 1.41-1.41L2.81 2.81 1.39 4.22zm16.42 5.72-3.75-3.75-2.52 2.52 3.75 3.75 2.52-2.52z" />
-      </g>
-    </g>
+    <path d="m622-453-56-56 82-82-57-57-82 82-56-56 252-252 168 171-251 250ZM200-200h57l195-195-28-29-29-28-195 195v57ZM792-56 509-338 290-120H120v-169l219-219L56-792l57-57 736 736-57 57Zm-32-648-56-56 56 56Zm-169 56 57 57-57-57ZM424-424l-29-28 57 57-28-29Z" />
   </svg>
 )
 

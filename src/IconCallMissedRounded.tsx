@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCallMissedRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M18.89 7.7L12 14.59 6.41 9H10c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1s1-.45 1-1v-3.59l6.29 6.29c.39.39 1.02.39 1.41 0l7.59-7.59c.39-.39.39-1.02 0-1.41-.38-.38-1.02-.38-1.4 0z" />
+    <path d="M200-543v143q0 17-11.5 28.5T160-360q-17 0-28.5-11.5T120-400v-240q0-17 11.5-28.5T160-680h240q17 0 28.5 11.5T440-640q0 17-11.5 28.5T400-600H256l224 224 276-276q12-12 28-11.5t28 12.5q11 12 11.5 28T812-595L537-320q-12 12-27 18t-30 6q-15 0-30-6t-27-18L200-543Z" />
   </svg>
 )
 

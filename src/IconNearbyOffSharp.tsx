@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconNearbyOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M22.82,12.01L18.83,16l-1.81-1.81L19.2,12L12,4.8L9.81,6.99L8,5.17l3.99-3.99L22.82,12.01z M21.19,21.19l-1.41,1.41 L16,18.83l-3.99,3.99L1.18,11.99L5.17,8L1.39,4.22L2.8,2.81L21.19,21.19z M14.19,17.02l-1.39-1.39l-0.8,0.8L7.58,12l0.8-0.8 l-1.4-1.39L4.8,12l7.2,7.2L14.19,17.02z M16.42,12L12,7.58l-0.8,0.8l4.42,4.42L16.42,12z" />
-      </g>
-    </g>
+    <path d="m752-320-72-72 88-88-288-288-88 88-72-72 160-160 432 432-160 160ZM479-49 49-479l159-160L56-792l56-56 736 736-55 55-151-151L479-49Zm1-143 90-88-57-57-33 33-175-175 33-33-56-56-89 89 287 287Zm144-256L448-624l32-32 176 176-32 32Z" />
   </svg>
 )
 

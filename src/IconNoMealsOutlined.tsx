@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconNoMealsOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M16,14V6c0-1.76,2.24-4,5-4v16.17l-2-2V14H16z M20.49,23.31L10.02,12.85C9.69,12.94,9.36,13,9,13v9H7v-9c-2.21,0-4-1.79-4-4 V5.83L0.69,3.51L2.1,2.1l19.8,19.8L20.49,23.31z M6.17,9L5,7.83V9H6.17z M9,2H7v2.17l2,2V2z M13,9V2h-2v6.17l1.85,1.85 C12.94,9.69,13,9.36,13,9z" />
+    <path d="m819-28-59-59v7h-80v-87L27-820l57-57L876-85l-57 57Zm-59-287-83-83-117-117v-165q0-83 58.5-141.5T760-880v565ZM480-588l-80-87v-205h80v292ZM360-715l-80-80v-85h80v165ZM240-835l-45-45h45v45Zm40 755v-366q-51-14-85.5-56T160-600v-201l80 80v121h40v-81l81 80 90 91q-16 23-39.5 39.5T360-446v366h-80Z" />
   </svg>
 )
 

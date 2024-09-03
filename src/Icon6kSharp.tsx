@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const Icon6kSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M8,12.5h1.5V14H8V12.5z M21,3H3v18h18V3z M11,10.5H8v1h3V15H6.5V9H11V10.5z M18,15h-1.75l-1.75-2.25V15H13V9h1.5v2.25 L16.25,9H18l-2.25,3L18,15z" />
-    </g>
+    <path d="M520-360h60v-90l70 90h73l-93-120 93-120h-73l-70 90v-90h-60v240Zm-260 0h180v-140H320v-40h120v-60H260v240Zm60-40v-60h60v60h-60ZM120-120v-720h720v720H120Zm80-80h560v-560H200v560Zm0 0v-560 560Z" />
   </svg>
 )
 

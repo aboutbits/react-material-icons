@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPanToolAltSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M20.18,13.4L19.1,21h-9L5,15.62l1.22-1.23L10,15.24V4.5C10,3.67,10.67,3,11.5,3S13,3.67,13,4.5v6h1.38L20.18,13.4z" />
-    </g>
+    <path d="M341-120 46-483l71-68 163 114v-443h80v597l-111-78 130 161h381v-400h80v480H341Zm99-320v-280h80v280h-80Zm160 0v-240h80v240h-80Zm-40 80Z" />
   </svg>
 )
 

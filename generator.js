@@ -2,14 +2,22 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 
-const GOOGLE_FONTS_URL = 'https://fonts.google.com/metadata/icons'
+const GOOGLE_FONTS_URL =
+  'https://fonts.google.com/metadata/icons?key=material_symbols&incomplete=true'
 const ICON_FAMILIES = [
-  { id: 'materialicons', postfix: '' },
-  { id: 'materialiconsoutlined', postfix: 'Outlined' },
-  { id: 'materialiconsround', postfix: 'Rounded' },
-  { id: 'materialiconssharp', postfix: 'Sharp' },
-  { id: 'materialiconstwotone', postfix: 'TwoTone' },
+  { id: 'materialsymbolsoutlined', postfix: 'Outlined' },
+  { id: 'materialsymbolsrounded', postfix: 'Rounded' },
+  { id: 'materialsymbolssharp', postfix: 'Sharp' },
 ]
+
+const getIncludedFamilies = (families) => {
+  const notIncludedFamilies = families.map((family) =>
+    family.replace(/\s+/g, '').toLowerCase(),
+  )
+  return ICON_FAMILIES.filter(
+    (family) => !notIncludedFamilies.includes(family.id),
+  )
+}
 
 const ignoredIcons = [
   'addchart', // This icon exists twice 'addchart' and 'add_chart'. That's why we decide to only use one version, so that we don't get naming collisions.
@@ -27,7 +35,7 @@ const ignoredIcons = [
   for (let i = 0; i < icons.icons.length; i++) {
     if (ignoredIcons.includes(icons.icons[i].name)) continue
 
-    generateComponentsForAllFamilies(icons.icons[i])
+    await generateComponentsForAllFamilies(icons.icons[i])
   }
 })()
 
@@ -43,15 +51,18 @@ function generatePropsFile() {
 }
 
 async function generateComponentsForAllFamilies(icon) {
-  for (let i = 0; i < ICON_FAMILIES.length; i++) {
-    await generateComponent(icon, ICON_FAMILIES[i])
+  const families = getIncludedFamilies(icon.unsupported_families)
+
+  for (let i = 0; i < families.length; i++) {
+    await generateComponent(icon, families[i])
   }
 }
 
 async function generateComponent(icon, family) {
   try {
     const name = formatName(icon.name, family.postfix)
-    const svg = await downloadSVG(icon.name, family.id, icon.version)
+
+    const svg = await downloadSVG(icon.name, family.id)
 
     console.log(`Downloading ${name}`)
 
@@ -60,7 +71,8 @@ async function generateComponent(icon, family) {
       mapSVGToTemplate(name, svg),
     )
   } catch {
-    process.abort()
+    console.log('Error generating component for', icon.name)
+    //process.abort()
   }
 }
 
@@ -75,10 +87,10 @@ function formatName(string, familyPostfix) {
   return 'Icon' + formattedString + familyPostfix
 }
 
-async function downloadSVG(icon, familyId, version) {
+async function downloadSVG(icon, familyId) {
   const svg = await axios
     .get(
-      `https://fonts.gstatic.com/s/i/${familyId}/${icon}/v${version}/24px.svg`,
+      `https://fonts.gstatic.com/s/i/short-term/release/${familyId}/${icon}/default/24px.svg`,
     )
     .catch((err) => console.log(err))
 

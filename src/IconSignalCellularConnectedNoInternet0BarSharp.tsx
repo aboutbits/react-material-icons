@@ -4,15 +4,9 @@ import { IconProps } from './types'
 const IconSignalCellularConnectedNoInternet0BarSharp: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M20,18h2v-8h-2V18z M20,22h2v-2h-2V22z M18,20v2H2L22,2v6h-2V6.83L6.83,20H18z" />
+    <path d="m80-80 800-800v240h-80v-47L273-160h447v80H80Zm720-160v-320h80v320h-80Zm80 80v80h-80v-80h80Z" />
   </svg>
 )
 

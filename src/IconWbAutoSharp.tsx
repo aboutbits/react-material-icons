@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWbAutoSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M6.85 12.65h2.3L8 9l-1.15 3.65zM22 7l-1.2 6.29L19.3 7h-1.6l-1.49 6.29L15 7h-.76C12.77 5.17 10.53 4 8 4c-4.42 0-8 3.58-8 8s3.58 8 8 8c3.13 0 5.84-1.81 7.15-4.43l.1.43H17l1.5-6.1L20 16h1.75l2.05-9H22zm-11.7 9l-.7-2H6.4l-.7 2H3.8L7 7h2l3.2 9h-1.9z" />
+    <path d="M193-360h48l26-72h112l26 72h48L349-640h-52L193-360Zm88-112 40-116h4l40 116h-84Zm42 272q-117 0-198.5-81.5T43-480q0-117 81.5-198.5T323-760q75 0 138.5 37T563-622l-4-18h48l48 204h2l58-204h44l58 204h4l48-204h48l-74 280h-46l-60-210h-2l-58 210h-46l-28-116q0 115-82 195.5T323-200Zm0-80q83 0 141.5-58.5T523-480q0-83-58.5-141.5T323-680q-83 0-141.5 58.5T123-480q0 83 58.5 141.5T323-280Zm0-200Z" />
   </svg>
 )
 

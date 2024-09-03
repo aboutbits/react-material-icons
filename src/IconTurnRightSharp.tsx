@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTurnRightSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <polygon points="17.17,11 15.59,12.59 17,14 21,10 17,6 15.59,7.41 17.17,9 7,9 7,20 9,20 9,11" />
-    </g>
+    <path d="M280-160v-440h408l-64-64 56-56 160 160-160 160-56-56 64-64H360v360h-80Z" />
   </svg>
 )
 

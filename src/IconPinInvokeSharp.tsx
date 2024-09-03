@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPinInvokeSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M22,12v8H2V4h12l0,2H4v12h16v-6H22z M22,7c0-1.66-1.34-3-3-3c-1.66,0-3,1.34-3,3s1.34,3,3,3C20.66,10,22,8.66,22,7z M11.47,12.12l-2.83,2.83l1.41,1.41l2.83-2.83L15,15.66V10H9.34L11.47,12.12z" />
+    <path d="M80-160v-640h480v80H160v480h640v-240h80v320H80Zm322-145-56-57 118-118h-90v-80h226v226h-80v-89L402-305Zm358-255q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Z" />
   </svg>
 )
 

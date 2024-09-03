@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMediaBluetoothOnSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M9,3l0.01,10.55c-0.6-0.34-1.28-0.55-2-0.55C4.79,13,3,14.79,3,17s1.79,4,4.01,4S11,19.21,11,17V7h4V3H9z M21,12.43 L17.57,9h-0.6v4.55l-2.75-2.75l-0.85,0.85L16.73,15l-3.35,3.35l0.85,0.85l2.75-2.75V21h0.6L21,17.57L18.42,15L21,12.43z M18.17,11.3l1.13,1.13l-1.13,1.13V11.3z M19.3,17.57l-1.13,1.13v-2.26L19.3,17.57z" />
-      </g>
-    </g>
+    <path d="M280-120q-66 0-113-47t-47-113q0-66 47-113t113-47q23 0 42.5 5.5T360-418v-422h240v160H440v400q0 66-47 113t-113 47Zm400 0v-182L570-192l-34-34 134-134-136-134 34-34 110 110v-182h24l138 138-104 102 104 102-136 138h-24Zm46-92 46-46-46-44v90Zm0-206 46-44-46-46v90Z" />
   </svg>
 )
 

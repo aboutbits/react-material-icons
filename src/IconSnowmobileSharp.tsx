@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSnowmobileSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M22,17c0,0.55-0.45,1-1,1h-0.17l-2.2-2.2C21.6,15.18,23,13,23,13l-9-8h-3v2h2.25l1.45,1.3L11,11l-9.5-1L0,13l4.54,1.36 l-3.49,1.88C-0.77,17.22-0.07,20,2,20h6c2.21,0,4-1.79,4-4h4l2,2h-3v2h6c1.66,0,3-1.34,3-3H22z M8,18H2l5.25-2.83L10,16 C10,17.1,9.11,18,8,18z" />
+    <path d="M320-160H80q-38 0-59-25T0-240q0-20 10-39t32-31l140-76L0-440l80-160 360 40 122-91-32-29h-90v-80h122l285 265q19 17 26 33.5t7 31.5q0 43-33 76.5T747-320l86 80h7q17 0 28.5-11.5T880-280h80q0 50-35 85t-85 35H600v-80h117l-80-80H480q0 66-47 113t-113 47ZM80-240h240q33 0 56.5-23.5T400-320l-110-33L80-240Zm332-160h331q27 0 42-6.5t15-23.5L621-596 463-477l-337-37-12 24 298 90Zm45-98Z" />
   </svg>
 )
 

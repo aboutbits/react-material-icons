@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWorkHistorySharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M16.66,11.13c2-0.37,3.88,0.11,5.34,1.13V6h-6V2H8v4H2v15h9.68c-0.63-1.33-0.87-2.88-0.52-4.51 C11.75,13.79,13.94,11.63,16.66,11.13z M10,4h4v2h-4V4z" />
-        <path d="M18,13c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S20.76,13,18,13z M19.65,20.35l-2.15-2.15V15h1v2.79l1.85,1.85 L19.65,20.35z" />
-      </g>
-    </g>
+    <path d="M160-200v-440 440-15 15Zm-80 80v-600h240v-160h320v160h240v251q-18-13-38.5-22.5T800-508v-132H160v440h283q3 21 9 41t15 39H80Zm320-600h160v-80H400v80ZM720-40q-83 0-141.5-58.5T520-240q0-83 58.5-141.5T720-440q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40Zm20-208v-112h-40v128l86 86 28-28-74-74Z" />
   </svg>
 )
 

@@ -2,45 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFluorescentOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M5,15h14V9H5V15z M7,11h10v2H7V11z" />
-        <rect height="3" width="2" x="11" y="2" />
-        <rect
-          height="2"
-          transform="matrix(0.7046 -0.7096 0.7096 0.7046 1.1814 15.2381)"
-          width="2.54"
-          x="17.62"
-          y="5.2"
-        />
-        <rect height="3" width="2" x="11" y="19" />
-        <polygon points="17.29,17.71 19.08,19.51 20.5,18.09 18.7,16.3" />
-        <rect
-          height="2.53"
-          transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.8904 5.4222)"
-          width="1.99"
-          x="4.1"
-          y="4.93"
-        />
-        <rect
-          height="2"
-          transform="matrix(0.7096 -0.7046 0.7046 0.7096 -11.1263 8.7897)"
-          width="2.54"
-          x="3.83"
-          y="16.89"
-        />
-      </g>
-    </g>
+    <path d="M200-358v-240h560v240H200Zm240-402v-120h80v120h-80Zm308 112-56-56 72-72 56 56-72 72ZM440-80v-120h80v120h-80Zm324-100-72-72 56-56 72 72-56 56ZM212-648l-72-72 56-56 72 72-56 56Zm-16 468-56-56 72-72 56 56-72 72Zm84-258h400v-80H280v80Zm0 0v-80 80Z" />
   </svg>
 )
 

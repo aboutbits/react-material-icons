@@ -4,10 +4,9 @@ import { IconProps } from './types'
 const IconAirlineSeatLegroomExtraOutlined: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M4 12V3H2v9c0 2.76 2.24 5 5 5h6v-2H7c-1.66 0-3-1.34-3-3zm18.83 5.24c-.38-.72-1.29-.97-2.03-.63l-1.09.5-3.41-6.98C15.96 9.45 15.27 9 14.51 9H11V3H5v8c0 1.66 1.34 3 3 3h7l3.41 7 3.72-1.7c.77-.36 1.1-1.3.7-2.06z" />
+    <path d="M520-280H160q-33 0-56.5-23.5T80-360v-480h80v480h360v80Zm216 160L600-400H340q-50 0-85-35t-35-85v-320h240v240h120q23 0 42 12.5t30 33.5l136 278 44-20q23-11 46.5-3.5T914-270q12 23 3.5 47T886-188l-150 68Z" />
   </svg>
 )
 

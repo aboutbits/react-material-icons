@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCommentBankRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <g>
-        <rect fill="none" height="24" width="24" />
-        <rect fill="none" height="24" width="24" />
-      </g>
-    </g>
-    <g>
-      <g>
-        <path d="M20,2H4C2.9,2,2,2.9,2,4v15.59c0,0.89,1.08,1.34,1.71,0.71L6,18h14c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M18.24,11.55 L16.5,10.5l-1.74,1.05c-0.33,0.2-0.76-0.04-0.76-0.43V4h5v7.12C19,11.51,18.58,11.75,18.24,11.55z" />
-      </g>
-    </g>
+    <path d="m240-240-92 92q-19 19-43.5 8.5T80-177v-623q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240Zm560-80v-480H700v245q0 12-10 17.5t-20-.5l-55-33q-8-5-15-5t-15 5l-55 33q-10 6-20 .5T500-555v-245H160v525l46-45h594Zm-640 0v-480 480Z" />
   </svg>
 )
 

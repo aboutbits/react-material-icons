@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconConnectedTvOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,3H4C2.9,3,2,3.9,2,5v12c0,1.1,0.9,2,2,2h4v2h8v-2h4c1.1,0,1.99-0.9,1.99-2L22,5C22,3.9,21.1,3,20,3z M20,17H4V5h16V17 z M5,14v2h2C7,14.89,6.11,14,5,14z M5,11v1.43c1.97,0,3.57,1.6,3.57,3.57H10C10,13.24,7.76,11,5,11z M5,8v1.45 c3.61,0,6.55,2.93,6.55,6.55H13C13,11.58,9.41,8,5,8z" />
-      </g>
-    </g>
+    <path d="M200-320h80q0-33-23.5-56.5T200-400v80Zm142 0h58q0-83-58.5-141.5T200-520v58q59 0 100.5 41.5T342-320Zm120 0h58q0-66-25-124.5t-68.5-102Q383-590 324.5-615T200-640v58q109 0 185.5 76.5T462-320ZM320-120v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSurroundSoundSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M22,4H2v16h20V4z M7.76,16.24l-1.41,1.41C4.78,16.1,4,14.05,4,12s0.78-4.1,2.34-5.66l1.41,1.41C6.59,8.93,6,10.46,6,12 S6.59,15.07,7.76,16.24z M12,16c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,16,12,16z M17.66,17.66l-1.41-1.41 C17.41,15.07,18,13.54,18,12s-0.59-3.07-1.76-4.24l1.41-1.41C19.22,7.9,20,9.95,20,12S19.22,16.1,17.66,17.66z M12,10 c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S13.1,10,12,10z" />
-    </g>
+    <path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm198 78q40-40 61-91t21-107q0-56-21-107t-61-91l-56 56q29 29 43.5 65.5T680-480q0 40-14.5 76.5T622-338l56 56Zm-396 0 56-56q-29-29-43.5-65.5T280-480q0-40 14.5-76.5T338-622l-56-56q-40 40-61 91t-21 107q0 56 21 107t61 91ZM80-160v-640h800v640H80Zm80-80h640v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

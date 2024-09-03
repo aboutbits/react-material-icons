@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCompressSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <rect height="2" width="16" x="4" y="9" />
-        <polygon points="16,4 13,4 13,1 11,1 11,4 8,4 12,8" />
-        <polygon points="8,19 11,19 11,22 13,22 13,19 16,19 12,15" />
-        <rect height="2" width="16" x="4" y="12" />
-      </g>
-    </g>
+    <path d="M160-400v-80h640v80H160Zm0-120v-80h640v80H160ZM440-80v-128l-64 64-56-56 160-160 160 160-56 56-64-62v126h-80Zm40-560L320-800l56-56 64 64v-128h80v128l64-64 56 56-160 160Z" />
   </svg>
 )
 

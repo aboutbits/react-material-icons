@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconGifOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M11.5 9H13v6h-1.5V9zM9 9H6c-.6 0-1 .5-1 1v4c0 .5.4 1 1 1h3c.6 0 1-.5 1-1v-2H8.5v1.5h-2v-3H10V10c0-.5-.4-1-1-1zm10 1.5V9h-4.5v6H16v-2h2v-1.5h-2v-1h3z" />
+    <path d="M460-360v-240h60v240h-60Zm-220 0q-18 0-29-12.5T200-400v-160q0-15 11-27.5t29-12.5h120q18 0 29 12.5t11 27.5v20H260v120h80v-60h60v80q0 15-11 27.5T360-360H240Zm340 0v-240h180v60H640v40h80v60h-80v80h-60Z" />
   </svg>
 )
 

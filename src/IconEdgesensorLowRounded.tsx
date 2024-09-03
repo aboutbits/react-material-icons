@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconEdgesensorLowRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M3,7L3,7c0.55,0,1,0.45,1,1v5c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1V8C2,7.45,2.45,7,3,7z M21,10L21,10 c0.55,0,1,0.45,1,1v5c0,0.55-0.45,1-1,1h0c-0.55,0-1-0.45-1-1v-5C20,10.45,20.45,10,21,10z M16,2.01L8,2C6.9,2,6,2.9,6,4v16 c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V4C18,2.9,17.1,2.01,16,2.01z M16,17H8V7h8V17z" />
-      </g>
-    </g>
+    <path d="M120-400q-17 0-28.5-11.5T80-440v-200q0-17 11.5-28.5T120-680q17 0 28.5 11.5T160-640v200q0 17-11.5 28.5T120-400Zm720 120q-17 0-28.5-11.5T800-320v-200q0-17 11.5-28.5T840-560q17 0 28.5 11.5T880-520v200q0 17-11.5 28.5T840-280ZM320-80q-33 0-56.5-23.5T240-160v-640q0-33 23.5-56.5T320-880h320q33 0 56.5 23.5T720-800v640q0 33-23.5 56.5T640-80H320Zm320-120H320v40h320v-40ZM320-760h320v-40H320v40Zm0 0v-40 40Zm0 560v40-40Zm0-80h320v-400H320v400Z" />
   </svg>
 )
 

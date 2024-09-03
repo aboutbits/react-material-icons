@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHdrOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M17.5 15v-2h1.1l.9 2H21l-.9-2.1h.9V9h-5v4.86L17.14 15h.36zm0-4.5h2v1h-2v-1zm-4.5 0v.36l1.5 1.5V10.5c0-.8-.7-1.5-1.5-1.5h-1.86l1.5 1.5H13zM2.51 2.49L1.45 3.55 6.9 9h-.4v2h-2V9H3v6h1.5v-2.5h2V15H8v-4.9l1.5 1.5V15h3.4l7.6 7.6 1.06-1.06z" />
+    <path d="M792-56 56-792l56-56 736 734-56 58Zm-12-304-36-80h-44v66l-60-60v-166h170l30 30v96l-30 30h-6l36 84h-60Zm-80-140h80v-40h-80v40Zm-120 6L474-600h76l30 30v76ZM120-360v-240h60v80h80v-80h60v240h-60v-100h-80v100h-60Zm260-164 60 60v44h45l59 60H380v-164Z" />
   </svg>
 )
 

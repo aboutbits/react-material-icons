@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHdrPlusSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <rect height="1" width="2" x="8.5" y="14.5" />
-        <rect height="3" width="1.5" x="14.5" y="7.5" />
-        <path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,17l-0.86-0.01L12,19h-1.5l-0.9-2H8.5v2H7v-6h5 c0,0,0,0.7,0,1.5V17z M12,12h-1.5V9.5h-2V12H7V6h1.5v2h2V6H12V12z M17.5,16H16v1.5h-1.5V16H13v-1.5h1.5V13H16v1.49h1.5V16z M17.5,10.5c0,0.8-0.7,1.5-1.5,1.5h-3V6h3c0.8,0,1.5,0.7,1.5,1.5V10.5z" />
-      </g>
-    </g>
+    <path d="M580-260v-60h-60v-60h60v-60h60v60h60v60h-60v60h-60ZM280-480v-240h60v80h80v-80h60v240h-60v-100h-80v100h-60Zm240 0v-240h150l30 30v180l-30 30H520ZM340-340h80v-40h-80v40Zm78 140-34-80h-44v80h-60v-240h170l30 30v96l-30 30h-6l36 84h-62Zm162-340h60v-120h-60v120ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Zm0-320Z" />
   </svg>
 )
 

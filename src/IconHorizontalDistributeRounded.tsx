@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHorizontalDistributeRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M3,22L3,22c-0.55,0-1-0.45-1-1V3c0-0.55,0.45-1,1-1h0c0.55,0,1,0.45,1,1v18C4,21.55,3.55,22,3,22z M21,2L21,2 c-0.55,0-1,0.45-1,1v18c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V3C22,2.45,21.55,2,21,2z M12,7L12,7c-0.83,0-1.5,0.67-1.5,1.5v7 c0,0.83,0.67,1.5,1.5,1.5h0c0.83,0,1.5-0.67,1.5-1.5v-7C13.5,7.67,12.83,7,12,7z" />
+    <path d="M120-80q-17 0-28.5-11.5T80-120v-720q0-17 11.5-28.5T120-880q17 0 28.5 11.5T160-840v720q0 17-11.5 28.5T120-80Zm360-200q-25 0-42.5-17.5T420-340v-280q0-25 17.5-42.5T480-680q25 0 42.5 17.5T540-620v280q0 25-17.5 42.5T480-280ZM840-80q-17 0-28.5-11.5T800-120v-720q0-17 11.5-28.5T840-880q17 0 28.5 11.5T880-840v720q0 17-11.5 28.5T840-80Z" />
   </svg>
 )
 

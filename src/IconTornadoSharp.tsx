@@ -2,29 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTornadoSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <polygon points="20.11,8 23,3 1,3 3.89,8" />
-        </g>
-        <g>
-          <polygon points="7.95,15 12,22 16.05,15" />
-        </g>
-        <g>
-          <polygon points="18.95,10 5.05,10 6.79,13 17.21,13" />
-        </g>
-      </g>
-    </g>
+    <path d="M40-840h880L480-80 40-840Zm139 80 69 120h464l69-120H179Zm116 200 69 120h232l69-120H295Zm116 200 69 120 69-120H411Z" />
   </svg>
 )
 

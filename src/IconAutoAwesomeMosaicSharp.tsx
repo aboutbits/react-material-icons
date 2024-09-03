@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAutoAwesomeMosaicSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" x="0" />
-    </g>
-    <g>
-      <g>
-        <path d="M3,21h8V3L3,3V21z M21,3h-8v8h8V3z M13,21h8v-8h-8V21z" />
-      </g>
-    </g>
+    <path d="M440-120H120v-720h320v720Zm-80-80v-560H200v560h160Zm160-320v-320h320v320H520Zm80-80h160v-160H600v160Zm-80 480v-320h320v320H520Zm80-80h160v-160H600v160ZM360-480Zm240-120Zm0 240Z" />
   </svg>
 )
 

@@ -2,20 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconUTurnRightRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M20.29,12.29c-0.39-0.39-1.02-0.39-1.41,0L18,13.17V9c0-3.31-2.69-6-6-6S6,5.69,6,9v11c0,0.55,0.45,1,1,1s1-0.45,1-1V9 c0-2.21,1.79-4,4-4s4,1.79,4,4v4.17l-0.88-0.88c-0.39-0.39-1.02-0.39-1.41,0c-0.39,0.39-0.39,1.02,0,1.41l2.59,2.59 c0.39,0.39,1.02,0.39,1.41,0l2.59-2.59C20.68,13.32,20.68,12.68,20.29,12.29z" />
-    </g>
+    <path d="M280-120q-17 0-28.5-11.5T240-160v-440q0-100 70-170t170-70q100 0 170 70t70 170v168l36-36q11-11 28-11t28 11q11 11 11 28t-11 28L708-308q-6 6-13 8.5t-15 2.5q-8 0-15-2.5t-13-8.5L548-412q-11-11-11-28t11-28q11-11 28-11t28 11l36 36v-168q0-66-47-113t-113-47q-66 0-113 47t-47 113v440q0 17-11.5 28.5T280-120Z" />
   </svg>
 )
 

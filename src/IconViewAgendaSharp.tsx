@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconViewAgendaSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" y="0" />
-    </g>
-    <g>
-      <g>
-        <rect height="8" width="18" x="3" y="13" />
-        <rect height="8" width="18" x="3" y="3" />
-      </g>
-    </g>
+    <path d="M120-120v-320h720v320H120Zm80-80h560v-160H200v160Zm-80-320v-320h720v320H120Zm80-80h560v-160H200v160Zm0 240v160-160Zm0-400v160-160Z" />
   </svg>
 )
 

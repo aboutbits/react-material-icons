@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBungalowOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M13,14h-2v-2h2V14z M18.1,16.56L17,14.79V21H7v-6.2l-1.1,1.76L4.2,15.5L12,3l7.8,12.5L18.1,16.56z M15,11.59l-3-4.8l-3,4.8 V19h2v-3h2v3h2V11.59z" />
+    <path d="M280-120v-248l-44 70-68-42 312-500 312 500-68 42-44-70v248H280Zm80-80h80v-120h80v120h80v-296L480-688 360-496v296Zm80-200v-80h80v80h-80Zm-80 200h240-240Z" />
   </svg>
 )
 

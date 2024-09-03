@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRampLeftOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M13,21h-2V6.83L9.41,8.41L8,7l4-4l4,4l-1.41,1.41L13,6.83V9c0,4.27,4.03,7.13,6,8.27l-1.46,1.46 c-1.91-1.16-3.44-2.53-4.54-4.02L13,21z" />
-    </g>
+    <path d="M440-120v-567l-64 63-56-56 160-160 160 160-56 56-64-63v87q0 64 26.5 117.5t64 95Q648-346 689-316t71 47l-58 58q-57-35-103-75.5T520-372v252h-80Z" />
   </svg>
 )
 

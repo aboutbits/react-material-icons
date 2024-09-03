@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCleaningServicesSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M15,11V1H9v10H3v12h18V11H15z M19,21h-2v-4h-2v4h-2v-4h-2v4H9v-4H7v4H5v-8h14V21z" />
-    </g>
+    <path d="M120-40v-480h240v-400h240v400h240v480H120Zm80-80h80v-160h80v160h80v-160h80v160h80v-160h80v160h80v-320H200v320Zm320-400v-320h-80v320h80Zm0 0h-80 80Z" />
   </svg>
 )
 

@@ -2,25 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHomeRepairServiceRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M17,16c-0.55,0-1-0.45-1-1H8c0,0.55-0.45,1-1,1s-1-0.45-1-1H2v3c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2v-3h-4 C18,15.55,17.55,16,17,16z" />
-        </g>
-        <path d="M20,8h-3V6c0-1.1-0.9-2-2-2H9C7.9,4,7,4.9,7,6v2H4c-1.1,0-2,0.9-2,2v4h4v-1c0-0.55,0.45-1,1-1s1,0.45,1,1v1h8v-1 c0-0.55,0.45-1,1-1s1,0.45,1,1v1h4v-4C22,8.9,21.1,8,20,8z M15,8H9V6h6V8z" />
-      </g>
-    </g>
+    <path d="M480-400ZM80-200v-360q0-33 23.5-56.5T160-640h120v-80q0-33 23.5-56.5T360-800h240q33 0 56.5 23.5T680-720v80h120q33 0 56.5 23.5T880-560v360q0 17-11.5 28.5T840-160H120q-17 0-28.5-11.5T80-200Zm240-160q0 17-11.5 28.5T280-320q-17 0-28.5-11.5T240-360h-80v120h640v-120h-80q0 17-11.5 28.5T680-320q-17 0-28.5-11.5T640-360H320ZM160-560v120h80q0-17 11.5-28.5T280-480q17 0 28.5 11.5T320-440h320q0-17 11.5-28.5T680-480q17 0 28.5 11.5T720-440h80v-120H160Zm200-80h240v-80H360v80Z" />
   </svg>
 )
 

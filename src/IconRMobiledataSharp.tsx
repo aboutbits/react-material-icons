@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRMobiledataSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M7.8,7.2L9,10H7L5.87,7.33H4V10H2V2h7v5.2H7.8z M7,4H4v1.33h3V4z" />
-      </g>
-    </g>
+    <path d="M80-560v-320h280v208h-48l48 112h-80l-46-106h-74v106H80Zm80-186h120v-54H160v54Z" />
   </svg>
 )
 

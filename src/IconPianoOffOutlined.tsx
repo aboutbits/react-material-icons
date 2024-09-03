@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPianoOffOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M21.19,21.19L2.81,2.81L1.39,4.22L3,5.83V19c0,1.1,0.9,2,2,2h13.17l1.61,1.61L21.19,21.19z M8.25,19H5V7.83l2,2v3.67 c0,0.55,0.45,1,1,1h0.25V19z M9.75,19v-4.5H10c0.46,0,0.82-0.31,0.94-0.73l3.31,3.31V19H9.75z M11,8.17L5.83,3H19c1.1,0,2,0.9,2,2 v13.17l-2-2V5h-2v8.5c0,0.19-0.07,0.36-0.16,0.51L13,10.17V5h-2V8.17z" />
+    <path d="m791-55-65-65H200q-33 0-56.5-23.5T120-200v-526l-65-65 57-57 736 736-57 57Zm49-179-80-80v-446h-80v340q0 5-1.5 10t-4.5 10L520-554v-206h-80v126L234-840h526q33 0 56.5 23.5T840-760v526Zm-640 34h130v-180h-10q-17 0-28.5-11.5T280-420v-146l-80-80v446Zm190 0h180v-76L438-408q-4 13-14.5 20.5T400-380h-10v180Zm240 0h16l-16-16v16Z" />
   </svg>
 )
 

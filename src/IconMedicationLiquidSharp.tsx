@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMedicationLiquidSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <rect height="2" width="12" x="3" y="3" />
-        <polygon points="7.5,17.5 10.5,17.5 10.5,15 13,15 13,12 10.5,12 10.5,9.5 7.5,9.5 7.5,12 5,12 5,15 7.5,15" />
-        <path d="M14,6H4C2.9,6,2,6.9,2,8v11c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2V8C16,6.9,15.1,6,14,6z M14,19H4V8h10V19z" />
-        <path d="M20,6c-1.68,0-3,1.76-3,4c0,1.77,0.83,3.22,2,3.76V20c0,0.55,0.45,1,1,1s1-0.45,1-1v-6.24c1.17-0.54,2-1.99,2-3.76 C23,7.76,21.68,6,20,6z M20,12c-0.41,0-1-0.78-1-2s0.59-2,1-2s1,0.78,1,2S20.41,12,20,12z" />
-      </g>
-    </g>
+    <path d="M120-760v-80h480v80H120Zm180 500h120v-100h100v-120H420v-100H300v100H200v120h100v100ZM80-120v-600h560v600H80Zm80-80h400v-440H160v440Zm600-210q-35-17-57.5-56.5T680-560q0-68 34.5-114t85.5-46q51 0 85.5 46T920-560q0 54-22.5 93.5T840-410v290h-80v-290Zm40-70q12 0 26-21.5t14-58.5q0-37-14-58.5T800-640q-12 0-26 21.5T760-560q0 37 14 58.5t26 21.5Zm-440 60Zm440-140Z" />
   </svg>
 )
 

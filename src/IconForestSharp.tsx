@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconForestSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="16,12 9,2 2,12 3.86,12 0,18 7,18 7,22 11,22 11,18 18,18 14.14,12" />
-        <polygon points="20.14,12 22,12 15,2 12.61,5.41 17.92,13 16,13 15.97,13 19.19,18 24,18" />
-        <rect height="3" width="4" x="13" y="19" />
-      </g>
-    </g>
+    <path d="M280-80v-160H0l154-240H80l280-400 120 172 120-172 280 400h-74l154 240H680v160H520v-160h-80v160H280Zm389-240h145L659-560h67L600-740l-71 101 111 159h-74l103 160Zm-523 0h428L419-560h67L360-740 234-560h67L146-320Zm0 0h155-67 252-67 155-428Zm523 0H566h74-111 197-67 155-145Zm-149 80h160-160Zm201 0Z" />
   </svg>
 )
 

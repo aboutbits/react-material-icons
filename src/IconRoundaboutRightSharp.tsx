@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRoundaboutRightSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M8,13c-2.21,0-4-1.79-4-4c0-2.21,1.79-4,4-4c2.21,0,4,1.79,4,4l0,1l6.17,0l-1.59,1.59L18,13l4-4l-4-4l-1.41,1.41L18.17,8 l-4.25,0C13.44,5.16,10.97,3,8,3C4.69,3,2,5.69,2,9c0,2.97,2.16,5.44,5,5.92L7,21h2l0-8L8,13z" />
-    </g>
+    <path d="M280-120v-246q-85-14-142.5-79.5T80-600q0-100 70-170t170-70q89 0 154.5 57.5T554-640h173l-63-64 56-56 160 160-160 160-57-56 64-64H478v-40q0-66-46-113t-112-47q-66 0-113 47t-47 113q0 66 47 112t113 46h40v322h-80Z" />
   </svg>
 )
 

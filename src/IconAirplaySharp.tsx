@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAirplaySharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M6,22h12l-6-6L6,22z M23,3H1v16h6v-2H3V5h18v12h-4v2h6V3z" />
-    </g>
+    <path d="m240-120 240-240 240 240H240ZM80-200v-640h800v640H680v-80h120v-480H160v480h120v80H80Zm400-280Z" />
   </svg>
 )
 

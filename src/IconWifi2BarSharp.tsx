@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWifi2BarSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g display="none">
-      <rect display="inline" fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M12,10c3.03,0,5.78,1.23,7.76,3.22l-2.12,2.12C16.2,13.9,14.2,13,12,13c-2.2,0-4.2,0.9-5.64,2.35l-2.12-2.12 C6.22,11.23,8.97,10,12,10z M12,16c-1.38,0-2.63,0.56-3.53,1.46L12,21l3.53-3.54C14.63,16.56,13.38,16,12,16z" />
-    </g>
+    <path d="m254-346-84-86q62-62 142-95t168-33q88 0 168.5 33.5T790-430l-84 84q-45-45-103.5-69.5T480-440q-64 0-122.5 24.5T254-346Zm226 226L339-262q28-28 64.5-43t76.5-15q40 0 76.5 15t64.5 43L480-120Z" />
   </svg>
 )
 

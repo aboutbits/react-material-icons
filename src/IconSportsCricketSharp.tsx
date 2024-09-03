@@ -2,31 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSportsCricketSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M15.05,12.81L6.56,4.32c-0.39-0.39-1.02-0.39-1.41,0L2.32,7.15c-0.39,0.39-0.39,1.02,0,1.41l8.49,8.49 c0.39,0.39,1.02,0.39,1.41,0l2.83-2.83C15.44,13.83,15.44,13.2,15.05,12.81z" />
-          <rect
-            height="6"
-            transform="matrix(0.7071 -0.7071 0.7071 0.7071 -8.5264 17.7562)"
-            width="2"
-            x="16.17"
-            y="16.17"
-          />
-        </g>
-        <circle cx="18.5" cy="5.5" r="3.5" />
-      </g>
-    </g>
+    <path d="M460-252 65-647l168-168 395 395-168 168Zm0-112 56-56-284-284-56 56 284 284ZM744-80 574-250l56-56 170 170-56 56Zm-4-520q-58 0-99-41t-41-99q0-58 41-99t99-41q58 0 99 41t41 99q0 58-41 99t-99 41Zm0-80q25 0 42.5-17.5T800-740q0-25-17.5-42.5T740-800q-25 0-42.5 17.5T680-740q0 25 17.5 42.5T740-680Zm0-60ZM346-534Z" />
   </svg>
 )
 

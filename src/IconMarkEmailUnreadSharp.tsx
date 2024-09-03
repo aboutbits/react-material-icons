@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMarkEmailUnreadSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" x="0" />
-      <path d="M22,8.98V20H2V4h12.1C14.04,4.32,14,4.66,14,5c0,1.48,0.65,2.79,1.67,3.71L12,11L4,6v2l8,5l5.3-3.32 C17.84,9.88,18.4,10,19,10C20.13,10,21.16,9.61,22,8.98z M16,5c0,1.66,1.34,3,3,3s3-1.34,3-3s-1.34-3-3-3S16,3.34,16,5z" />
-    </g>
+    <path d="M80-160v-640h484q-4 20-4 40t4 40H160l320 200 146-91q14 13 30.5 22.5T691-572L480-440 160-640v400h640v-324q23-5 43-14t37-22v440H80Zm80-560v480-480Zm600 80q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Z" />
   </svg>
 )
 

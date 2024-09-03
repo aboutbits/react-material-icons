@@ -2,37 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWbTwilightSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <rect
-          height="2"
-          transform="matrix(0.7069 -0.7074 0.7074 0.7069 -0.3887 15.676)"
-          width="3"
-          x="17.22"
-          y="7.31"
-        />
-        <rect height="2" width="20" x="2" y="18" />
-        <rect height="3" width="2" x="11" y="4" />
-        <rect
-          height="3"
-          transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.2992 6.1783)"
-          width="2"
-          x="4.31"
-          y="6.78"
-        />
-        <path d="M5,16h14c0-3.87-3.13-7-7-7S5,12.13,5,16z" />
-      </g>
-    </g>
+    <path d="m734-556-56-58 86-84 56 56-86 86ZM80-160v-80h800v80H80Zm360-520v-120h80v120h-80ZM226-558l-84-86 56-56 86 86-58 56Zm71 158h366q-23-54-72-87t-111-33q-62 0-111 33t-72 87Zm-97 80q0-117 81.5-198.5T480-600q117 0 198.5 81.5T760-320H200Zm280-80Z" />
   </svg>
 )
 

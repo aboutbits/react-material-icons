@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDeveloperBoardOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M7.83,5H18v10.17L19.83,17H22v-2h-2v-2h2v-2h-2V9h2V7h-2V3H5.83L7.83,5z M12,9.17V7h4v3h-3.17L12,9.17z M9.83,7H11v1.17 L9.83,7z M13.83,11H16v2.17L13.83,11z M18.17,21l2.31,2.31l1.41-1.41L2.1,2.1L0.69,3.51L2,4.83V21H18.17z M4,19V6.83l2,2V12h3.17 l1,1H6v4h5v-3.17l1,1V17h2.17l2,2H4z" />
+    <path d="M819-28 27-820l57-57L876-85l-57 57ZM233-840h567v160h80v80h-80v80h80v80h-80v80h80v80h-87l-73-73v-407H313l-80-80Zm207 207-47-47h47v47Zm73 73-33-33v-87h160v120H513Zm127 126-86-86h86v86Zm-233-6Zm110-118ZM240-280v-160h200v160H240ZM128-833l73 73h-41v560h560v-41l80 80v41H80v-713h48Zm352 352 160 160v41H480v-201ZM281-680l159 159v41H240v-200h41Z" />
   </svg>
 )
 

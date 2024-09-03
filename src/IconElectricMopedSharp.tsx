@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconElectricMopedSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M19,8.35V3h-5v2h3v2.65L13.52,12H10V7H6c-2.21,0-4,1.79-4,4v3h2c0,1.66,1.34,3,3,3s3-1.34,3-3h4.48L19,8.35z M7,15 c-0.55,0-1-0.45-1-1h2C8,14.55,7.55,15,7,15z" />
-        <rect height="2" width="5" x="5" y="4" />
-        <path d="M19,11c-1.66,0-3,1.34-3,3s1.34,3,3,3s3-1.34,3-3S20.66,11,19,11z M19,15c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1 S19.55,15,19,15z" />
-      </g>
-      <polygon points="7,20 11,20 11,18 17,21 13,21 13,23" />
-    </g>
+    <path d="M520-40 280-160h160v-80l240 120H520v80ZM280-280q-50 0-85-35t-35-85H80v-280h320v200h140l140-174v-106H560v-80h200v214L580-400H400q0 50-35 85t-85 35Zm40-200Zm-40 120q17 0 28.5-11.5T320-400h-80q0 17 11.5 28.5T280-360Zm-80-360v-80h200v80H200Zm560 440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T800-400q0-17-11.5-28.5T760-440q-17 0-28.5 11.5T720-400q0 17 11.5 28.5T760-360ZM160-480h160v-120H160v120Z" />
   </svg>
 )
 

@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSettingsOverscanRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M12.01,7L10,9h4L12.01,7z M17,10v4l2-1.99L17,10z M7,10l-2,2.01L7,14V10z M14,15h-4l2.01,2L14,15z M20,4H4C2.9,4,2,4.9,2,6 v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M20,18.01H4V5.99h16V18.01z" />
-    </g>
+    <path d="M280-536q0-7-6-9.5t-11 2.5l-49 49q-6 6-6 14t6 14l49 49q5 5 11 2.5t6-9.5v-112Zm256 176H424q-7 0-9.5 6t2.5 11l49 49q6 6 14 6t14-6l49-49q5-5 2.5-11t-9.5-6Zm0-240q7 0 9.5-6t-2.5-11l-49-49q-6-6-14-6t-14 6l-49 49q-5 5-2.5 11t9.5 6h112Zm144 64v112q0 7 6 9.5t11-2.5l49-49q6-6 6-14t-6-14l-49-49q-5-5-11-2.5t-6 9.5ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

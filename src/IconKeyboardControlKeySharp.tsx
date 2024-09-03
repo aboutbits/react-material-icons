@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconKeyboardControlKeySharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <polygon points="5,12 6.41,13.41 12,7.83 17.59,13.41 19,12 12,5" />
-    </g>
+    <path d="m256-424-56-56 280-280 280 280-56 56-224-223-224 223Z" />
   </svg>
 )
 

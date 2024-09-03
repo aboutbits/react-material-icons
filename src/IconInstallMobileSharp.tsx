@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconInstallMobileSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="17,18 7,18 7,6 14,6 14,1 5,1 5,23 19,23 19,16 17,16" />
-        <polygon points="18,14 23,9 21.59,7.59 19,10.17 19,3 17,3 17,10.17 14.41,7.59 13,9" />
-      </g>
-    </g>
+    <path d="M200-40v-880h360v80H280v40h280v80H280v480h400v-80h80v280H200Zm80-120v40h400v-40H280Zm440-240L520-600l56-56 104 104v-288h80v288l104-104 56 56-200 200ZM280-800v-40 40Zm0 640v40-40Z" />
   </svg>
 )
 

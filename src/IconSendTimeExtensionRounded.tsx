@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSendTimeExtensionRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,6c0-1.1-0.9-2-2-2h-4c0-1.38-1.12-2.5-2.5-2.5S9,2.62,9,4H5.01c-1.1,0-2,0.9-2,2v3.8C5.7,9.8,6,11.96,6,12.5 c0,0.54-0.29,2.7-3,2.7V19c0,1.1,0.9,2,2,2h3.8c0-2.16,1.37-2.78,2.2-2.94v-9.3l9,4.5V6z" />
-        <polygon points="13,12 13,16 17,17 13,18 13,22 23,17" />
-      </g>
-    </g>
+    <path d="M520-145v-64q0-14 8-25t22-14l130-32-130-32q-14-3-22-14t-8-25v-64q0-23 19-34.5t39-1.5l270 135q22 11 22 36t-22 36L578-109q-20 10-39-1.5T520-145Zm-320 25q-33 0-56.5-23.5T120-200v-152q48 0 84-30.5t36-77.5q0-47-36-77.5T120-568v-152q0-33 23.5-56.5T200-800h160q0-42 29-71t71-29q42 0 71 29t29 71h160q33 0 56.5 23.5T800-720v290l-80-40v-250H480v-80q0-8-6-14t-14-6q-8 0-14 6t-6 14v80H200v88q54 20 87 67t33 105q0 57-33 104t-87 68v88h85q17-45 58-78.5t97-39.5v80q-40 8-64 37.5T352-120H200Zm260-390Z" />
   </svg>
 )
 

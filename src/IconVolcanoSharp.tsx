@@ -2,44 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVolcanoSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <polygon points="18,8 11,8 9,13 6,13 2,22 22,22" />
-        </g>
-        <g>
-          <rect height="4" width="2" x="13" y="1" />
-        </g>
-        <g>
-          <rect
-            height="2"
-            transform="matrix(0.7071 -0.7071 0.7071 0.7071 1.9792 14.2929)"
-            width="4"
-            x="16.24"
-            y="3.76"
-          />
-        </g>
-        <g>
-          <rect
-            height="4"
-            transform="matrix(0.7071 -0.7071 0.7071 0.7071 -0.5061 8.2929)"
-            width="2"
-            x="8.76"
-            y="2.76"
-          />
-        </g>
-      </g>
-    </g>
+    <path d="m80-80 160-360h120l80-200h280L880-80H80Zm123-80h571L660-560H494l-80 200H292l-89 200Zm317-600v-160h80v160h-80Zm181 75-56-56 113-113 57 56-114 113Zm-282 0L306-798l56-57 113 114-56 56Zm355 525H203h571Z" />
   </svg>
 )
 

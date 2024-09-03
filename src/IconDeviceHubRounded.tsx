@@ -2,9 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDeviceHubRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M17 16l-4-4V8.82c1.35-.49 2.26-1.89 1.93-3.46-.25-1.18-1.23-2.12-2.42-2.32C10.63 2.73 9 4.17 9 6c0 1.3.84 2.4 2 2.82V12l-4 4H4c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-2.05l4-4.2 4 4.2V20c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1h-3z" />
+    <path d="M120-160v-120q0-17 11.5-28.5T160-320h120l160-160v-128q-36-13-58-43.5T360-720q0-50 35-85t85-35q50 0 85 35t35 85q0 38-22 68.5T520-608v128l160 160h120q17 0 28.5 11.5T840-280v120q0 17-11.5 28.5T800-120H680q-17 0-28.5-11.5T640-160v-82L480-402 320-242v82q0 17-11.5 28.5T280-120H160q-17 0-28.5-11.5T120-160Z" />
   </svg>
 )
 

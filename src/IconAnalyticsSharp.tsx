@@ -2,18 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAnalyticsSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <rect fill="none" height="5" width="2" x="7" y="12" />
-    <rect fill="none" height="3" width="2" x="11" y="14" />
-    <rect fill="none" height="10" width="2" x="15" y="7" />
-    <path d="M3,3v18h18V3H3z M9,17H7v-5h2V17z M13,17h-2v-3h2V17z M13,12h-2v-2h2V12z M17,17h-2V7h2V17z" />
+    <path d="M120-120v-720h720v720H120Zm80-80h560v-560H200v560Zm80-80h80v-200h-80v200Zm320 0h80v-400h-80v400Zm-160 0h80v-120h-80v120Zm0-200h80v-80h-80v80ZM200-200v-560 560Z" />
   </svg>
 )
 

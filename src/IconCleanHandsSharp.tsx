@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCleanHandsSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <g>
-      <path d="m14.99 7 1.37-.63.63-1.37.63 1.37 1.37.63-1.37.63L16.99 9l-.63-1.37L14.99 7zM20 14c1.1 0 2-.9 2-2s-2-4-2-4-2 2.9-2 4 .9 2 2 2zM1 22h4V11H1v11zM9.24 9.5 15 11.65V11c0-2.42-1.72-4.44-4-4.9V4h2c.57 0 1.1.17 1.55.45l1.43-1.43C15.15 2.39 14.13 2 13 2H7.5v2H9v2.11c-1.78.37-3.2 1.68-3.75 3.39h3.99zM22 17h-9l-2.09-.73.33-.94L13 16h4v-2l-8.03-3H7v9.02L14 22l8-3v-2z" />
-    </g>
+    <path d="m560-60-280-78v58H40v-440h318l322 120v80h200v160L560-60ZM120-160h80v-280h-80v280Zm438 16 238-74v-22H513l-125-42 24-76 117 38h71v-26l-256-94h-64v220l278 76Zm42-350-80-30q-2-48-36.5-82T400-640q-33 0-60.5 16.5T296-580h-86q17-51 56.5-88t93.5-48v-84h-60v-80h220q34 0 64 11t55 30l-57 57q-14-8-29.5-13t-32.5-5h-80v84q69 14 114.5 68.5T600-520v26Zm-200-86Zm360 20q-33 0-56.5-23.5T680-640q0-23 17-57t63-103q46 69 63 103t17 57q0 33-23.5 56.5T760-560Z" />
   </svg>
 )
 

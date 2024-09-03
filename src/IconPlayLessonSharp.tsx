@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPlayLessonSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M18,11c0.34,0,0.67,0.03,1,0.08V2H3v20h9.26C11.47,20.87,11,19.49,11,18C11,14.13,14.13,11,18,11z M7,11V4h5v7L9.5,9.5 L7,11z" />
-        <path d="M18,13c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S20.76,13,18,13z M16.75,20.5v-5l4,2.5L16.75,20.5z" />
-      </g>
-    </g>
+    <path d="M120-80v-800h640v364q-18-2-40-2t-40 2v-284H480v280l-100-60-100 60v-280h-80v640h252q6 20 16.5 41.5T490-80H120Zm600 40q-83 0-141.5-58.5T520-240q0-83 58.5-141.5T720-440q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40Zm-50-100 160-100-160-100v200ZM280-800h200-200Zm-80 0h480-240 12-252Z" />
   </svg>
 )
 

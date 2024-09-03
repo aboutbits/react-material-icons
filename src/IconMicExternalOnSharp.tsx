@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMicExternalOnSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M9.22,7H4.78C4.3,6.47,4,5.77,4,5c0-1.66,1.34-3,3-3s3,1.34,3,3C10,5.77,9.7,6.47,9.22,7z M20,2v20h-2V4h-4v18H6 c0,0,0-1.79,0-4H5L4,8h6L9,18H8v2h4V2H20z" />
-      </g>
-    </g>
+    <path d="M192-680q-15-17-23.5-37t-8.5-43q0-50 35-85t85-35q50 0 85 35t35 85q0 23-8.5 43T368-680H192Zm48 600v-160h-40l-40-400h240l-40 400h-40v80h160v-720h320v800h-80v-720H560v720H240Zm32-240h16l24-240h-64l24 240Zm16-240h-40 64-24Z" />
   </svg>
 )
 

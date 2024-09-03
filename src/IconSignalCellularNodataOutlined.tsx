@@ -4,21 +4,9 @@ import { IconProps } from './types'
 const IconSignalCellularNodataOutlined: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M22,13h-9v9H2L22,2V13z M21,15.41L19.59,14l-2.09,2.09L15.41,14L14,15.41l2.09,2.09L14,19.59L15.41,21l2.09-2.08L19.59,21 L21,19.59l-2.08-2.09L21,15.41z" />
-      </g>
-    </g>
+    <path d="m676-100-56-56 84-84-84-84 56-56 84 84 84-84 56 56-83 84 83 84-56 56-84-83-84 83ZM80-80l800-799v427q-18-11-38-17.5T800-480v-206L273-160h257q8 23 20 43t27 37H80Zm193-80 527-526q-76 76-138 137.5t-121.5 121L417-304 273-160Z" />
   </svg>
 )
 

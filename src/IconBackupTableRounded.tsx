@@ -2,27 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBackupTableRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <g>
-        <rect fill="none" height="24" width="24" />
-        <rect fill="none" height="24" width="24" />
-      </g>
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M4,7v13h13c0.55,0,1,0.45,1,1l0,0c0,0.55-0.45,1-1,1H4c-1.1,0-2-0.9-2-2V7c0-0.55,0.45-1,1-1l0,0C3.55,6,4,6.45,4,7z" />
-          <path d="M6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4c0-1.1-0.9-2-2-2H8C6.9,2,6,2.9,6,4z M15,11h5v5h-5V11z M8,11h5v5H8V11z M8,4h12v5H8V4z" />
-        </g>
-      </g>
-    </g>
+    <path d="M320-320h200v-200H320v200Zm0-280h480v-200H320v200Zm280 280h200v-200H600v200Zm-280 80q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-520q0-17 11.5-28.5T120-720q17 0 28.5 11.5T160-680v520h520q17 0 28.5 11.5T720-120q0 17-11.5 28.5T680-80H160Z" />
   </svg>
 )
 

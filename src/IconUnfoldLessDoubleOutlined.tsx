@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconUnfoldLessDoubleOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="16.58,1.41 15.16,0 11.99,3.17 8.82,0 7.41,1.41 11.99,6" />
-        <polygon points="16.58,6.41 15.16,5 11.99,8.17 8.82,5 7.41,6.41 11.99,11" />
-        <polygon points="7.42,17.59 8.84,19 12.01,15.83 15.18,19 16.59,17.59 12.01,13" />
-        <polygon points="7.42,22.59 8.84,24 12.01,20.83 15.18,24 16.59,22.59 12.01,18" />
-      </g>
-    </g>
+    <path d="m354-2-56-56 183-183L664-58 608-1 481-128 354-2Zm0-200-56-56 183-183 183 183-56 57-127-127-127 126Zm127-318L297-704l57-57 127 127 126-127 57 57-183 184Zm0-200L297-904l57-57 127 127 126-127 57 57-183 184Z" />
   </svg>
 )
 

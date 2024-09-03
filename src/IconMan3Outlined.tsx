@@ -2,28 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMan3Outlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M14,7h-4C8.9,7,8,7.9,8,9v6h2v7h4v-7h2V9C16,7.9,15.1,7,14,7z" />
-        <rect
-          height="3.18"
-          transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.3431 -7.3137)"
-          width="3.18"
-          x="10.41"
-          y="2.41"
-        />
-      </g>
-    </g>
+    <path d="M400-70v-280h-80v-240q0-33 23.5-56.5T400-670h160q33 0 56.5 23.5T640-590v240h-80v280H400Zm80-630-90-90 90-90 90 90-90 90Z" />
   </svg>
 )
 

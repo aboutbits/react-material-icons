@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBungalowSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M12,3L4.2,15.5l1.7,1.06L7,14.8V21h4v-5h2v5h4v-6.21l1.1,1.77l1.7-1.06L12,3z M13,14h-2v-2h2V14z" />
+    <path d="M280-120v-248l-44 70-68-42 312-500 312 500-68 42-44-70v248H280Zm80-80h80v-120h80v120h80v-296L480-688 360-496v296Zm80-200v-80h80v80h-80Zm-80 200h240-240Z" />
   </svg>
 )
 

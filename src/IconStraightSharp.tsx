@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconStraightSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <polygon points="11,6.83 9.41,8.41 8,7 12,3 16,7 14.59,8.41 13,6.83 13,21 11,21" />
-    </g>
+    <path d="M440-120v-567l-64 63-56-56 160-160 160 160-56 56-64-63v567h-80Z" />
   </svg>
 )
 

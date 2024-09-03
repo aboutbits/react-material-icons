@@ -4,10 +4,9 @@ import { IconProps } from './types'
 const IconAirlineSeatLegroomNormalSharp: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M5 15V3H3v14h11v-2H5zm17 3h-3v-7c0-1.1-.9-2-2-2h-5V3H6v11h10v7h6v-3z" />
+    <path d="M640-120v-280H240v-440h240v240h280v360h120v120H640Zm-80-160H120v-560h80v480h360v80Z" />
   </svg>
 )
 

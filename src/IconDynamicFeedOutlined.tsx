@@ -2,32 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDynamicFeedOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g />
-      <g>
-        <path d="M8,8H6v7c0,1.1,0.9,2,2,2h9v-2H8V8z" />
-        <path d="M20,3h-8c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V5C22,3.9,21.1,3,20,3z M20,11h-8V7h8V11z" />
-        <path d="M4,12H2v7c0,1.1,0.9,2,2,2h9v-2H4V12z" />
-      </g>
-    </g>
-    <g display="none">
-      <g display="inline" />
-      <g display="inline">
-        <path d="M8,8H6v7c0,1.1,0.9,2,2,2h9v-2H8V8z" />
-        <path d="M20,3h-8c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V5C22,3.9,21.1,3,20,3z M20,11h-8V7h8V11z" />
-        <path d="M4,12H2v7c0,1.1,0.9,2,2,2h9v-2H4V12z" />
-      </g>
-    </g>
+    <path d="M160-120q-33 0-56.5-23.5T80-200v-280h80v280h360v80H160Zm160-160q-33 0-56.5-23.5T240-360v-280h80v280h360v80H320Zm160-160q-33 0-56.5-23.5T400-520v-240q0-33 23.5-56.5T480-840h320q33 0 56.5 23.5T880-760v240q0 33-23.5 56.5T800-440H480Zm0-80h320v-160H480v160Z" />
   </svg>
 )
 

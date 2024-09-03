@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconYoutubeSearchedForSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" />
-    <path d="M17.01 14h-.8l-.27-.27c.98-1.14 1.57-2.61 1.57-4.23 0-3.59-2.91-6.5-6.5-6.5s-6.5 3-6.5 6.5H2l3.84 4 4.16-4H6.51C6.51 7 8.53 5 11.01 5s4.5 2.01 4.5 4.5c0 2.48-2.02 4.5-4.5 4.5-.65 0-1.26-.14-1.82-.38L7.71 15.1c.97.57 2.09.9 3.3.9 1.61 0 3.08-.59 4.22-1.57l.27.27v.79l5.01 4.99L22 19l-4.99-5z" />
+    <path d="M822-142 592-372q-32 26-71 39t-81 13q-42 0-80-12.5T290-368l58-58q20 12 43 19t49 7q75 0 127.5-52.5T620-580q0-75-52.5-127.5T440-760q-69 0-119.5 46.5T262-598l50-50 56 56-148 148L72-592l56-56 54 52q6-103 80-173.5T440-840q109 0 184.5 75.5T700-580q0 42-13 82t-39 70l230 230-56 56Z" />
   </svg>
 )
 

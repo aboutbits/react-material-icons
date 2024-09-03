@@ -2,25 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconInsertPageBreakOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M18,20H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3h-2V20z" />
-        <path d="M6,4h7v5h5v2h2V8l-6-6H6C4.9,2,4,2.9,4,4v7h2V4z" />
-        <rect height="2" width="6" x="9" y="13" />
-        <rect height="2" width="6" x="17" y="13" />
-        <rect height="2" width="6" x="1" y="13" />
-      </g>
-    </g>
+    <path d="M240-80q-33 0-56.5-23.5T160-160v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-80H240Zm-80-440v-280q0-33 23.5-56.5T240-880h320l240 240v120h-80v-80H520v-200H240v280h-80Zm200 160v-80h240v80H360Zm320 0v-80h240v80H680Zm-640 0v-80h240v80H40Zm440-160Zm0 240Z" />
   </svg>
 )
 

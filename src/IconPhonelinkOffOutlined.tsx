@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPhonelinkOffOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" />
-    <path d="M22 6V4H7.39l2 2zm2 13V9c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v3.61l2 2V10h4v7h-1.61l2.93 2.93c.39-.13.68-.49.68-.93zM2.06 1.51L.65 2.92l1.82 1.82C2.18 5.08 2 5.52 2 6v11H0v3h17.73l2.35 2.35 1.41-1.41L2.06 1.51zM4 17V6.27L14.73 17H4z" />
+    <path d="m354-720-80-80h566v80H354Zm526 520-80-80v-280H640v126l-80-80v-86q0-17 11.5-28.5T600-640h240q17 0 28.5 11.5T880-600v400ZM792-56 688-160h-88q-17 0-28.5-11.5T560-200v-88L240-608v328h240v120H80v-120h80v-408L56-792l56-56 736 736-56 56Zm-72-301Z" />
   </svg>
 )
 

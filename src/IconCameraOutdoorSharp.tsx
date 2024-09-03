@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCameraOutdoorSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <path d="M18,14v-2h-6v6h6v-2l2,1.06v-4.12L18,14z M12,3L4,9v12h16v-2H6v-9l6-4.5l6,4.5v1h2V9L12,3z" />
-    </g>
+    <path d="M480-240v-240h240v80l80-42v164l-80-42v80H480ZM160-120v-480l320-240 320 240v80h-80v-40L480-740 240-560v360h560v80H160Zm320-350Z" />
   </svg>
 )
 

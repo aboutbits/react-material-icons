@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFiberDvrSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M17.5 10.5h2v1h-2v-1zm-13 0h2v3h-2v-3zM23 3H1v18h22V3zM8 13.5c0 .85-.65 1.5-1.5 1.5H3V9h3.5c.85 0 1.5.65 1.5 1.5v3zm4.62 1.5h-1.5L9.37 9h1.5l1 3.43 1-3.43h1.5l-1.75 6zM21 12.9h-.9L21 15h-1.5l-.85-2H17.5v2H16V9h5v3.9z" />
+    <path d="M160-360h170l30-30v-180l-30-30H160v240Zm60-60v-120h80v120h-80Zm224 60h60l70-240h-60l-40 138-40-138h-60l70 240Zm156 0h60v-80h46l34 80h60l-36-84h36v-156H600v240Zm60-140v-40h80v40h-80ZM40-160v-640h880v640H40Zm80-80h720v-480H120v480Zm0 0v-480 480Z" />
   </svg>
 )
 

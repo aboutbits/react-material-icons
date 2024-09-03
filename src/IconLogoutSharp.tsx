@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconLogoutSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <polygon points="5,5 12,5 12,3 3,3 3,21 12,21 12,19 5,19" />
-        <polygon points="21,12 17,8 17,11 9,11 9,13 17,13 17,16" />
-      </g>
-    </g>
+    <path d="M120-120v-720h360v80H200v560h280v80H120Zm520-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z" />
   </svg>
 )
 

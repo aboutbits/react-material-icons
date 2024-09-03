@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPriceCheckSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <polygon points="11,8 6,8 6,6 11,6 11,4 8.5,4 8.5,3 6.5,3 6.5,4 4,4 4,10 9,10 9,12 4,12 4,14 6.5,14 6.5,15 8.5,15 8.5,14 11,14" />
-        <polygon points="19.59,12.52 13.93,18.17 11.1,15.34 9.69,16.76 13.93,21 21,13.93" />
-      </g>
-    </g>
+    <path d="M260-361v-40H160v-80h200v-80H160v-240h100v-40h80v40h100v80H240v80h200v240H340v40h-80Zm298 240L388-291l56-56 114 114 226-226 56 56-282 282Z" />
   </svg>
 )
 

@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconNoBackpackOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" y="0" />
-    <path d="M6.98,4.15c0.01,0,0.01-0.01,0.02-0.01V2h3v2h4V2h3v2.14c1.72,0.45,3,2,3,3.86v9.17l-2-2V8c0-1.1-0.9-2-2-2H8.83L6.98,4.15z M14.83,12l1.67,1.67V12H14.83z M19.78,22.61l-0.85-0.85C18.65,21.91,18.34,22,18,22H6c-1.1,0-2-0.9-2-2V8 c0-0.36,0.06-0.69,0.15-1.02L1.39,4.22l1.41-1.41l18.38,18.38L19.78,22.61z M17.17,20l-6-6H7.5v-2h1.67L6,8.83V20H17.17z" />
+    <path d="m800-273-80-80v-287q0-33-23.5-56.5T640-720H353l-73-74v-86h120v80h160v-80h120v86q52 14 86 56t34 98v367ZM660-413l-67-67h67v67Zm-213-67v80H300v-80h147Zm95-51Zm-80 146ZM207-753l56 56q-11 11-17 25.5t-6 31.5v480h480v-79l80 79q0 33-23.5 56.5T720-80H240q-33 0-56.5-23.5T160-160v-480q0-33 12.5-62t34.5-51ZM791-56 56-791l56-57 735 736-56 56Z" />
   </svg>
 )
 
