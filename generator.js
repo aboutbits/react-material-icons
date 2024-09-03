@@ -54,15 +54,18 @@ async function generateComponentsForAllFamilies(icon) {
   const families = getIncludedFamilies(icon.unsupported_families)
 
   for (let i = 0; i < families.length; i++) {
-    await generateComponent(icon, families[i])
+    await Promise.all([
+      generateComponent(icon, families[i]),
+      generateComponent(icon, families[i], true),
+    ])
   }
 }
 
-async function generateComponent(icon, family) {
+async function generateComponent(icon, family, filled = false) {
   try {
-    const name = formatName(icon.name, family.postfix)
+    const name = formatName(icon.name, family.postfix, filled)
 
-    const svg = await downloadSVG(icon.name, family.id)
+    const svg = await downloadSVG(icon.name, family.id, filled)
 
     console.log(`Downloading ${name}`)
 
@@ -76,7 +79,7 @@ async function generateComponent(icon, family) {
   }
 }
 
-function formatName(string, familyPostfix) {
+function formatName(string, familyPostfix, filled) {
   const formattedString = string
     .replace(/_/g, ' ')
     .replace(/\w\S*/g, (txt) => {
@@ -84,13 +87,14 @@ function formatName(string, familyPostfix) {
     })
     .replace(/ /g, '')
 
-  return 'Icon' + formattedString + familyPostfix
+  return 'Icon' + formattedString + familyPostfix + (filled ? 'Filled' : '')
 }
 
-async function downloadSVG(icon, familyId) {
+async function downloadSVG(icon, familyId, filled) {
+  const filledConfig = filled ? 'fill1' : 'default'
   const svg = await axios
     .get(
-      `https://fonts.gstatic.com/s/i/short-term/release/${familyId}/${icon}/default/24px.svg`,
+      `https://fonts.gstatic.com/s/i/short-term/release/${familyId}/${icon}/${filledConfig}/24px.svg`,
     )
     .catch((err) => console.log(err))
 
