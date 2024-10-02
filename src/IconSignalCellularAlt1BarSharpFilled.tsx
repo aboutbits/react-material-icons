@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconSignalCellularAlt1BarSharpFilled: React.FC<IconProps> = ({
+export const IconSignalCellularAlt1BarSharpFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconSignalCellularAlt1BarSharpFilled: React.FC<IconProps> = ({
     <path d="M200-160v-240h120v240H200Z" />
   </svg>
 )
-
-export { IconSignalCellularAlt1BarSharpFilled as default }

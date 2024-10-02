@@ -1,11 +1,11 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconMoveLocationRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
+export const IconMoveLocationRoundedFilled: React.FC<IconProps> = ({
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
     <path d="M400-107q-14 0-28-5t-25-16q-41-36-88-84.5t-86.5-104Q133-372 106.5-432T80-552q0-150 96.5-239T400-880q65 0 123 24.5T625-789q44 42 70 99t26 122q0 26-13 41t-33 23q-38 15-67.5 41.5T558-402q-20 35-28 74t-3 80q3 22-1 39t-20 32l-26 24q-13 12-27 25-11 11-25 16t-28 5Zm0-453q33 0 56.5-23.5T480-640q0-33-23.5-56.5T400-720q-33 0-56.5 23.5T320-640q0 33 23.5 56.5T400-560Zm377 320H650q-17 0-28.5-11.5T610-280q0-17 11.5-28.5T650-320h127l-36-36q-11-11-11-27.5t12-28.5q11-11 28-11t28 11l104 104q12 12 12 28t-12 28L798-148q-11 11-27.5 11.5T742-148q-11-11-11-28t11-28l35-36ZM400-360q42 0 79.5-17t66.5-48q5-5 7-11.5t2-13.5q0-11-4.5-20.5T536-485q-31-18-65.5-26.5T400-520q-36 0-70.5 8.5T264-485q-9 5-14 14t-5 20q0 8 2 14.5t7 11.5q29 31 66.5 48t79.5 17Z" />
   </svg>
 )
-
-export { IconMoveLocationRoundedFilled as default }

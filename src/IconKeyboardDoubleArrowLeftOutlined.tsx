@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconKeyboardDoubleArrowLeftOutlined: React.FC<IconProps> = ({
+export const IconKeyboardDoubleArrowLeftOutlined: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconKeyboardDoubleArrowLeftOutlined: React.FC<IconProps> = ({
     <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z" />
   </svg>
 )
-
-export { IconKeyboardDoubleArrowLeftOutlined as default }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconProps } from './types'
 
-const IconFullscreenPortraitSharpFilled: React.FC<IconProps> = ({
+export const IconFullscreenPortraitSharpFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconFullscreenPortraitSharpFilled: React.FC<IconProps> = ({
     <path d="M320-240h320v-480H320v480ZM800-80H160v-800h640v800Z" />
   </svg>
 )
-
-export { IconFullscreenPortraitSharpFilled as default }
