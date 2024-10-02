@@ -10,12 +10,12 @@ const ICON_FAMILIES = [
   { id: 'materialsymbolssharp', postfix: 'Sharp' },
 ]
 
-const getIncludedFamilies = (families) => {
-  const notIncludedFamilies = families.map((family) =>
+const getIncludedFamilies = (unsupportedFamilies) => {
+  const unsupportedFamilyIds = unsupportedFamilies.map((family) =>
     family.replace(/\s+/g, '').toLowerCase(),
   )
   return ICON_FAMILIES.filter(
-    (family) => !notIncludedFamilies.includes(family.id),
+    (family) => !unsupportedFamilyIds.includes(family.id),
   )
 }
 
