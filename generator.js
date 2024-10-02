@@ -19,10 +19,6 @@ const getIncludedFamilies = (unsupportedFamilies) => {
   )
 }
 
-const ignoredIcons = [
-  'addchart', // This icon exists twice 'addchart' and 'add_chart'. That's why we decide to only use one version, so that we don't get naming collisions.
-]
-
 ;(async () => {
   generatePropsFile()
 
@@ -33,8 +29,6 @@ const ignoredIcons = [
   const icons = await JSON.parse(data)
 
   for (let i = 0; i < icons.icons.length; i++) {
-    if (ignoredIcons.includes(icons.icons[i].name)) continue
-
     await generateComponentsForAllFamilies(icons.icons[i])
   }
 })()
