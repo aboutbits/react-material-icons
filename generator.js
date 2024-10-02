@@ -21,6 +21,7 @@ const getIncludedFamilies = (unsupportedFamilies) => {
 
 ;(async () => {
   generatePropsFile()
+  generateIndexFile()
 
   const res = await axios.get(GOOGLE_FONTS_URL)
 
@@ -42,6 +43,17 @@ function generatePropsFile() {
     `
 
   fs.writeFileSync(path.join(__dirname, 'src', 'types.ts'), typesFile)
+}
+
+function generateIndexFile() {
+  return fs.writeFileSync(path.join(__dirname, 'src', 'index.ts'), '')
+}
+
+function appendToIndexFile(iconName) {
+  return fs.appendFileSync(
+    path.join(__dirname, 'src', 'index.ts'),
+    `export * from './${iconName}'\n`,
+  )
 }
 
 async function generateComponentsForAllFamilies(icon) {
@@ -67,6 +79,8 @@ async function generateComponent(icon, family, filled = false) {
       path.join(__dirname, 'src', `${name}.tsx`),
       mapSVGToTemplate(name, svg),
     )
+
+    await appendToIndexFile(name)
   } catch {
     console.log('Error generating component for', icon.name)
     //process.abort()
@@ -111,10 +125,8 @@ function mapSVGToTemplate(name, svg) {
     import React from 'react'
     import { IconProps } from './types'
     
-    const ${name}: React.FC<IconProps> = ({ ...props }) => (
+    export const ${name}: React.FC<IconProps> = ({ ...props }) => (
         ${svg}
     )
-    
-    export { ${name} as default } 
   `
 }
