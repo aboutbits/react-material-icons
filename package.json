@@ -21,6 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
   "main": "dist/index.js",
   "files": [
     "readme.md",
