@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
 export const IconModelTrainingSharpFilled: React.FC<IconProps> = ({
   ...props

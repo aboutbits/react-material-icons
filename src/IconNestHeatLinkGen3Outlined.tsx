@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
 export const IconNestHeatLinkGen3Outlined: React.FC<IconProps> = ({
   ...props

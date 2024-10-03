@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
 export const IconNoMeetingRoomSharpFilled: React.FC<IconProps> = ({
   ...props

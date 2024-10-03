@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
 export const IconGrid3x3OffOutlinedFilled: React.FC<IconProps> = ({
   ...props

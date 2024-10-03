@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
 export const IconKeyboardDoubleArrowLeftSharp: React.FC<IconProps> = ({
   ...props
