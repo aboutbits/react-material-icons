@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconCurtainsClosedOutlinedFilled: React.FC<IconProps> = ({
+export const IconCurtainsClosedOutlinedFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconCurtainsClosedOutlinedFilled: React.FC<IconProps> = ({
     <path d="M80-120v-80h80v-640h640v640h80v80H80Zm360-80h80v-560h-80v560Z" />
   </svg>
 )
-
-export { IconCurtainsClosedOutlinedFilled as default }

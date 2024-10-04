@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconBrowserUpdatedOutlinedFilled: React.FC<IconProps> = ({
+export const IconBrowserUpdatedOutlinedFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconBrowserUpdatedOutlinedFilled: React.FC<IconProps> = ({
     <path d="M240-120v-80l40-40H160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h320v80H160v440h640v-120h80v120q0 33-23.5 56.5T800-240H680l40 40v80H240Zm360-240L400-560l56-56 104 103v-327h80v327l104-103 56 56-200 200Z" />
   </svg>
 )
-
-export { IconBrowserUpdatedOutlinedFilled as default }
