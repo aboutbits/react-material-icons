@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconEditCalendarSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <g>
-      <path d="M12,22H3V4h3V2h2v2h8V2h2v2h3v8h-2v-2H5v10h7V22z M22.13,16.99l1.41-1.41l-2.12-2.12l-1.41,1.41L22.13,16.99z M21.42,17.7 l-5.3,5.3H14v-2.12l5.3-5.3L21.42,17.7z" />
-    </g>
+    <path d="M120-80v-720h120v-80h80v80h320v-80h80v80h120v280h-80v-40H200v400h280v80H120Zm80-560h560v-80H200v80Zm0 0v-80 80ZM560-80v-123l263-262 123 122L683-80H560Zm300-263-37-37 37 37ZM620-140h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
   </svg>
 )
 

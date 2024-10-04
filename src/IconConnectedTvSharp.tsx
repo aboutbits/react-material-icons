@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconConnectedTvSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M8.57,16H10c0-2.76-2.24-5-5-5v1.43C6.97,12.43,8.57,14.03,8.57,16z" />
-        <path d="M11.55,16H13c0-4.42-3.59-8-8-8v1.45C8.61,9.45,11.55,12.38,11.55,16z" />
-        <path d="M5,14v2h2C7,14.89,6.11,14,5,14z" />
-        <path d="M22,3H2v16h6v2h8v-2h6V3z M20,17H4V5h16V17z" />
-      </g>
-    </g>
+    <path d="M200-320h80q0-33-23.5-56.5T200-400v80Zm142 0h58q0-83-58.5-141.5T200-520v58q59 0 100.5 41.5T342-320Zm120 0h58q0-66-25-124.5t-68.5-102Q383-590 324.5-615T200-640v58q109 0 185.5 76.5T462-320ZM320-120v-80H80v-640h800v640H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

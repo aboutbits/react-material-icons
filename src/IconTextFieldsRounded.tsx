@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTextFieldsRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0z" fill="none" />
-    <path d="M2.5 5.5C2.5 6.33 3.17 7 4 7h3.5v10.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V7H14c.83 0 1.5-.67 1.5-1.5S14.83 4 14 4H4c-.83 0-1.5.67-1.5 1.5zM20 9h-6c-.83 0-1.5.67-1.5 1.5S13.17 12 14 12h1.5v5.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V12H20c.83 0 1.5-.67 1.5-1.5S20.83 9 20 9z" />
+    <path d="M340-160q-25 0-42.5-17.5T280-220v-460H140q-25 0-42.5-17.5T80-740q0-25 17.5-42.5T140-800h400q25 0 42.5 17.5T600-740q0 25-17.5 42.5T540-680H400v460q0 25-17.5 42.5T340-160Zm360 0q-25 0-42.5-17.5T640-220v-260h-60q-25 0-42.5-17.5T520-540q0-25 17.5-42.5T580-600h240q25 0 42.5 17.5T880-540q0 25-17.5 42.5T820-480h-60v260q0 25-17.5 42.5T700-160Z" />
   </svg>
 )
 

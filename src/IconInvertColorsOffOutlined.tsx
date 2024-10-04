@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconInvertColorsOffOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M21.19,21.19L2.81,2.81L1.39,4.22l4.2,4.2c-1,1.31-1.6,2.94-1.6,4.7C4,17.48,7.58,21,12,21c1.75,0,3.36-0.56,4.67-1.5 l3.1,3.1L21.19,21.19z M12,19c-3.31,0-6-2.63-6-5.87c0-1.19,0.36-2.32,1.02-3.28L12,14.83V19z M8.38,5.56L12,2l5.65,5.56l0,0 C19.1,8.99,20,10.96,20,13.13c0,1.18-0.27,2.29-0.74,3.3L12,9.17V4.81L9.8,6.97L8.38,5.56z" />
+    <path d="M771-302 480-593v-175l-89 87-56-56 145-143 226 223q48 48 71 103.5T800-436q0 38-8 72.5T771-302Zm21 246L668-180q-42 31-91.5 45.5T480-120q-133 0-226.5-91.5T160-436q0-51 16-98t48-90L56-792l56-56 736 736-56 56ZM480-200v-167L280-567q-21 32-30.5 64.5T240-436q0 100 70 168t170 68Z" />
   </svg>
 )
 

@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRMobiledataOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <path d="M7.8,7.2L9,10H7L5.87,7.33H4V10H2V2h5c1.13,0,2,0.87,2,2v1.33C9,6.13,8.47,6.87,7.8,7.2z M7,4H4v1.33h3V4z" />
-      </g>
-    </g>
+    <path d="M80-560v-320h200q33 0 56.5 23.5T360-800v54q0 24-14 43.5T312-672l48 112h-80l-46-106h-74v106H80Zm80-186h120v-54H160v54Z" />
   </svg>
 )
 

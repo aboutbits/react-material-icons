@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTabUnselectedOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M1 9h2V7H1v2zm0 4h2v-2H1v2zm0-8h2V3c-1.1 0-2 .9-2 2zm8 16h2v-2H9v2zm-8-4h2v-2H1v2zm2 4v-2H1c0 1.1.9 2 2 2zM21 3h-8v6h10V5c0-1.1-.9-2-2-2zm0 14h2v-2h-2v2zM9 5h2V3H9v2zM5 21h2v-2H5v2zM5 5h2V3H5v2zm16 16c1.1 0 2-.9 2-2h-2v2zm0-8h2v-2h-2v2zm-8 8h2v-2h-2v2zm4 0h2v-2h-2v2z" />
+    <path d="M160-160q-33 0-56.5-23.5T80-240h80v80ZM80-320v-80h80v80H80Zm0-160v-80h80v80H80Zm0-160v-80q0-33 23.5-56.5T160-800h80v80h-80v80H80Zm160 480v-80h80v80h-80Zm80-560v-80h80v80h-80Zm80 560v-80h80v80h-80Zm80-400v-240h320q33 0 56.5 23.5T880-720v160H480Zm80 400v-80h80v80h-80Zm160 0v-80h80v-80h80v80q0 33-23.5 56.5T800-160h-80Zm80-240v-80h80v80h-80Z" />
   </svg>
 )
 

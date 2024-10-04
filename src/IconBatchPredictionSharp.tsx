@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBatchPredictionSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" x="0" />
-      <path d="M19,8H5v14h14V8z M13,20.5h-2V19h2V20.5z M13,18h-2c0-1.5-2.5-3-2.5-5c0-1.93,1.57-3.5,3.5-3.5c1.93,0,3.5,1.57,3.5,3.5 C15.5,15,13,16.5,13,18z M18,6.5H6V5h12V6.5z M17,3.5H7V2h10V3.5z" />
-    </g>
+    <path d="M200-80v-560h560v560H200Zm240-60h80v-60h-80v60Zm0-100h80q0-23 15.5-46t34.5-47q19-25 34.5-51t15.5-56q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 30 15.5 56t34.5 51q19 24 34.5 47t15.5 46ZM240-700v-60h480v60H240Zm40-120v-60h400v60H280Z" />
   </svg>
 )
 

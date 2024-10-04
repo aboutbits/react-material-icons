@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSignalCellularOffRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M21 3.41c0-.89-1.08-1.34-1.71-.71l-6.6 6.6L21 17.61V3.41zm.44 17.47L5.62 5.06c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l5.66 5.66-7.16 7.16c-.63.63-.19 1.71.7 1.71h15.32l1.29 1.29c.39.39 1.02.39 1.41 0 .4-.39.4-1.02.01-1.41z" />
+    <path d="M273-160h414L480-367 273-160Zm-96 80q-27 0-37.5-24.5T148-148l276-276-300-299q-12-11-11.5-27.5T124-779q12-12 28.5-12t28.5 12l679 679q12 12 11.5 28T859-44q-12 11-28 11.5T803-44l-36-36H177Zm703-703v494q0 20-12.5 30T840-249q-15 0-27.5-10.5T800-290v-397L621-508q-11 11-27.5 11T565-508q-12-12-12-28.5t12-28.5l247-247q19-19 43.5-8.5T880-783ZM697-377ZM584-264Z" />
   </svg>
 )
 

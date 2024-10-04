@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFormatColorTextRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,20H4c-1.1,0-2,0.9-2,2s0.9,2,2,2h16c1.1,0,2-0.9,2-2S21.1,20,20,20z" />
-        <path d="M7.11,17L7.11,17c0.48,0,0.91-0.3,1.06-0.75l1.01-2.83h5.65l0.99,2.82C15.98,16.7,16.41,17,16.89,17 c0.79,0,1.33-0.79,1.05-1.52L13.69,4.17C13.43,3.47,12.75,3,12,3s-1.43,0.47-1.69,1.17L6.06,15.48C5.78,16.21,6.33,17,7.11,17z M11.94,5.6h0.12l2.03,5.79H9.91L11.94,5.6z" />
-      </g>
-    </g>
+    <path d="M120 0q-17 0-28.5-11.5T80-40v-80q0-17 11.5-28.5T120-160h720q17 0 28.5 11.5T880-120v80q0 17-11.5 28.5T840 0H120Zm165-280q-23 0-36.5-19.5T243-341l176-469q5-14 17-22t26-8h36q15 0 26.5 8t16.5 22l177 470q8 22-5.5 41T676-280q-14 0-26-8t-17-22l-39-114H368l-41 115q-5 14-16.5 21.5T285-280Zm111-224h168l-82-232h-4l-82 232Z" />
   </svg>
 )
 

@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconRoundaboutRightOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M13.92,8C13.44,5.16,10.97,3,8,3C4.69,3,2,5.69,2,9c0,2.97,2.16,5.44,5,5.92L7,21h2l0-6.09c0-0.98-0.71-1.8-1.67-1.97 C5.44,12.63,4,10.98,4,9c0-2.21,1.79-4,4-4c1.98,0,3.63,1.44,3.94,3.33C12.11,9.29,12.93,10,13.91,10l4.26,0l-1.59,1.59L18,13l4-4 l-4-4l-1.41,1.41L18.17,8L13.92,8z" />
-    </g>
+    <path d="M280-120v-243q-88-14-144-81.5T80-600q0-100 70-170t170-70q88 0 155.5 56T557-640h170l-63-64 56-56 160 160-160 160-57-56 64-64H556q-29 0-51-19t-27-48q-10-58-54.5-95.5T320-760q-66 0-113 47t-47 113q0 59 37.5 103.5T293-442q29 5 48 27t19 51v244h-80Z" />
   </svg>
 )
 

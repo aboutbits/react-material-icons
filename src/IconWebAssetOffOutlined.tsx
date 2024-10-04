@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWebAssetOffOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M6.83,4H20c1.11,0,2,0.9,2,2v12c0,0.34-0.09,0.66-0.23,0.94L20,17.17V8h-9.17L6.83,4z M20.49,23.31L17.17,20H4 c-1.11,0-2-0.9-2-2V6c0-0.34,0.08-0.66,0.23-0.94L0.69,3.51L2.1,2.1l19.8,19.8L20.49,23.31z M15.17,18l-10-10H4v10H15.17z" />
+    <path d="M818-28 686-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800v114L26-820l57-57L875-85l-57 57ZM160-240h446L206-640h-46v400Zm711 37-71-71v-366H434L274-800h526q33 0 56.5 23.5T880-720v480q0 10-2 19.5t-7 17.5Z" />
   </svg>
 )
 

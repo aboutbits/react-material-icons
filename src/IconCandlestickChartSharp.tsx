@@ -2,26 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCandlestickChartSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <polygon points="9,4 7,4 7,6 5,6 5,18 7,18 7,20 9,20 9,18 11,18 11,6 9,6" />
-        </g>
-        <g>
-          <polygon points="19,8 17,8 17,4 15,4 15,8 13,8 13,15 15,15 15,20 17,20 17,15 19,15" />
-        </g>
-      </g>
-    </g>
+    <path d="M280-160v-80h-80v-480h80v-80h80v80h80v480h-80v80h-80Zm0-160h80v-320h-80v320Zm320 160v-200h-80v-280h80v-160h80v160h80v280h-80v200h-80Zm0-280h80v-120h-80v120Zm-280-40Zm320-20Z" />
   </svg>
 )
 

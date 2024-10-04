@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTimer3SelectSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M21,11v2h-4v1h4v5h-6v-2h4v-1h-4v-5H21z M4,5v3h6v2.5H4v3h6V16H4v3h9V5H4z" />
+    <path d="M160-200v-120h240v-100H160v-120h240v-100H160v-120h360v220l-60 60 60 60v220H160Zm440 0v-80h160v-40H600v-200h240v80H680v40h160v200H600Z" />
   </svg>
 )
 

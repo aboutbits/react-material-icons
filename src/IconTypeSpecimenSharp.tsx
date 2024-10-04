@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTypeSpecimenSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="4,6 2,6 2,22 18,22 18,20 4,20" />
-        <path d="M22,2H6v16h16V2z M16.63,14.5l-0.8-2.3h-3.63l-0.82,2.3H9.81l3.38-9h1.61l3.38,9H16.63z" />
-        <polygon points="13.96,7.17 12.65,10.89 15.34,10.89 14.04,7.17" />
-      </g>
-    </g>
+    <path d="M392-380h64l32-92h146l32 92h62L592-740h-64L392-380Zm114-144 52-150h4l52 150H506ZM240-240v-640h640v640H240Zm80-80h480v-480H320v480ZM80-80v-640h80v560h560v80H80Zm240-720v480-480Z" />
   </svg>
 )
 

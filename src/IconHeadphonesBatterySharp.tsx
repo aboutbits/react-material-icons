@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHeadphonesBatterySharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="20,7 20,6 18,6 18,7 16,7 16,18 22,18 22,7" />
-        <path d="M8,6c-3.31,0-6,2.69-6,6v6h4v-5H3.5v-1c0-2.48,2.02-4.5,4.5-4.5s4.5,2.02,4.5,4.5v1H10v5h4v-6C14,8.69,11.31,6,8,6z" />
-      </g>
-    </g>
+    <path d="M240-240H80v-240q0-100 70-170t170-70q100 0 170 70t70 170v240H400v-200h100v-40q0-75-52.5-127.5T320-660q-75 0-127.5 52.5T140-480v40h100v200Zm400 0v-440h80v-40h80v40h80v440H640Zm80-80h80-80Zm0 0h80v-280h-80v280Z" />
   </svg>
 )
 

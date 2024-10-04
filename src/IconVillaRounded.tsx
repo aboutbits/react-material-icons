@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVillaRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M7,21H4c-0.55,0-1-0.45-1-1V8.69C3,8.27,3.25,7.9,3.64,7.75l11-4.23C15.3,3.27,16,3.75,16,4.46V10H8c-0.55,0-1,0.45-1,1V21z M17,12h-7c-0.55,0-1,0.45-1,1v7c0,0.55,0.45,1,1,1h4v-4c0-0.55,0.45-1,1-1s1,0.45,1,1v4h4c0.55,0,1-0.45,1-1v-8c0-1.1-0.9-2-2-2 S17,10.9,17,12z" />
+    <path d="M120-200v-385q0-25 14-45.5t37-29.5l415-159q20-8 37 4t17 33v302h40q0-33 23.5-56.5T760-560q33 0 56.5 23.5T840-480v280q0 33-23.5 56.5T760-120H200q-33 0-56.5-23.5T120-200Zm80 0h160v-200q0-33 23.5-56.5T440-480h120v-244L200-585v385Zm240 0h120v-80q0-17 11.5-28.5T600-320q17 0 28.5 11.5T640-280v80h120v-200H440v200Zm-60-262Zm220 162Zm0 0Z" />
   </svg>
 )
 

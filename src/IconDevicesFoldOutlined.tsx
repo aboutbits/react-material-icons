@@ -2,42 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDevicesFoldOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,3h-3c0-1.44-1.47-2.4-2.79-1.84l-3,1.29C10.48,2.76,10,3.49,10,4.29V19c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M15,16.68l-3,1.29V4.29L15,3V16.68z M20,19h-5.33l1.12-0.48C16.52,18.2,17,17.48,17,16.68V5h3V19z" />
-        <g>
-          <rect height="2" width="2" x="2" y="3" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="19" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="15" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="11" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="7" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="6" y="3" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="6" y="19" />
-        </g>
-      </g>
-    </g>
+    <path d="M480-120q-33 0-56.5-23.5T400-200v-589q0-24 13-43.5t35-29.5l120-52q40-17 76 6.5t36 67.5h120q33 0 56.5 23.5T880-760v560q0 33-23.5 56.5T800-120H480Zm0-121 120-52v-547l-120 52v547Zm107 41h213v-560H680v467q0 24-13 44.5T632-219l-45 19ZM80-760v-80h80v80H80Zm0 640v-80h80v80H80Zm0-160v-80h80v80H80Zm0-160v-80h80v80H80Zm0-160v-80h80v80H80Zm160-160v-80h80v80h-80Zm0 640v-80h80v80h-80Zm240-121v-547 547Z" />
   </svg>
 )
 

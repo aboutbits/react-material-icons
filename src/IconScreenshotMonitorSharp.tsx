@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconScreenshotMonitorSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M22,3H2v16h6v2h8v-2h6V3z M20,17H4V5h16V17z" />
-        <polygon points="6.5,7.5 9,7.5 9,6 5,6 5,10 6.5,10" />
-        <polygon points="19,12 17.5,12 17.5,14.5 15,14.5 15,16 19,16" />
-      </g>
-    </g>
+    <path d="M600-320h160v-160h-60v100H600v60ZM200-560h60v-100h100v-60H200v160Zm120 440v-80H80v-640h800v640H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

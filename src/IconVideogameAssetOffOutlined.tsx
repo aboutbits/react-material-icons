@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVideogameAssetOffOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" y="0" />
-    <path d="M17.5,9c0.83,0,1.5,0.67,1.5,1.5S18.33,12,17.5,12S16,11.33,16,10.5S16.67,9,17.5,9z M10.83,8H20v8h-1.17l1.87,1.87 C21.45,17.58,22,16.85,22,16V8c0-1.1-0.9-2-2-2H8.83L10.83,8z M19.78,22.61L15.17,18H4c-1.1,0-2-0.9-2-2V8 c0-0.85,0.55-1.58,1.3-1.87L1.39,4.22l1.41-1.41l18.38,18.38L19.78,22.61z M13.17,16l-3-3H9v2H7v-2H5v-2h2V9.83L5.17,8H4v8H13.17z" />
+    <path d="M700-480q-25 0-42.5-17.5T640-540q0-25 17.5-42.5T700-600q25 0 42.5 17.5T760-540q0 25-17.5 42.5T700-480Zm-334 0Zm-86 120v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80ZM160-240q-33 0-56.5-23.5T80-320v-320q0-34 24-57.5t58-23.5h77l81 81H160v320h366L55-791l57-57 736 736-57 57-185-185H160Zm720-80q0 26-14 46t-37 29l-29-29v-366H434l-80-80h446q33 0 56.5 23.5T880-640v320ZM617-457Z" />
   </svg>
 )
 

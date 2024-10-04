@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const Icon18UpRatingRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <rect height="1.5" width="1.5" x="13" y="12.5" />
-        <rect height="1.5" width="1.5" x="13" y="10" />
-        <path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M9.25,15L9.25,15 c-0.41,0-0.75-0.34-0.75-0.75V10.5H7.75C7.34,10.5,7,10.16,7,9.75v0C7,9.34,7.34,9,7.75,9H9c0.55,0,1,0.45,1,1v4.25 C10,14.66,9.66,15,9.25,15z M16,14c0,0.55-0.45,1-1,1h-2.5c-0.55,0-1-0.45-1-1v-4c0-0.55,0.45-1,1-1H15c0.55,0,1,0.45,1,1V14z" />
-      </g>
-    </g>
+    <path d="M340-540v150q0 13 8.5 21.5T370-360q13 0 21.5-8.5T400-390v-180q0-13-8.5-21.5T370-600h-60q-13 0-21.5 8.5T280-570q0 13 8.5 21.5T310-540h30Zm160 180h100q17 0 28.5-11.5T640-400v-160q0-17-11.5-28.5T600-600H500q-17 0-28.5 11.5T460-560v160q0 17 11.5 28.5T500-360Zm20-40v-60h60v60h-60Zm0-100v-60h60v60h-60ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
   </svg>
 )
 

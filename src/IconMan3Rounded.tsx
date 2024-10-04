@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMan3Rounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M14,7h-4C8.9,7,8,7.9,8,9v5c0,0.55,0.45,1,1,1h1v6c0,0.55,0.45,1,1,1h2c0.55,0,1-0.45,1-1v-6h1c0.55,0,1-0.45,1-1V9 C16,7.9,15.1,7,14,7z" />
-        <path d="M11.65,5.9L10.1,4.35c-0.2-0.2-0.2-0.51,0-0.71l1.54-1.54c0.2-0.2,0.51-0.2,0.71,0l1.54,1.54c0.2,0.2,0.2,0.51,0,0.71 L12.35,5.9C12.16,6.09,11.84,6.09,11.65,5.9z" />
-      </g>
-    </g>
+    <path d="M400-110v-240h-40q-17 0-28.5-11.5T320-390v-200q0-33 23.5-56.5T400-670h160q33 0 56.5 23.5T640-590v200q0 17-11.5 28.5T600-350h-40v240q0 17-11.5 28.5T520-70h-80q-17 0-28.5-11.5T400-110Zm52-618-34-34q-12-12-12-28t12-28l34-34q12-12 28-12t28 12l34 34q12 12 12 28t-12 28l-34 34q-12 12-28 12t-28-12Z" />
   </svg>
 )
 

@@ -2,20 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconNestCamWiredStandRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M15.83,1.01l-4.11,0.42C8.47,1.75,6,4.48,6,7.75s2.47,6,5.72,6.33l1.9,0.19l-0.56,0.85C12.71,15.04,12.36,15,12,15 c-2.76,0-5,2.24-5,5v2c0,0.55,0.45,1,1,1h8c0.55,0,1-0.45,1-1v-2c0-1.67-0.83-3.15-2.09-4.06l0.97-1.45 C17.02,14.56,18,13.66,18,12.5V3C18,1.83,17,0.91,15.83,1.01z" />
-    </g>
+    <path d="M480-280q-50 0-85 34.5T360-160v40h240v-40q0-51-34.5-85.5T480-280ZM320-650q0 67 45 116t112 57l164 17v-380l-164 16q-67 7-112 56.5T320-650Zm0 610q-17 0-28.5-11.5T280-80v-80q0-84 58.5-142T480-360q11 0 21 1t20 3l22-34-74-7q-97-10-163-82.5T240-650q0-99 65.5-171.5T469-904l165-16q35-3 61 21t26 59v379q0 35-26 59t-62 21l-38 57q39 27 62 70t23 94v80q0 17-11.5 28.5T640-40H320Zm321-610ZM480-120Z" />
   </svg>
 )
 

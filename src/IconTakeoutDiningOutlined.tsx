@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTakeoutDiningOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M7.79,18l-0.51-7h9.46l-0.51,7H7.79z M9.83,5h4.33l2.8,2.73L16.87,9H7.12L7.03,7.73L9.83,5z M22,7.46l-1.41-1.41L19,7.63 l0.03-0.56L14.98,3H9.02L4.97,7.07L5,7.57L3.41,6.01L2,7.44l3.23,3.11L5.93,20h12.14l0.7-9.44L22,7.46z" />
-        </g>
-      </g>
-    </g>
+    <path d="M312-240h338l19-280H292l20 280Zm-26-360h389l3-50-112-110H394L282-650l4 50Zm-76 68L80-662l56-56 64 64-2-24 162-162h240l162 162-2 24 64-64 56 56-130 130H210Zm28 372-28-372h540l-28 372H238Zm242-440Zm1 80Z" />
   </svg>
 )
 

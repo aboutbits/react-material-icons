@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCropRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M17 15h2V7c0-1.1-.9-2-2-2H9v2h7c.55 0 1 .45 1 1v7zm-9 2c-.55 0-1-.45-1-1V2c0-.55-.45-1-1-1s-1 .45-1 1v3H2c-.55 0-1 .45-1 1s.45 1 1 1h3v10c0 1.1.9 2 2 2h10v3c0 .55.45 1 1 1s1-.45 1-1v-3h3c.55 0 1-.45 1-1s-.45-1-1-1H8z" />
+    <path d="M680-80v-120H280q-33 0-56.5-23.5T200-280v-400H80q-17 0-28.5-11.5T40-720q0-17 11.5-28.5T80-760h120v-120q0-17 11.5-28.5T240-920q17 0 28.5 11.5T280-880v600h600q17 0 28.5 11.5T920-240q0 17-11.5 28.5T880-200H760v120q0 17-11.5 28.5T720-40q-17 0-28.5-11.5T680-80Zm0-280v-320H360v-80h320q33 0 56.5 23.5T760-680v320h-80Z" />
   </svg>
 )
 

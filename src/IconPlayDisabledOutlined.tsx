@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPlayDisabledOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="16.45,13.62 19,12 8,5 8,5.17" />
-        <path d="M2.81,2.81L1.39,4.22L8,10.83V19l4.99-3.18l6.78,6.78l1.41-1.41L2.81,2.81z M10,15.36v-2.53l1.55,1.55L10,15.36z" />
-      </g>
-    </g>
+    <path d="m658-416-56-58-38-36-244-244v-6l440 280-102 64ZM790-56 520-328 320-200v-328L56-792l56-56 736 736-58 56ZM400-448Zm0 102 62-40-62-62v102Zm164-164Z" />
   </svg>
 )
 

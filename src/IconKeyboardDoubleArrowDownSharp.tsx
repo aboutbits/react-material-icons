@@ -4,22 +4,9 @@ import { IconProps } from './types'
 const IconKeyboardDoubleArrowDownSharp: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="18,6.41 16.59,5 12,9.58 7.41,5 6,6.41 12,12.41" />
-        <polygon points="18,13 16.59,11.59 12,16.17 7.41,11.59 6,13 12,19" />
-      </g>
-    </g>
+    <path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z" />
   </svg>
 )
 

@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBookOnlineSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <g>
-      <path d="M19,1H5v22h14V1z M7,18V6h10v12H7z M16,11l0-3H8l0,3.1c0.55,0,1,0.45,1,1c0,0.55-0.45,1-1,1L8,16h8v-3c-0.55,0-1-0.45-1-1 C15,11.45,15.45,11,16,11z M12.5,14.5h-1v-1h1V14.5z M12.5,12.5h-1v-1h1V12.5z M12.5,10.5h-1v-1h1V10.5z" />
-    </g>
+    <path d="M320-320v-120q17 0 28.5-11.5T360-480q0-17-11.5-28.5T320-520v-120h320v120q-17 0-28.5 11.5T600-480q0 17 11.5 28.5T640-440v120H320Zm160-60q8 0 14-6t6-14q0-8-6-14t-14-6q-8 0-14 6t-6 14q0 8 6 14t14 6Zm0-80q8 0 14-6t6-14q0-8-6-14t-14-6q-8 0-14 6t-6 14q0 8 6 14t14 6Zm0-80q8 0 14-6t6-14q0-8-6-14t-14-6q-8 0-14 6t-6 14q0 8 6 14t14 6ZM200-40v-880h560v880H200Zm80-120v40h400v-40H280Zm0-80h400v-480H280v480Zm0-560h400v-40H280v40Zm0 0v-40 40Zm0 640v40-40Z" />
   </svg>
 )
 

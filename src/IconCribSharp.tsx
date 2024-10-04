@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCribSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M20,9h-8V4H8C5.79,4,4,5.79,4,8v8h4v2.93c-0.61-0.35-1.16-0.78-1.65-1.27l-1.42,1.42C6.74,20.88,9.24,22,12,22 c2.76,0,5.26-1.12,7.07-2.93l-1.42-1.42c-0.49,0.49-1.05,0.92-1.65,1.27V16h4V9z M14,19.75C13.36,19.91,12.69,20,12,20 c-0.69,0-1.36-0.09-2-0.25V16h4V19.75z" />
+    <path d="M240-400h480v-120H400v-200h-80q-33 0-56.5 23.5T240-640v240Zm240 240q20 0 40-2.5t40-7.5v-150H400v150q20 5 40 7.5t40 2.5Zm0 80q-80 0-153-30.5T197-197l57-57q15 15 31.5 27.5T320-203v-117H160v-320q0-66 47-113t113-47h160v200h320v280H640v117q18-11 34.5-23.5T706-254l57 57q-57 56-130 86.5T480-80Zm-80-440Z" />
   </svg>
 )
 

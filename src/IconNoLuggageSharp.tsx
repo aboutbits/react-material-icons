@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconNoLuggageSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M12.75,9v0.92l1.75,1.75V9H16v4.17l3,3V6h-4V2H9v4H8.83l3,3H12.75z M10.5,3.5h3V6h-3V3.5z M21.19,21.19L2.81,2.81L1.39,4.22 L5,7.83V21h2v1h2v-1h6v1h2v-1h1.17l1.61,1.61L21.19,21.19z M8,18v-7.17l1.5,1.5V18H8z M11.25,18v-3.92l1.5,1.5V18H11.25z" />
+    <path d="m760-315-80-80v-245H435l-75-75v-165h240v160h160v405ZM600-600v125l-80-80v-45h80ZM440-720h80v-80h-80v80ZM200-120v-584l80 80v424h400v-24l80 80v24h-80v40h-80v-40H360v40h-80v-40h-80Zm160-120v-304l80 80v224h-80Zm160-144 80 80v64h-80v-144ZM819-28 27-820l57-57L876-85l-57 57ZM558-518Zm-94 134Z" />
   </svg>
 )
 

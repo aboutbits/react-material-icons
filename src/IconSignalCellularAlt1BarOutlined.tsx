@@ -4,19 +4,9 @@ import { IconProps } from './types'
 const IconSignalCellularAlt1BarOutlined: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M5,14h3v6H5V14z" />
-    </g>
+    <path d="M200-160v-240h120v240H200Z" />
   </svg>
 )
 

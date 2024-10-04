@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSecurityUpdateGoodSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <path d="M5,1v22h14V1H5z M17,18H7V6h10V18z M16,10.05l-1.41-1.41l-3.54,3.54l-1.41-1.41l-1.41,1.41L11.05,15L16,10.05z" />
-    </g>
+    <path d="M442-360 330-472l56-56 56 56 142-142 56 56-198 198ZM200-40v-880h560v880H200Zm80-120v40h400v-40H280Zm0-80h400v-480H280v480Zm0-560h400v-40H280v40Zm0 0v-40 40Zm0 640v40-40Z" />
   </svg>
 )
 

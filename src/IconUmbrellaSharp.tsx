@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconUmbrellaSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <path d="M14.5,6.92L13,5.77V3.88V3.4c0-0.26,0.22-0.48,0.5-0.48c0.28,0,0.5,0.21,0.5,0.48V4h2V3.4C16,2.07,14.88,1,13.5,1 C12.12,1,11,2.07,11,3.4v0.48v1.89L9.5,6.92L6,6.07l5.05,15.25C11.2,21.77,11.6,22,12,22s0.8-0.23,0.95-0.69L18,6.07L14.5,6.92z M13.28,8.5l0.76,0.58l0.92-0.23L13,14.8V8.29L13.28,8.5z M9.96,9.09l0.76-0.58L11,8.29v6.51L9.03,8.86L9.96,9.09z" />
-    </g>
+    <path d="M480-80q-12 0-22.5-6.5T442-107L240-717l140 34 60-46v-95q0-40 29-68t71-28q42 0 71 28t29 68v24h-80v-24q0-8-6-13.5t-14-5.5q-8 0-14 5.5t-6 13.5v95l60 46 140-34-202 609q-5 14-15.5 21T480-80Zm40-288 78-238-36 9-42-31v260Zm-80 0v-260l-42 32-37-10 79 238Z" />
   </svg>
 )
 

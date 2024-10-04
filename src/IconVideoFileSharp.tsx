@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVideoFileSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M14,2H4v20h16V8L14,2z M13,9V3.5L18.5,9H13z M14,14l2-1.06v4.12L14,16v2H8v-6h6V14z" />
-    </g>
+    <path d="M320-240h240v-80l80 42v-164l-80 42v-80H320v240ZM160-80v-800h400l240 240v560H160Zm360-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z" />
   </svg>
 )
 

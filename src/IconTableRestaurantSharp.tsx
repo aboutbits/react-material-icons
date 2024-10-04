@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTableRestaurantSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M22.33,11l-2-7H3.67l-2,7H5.2L4,20h2l0.67-5h10.67L18,20h2l-1.2-9H22.33z M6.93,13l0.27-2h9.6l0.27,2H6.93z" />
-      </g>
-    </g>
+    <path d="M173-600h614l-34-120H208l-35 120Zm307-60Zm192 140H289l-11 80h404l-10-80ZM160-160l49-360H67l80-280h666l80 280H752l48 360h-80l-27-200H267l-27 200h-80Z" />
   </svg>
 )
 

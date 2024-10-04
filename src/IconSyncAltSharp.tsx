@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSyncAltSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="18,12 22,8 18,4 18,7 3,7 3,9 18,9" />
-        <polygon points="6,12 2,16 6,20 6,17 21,17 21,15 6,15" />
-      </g>
-    </g>
+    <path d="M280-120 80-320l200-200 57 56-104 104h607v80H233l104 104-57 56Zm400-320-57-56 104-104H120v-80h607L623-784l57-56 200 200-200 200Z" />
   </svg>
 )
 

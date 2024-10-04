@@ -2,27 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconQuickreplyRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M22,4c0-1.1-0.9-2-2-2H4C2.9,2,2.01,2.9,2.01,4L2,22l4-4h9v-7c0-0.55,0.45-1,1-1h6V4z" />
-        </g>
-        <g>
-          <path d="M21.69,16H20.3l1.4-3.3c0.14-0.33-0.1-0.7-0.46-0.7H17.5c-0.28,0-0.5,0.22-0.5,0.5v5c0,0.28,0.22,0.5,0.5,0.5H19v3.94 c0,0.26,0.36,0.35,0.47,0.11l2.66-5.33C22.3,16.39,22.06,16,21.69,16z" />
-        </g>
-      </g>
-    </g>
+    <path d="m240-240-92 92q-19 19-43.5 8.5T80-177v-623q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v200q0 17-11.5 28.5T840-560q-17 0-28.5-11.5T800-600v-200H160v525l46-45h354q17 0 28.5 11.5T600-280q0 17-11.5 28.5T560-240H240Zm520 0h-40q-17 0-28.5-11.5T680-280v-160q0-17 11.5-28.5T720-480h115q16 0 24.5 13.5T862-438l-50 118h39q17 0 26 14t1 29L779-78q-4 7-11.5 5.5T760-82v-158Zm-600-80v-480 480Z" />
   </svg>
 )
 

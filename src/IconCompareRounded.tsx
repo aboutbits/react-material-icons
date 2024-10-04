@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCompareRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M10 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h5v1c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1v1zm0 15H5l5-6v6zm9-15h-5v2h4c.55 0 1 .45 1 1v12l-5-6v9h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
+    <path d="M400-120H200q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h200v-40q0-17 11.5-28.5T440-920q17 0 28.5 11.5T480-880v800q0 17-11.5 28.5T440-40q-17 0-28.5-11.5T400-80v-40ZM200-240h200v-240L200-240Zm360 120v-360l200 240v-520H560v-80h200q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H560Z" />
   </svg>
 )
 

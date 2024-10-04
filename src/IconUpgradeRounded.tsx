@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconUpgradeRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <path d="M16,19L16,19c0,0.55-0.45,1-1,1H9c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h6C15.55,18,16,18.45,16,19z M11,7.99V15 c0,0.55,0.45,1,1,1h0c0.55,0,1-0.45,1-1V7.99h1.79c0.45,0,0.67-0.54,0.35-0.85l-2.79-2.78c-0.2-0.19-0.51-0.19-0.71,0L8.86,7.14 C8.54,7.45,8.76,7.99,9.21,7.99H11z" />
-    </g>
+    <path d="M320-160q-17 0-28.5-11.5T280-200q0-17 11.5-28.5T320-240h320q17 0 28.5 11.5T680-200q0 17-11.5 28.5T640-160H320Zm160-160q-17 0-28.5-11.5T440-360v-287l-76 75q-11 11-27.5 11.5T308-572q-11-11-11-28t11-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q11 11 11.5 27.5T652-572q-11 11-28 11t-28-11l-76-75v287q0 17-11.5 28.5T480-320Z" />
   </svg>
 )
 

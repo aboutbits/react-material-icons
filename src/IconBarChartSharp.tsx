@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBarChartSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <rect height="11" width="4" x="4" y="9" />
-        <rect height="7" width="4" x="16" y="13" />
-        <rect height="16" width="4" x="10" y="4" />
-      </g>
-    </g>
+    <path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z" />
   </svg>
 )
 

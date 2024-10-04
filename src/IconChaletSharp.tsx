@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconChaletSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M10,7.5l7.5,7.5l-1.41,1.41L15,15.33V20h-4v-5H9v5H5v-4.67l-1.09,1.09L2.5,15L10,7.5z M22,6.5h-1.19l0.75-0.75l-0.71-0.71 L19.39,6.5H18.5V5.61l1.45-1.45l-0.71-0.71L18.5,4.19V3h-1v1.19l-0.75-0.75l-0.71,0.71l1.45,1.45V6.5h-0.89l-1.45-1.45l-0.71,0.71 l0.75,0.75H14v1h1.19l-0.75,0.75l0.71,0.71l1.45-1.45h0.89v0.89l-1.45,1.45l0.71,0.71l0.75-0.75V11h1V9.81l0.75,0.75l0.71-0.71 L18.5,8.39V7.5h0.89l1.45,1.45l0.71-0.71L20.81,7.5H22V6.5z" />
+    <path d="M700-520v-48l-30 30-28-28 58-58v-36h-36l-58 58-28-28 30-30h-48v-40h48l-30-30 28-28 58 58h36v-36l-58-58 28-28 30 30v-48h40v48l30-30 28 28-58 58v36h36l58-58 28 28-30 30h48v40h-48l30 30-28 28-58-58h-36v36l58 58-28 28-30-30v48h-40Zm-56 217-44-44v187H200v-188l-44 44-56-56 300-300 300 300-56 57Zm-364 63h80v-120h80v120h80v-187L400-547 280-427v187Zm0 0h240-240Z" />
   </svg>
 )
 

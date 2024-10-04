@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVillaOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M19,10c-1.1,0-2,0.9-2,2h-1V3L3,8v13h18v-9C21,10.9,20.1,10,19,10z M5,9.37l9-3.46V12H9v7H5V9.37z M19,19h-3v-3h-2v3h-3v-5 h8V19z" />
+    <path d="M120-120v-520l520-200v360h40q0-33 23.5-56.5T760-560q33 0 56.5 23.5T840-480v360H120Zm80-80h160v-280h200v-244L200-585v385Zm240 0h120v-120h80v120h120v-200H440v200ZM280-560Zm320 360Zm0-20Z" />
   </svg>
 )
 

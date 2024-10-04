@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFlashlightOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <polygon points="18,5 18,2 6,2 6,3.17 7.83,5" />
-        <polygon points="16,11 18,8 18,7 9.83,7 16,13.17" />
-        <path d="M2.81,2.81L1.39,4.22L8,10.83V22h8v-3.17l3.78,3.78l1.41-1.41L2.81,2.81z" />
-      </g>
-    </g>
+    <path d="M792-56 640-208v128H320v-448L56-792l56-56 736 736-56 56ZM400-160h160v-128L400-448v288Zm240-274-80-80v-30l80-120v-16H394l-80-80h326v-40H274l-34-34v-46h480v240l-80 120v86Zm-160 66Zm17-209Z" />
   </svg>
 )
 

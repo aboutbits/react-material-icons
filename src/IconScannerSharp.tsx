@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconScannerSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M4.2 5l-.7 1.9L17.6 12H3v8h18v-8.86L4.2 5zM7 17H5v-2h2v2zm12 0H9v-2h10v2z" />
+    <path d="M704-480 140-684l28-76 672 246v354H120v-320h584Zm56 240v-160H200v160h560Zm-360-40h320v-80H400v80Zm-200 40v-160 160Zm40-40h80v-80h-80v80Z" />
   </svg>
 )
 

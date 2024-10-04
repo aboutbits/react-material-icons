@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPanoramaVerticalSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M17.46 4c-.77 2.6-1.16 5.28-1.16 8 0 2.72.39 5.41 1.16 8H6.55c.77-2.6 1.16-5.28 1.16-8 0-2.72-.39-5.41-1.16-8h10.91m2.78-2H3.77s.26.77.3.88C5.16 5.82 5.71 8.91 5.71 12s-.55 6.18-1.64 9.12c-.04.11-.3.88-.3.88h16.47s-.26-.77-.3-.88c-1.09-2.94-1.64-6.03-1.64-9.12s.55-6.18 1.64-9.12c.04-.11.3-.88.3-.88z" />
+    <path d="M255-159h451q-23-78-34.5-158.5T660-479q0-81 11.5-161.5T706-799H255q23 78 34 158.5T300-479q0 81-11 161.5T255-159ZM139-80q35-75 58-180t23-220q0-115-23-220t-58-180h681q-35 75-57.5 180T740-480q0 115 22.5 220T820-80H139Zm342-399Z" />
   </svg>
 )
 

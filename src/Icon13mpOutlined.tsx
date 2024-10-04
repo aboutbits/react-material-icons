@@ -2,25 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const Icon13mpOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="8.5,11.5 10,11.5 10,5.5 7,5.5 7,7 8.5,7" />
-        <path d="M16.5,10.5v-4c0-0.55-0.45-1-1-1H12V7h3v1h-2v1h2v1h-3v1.5h3.5C16.05,11.5,16.5,11.05,16.5,10.5z" />
-        <path d="M7.5,14h1v3H10v-3h1v4.5h1.5v-5c0-0.55-0.45-1-1-1H7c-0.55,0-1,0.45-1,1v5h1.5V14z" />
-        <path d="M13.5,18.5H15V17h2c0.55,0,1-0.45,1-1v-2.5c0-0.55-0.45-1-1-1h-3.5V18.5z M15,14h1.5v1.5H15V14z" />
-        <path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M19,19H5V5h14V19z" />
-      </g>
-    </g>
+    <path d="M340-500h60v-240H280v60h60v180Zm140 0h140q17 0 28.5-11.5T660-540v-160q0-17-11.5-28.5T620-740H480v60h120v40h-80v40h80v40H480v60ZM240-220h60v-180h40v120h60v-120h40v180h60v-200q0-17-11.5-28.5T460-460H280q-17 0-28.5 11.5T240-420v200Zm300 0h60v-60h80q17 0 28.5-11.5T720-320v-100q0-17-11.5-28.5T680-460H540v240Zm60-120v-60h60v60h-60ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
   </svg>
 )
 

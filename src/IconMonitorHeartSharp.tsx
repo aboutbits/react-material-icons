@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMonitorHeartSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M15.11,12.45L14,10.24l-3.11,6.21C10.73,16.79,10.38,17,10,17s-0.73-0.21-0.89-0.55L7.38,13H2v7h20v-7h-6 C15.62,13,15.27,12.79,15.11,12.45z" />
-        <path d="M22,4H2v7h6c0.38,0,0.73,0.21,0.89,0.55L10,13.76l3.11-6.21c0.37-0.74,1.42-0.74,1.79,0L16.62,11H22V4z" />
-      </g>
-    </g>
+    <path d="M80-600v-200h800v200h-80v-120H160v120H80Zm0 440v-200h80v120h640v-120h80v200H80Zm215-280 78 156h54l133-266 55 110h265v-80H665l-78-156h-54L400-410l-55-110H80v80h215Zm185-40Z" />
   </svg>
 )
 

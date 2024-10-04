@@ -2,20 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMusicVideoRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M20,18H4V6h16V18z" />
-      <path d="M10.84,16.98c1.26-0.17,2.16-1.33,2.16-2.6L13,9h2c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1h-2c-0.55,0-1,0.45-1,1v4.51 c-0.46-0.35-1.02-0.54-1.66-0.51c-1.11,0.07-2.09,0.92-2.3,2.02C7.73,15.73,9.15,17.2,10.84,16.98z" />
-    </g>
+    <path d="M420-280q42 0 71-29t29-71v-220h80q17 0 28.5-11.5T640-640q0-17-11.5-28.5T600-680h-80q-17 0-28.5 11.5T480-640v180q-13-9-28-14.5t-32-5.5q-42 0-71 29t-29 71q0 42 29 71t71 29ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

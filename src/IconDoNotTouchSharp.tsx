@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDoNotTouchSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <path d="M13,10.17l-2.5-2.5V1H13V10.17z M20,4h-2.5v7h-1V2H14v9.17l6,6V4z M9.5,3H7.01v1.18L9.5,6.67V3z M21.19,21.19L2.81,2.81 L1.39,4.22L7,9.83v4.3l-3.32-1.9L2,13.88L9.68,22h9.54l0.56,0.61L21.19,21.19z" />
-    </g>
+    <path d="m840-234-80-80v-486h80v566ZM360-714l-80-80v-46h80v126Zm160 160-80-80v-286h80v366Zm160 81h-80v-407h80v407ZM381-120h346L360-487v224L212-367l169 247Zm-42 80L48-465l69-66 163 114v-150L27-820l57-57L896-65 839-8l-32-32H339Zm261-433Zm-56 169Z" />
   </svg>
 )
 

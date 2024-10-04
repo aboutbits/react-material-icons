@@ -2,44 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDevicesFoldSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M17,3v-3.03l-7,3V3v18h12V3H17z M20,19h-5.33L17,18V5h3V19z" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="3" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="19" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="15" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="11" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="2" y="7" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="6" y="3" />
-        </g>
-        <g>
-          <rect height="2" width="2" x="6" y="19" />
-        </g>
-      </g>
-    </g>
+    <path d="M400-120v-721l280-122v123h200v720H400Zm80-121 120-52v-547l-120 52v547Zm107 41h213v-560H680v521l-93 39Zm-107-41v-547 547ZM80-760v-80h80v80H80Zm0 640v-80h80v80H80Zm0-160v-80h80v80H80Zm0-160v-80h80v80H80Zm0-160v-80h80v80H80Zm160-160v-80h80v80h-80Zm0 640v-80h80v80h-80Z" />
   </svg>
 )
 

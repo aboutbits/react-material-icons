@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconIceSkatingSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <g>
-      <path d="M21,17c0,1.66-1.34,3-3,3h-2v-2h3l-0.01-6l-5.71-1.43C12.4,10.35,11.7,9.76,11.32,9H8V8h3.02L11,7H8V6h3V3H3v15h3v2H2v2h16 c2.76,0,5-2.24,5-5H21z M14,20H8v-2h6V20z" />
-    </g>
+    <path d="M80-80v-80h160v-80H120v-600h360v180q0 27 16.5 49t42.5 29l221 61v281H640v80h80q50 0 85-35t35-85h80q0 83-58.5 141.5T720-80H80Zm120-240h480v-139l-164-47q-36-11-63-35.5T412-600h-92v-40h84q-2-12-2.5-20t-1.5-20h-80v-40h80v-40H200v440Zm120 160h240v-80H320v80ZM200-320Z" />
   </svg>
 )
 

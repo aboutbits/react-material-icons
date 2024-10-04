@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHeadsetOffSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" y="0" />
-    </g>
-    <g>
-      <g>
-        <path d="M12,4c3.87,0,7,3.13,7,7v1h-4v0.17l6,6V11c0-4.97-4.03-9-9-9C9.98,2,8.12,2.67,6.62,3.8l1.43,1.43C9.17,4.45,10.53,4,12,4 z" />
-        <path d="M2.1,2.1L0.69,3.51l3.33,3.33C3.37,8.09,3,9.5,3,11v9h6v-8H5v-1c0-0.94,0.19-1.83,0.52-2.65L15,17.83V20h2.17l1,1H12v2 h8.17l0.31,0.31l1.41-1.41L2.1,2.1z" />
-      </g>
-    </g>
+    <path d="m840-234-80-80v-86h-86l-80-80h166v-40q0-118-82-199t-198-81q-44 0-83.5 12.5T324-752l-58-56q45-35 99.5-53.5T480-880q74 0 139.5 28T734-775q49 49 77.5 114.5T840-520v286ZM480-40v-80h247l-40-40h-87v-87L221-626q-9 24-15 51.5t-6 54.5v40h160v320H120v-360q0-45 10.5-87t30.5-80L27-820l57-56L875-84v44H480ZM200-240h80v-160h-80v160Zm0-160h80-80Zm474 0h86-86Z" />
   </svg>
 )
 

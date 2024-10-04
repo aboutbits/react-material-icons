@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPhoneMissedSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M23.32 16.67c-2.95-2.79-6.93-4.51-11.31-4.51-4.39 0-8.37 1.72-11.31 4.51l-.69.69L3.65 21l3.93-2.72-.01-3.49c1.4-.45 2.9-.7 4.44-.7 1.55 0 3.04.24 4.44.7l-.01 3.49L20.37 21l3.64-3.64c0-.01-.52-.52-.69-.69zM7 6.43l4.94 4.94 7.07-7.07-1.41-1.42-5.66 5.66L8.4 5H11V3H5v6h2z" />
+    <path d="M161-120 16-261l40-41q85-91 197.5-134.5T480-480q114 0 225.5 44T904-302l40 41-145 141-159-120v-134q-38-12-78-19t-82-7q-42 0-82 7t-78 19v134L161-120Zm79-222q-29 15-56 34.5T128-264l40 40 72-56v-62Zm480 2v60l72 56 40-38q-29-26-56-45t-56-33Zm-480-2Zm480 2ZM478-506 280-704v104h-80v-240h240v80H336l141 141 226-226 57 57-282 282Z" />
   </svg>
 )
 

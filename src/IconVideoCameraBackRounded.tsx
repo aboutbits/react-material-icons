@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconVideoCameraBackRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M18,10.48V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-4.48l3.15,3.13 C21.46,16.97,22,16.74,22,16.3V7.7c0-0.44-0.54-0.67-0.85-0.35L18,10.48z M5.6,15.2l1.38-1.83c0.2-0.27,0.6-0.27,0.8,0L9,15 l2.23-2.97c0.2-0.27,0.6-0.27,0.8,0l2.38,3.17c0.25,0.33,0.01,0.8-0.4,0.8H6C5.59,16,5.35,15.53,5.6,15.2z" />
-    </g>
+    <path d="M241-320h318q13 0 18.5-11t-2.5-21l-97-127q-3-4-7-6t-9-2q-5 0-9 2t-7 6l-60 78q-3 4-7 6t-9 2q-5 0-9-2t-7-6l-30-39q-3-4-7-5.5t-9-1.5q-5 0-9 1.5t-7 5.5l-67 88q-8 10-2.5 21t18.5 11Zm-81 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l126-126q10-10 22-5t12 19v344q0 14-12 19t-22-5L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z" />
   </svg>
 )
 

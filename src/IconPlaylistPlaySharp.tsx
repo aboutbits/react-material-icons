@@ -2,24 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPlaylistPlaySharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <rect height="2" width="11" x="3" y="10" />
-        <rect height="2" width="11" x="3" y="6" />
-        <rect height="2" width="7" x="3" y="14" />
-        <polygon points="16,13 16,21 22,17" />
-      </g>
-    </g>
+    <path d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z" />
   </svg>
 )
 

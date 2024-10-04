@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSmartToySharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" y="0" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,9V5h-5V2H9v3H4v4H1v6h3v6h16v-6h3V9H20z M7.5,11.5C7.5,10.67,8.17,10,9,10s1.5,0.67,1.5,1.5S9.83,13,9,13 S7.5,12.33,7.5,11.5z M16,17H8v-2h8V17z M15,13c-0.83,0-1.5-0.67-1.5-1.5S14.17,10,15,10s1.5,0.67,1.5,1.5S15.83,13,15,13z" />
-      </g>
-    </g>
+    <path d="M160-360q-50 0-85-35t-35-85q0-50 35-85t85-35v-160h200q0-50 35-85t85-35q50 0 85 35t35 85h200v160q50 0 85 35t35 85q0 50-35 85t-85 35v240H160v-240Zm200-80q25 0 42.5-17.5T420-500q0-25-17.5-42.5T360-560q-25 0-42.5 17.5T300-500q0 25 17.5 42.5T360-440Zm240 0q25 0 42.5-17.5T660-500q0-25-17.5-42.5T600-560q-25 0-42.5 17.5T540-500q0 25 17.5 42.5T600-440ZM320-280h320v-80H320v80Zm-80 80h480v-480H240v480Zm240-240Z" />
   </svg>
 )
 

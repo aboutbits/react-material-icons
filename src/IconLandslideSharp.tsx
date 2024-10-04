@@ -2,25 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconLandslideSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="15.47,13.79 12.89,12.76 6,15.05 2,13.51 2,15.61 6,16.95" />
-        <polygon points="10.57,11.42 8,8 2,8 2,11.61 6,12.95" />
-        <polygon points="6,19.05 2,17.72 2,22 22,22 17.03,15.38" />
-        <polygon points="17,6 17,1 12,0 9,2 9,6 12,8" />
-        <polygon points="18.5,7 16,9 16,12 18.5,14 23,12 23,8" />
-      </g>
-    </g>
+    <path d="M80-80h800L640-400l-200-80-120-160H80v560Zm80-80v-64l80 26 361-120 119 158H160Zm80-122-80-27v-75l80 26 158-52 96 43-254 85Zm500-118 180-80v-160l-180-40-100 80v120l100 80Zm-500-42-80-27v-91h120l65 83-105 35Zm512-51-32-25v-44l40-32 80 18v44l-88 39ZM480-640l200-80v-200l-200-40-120 80v160l120 80Zm9-90-49-33v-74l57-38 103 21v80l-111 44Z" />
   </svg>
 )
 

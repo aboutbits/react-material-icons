@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSouthWestRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M15,18L15,18c0-0.56-0.45-1-1-1H8.41L19.3,6.11c0.39-0.39,0.39-1.02,0-1.41l0,0c-0.39-0.39-1.02-0.39-1.41,0L7,15.59V10 c0-0.55-0.45-1-1-1H6c-0.55,0-1,0.45-1,1V18c0,0.55,0.45,1,1,1H14C14.55,19,15,18.55,15,18z" />
+    <path d="M240-200q-17 0-28.5-11.5T200-240v-320q0-17 11.5-28.5T240-600q17 0 28.5 11.5T280-560v224l436-436q11-11 28-11t28 11q11 11 11 28t-11 28L336-280h224q17 0 28.5 11.5T600-240q0 17-11.5 28.5T560-200H240Z" />
   </svg>
 )
 

@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconScreenSearchDesktopSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <rect height="2" width="22" x="1" y="19" />
-        <path d="M22,3H2v15h19.99L22,3z M15.47,15.03l-2.09-2.09c-1.35,0.87-3.17,0.71-4.36-0.47c-1.37-1.37-1.37-3.58,0-4.95 s3.58-1.37,4.95,0c1.18,1.18,1.34,3,0.47,4.36l2.09,2.09L15.47,15.03z" />
-        <circle cx="11.5" cy="10" r="2" />
-      </g>
-    </g>
+    <path d="m618-358 44-42-84-84q11-17 16.5-36t5.5-40q0-59-41.5-99.5T460-700q-57 0-98.5 40.5T320-560q0 59 41.5 99.5T460-420q21 0 39.5-5.5T536-442l82 84ZM460-480q-33 0-56.5-23.5T380-560q0-33 23.5-56.5T460-640q32 0 56 23.5t24 56.5q0 33-23.5 56.5T460-480ZM40-120v-80h880v80H40Zm40-120v-600h800v600H80Zm80-80h640v-440H160v440Zm0 0v-440 440Z" />
   </svg>
 )
 

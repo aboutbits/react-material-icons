@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconArrowRightAltOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z" />
+    <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
   </svg>
 )
 

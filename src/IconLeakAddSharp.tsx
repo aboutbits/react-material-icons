@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconLeakAddSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M6 3H3v3c1.66 0 3-1.34 3-3zm8 0h-2c0 4.97-4.03 9-9 9v2c6.08 0 11-4.93 11-11zm-4 0H8c0 2.76-2.24 5-5 5v2c3.87 0 7-3.13 7-7zm0 18h2c0-4.97 4.03-9 9-9v-2c-6.07 0-11 4.93-11 11zm8 0h3v-3c-1.66 0-3 1.34-3 3zm-4 0h2c0-2.76 2.24-5 5-5v-2c-3.87 0-7 3.13-7 7z" />
+    <path d="M120-400v-80q74 0 139.5-28.5T374-586q49-49 77.5-114.5T480-840h80q0 91-34.5 171T431-529q-60 60-140 94.5T120-400Zm0-160v-80q83 0 141.5-58.5T320-840h80q0 116-82 198t-198 82Zm0-160v-120h120q0 50-35 85t-85 35Zm280 600q0-91 34.5-171T529-431q60-60 140-94.5T840-560v80q-74 0-139.5 28.5T586-374q-49 49-77.5 114.5T480-120h-80Zm160 0q0-116 82-198t198-82v80q-83 0-141.5 58.5T640-120h-80Zm160 0q0-50 35-85t85-35v120H720Z" />
   </svg>
 )
 

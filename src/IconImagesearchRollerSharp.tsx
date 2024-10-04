@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconImagesearchRollerSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,2v6H6V6H4v4h10v5h2v8h-6v-8h2v-3H2V4h4V2H20z" />
-      </g>
-    </g>
+    <path d="M640-40H400v-320h80v-120H80v-320h160v-80h560v240H240v-80h-80v160h400v200h80v320Zm-160-80h80v-160h-80v160ZM320-720h400v-80H320v80Zm160 600h80-80ZM320-720v-80 80Z" />
   </svg>
 )
 

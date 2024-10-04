@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconForkLeftSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M9.41,15.59L8,17l-4-4l4-4l1.41,1.41L7.83,12c1.51-0.33,3.73,0.08,5.17,1.36l0-6.53l-1.59,1.59L10,7l4-4l4,4l-1.41,1.41 L15,6.83V21l-2,0v-4c-0.73-2.58-3.07-3.47-5.17-3L9.41,15.59z" />
-    </g>
+    <path d="M520-120v-160q-18-64-63.5-94.5T357-405q-11 0-22 1.5t-22 3.5l63 64-56 56-160-160 160-160 56 56-63 64q9-2 19-3t21-1q44 0 88 13.5t79 44.5v-261l-64 64-56-57 160-160 160 160-56 56-64-63v567h-80Z" />
   </svg>
 )
 

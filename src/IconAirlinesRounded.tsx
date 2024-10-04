@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAirlinesRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" y="0" />
-    <path d="M19.59,4h-5.01c-0.99,0-1.91,0.49-2.47,1.3L2,20h17l2.56-13.63C21.79,5.14,20.84,4,19.59,4z M14.5,14 c-1.38,0-2.5-1.12-2.5-2.5c0-1.38,1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5C17,12.88,15.88,14,14.5,14z" />
+    <path d="M232-240h462l90-480H562L232-240Zm-130 49 394-574q11-17 28.5-26t37.5-9h222q38 0 61.5 29t16.5 66l-96 512q-3 14-14 23.5t-25 9.5H118q-12 0-17.5-10.5T102-191Zm478-209q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29ZM232-240h462-462Z" />
   </svg>
 )
 

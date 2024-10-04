@@ -2,39 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSolarPowerOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M20,12H4L2,22h20L20,12z M18.36,14l0.4,2H13v-2H18.36z M11,14v2H5.24l0.4-2H11z M4.84,18H11v2H4.44L4.84,18z M13,20v-2 h6.16l0.4,2H13z" />
-        <rect height="3" width="2" x="11" y="8" />
-        <rect
-          height="3"
-          transform="matrix(0.7071 -0.7071 0.7071 0.7071 -0.2089 14.6085)"
-          width="2"
-          x="16.53"
-          y="6.06"
-        />
-        <rect
-          height="2"
-          transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.448 6.7885)"
-          width="3"
-          x="4.97"
-          y="6.56"
-        />
-        <rect height="2" width="3" x="3" y="2" />
-        <rect height="2" width="3" x="18" y="2" />
-        <path d="M12,7c2.76,0,5-2.24,5-5h-2c0,1.65-1.35,3-3,3S9,3.65,9,2H7C7,4.76,9.24,7,12,7z" />
-      </g>
-    </g>
+    <path d="m80-80 80-400h640l80 400H80Zm40-720v-80h120v80H120Zm58 640h262v-80H194l-16 80Zm67-427-57-56 85-85 57 56-85 85Zm-35 267h230v-80H226l-16 80Zm270-360q-83 0-141.5-58.5T280-880h80q0 50 35 85t85 35q50 0 85-35t35-85h80q0 83-58.5 141.5T480-680Zm0-200Zm-40 360v-120h80v120h-80Zm80 360h262l-16-80H520v80Zm0-160h230l-16-80H520v80Zm195-267-84-85 56-56 85 84-57 57Zm5-213v-80h120v80H720Z" />
   </svg>
 )
 

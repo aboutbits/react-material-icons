@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconPivotTableChartOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <path d="M21,5c0-1.1-0.9-2-2-2h-9v5h11V5z M3,19c0,1.1,0.9,2,2,2h3V10H3V19z M3,5v3h5V3H5C3.9,3,3,3.9,3,5z M18,8.99L14,13 l1.41,1.41l1.59-1.6V15c0,1.1-0.9,2-2,2h-2.17l1.59-1.59L13,14l-4,4l4,4l1.41-1.41L12.83,19H15c2.21,0,4-1.79,4-4v-2.18l1.59,1.6 L22,13L18,8.99z" />
-    </g>
+    <path d="M400-640v-200h360q33 0 56.5 23.5T840-760v120H400ZM200-120q-33 0-56.5-23.5T120-200v-360h200v440H200Zm-80-520v-120q0-33 23.5-56.5T200-840h120v200H120ZM520-80 360-240l160-160 56 56-62 64h86q33 0 56.5-23.5T680-360v-88l-64 64-56-56 160-160 160 160-56 56-64-64v88q0 66-47 113t-113 47h-86l62 64-56 56Z" />
   </svg>
 )
 

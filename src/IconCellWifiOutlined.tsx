@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconCellWifiOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M6,22h16V5.97L6,22z M20,20h-2v-7.22l2-2V20z M5.22,7.22L3.93,5.93c3.9-3.91,10.24-3.91,14.15,0l-1.29,1.29 C13.6,4.03,8.41,4.03,5.22,7.22z M12.93,11.07L11,13l-1.93-1.93C10.14,10.01,11.86,10.01,12.93,11.07z M14.22,9.79 c-1.78-1.77-4.66-1.77-6.43,0L6.5,8.5c2.48-2.48,6.52-2.48,9,0L14.22,9.79z" />
-    </g>
+    <path d="m240-80 640-642v642H240Zm480-80h80v-368l-80 80v288ZM442-436q-24 0-42-18t-18-42q0-24 18-42t42-18q24 0 42 18t18 42q0 24-18 42t-42 18ZM314-568l-52-52q38-38 84-56t96-18q50 0 96 18t84 56l-52 52q-27-27-60-40.5T442-622q-35 0-68 13.5T314-568ZM212-672l-52-50q59-59 132-88.5T442-840q77 0 151 29.5T726-722l-52 50q-48-48-108.5-71T442-766q-63 0-122.5 23T212-672Z" />
   </svg>
 )
 

@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAddModeratorOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M6,11.09v-4.7l6-2.25l6,2.25v3.69c0.71,0.1,1.38,0.31,2,0.6V5l-8-3L4,5v6.09c0,5.05,3.41,9.76,8,10.91 c0.03-0.01,0.05-0.02,0.08-0.02c-0.79-0.78-1.4-1.76-1.75-2.84C7.76,17.53,6,14.42,6,11.09z" />
-        <path d="M17,12c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S19.76,12,17,12z M20,17.5h-2.5V20h-1v-2.5H14v-1h2.5V14h1v2.5H20V17.5z" />
-      </g>
-    </g>
+    <path d="M480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v227q-19-8-39-14.5t-41-9.5v-147l-240-90-240 90v188q0 47 12.5 94t35 89.5Q310-290 342-254t71 60q11 32 29 61t41 52q-1 0-1.5.5t-1.5.5Zm200 0q-83 0-141.5-58.5T480-280q0-83 58.5-141.5T680-480q83 0 141.5 58.5T880-280q0 83-58.5 141.5T680-80ZM480-494Zm180 334h40v-100h100v-40H700v-100h-40v100H560v40h100v100Z" />
   </svg>
 )
 

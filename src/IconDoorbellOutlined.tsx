@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconDoorbellOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <path d="M11,16.5h2c0,0.55-0.45,1-1,1S11,17.05,11,16.5z M15,15v-2.34c0-1.54-0.81-2.82-2.25-3.16V9.25c0-0.41-0.34-0.75-0.75-0.75 s-0.75,0.34-0.75,0.75V9.5C9.82,9.84,9,11.12,9,12.66V15H8v1h8v-1H15z M12,5.5L6,10v9h12v-9L12,5.5 M12,3l8,6v12H4V9L12,3z" />
-    </g>
+    <path d="M480-260q17 0 28.5-11.5T520-300h-80q0 17 11.5 28.5T480-260Zm-160-60h320v-40h-40v-94q0-44-24-80t-66-46v-10q0-13-8.5-21.5T480-620q-13 0-21.5 8.5T450-590v10q-42 10-66 46t-24 80v94h-40v40ZM160-120v-480l320-240 320 240v480H160Zm80-80h480v-360L480-740 240-560v360Zm240-270Z" />
   </svg>
 )
 

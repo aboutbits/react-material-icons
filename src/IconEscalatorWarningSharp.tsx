@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconEscalatorWarningSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <path d="M6.5,2c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S5.4,2,6.5,2z M15.5,9.5c0,0.83,0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5 S17.83,8,17,8S15.5,8.67,15.5,9.5z M14.21,12.86l-0.92,1.32L9.72,8C9.37,7.38,8.71,7,7.99,7H3v8h1.5v7h5V11.61L12.03,16h2.2 L15,14.9V22h4v-5h1v-5h-4.15C15.19,12,14.58,12.32,14.21,12.86z" />
-    </g>
+    <path d="M260-720q-33 0-56.5-23.5T180-800q0-33 23.5-56.5T260-880q33 0 56.5 23.5T340-800q0 33-23.5 56.5T260-720Zm420 200q-25 0-42.5-17.5T620-580q0-25 17.5-42.5T680-640q25 0 42.5 17.5T740-580q0 25-17.5 42.5T680-520ZM180-80v-280h-60v-320h246l166 287 58-87h210v200h-40v200H600v-284l-31 44h-88L380-496v416H180Z" />
   </svg>
 )
 

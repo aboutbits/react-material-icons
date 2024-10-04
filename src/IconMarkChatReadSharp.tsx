@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMarkChatReadSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" x="0" />
-      <path d="M12.03,17.5C12.01,17.67,12,17.83,12,18v0H6l-4,4V2h20v8.68C21.09,10.25,20.08,10,19,10c-3.87,0-7,3.13-7,7 C12,17.17,12.01,17.33,12.03,17.5z M23,14.34l-1.41-1.41l-4.24,4.24l-2.12-2.12l-1.41,1.41L17.34,20L23,14.34z" />
-    </g>
+    <path d="M694-160 553-302l56-56 85 85 170-170 56 57-226 226ZM80-80v-800h800v360h-80v-280H160v525l46-45h274v80H240L80-80Zm80-240v-480 480Z" />
   </svg>
 )
 

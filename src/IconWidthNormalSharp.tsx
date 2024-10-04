@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWidthNormalSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M22,4H2v16h20V4z M4,6h4v12H4V6z M20,18h-4V6h4V18z" />
-    </g>
+    <path d="M80-160v-640h800v640H80Zm80-80h160v-480H160v480Zm240 0h160v-480H400v480Zm240 0h160v-480H640v480ZM400-720v480-480Z" />
   </svg>
 )
 

@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFilterFramesSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0z" fill="none" />
-    <path d="M22 4h-6l-4-4-4 4H2v18h20V4zm-2 16H4V6h4.52l3.52-3.5L15.52 6H20v14zM18 8H6v10h12" />
+    <path d="M80-80v-720h240l160-160 160 160h240v720H80Zm80-80h640v-560H160v560Zm80-80v-400h480v400H240Zm80-80h320v-240H320v240Zm160-120Z" />
   </svg>
 )
 

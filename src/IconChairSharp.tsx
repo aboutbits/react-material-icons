@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconChairSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <g>
-        <polygon points="7,13 17,13 17,7 20,7 20,3 4,3 4,7 7,7" />
-        <path d="M23,9h-4v6H5V9H1v10h3v1c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1v-1h12v1c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1v-1h3V9z" />
-      </g>
-    </g>
+    <path d="M160-120v-80H40v-440h120v-200h640v200h120v440H800v80h-80v-80H240v80h-80Zm-40-160h720v-280h-80v200H200v-200h-80v280Zm160-160h400v-200h40v-120H240v120h40v200Zm200 80Zm0-80Zm0 80Z" />
   </svg>
 )
 

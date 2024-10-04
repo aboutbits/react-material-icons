@@ -2,26 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconMailLockSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <g>
-          <path d="M22,9.97V4H2.01L2,20h14v-5.03c0-2.76,2.24-5,5-5H22z M20,8l-8,5L4,8V6l8,5l8-5V8z" />
-        </g>
-        <g>
-          <path d="M23,15v-0.89c0-1-0.68-1.92-1.66-2.08C20.08,11.82,19,12.79,19,14v1h-1v5h6v-5H23z M22,15h-2v-1c0-0.55,0.45-1,1-1 s1,0.45,1,1V15z" />
-        </g>
-      </g>
-    </g>
+    <path d="M80-160v-640h800v239h-80v-79L480-440 160-640v400h480v80H80Zm400-360 320-200H160l320 200ZM160-240v-480 480Zm560 80v-200h40v-40q0-33 23.5-56.5T840-480q33 0 56.5 23.5T920-400v40h40v200H720Zm80-200h80v-40q0-17-11.5-28.5T840-440q-17 0-28.5 11.5T800-400v40Z" />
   </svg>
 )
 

@@ -2,25 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconViewInArSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" y="0" />
-    </g>
-    <g>
-      <g>
-        <polygon points="18,1 18,3 21,3 21,6 23,6 23,1" />
-        <polygon points="21,21 18,21 18,23 23,23 23,18 21,18" />
-        <polygon points="3,3 6,3 6,1 1,1 1,6 3,6" />
-        <polygon points="3,18 1,18 1,23 6,23 6,21 3,21" />
-        <path d="M19,7.97l-7-4.03L5,7.97v8.06l7,4.03l7-4.03V7.97z M11,17.17l-4-2.3v-4.63l4,2.33V17.17z M12,10.84L8.04,8.53L12,6.25 l3.96,2.28L12,10.84z M17,14.87l-4,2.3v-4.6l4-2.33V14.87z" />
-      </g>
-    </g>
+    <path d="M480-158 200-319v-322l280-161 280 161v322L480-158Zm-40-115v-184l-160-93v185l160 92Zm80 0 160-92v-185l-160 93v184ZM80-680v-200h200v80H160v120H80ZM280-80H80v-200h80v120h120v80Zm400 0v-80h120v-120h80v200H680Zm120-600v-120H680v-80h200v200h-80ZM480-526l158-93-158-91-158 91 158 93Zm0 45Zm0-45Zm40 69Zm-80 0Z" />
   </svg>
 )
 

@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconLineAxisOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <polygon points="22,7.43 20.59,6.02 16.56,10.55 9.5,4 2,11.51 3.5,13.01 9.64,6.86 15.23,12.04 13.5,13.99 9.5,9.99 2,17.5 3.5,19 9.5,12.99 13.5,16.99 16.69,13.4 20.59,17.01 22,15.6 18.02,11.9" />
-    </g>
+    <path d="m140-200-60-60 300-300 160 160 67-76-224-207-243 243-60-60 300-300 284 261 160-181 56 56-158 178 158 146-60 60-154-142-126 142-160-160-240 240Z" />
   </svg>
 )
 

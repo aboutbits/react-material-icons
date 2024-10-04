@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSettingsInputComponentSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M5 2c0-.55-.45-1-1-1s-1 .45-1 1v4H1v6h6V6H5V2zm4 16.82h2V23h2v-4.18h2V14H9v4.82zm-8 0h2V23h2v-4.18h2V14H1v4.82zM21 6V2c0-.55-.45-1-1-1s-1 .45-1 1v4h-2v6h6V6h-2zm-8-4c0-.55-.45-1-1-1s-1 .45-1 1v4H9v6h6V6h-2V2zm4 16.82h2V23h2v-4.18h2V14h-6v4.82z" />
+    <path d="M120-40v-166l-80-80v-434h80v-200h80v200h80v434l-80 80v166h-80Zm320 0v-166l-80-80v-434h80v-200h80v200h80v434l-80 80v166h-80Zm320 0v-166l-80-80v-434h80v-200h80v200h80v434l-80 80v166h-80ZM120-640v160h80v-160h-80Zm320 0v160h80v-160h-80Zm320 0v160h80v-160h-80ZM160-280l40-40v-80h-80v80l40 40Zm320 0 40-40v-80h-80v80l40 40Zm320 0 40-40v-80h-80v80l40 40ZM160-440Zm320 0Zm320 0Z" />
   </svg>
 )
 

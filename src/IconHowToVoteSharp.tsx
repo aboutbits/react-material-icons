@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHowToVoteSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M18 13h-.68l-2 2h1.91L19 17H5l1.78-2h2.05l-2-2H6l-3 3v6h18v-6zm1.81-5.04L13.45 1.6 5.68 9.36l6.36 6.36 7.77-7.76zm-6.35-3.55L17 7.95l-4.95 4.95-3.54-3.54 4.95-4.95z" />
+    <path d="M120-80v-262l110-125 57 57-80 90h546l-78-88 57-57 108 123v262H120Zm80-80h560v-80H200v80Zm282-168L228-582l311-311 254 254-311 311Zm0-113 198-198-141-141-198 198 141 141ZM200-160v-80 80Z" />
   </svg>
 )
 

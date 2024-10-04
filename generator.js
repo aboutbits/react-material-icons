@@ -2,18 +2,22 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 
-const GOOGLE_FONTS_URL = 'https://fonts.google.com/metadata/icons'
+const GOOGLE_FONTS_URL =
+  'https://fonts.google.com/metadata/icons?key=material_symbols&incomplete=true'
 const ICON_FAMILIES = [
-  { id: 'materialicons', postfix: '' },
-  { id: 'materialiconsoutlined', postfix: 'Outlined' },
-  { id: 'materialiconsround', postfix: 'Rounded' },
-  { id: 'materialiconssharp', postfix: 'Sharp' },
-  { id: 'materialiconstwotone', postfix: 'TwoTone' },
+  { id: 'materialsymbolsoutlined', postfix: 'Outlined' },
+  { id: 'materialsymbolsrounded', postfix: 'Rounded' },
+  { id: 'materialsymbolssharp', postfix: 'Sharp' },
 ]
 
-const ignoredIcons = [
-  'addchart', // This icon exists twice 'addchart' and 'add_chart'. That's why we decide to only use one version, so that we don't get naming collisions.
-]
+const getIncludedFamilies = (unsupportedFamilies) => {
+  const unsupportedFamilyIds = unsupportedFamilies.map((family) =>
+    family.replace(/\s+/g, '').toLowerCase(),
+  )
+  return ICON_FAMILIES.filter(
+    (family) => !unsupportedFamilyIds.includes(family.id),
+  )
+}
 
 ;(async () => {
   generatePropsFile()
@@ -25,9 +29,7 @@ const ignoredIcons = [
   const icons = await JSON.parse(data)
 
   for (let i = 0; i < icons.icons.length; i++) {
-    if (ignoredIcons.includes(icons.icons[i].name)) continue
-
-    generateComponentsForAllFamilies(icons.icons[i])
+    await generateComponentsForAllFamilies(icons.icons[i])
   }
 })()
 
@@ -43,15 +45,21 @@ function generatePropsFile() {
 }
 
 async function generateComponentsForAllFamilies(icon) {
-  for (let i = 0; i < ICON_FAMILIES.length; i++) {
-    await generateComponent(icon, ICON_FAMILIES[i])
+  const families = getIncludedFamilies(icon.unsupported_families)
+
+  for (let i = 0; i < families.length; i++) {
+    await Promise.all([
+      generateComponent(icon, families[i]),
+      generateComponent(icon, families[i], true),
+    ])
   }
 }
 
-async function generateComponent(icon, family) {
+async function generateComponent(icon, family, filled = false) {
   try {
-    const name = formatName(icon.name, family.postfix)
-    const svg = await downloadSVG(icon.name, family.id, icon.version)
+    const name = formatName(icon.name, family.postfix, filled)
+
+    const svg = await downloadSVG(icon.name, family.id, filled)
 
     console.log(`Downloading ${name}`)
 
@@ -60,11 +68,12 @@ async function generateComponent(icon, family) {
       mapSVGToTemplate(name, svg),
     )
   } catch {
-    process.abort()
+    console.log('Error generating component for', icon.name)
+    //process.abort()
   }
 }
 
-function formatName(string, familyPostfix) {
+function formatName(string, familyPostfix, filled) {
   const formattedString = string
     .replace(/_/g, ' ')
     .replace(/\w\S*/g, (txt) => {
@@ -72,13 +81,14 @@ function formatName(string, familyPostfix) {
     })
     .replace(/ /g, '')
 
-  return 'Icon' + formattedString + familyPostfix
+  return 'Icon' + formattedString + familyPostfix + (filled ? 'Filled' : '')
 }
 
-async function downloadSVG(icon, familyId, version) {
+async function downloadSVG(icon, familyId, filled) {
+  const filledConfig = filled ? 'fill1' : 'default'
   const svg = await axios
     .get(
-      `https://fonts.gstatic.com/s/i/${familyId}/${icon}/v${version}/24px.svg`,
+      `https://fonts.gstatic.com/s/i/short-term/release/${familyId}/${icon}/${filledConfig}/24px.svg`,
     )
     .catch((err) => console.log(err))
 

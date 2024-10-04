@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconHlsOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M6.5,9H8v6H6.5v-2.5h-2V15H3V9h1.5v2h2V9z M16.5,15h3c0.55,0,1-0.45,1-1v-1.5c0-0.55-0.45-1-1-1H17v-1h2V11h1.5v-1 c0-0.55-0.45-1-1-1h-3c-0.55,0-1,0.45-1,1v1.5c0,0.55,0.45,1,1,1H19v1h-2V13h-1.5v1C15.5,14.55,15.95,15,16.5,15z M14,15v-1.5h-2.5 V9H10v6H14z" />
-    </g>
+    <path d="M120-360v-240h60v80h80v-80h60v240h-60v-100h-80v100h-60Zm280 0v-240h60v180h100v60H400Zm260 0q-17 0-28.5-11.5T620-400v-40h60v20h80v-40H660q-17 0-28.5-11.5T620-500v-60q0-17 11.5-28.5T660-600h120q17 0 28.5 11.5T820-560v40h-60v-20h-80v40h100q17 0 28.5 11.5T820-460v60q0 17-11.5 28.5T780-360H660Z" />
   </svg>
 )
 

@@ -2,20 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSwitchRightOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect
-      fill="none"
-      height="24"
-      transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24 24)"
-      width="24"
-    />
-    <path d="M15.5,15.38V8.62L18.88,12L15.5,15.38 M14,19l7-7l-7-7V19L14,19z M10,19V5l-7,7L10,19z" />
+    <path d="M400-200 120-480l280-280v560Zm160 0v-560l280 280-280 280Zm60-145 135-135-135-135v270Z" />
   </svg>
 )
 

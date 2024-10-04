@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconChairAltSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <path d="M0,0h24v24H0V0z" fill="none" />
-    </g>
-    <g>
-      <path d="M16,10h3V3H5v7h3v2H5v9h2v-3h10v3h2v-9h-3V10z M7,8V5h10v3H7z M17,16H7v-2h10V16z M14,12h-4v-2h4V12z" />
-    </g>
+    <path d="M200-120v-360h120v-80H200v-280h560v280H640v80h120v360h-80v-120H280v120h-80Zm80-520h400v-120H280v120Zm120 160h160v-80H400v80ZM280-320h400v-80H280v80Zm0-320v-120 120Zm0 320v-80 80Z" />
   </svg>
 )
 

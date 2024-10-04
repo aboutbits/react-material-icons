@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAutoDeleteSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="15,2 11.5,2 10.5,1 5.5,1 4.5,2 1,2 1,4 15,4" />
-        <path d="M16,9c-0.7,0-1.37,0.1-2,0.29V5H2v14h7.68c1.12,2.36,3.53,4,6.32,4c3.87,0,7-3.13,7-7C23,12.13,19.87,9,16,9z M16,21 c-2.76,0-5-2.24-5-5s2.24-5,5-5s5,2.24,5,5S18.76,21,16,21z" />
-        <polygon points="16.5,12 15,12 15,17 18.6,19.1 19.4,17.9 16.5,16.2" />
-      </g>
-    </g>
+    <path d="M280-720v520-520Zm170 600H200v-600h-40v-80h200v-40h240v40h200v80h-40v172q-17-5-39.5-8.5T680-560v-160H280v520h132q6 21 16 41.5t22 38.5Zm-90-160h40q0-63 20-103.5l20-40.5v-216h-80v360Zm160-230q17-11 38.5-22t41.5-16v-92h-80v130ZM680-80q-83 0-141.5-58.5T480-280q0-83 58.5-141.5T680-480q83 0 141.5 58.5T880-280q0 83-58.5 141.5T680-80Zm66-106 28-28-74-74v-112h-40v128l86 86Z" />
   </svg>
 )
 

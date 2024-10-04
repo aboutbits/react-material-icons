@@ -2,17 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWysiwygRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-      <path d="M19,3H5C3.89,3,3,3.9,3,5v14c0,1.1,0.89,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.11,3,19,3z M19,19H5V7h14V19z M16,12H8 c-0.55,0-1-0.45-1-1v0c0-0.55,0.45-1,1-1h8c0.55,0,1,0.45,1,1v0C17,11.55,16.55,12,16,12z M12,16H8c-0.55,0-1-0.45-1-1v0 c0-0.55,0.45-1,1-1h4c0.55,0,1,0.45,1,1v0C13,15.55,12.55,16,12,16z" />
-    </g>
+    <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-480H200v480Zm120-280q-17 0-28.5-11.5T280-520q0-17 11.5-28.5T320-560h320q17 0 28.5 11.5T680-520q0 17-11.5 28.5T640-480H320Zm0 160q-17 0-28.5-11.5T280-360q0-17 11.5-28.5T320-400h160q17 0 28.5 11.5T520-360q0 17-11.5 28.5T480-320H320Z" />
   </svg>
 )
 

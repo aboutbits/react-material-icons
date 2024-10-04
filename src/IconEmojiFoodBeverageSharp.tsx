@@ -2,23 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconEmojiFoodBeverageSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g />
-      <g>
-        <rect height="2" width="18" x="2" y="19" />
-        <path d="M20,3H9v2.4L11,7v5H6V7l2-1.6V3H4v14h14v-7h2c1.1,0,2-0.9,2-2V5C22,3.9,21.1,3,20,3z M20,8h-2V5h2V8z" />
-      </g>
-    </g>
+    <path d="M160-120v-80h640v80H160Zm0-160v-560h640q33 0 56.5 23.5T880-760v120q0 33-23.5 56.5T800-560h-80v280H160Zm80-480h400-400Zm480 120h80v-120h-80v120Zm-80 280v-400H400v16l80 64v200H280v-200l80-64v-16H240v400h400ZM360-760h40-40Z" />
   </svg>
 )
 

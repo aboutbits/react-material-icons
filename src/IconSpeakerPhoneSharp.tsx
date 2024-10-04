@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSpeakerPhoneSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M7 7.07L8.43 8.5c.91-.91 2.18-1.48 3.57-1.48s2.66.57 3.57 1.48L17 7.07C15.72 5.79 13.95 5 12 5s-3.72.79-5 2.07zM12 1C8.98 1 6.24 2.23 4.25 4.21l1.41 1.41C7.28 4 9.53 3 12 3s4.72 1 6.34 2.62l1.41-1.41C17.76 2.23 15.02 1 12 1zm3.99 9.01L8 10v11.99h7.99V10.01zM15 20H9v-8h6v8z" />
+    <path d="m338-620-58-58q41-39 92.5-60.5T480-760q56 0 107.5 21.5T680-678l-58 58q-29-29-65-44.5T480-680q-41 0-77 15.5T338-620ZM226-736l-56-56q63-62 142.5-95T480-920q88 0 167.5 33T790-792l-56 56q-51-50-117-77t-137-27q-71 0-137 27t-117 77Zm94 656v-480h320v480H320Zm240-80v-320H400v320h160Zm0 0H400h160Z" />
   </svg>
 )
 

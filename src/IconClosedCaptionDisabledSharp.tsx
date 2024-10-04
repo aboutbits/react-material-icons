@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconClosedCaptionDisabledSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" />
-    <path d="M6.83,4H21v14.17L17.83,15H18v-2h-1.5v0.5h-0.17l-1.83-1.83V10.5h2V11H18V9h-5v1.17L6.83,4z M19.78,22.61L17.17,20H3V5.83 L1.39,4.22l1.41-1.41l18.38,18.38L19.78,22.61z M11,13.83L10.17,13H9.5v0.5h-2v-3h0.17L6.17,9H6v6h5V13.83z" />
+    <path d="m361-600 60 60H300v120h80v-20h60v80H240v-240h121Zm-86-200h565v565l-80-80v-405H355l-80-80Zm445 360v80h-5l-60-60h5v-20h60Zm-60-80v-20h-80v45l-60-60v-45h200v80h-60Zm-102 2Zm-154 75v-1 1ZM168-793l73 73h-41v480h407L27-820l57-57L876-85l-57 57-132-132H120v-633h48Z" />
   </svg>
 )
 

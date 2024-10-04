@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBoyRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <path d="M12,7.5c0.97,0,1.75-0.78,1.75-1.75S12.97,4,12,4s-1.75,0.78-1.75,1.75S11.03,7.5,12,7.5z M14,19c0,0.55-0.45,1-1,1h-2 c-0.55,0-1-0.45-1-1v-4c-0.55,0-1-0.45-1-1v-3.5c0-1.1,0.9-2,2-2h2c1.1,0,2,0.9,2,2V14c0,0.55-0.45,1-1,1V19z" />
-      </g>
-    </g>
+    <path d="M480-660q-29 0-49.5-20.5T410-730q0-29 20.5-49.5T480-800q29 0 49.5 20.5T550-730q0 29-20.5 49.5T480-660Zm-80 460v-160q-17 0-28.5-11.5T360-400v-140q0-33 23.5-56.5T440-620h80q33 0 56.5 23.5T600-540v140q0 17-11.5 28.5T560-360v160q0 17-11.5 28.5T520-160h-80q-17 0-28.5-11.5T400-200Z" />
   </svg>
 )
 

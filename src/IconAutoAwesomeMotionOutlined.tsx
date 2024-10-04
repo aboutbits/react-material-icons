@@ -2,21 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconAutoAwesomeMotionOutlined: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" x="0" />
-    </g>
-    <g>
-      <g>
-        <path d="M14,2H4C2.9,2,2,2.9,2,4v10h2V4h10V2z M18,6H8C6.9,6,6,6.9,6,8v10h2V8h10V6z M20,10h-8c-1.1,0-2,0.9-2,2v8 c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2v-8C22,10.9,21.1,10,20,10z M20,20h-8v-8h8V20z" />
-      </g>
-    </g>
+    <path d="M480-80q-33 0-56.5-23.5T400-160v-320q0-33 23.5-56.5T480-560h320q33 0 56.5 23.5T880-480v320q0 33-23.5 56.5T800-80H480Zm0-80h320v-320H480v320Zm-240-80v-400q0-33 23.5-56.5T320-720h400v80H320v400h-80ZM80-400v-400q0-33 23.5-56.5T160-880h400v80H160v400H80Zm400 240v-320 320Z" />
   </svg>
 )
 

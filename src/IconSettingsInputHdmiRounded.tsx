@@ -2,19 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconSettingsInputHdmiRounded: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <path d="M18,7V4c0-1.1-0.9-2-2-2H8C6.9,2,6,2.9,6,4v3C5.45,7,5,7.45,5,8v4.7c0,0.2,0.06,0.39,0.17,0.55L8,19v2c0,0.55,0.45,1,1,1h6 c0.55,0,1-0.45,1-1v-2l2.83-5.75C18.94,13.09,19,12.89,19,12.7V8C19,7.45,18.55,7,18,7z M16,7h-2V5.5C14,5.22,13.78,5,13.5,5 S13,5.22,13,5.5V7h-2V5.5C11,5.22,10.78,5,10.5,5S10,5.22,10,5.5V7H8V4h8V7z" />
-    </g>
+    <path d="M400-80q-33 0-56.5-23.5T320-160v-40L208-423q-5-8-6.5-17.5T200-459v-141q0-22 11-40t29-29v-131q0-33 23.5-56.5T320-880h320q33 0 56.5 23.5T720-800v131q18 11 29 29t11 40v141q0 9-1.5 18.5T752-423L640-200v40q0 33-23.5 56.5T560-80H400Zm-80-600h80v-60q0-8 6-14t14-6q8 0 14 6t6 14v60h80v-60q0-8 6-14t14-6q8 0 14 6t6 14v60h80v-120H320v120Zm80 520h160v-60l120-240v-140H280v140l120 240v60Zm80-300Z" />
   </svg>
 )
 

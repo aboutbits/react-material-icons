@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconWifiSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" />
-    <path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z" />
+    <path d="m254-346-84-86q62-62 142-95t168-33q88 0 168.5 33.5T790-430l-84 84q-45-45-103.5-69.5T480-440q-64 0-122.5 24.5T254-346ZM84-516 0-600q95-97 219.5-148.5T480-800q136 0 260.5 51.5T960-600l-84 84q-79-79-181.5-121.5T480-680q-112 0-214.5 42.5T84-516Zm396 396L339-262q28-28 64.5-43t76.5-15q40 0 76.5 15t64.5 43L480-120Z" />
   </svg>
 )
 

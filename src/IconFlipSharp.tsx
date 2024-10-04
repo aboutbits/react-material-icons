@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconFlipSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M15 21h2v-2h-2v2zm4-12h2V7h-2v2zM3 3v18h6v-2H5V5h4V3H3zm16 0v2h2V3h-2zm-8 20h2V1h-2v22zm8-6h2v-2h-2v2zM15 5h2V3h-2v2zm4 8h2v-2h-2v2zm0 8h2v-2h-2v2z" />
+    <path d="M600-760v-80h80v80h-80Zm0 640v-80h80v80h-80Zm160-640v-80h80v80h-80Zm0 640v-80h80v80h-80Zm0-160v-80h80v80h-80Zm0-160v-80h80v80h-80Zm0-160v-80h80v80h-80ZM360-120H120v-720h240v80H200v560h160v80Zm80 80v-880h80v880h-80Z" />
   </svg>
 )
 

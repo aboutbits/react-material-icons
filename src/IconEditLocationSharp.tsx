@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconEditLocationSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0z" fill="none" />
-    <path d="M18.11 1.77L19.78.1l2.12 2.12-1.67 1.67-2.12-2.12zm-1 1l2.12 2.12L13.12 11H11V8.89l6.11-6.12zm-1.98-.13L9.5 8.27v4.24h4.24l5.62-5.62c.41.99.64 2.1.64 3.32 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8 0-4.98 3.8-8.2 8-8.2 1.09 0 2.16.22 3.13.63z" />
+    <path d="M340-420h58l156-157-57-57-157 156v58Zm243-186 39-39-57-57-39 39 57 57ZM480-186q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
   </svg>
 )
 

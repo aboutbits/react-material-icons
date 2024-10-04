@@ -2,15 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBrowserUpdatedSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <rect fill="none" height="24" width="24" y="0" />
-    <path d="M22,13v5h-5l1,1v2H6v-2l1-1H2V3l10,0v2L4,5v11h16v-3H22z M15,15l-5-5h4V3h2v7h4L15,15z" />
+    <path d="M240-120v-80l40-40H80v-600h400v80H160v440h640v-120h80v200H680l40 40v80H240Zm360-240L400-560l56-56 104 103v-327h80v327l104-103 56 56-200 200Z" />
   </svg>
 )
 

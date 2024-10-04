@@ -2,22 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconBackupTableSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    enableBackground="new 0 0 24 24"
-    viewBox="0 0 24 24"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <g>
-      <rect fill="none" height="24" width="24" />
-    </g>
-    <g>
-      <g>
-        <polygon points="20,6 20,20 6,20 6,22 22,22 22,6" />
-        <path d="M18,2H2v16h16V2z M9,16H4v-5h5V16z M16,16h-5v-5h5V16z M16,9H4V4h12V9z" />
-      </g>
-    </g>
+    <path d="M320-320h200v-200H320v200Zm0-280h480v-200H320v200Zm280 280h200v-200H600v200Zm-360 80v-640h640v640H240ZM80-80v-640h80v560h560v80H80Z" />
   </svg>
 )
 

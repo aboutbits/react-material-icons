@@ -4,10 +4,9 @@ import { IconProps } from './types'
 const IconSubdirectoryArrowRightOutlined: React.FC<IconProps> = ({
   ...props
 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M24 24H0V0h24v24z" fill="none" opacity=".87" />
-    <path d="M19 15l-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z" />
+    <path d="m560-120-57-57 144-143H200v-480h80v400h367L503-544l56-57 241 241-240 240Z" />
   </svg>
 )
 

@@ -2,10 +2,9 @@ import React from 'react'
 import { IconProps } from './types'
 
 const IconTextureSharp: React.FC<IconProps> = ({ ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M0 0h24v24H0V0z" fill="none" />
-    <path d="M19.66 3L3.07 19.59V21h1.41L21.07 4.42V3zm-7.71 0l-8.88 8.88v2.83L14.78 3zM3.07 3v4l4-4zm18 18v-4l-4 4zm-8.88 0l8.88-8.88V9.29L9.36 21z" />
+    <path d="M123-123v-56l658-658h57v56L179-123h-56Zm-3-249v-112l356-356h112L120-372Zm0-308v-160h160L120-680Zm560 560 160-160v160H680Zm-308 0 468-468v112L484-120H372Z" />
   </svg>
 )
 
