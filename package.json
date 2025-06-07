@@ -21,7 +21,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/",
+  "type": "module",
+  "main": "dist/index.js",
   "files": [
     "readme.md",
     "dist/**/*"
@@ -30,6 +31,7 @@
     "npm": ">=8",
     "node": ">=16"
   },
+  "sideEffects": false,
   "scripts": {
     "build": "tsc",
     "clear": "rm -rf src/*",

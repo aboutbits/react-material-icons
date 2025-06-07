@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconIndeterminateCheckBoxRoundedFilled: React.FC<IconProps> = ({
+export const IconIndeterminateCheckBoxRoundedFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconIndeterminateCheckBoxRoundedFilled: React.FC<IconProps> = ({
     <path d="M320-440h320q17 0 28.5-11.5T680-480q0-17-11.5-28.5T640-520H320q-17 0-28.5 11.5T280-480q0 17 11.5 28.5T320-440ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Z" />
   </svg>
 )
-
-export { IconIndeterminateCheckBoxRoundedFilled as default }

@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconPartnerReportsOutlinedFilled: React.FC<IconProps> = ({
+export const IconPartnerReportsOutlinedFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconPartnerReportsOutlinedFilled: React.FC<IconProps> = ({
     <path d="M480-280q-17 0-28.5-11.5T440-320q0-17 11.5-28.5T480-360q17 0 28.5 11.5T520-320q0 17-11.5 28.5T480-280Zm-40-160v-400h80v400h-80ZM200-120q-33 0-56.5-23.5T120-200v-120h80v120h560v-120h80v120q0 33-23.5 56.5T760-120H200Z" />
   </svg>
 )
-
-export { IconPartnerReportsOutlinedFilled as default }

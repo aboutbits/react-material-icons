@@ -1,7 +1,7 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconBusinessCenterOutlinedFilled: React.FC<IconProps> = ({
+export const IconBusinessCenterOutlinedFilled: React.FC<IconProps> = ({
   ...props
 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
@@ -9,5 +9,3 @@ const IconBusinessCenterOutlinedFilled: React.FC<IconProps> = ({
     <path d="M160-120q-33 0-56.5-23.5T80-200v-160h280v80h240v-80h280v160q0 33-23.5 56.5T800-120H160Zm280-240v-80h80v80h-80ZM80-440v-200q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v200H600v-80H360v80H80Zm320-280h160v-80H400v80Z" />
   </svg>
 )
-
-export { IconBusinessCenterOutlinedFilled as default }

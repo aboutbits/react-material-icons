@@ -1,11 +1,9 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconDockOutlined: React.FC<IconProps> = ({ ...props }) => (
+export const IconDockOutlined: React.FC<IconProps> = ({ ...props }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
     <path d="M320-40v-80h320v80H320Zm0-160q-33 0-56.5-23.5T240-280v-560q0-33 23.5-56.5T320-920h320q33 0 56.5 23.5T720-840v560q0 33-23.5 56.5T640-200H320Zm0-120v40h320v-40H320Zm0-80h320v-320H320v320Zm0-400h320v-40H320v40Zm0 0v-40 40Zm0 480v40-40Z" />
   </svg>
 )
-
-export { IconDockOutlined as default }
