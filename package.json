@@ -27,8 +27,8 @@
     "dist/**/*"
   ],
   "engines": {
-    "npm": ">=8",
-    "node": ">=16"
+    "npm": ">=10",
+    "node": ">=18"
   },
   "scripts": {
     "build": "tsc",
