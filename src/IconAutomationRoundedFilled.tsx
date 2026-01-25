@@ -1,11 +1,11 @@
 import React from 'react'
-import { IconProps } from './types'
+import { IconProps } from './types.js'
 
-const IconAutomationRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
+export const IconAutomationRoundedFilled: React.FC<IconProps> = ({
+  ...props
+}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
-    <path d="M240-120q-66 0-113-47T80-280q0-66 47-113t113-47q22 0 42 5.5t37 15.5l105-106-109-111q-18-18-26.5-39.5T280-719q0-47 33-84t87-37h160q54 0 87 37t33 84q0 22-8.5 44T645-635L536-525l104 106q17-11 37.5-16t42.5-5q66 0 113 47t47 113q0 66-47 113t-113 47q-66 0-113-47t-47-113q0-22 6-43t17-40L480-468 377-363q11 19 17 40t6 43q0 66-47 113t-113 47Zm160-640q-18 0-29 12t-11 28q0 8 3 15t9 13l108 110 108-109q6-6 9-13.5t3-15.5q0-16-11-28t-29-12H400Z" />
+    <path d="M296-270q-42 35-87.5 32T129-269q-34-28-46.5-73.5T99-436l75-124q-25-22-39.5-53T120-680q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47q-9 0-18-1t-17-3l-77 130q-11 18-7 35.5t17 28.5q13 11 31 12.5t35-12.5l420-361q42-35 88-31.5t80 31.5q34 28 46 73.5T861-524l-75 124q25 22 39.5 53t14.5 67q0 66-47 113t-113 47q-66 0-113-47t-47-113q0-66 47-113t113-47q9 0 17.5 1t16.5 3l78-130q11-18 7-35.5T782-630q-13-11-31-12.5T716-630L296-270Z" />
   </svg>
 )
-
-export { IconAutomationRoundedFilled as default }
