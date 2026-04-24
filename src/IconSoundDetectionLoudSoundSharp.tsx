@@ -10,4 +10,4 @@ const IconSoundDetectionLoudSoundSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSoundDetectionLoudSoundSharp as default }
+export default IconSoundDetectionLoudSoundSharp

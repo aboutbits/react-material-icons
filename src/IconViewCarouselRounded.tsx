@@ -8,4 +8,4 @@ const IconViewCarouselRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewCarouselRounded as default }
+export default IconViewCarouselRounded

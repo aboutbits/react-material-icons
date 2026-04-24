@@ -8,4 +8,4 @@ const IconPlayDisabledSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlayDisabledSharp as default }
+export default IconPlayDisabledSharp

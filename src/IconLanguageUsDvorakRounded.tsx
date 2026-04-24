@@ -8,4 +8,4 @@ const IconLanguageUsDvorakRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLanguageUsDvorakRounded as default }
+export default IconLanguageUsDvorakRounded

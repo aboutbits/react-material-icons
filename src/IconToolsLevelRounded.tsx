@@ -8,4 +8,4 @@ const IconToolsLevelRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconToolsLevelRounded as default }
+export default IconToolsLevelRounded

@@ -8,4 +8,4 @@ const IconOnDeviceTrainingSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOnDeviceTrainingSharpFilled as default }
+export default IconOnDeviceTrainingSharpFilled

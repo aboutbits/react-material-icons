@@ -8,4 +8,4 @@ const IconNetworkCellRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNetworkCellRounded as default }
+export default IconNetworkCellRounded

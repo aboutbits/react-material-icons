@@ -8,4 +8,4 @@ const IconFormatListBulletedAddSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatListBulletedAddSharp as default }
+export default IconFormatListBulletedAddSharp

@@ -8,4 +8,4 @@ const IconNoLuggageOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoLuggageOutlined as default }
+export default IconNoLuggageOutlined

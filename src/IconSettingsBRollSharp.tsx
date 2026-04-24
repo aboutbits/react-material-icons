@@ -8,4 +8,4 @@ const IconSettingsBRollSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsBRollSharp as default }
+export default IconSettingsBRollSharp

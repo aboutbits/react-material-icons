@@ -8,4 +8,4 @@ const IconClimateMiniSplitSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconClimateMiniSplitSharp as default }
+export default IconClimateMiniSplitSharp

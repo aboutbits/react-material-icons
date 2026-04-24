@@ -8,4 +8,4 @@ const IconPhotoSizeSelectSmallRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhotoSizeSelectSmallRounded as default }
+export default IconPhotoSizeSelectSmallRounded

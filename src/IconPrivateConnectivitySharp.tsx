@@ -8,4 +8,4 @@ const IconPrivateConnectivitySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPrivateConnectivitySharp as default }
+export default IconPrivateConnectivitySharp

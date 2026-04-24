@@ -8,4 +8,4 @@ const IconMobileScreenShareRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMobileScreenShareRounded as default }
+export default IconMobileScreenShareRounded

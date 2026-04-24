@@ -8,4 +8,4 @@ const IconPhotoAutoMergeRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhotoAutoMergeRoundedFilled as default }
+export default IconPhotoAutoMergeRoundedFilled

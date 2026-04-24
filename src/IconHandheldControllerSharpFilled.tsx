@@ -10,4 +10,4 @@ const IconHandheldControllerSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHandheldControllerSharpFilled as default }
+export default IconHandheldControllerSharpFilled

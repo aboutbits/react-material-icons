@@ -8,4 +8,4 @@ const IconRvHookupRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRvHookupRoundedFilled as default }
+export default IconRvHookupRoundedFilled

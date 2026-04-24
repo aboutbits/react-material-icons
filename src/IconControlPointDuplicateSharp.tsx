@@ -8,4 +8,4 @@ const IconControlPointDuplicateSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconControlPointDuplicateSharp as default }
+export default IconControlPointDuplicateSharp

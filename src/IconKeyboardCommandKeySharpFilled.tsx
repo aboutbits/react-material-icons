@@ -10,4 +10,4 @@ const IconKeyboardCommandKeySharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardCommandKeySharpFilled as default }
+export default IconKeyboardCommandKeySharpFilled

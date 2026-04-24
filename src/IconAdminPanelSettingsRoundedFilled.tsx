@@ -10,4 +10,4 @@ const IconAdminPanelSettingsRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAdminPanelSettingsRoundedFilled as default }
+export default IconAdminPanelSettingsRoundedFilled

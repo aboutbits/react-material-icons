@@ -10,4 +10,4 @@ const IconTrackpadInput2OutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTrackpadInput2OutlinedFilled as default }
+export default IconTrackpadInput2OutlinedFilled

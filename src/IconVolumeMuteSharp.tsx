@@ -8,4 +8,4 @@ const IconVolumeMuteSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVolumeMuteSharp as default }
+export default IconVolumeMuteSharp

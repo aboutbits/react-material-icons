@@ -8,4 +8,4 @@ const IconWatchScreentimeSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWatchScreentimeSharpFilled as default }
+export default IconWatchScreentimeSharpFilled

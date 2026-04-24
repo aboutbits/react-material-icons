@@ -8,4 +8,4 @@ const IconVideoStableSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVideoStableSharp as default }
+export default IconVideoStableSharp

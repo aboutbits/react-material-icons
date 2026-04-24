@@ -8,4 +8,4 @@ const IconMotionSensorIdleRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMotionSensorIdleRounded as default }
+export default IconMotionSensorIdleRounded

@@ -8,4 +8,4 @@ const IconRvHookupSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRvHookupSharp as default }
+export default IconRvHookupSharp

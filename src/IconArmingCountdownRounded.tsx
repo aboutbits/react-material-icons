@@ -8,4 +8,4 @@ const IconArmingCountdownRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArmingCountdownRounded as default }
+export default IconArmingCountdownRounded

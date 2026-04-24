@@ -8,4 +8,4 @@ const IconTextSelectJumpToEndOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectJumpToEndOutlined as default }
+export default IconTextSelectJumpToEndOutlined

@@ -8,4 +8,4 @@ const IconRoomPreferencesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRoomPreferencesSharp as default }
+export default IconRoomPreferencesSharp

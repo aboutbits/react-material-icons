@@ -8,4 +8,4 @@ const IconViewColumnSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewColumnSharp as default }
+export default IconViewColumnSharp

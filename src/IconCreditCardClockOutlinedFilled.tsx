@@ -10,4 +10,4 @@ const IconCreditCardClockOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCreditCardClockOutlinedFilled as default }
+export default IconCreditCardClockOutlinedFilled

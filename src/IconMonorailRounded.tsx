@@ -8,4 +8,4 @@ const IconMonorailRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMonorailRounded as default }
+export default IconMonorailRounded

@@ -8,4 +8,4 @@ const IconViewArraySharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewArraySharpFilled as default }
+export default IconViewArraySharpFilled

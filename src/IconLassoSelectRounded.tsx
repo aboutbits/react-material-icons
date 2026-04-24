@@ -8,4 +8,4 @@ const IconLassoSelectRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLassoSelectRounded as default }
+export default IconLassoSelectRounded

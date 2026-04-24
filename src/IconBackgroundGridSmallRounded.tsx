@@ -8,4 +8,4 @@ const IconBackgroundGridSmallRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBackgroundGridSmallRounded as default }
+export default IconBackgroundGridSmallRounded

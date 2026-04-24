@@ -8,4 +8,4 @@ const IconNoLuggageRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoLuggageRoundedFilled as default }
+export default IconNoLuggageRoundedFilled

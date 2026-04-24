@@ -8,4 +8,4 @@ const IconWallpaperSlideshowRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWallpaperSlideshowRounded as default }
+export default IconWallpaperSlideshowRounded

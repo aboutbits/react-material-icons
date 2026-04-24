@@ -8,4 +8,4 @@ const IconLocationChipRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLocationChipRounded as default }
+export default IconLocationChipRounded

@@ -8,4 +8,4 @@ const IconPlaylistAddCircleOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlaylistAddCircleOutlined as default }
+export default IconPlaylistAddCircleOutlined

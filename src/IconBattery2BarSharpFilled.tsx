@@ -8,4 +8,4 @@ const IconBattery2BarSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBattery2BarSharpFilled as default }
+export default IconBattery2BarSharpFilled

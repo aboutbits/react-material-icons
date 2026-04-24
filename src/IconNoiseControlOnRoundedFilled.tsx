@@ -8,4 +8,4 @@ const IconNoiseControlOnRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoiseControlOnRoundedFilled as default }
+export default IconNoiseControlOnRoundedFilled

@@ -8,4 +8,4 @@ const IconBeachAccessSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBeachAccessSharp as default }
+export default IconBeachAccessSharp

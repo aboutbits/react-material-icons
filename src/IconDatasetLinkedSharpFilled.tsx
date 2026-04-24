@@ -8,4 +8,4 @@ const IconDatasetLinkedSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDatasetLinkedSharpFilled as default }
+export default IconDatasetLinkedSharpFilled

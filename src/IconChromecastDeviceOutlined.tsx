@@ -8,4 +8,4 @@ const IconChromecastDeviceOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromecastDeviceOutlined as default }
+export default IconChromecastDeviceOutlined

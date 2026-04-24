@@ -8,4 +8,4 @@ const IconVpnKeyAlertRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVpnKeyAlertRoundedFilled as default }
+export default IconVpnKeyAlertRoundedFilled

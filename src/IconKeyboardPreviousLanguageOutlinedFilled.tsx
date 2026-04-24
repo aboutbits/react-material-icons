@@ -10,4 +10,4 @@ const IconKeyboardPreviousLanguageOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardPreviousLanguageOutlinedFilled as default }
+export default IconKeyboardPreviousLanguageOutlinedFilled

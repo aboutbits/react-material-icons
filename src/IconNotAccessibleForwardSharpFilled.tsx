@@ -10,4 +10,4 @@ const IconNotAccessibleForwardSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNotAccessibleForwardSharpFilled as default }
+export default IconNotAccessibleForwardSharpFilled

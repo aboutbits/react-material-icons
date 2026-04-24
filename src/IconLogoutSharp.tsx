@@ -8,4 +8,4 @@ const IconLogoutSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLogoutSharp as default }
+export default IconLogoutSharp

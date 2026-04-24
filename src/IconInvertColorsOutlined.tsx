@@ -8,4 +8,4 @@ const IconInvertColorsOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInvertColorsOutlined as default }
+export default IconInvertColorsOutlined

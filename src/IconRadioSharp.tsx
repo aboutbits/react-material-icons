@@ -8,4 +8,4 @@ const IconRadioSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRadioSharp as default }
+export default IconRadioSharp

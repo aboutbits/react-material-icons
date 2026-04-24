@@ -10,4 +10,4 @@ const IconTvOptionsEditChannelsOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTvOptionsEditChannelsOutlinedFilled as default }
+export default IconTvOptionsEditChannelsOutlinedFilled

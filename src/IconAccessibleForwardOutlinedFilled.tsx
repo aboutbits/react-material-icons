@@ -10,4 +10,4 @@ const IconAccessibleForwardOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAccessibleForwardOutlinedFilled as default }
+export default IconAccessibleForwardOutlinedFilled

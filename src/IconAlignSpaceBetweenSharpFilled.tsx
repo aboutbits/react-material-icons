@@ -10,4 +10,4 @@ const IconAlignSpaceBetweenSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignSpaceBetweenSharpFilled as default }
+export default IconAlignSpaceBetweenSharpFilled

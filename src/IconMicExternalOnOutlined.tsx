@@ -8,4 +8,4 @@ const IconMicExternalOnOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMicExternalOnOutlined as default }
+export default IconMicExternalOnOutlined

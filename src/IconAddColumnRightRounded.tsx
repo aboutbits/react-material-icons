@@ -8,4 +8,4 @@ const IconAddColumnRightRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAddColumnRightRounded as default }
+export default IconAddColumnRightRounded

@@ -8,4 +8,4 @@ const IconEventAvailableSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEventAvailableSharp as default }
+export default IconEventAvailableSharp

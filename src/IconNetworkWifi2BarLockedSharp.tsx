@@ -8,4 +8,4 @@ const IconNetworkWifi2BarLockedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNetworkWifi2BarLockedSharp as default }
+export default IconNetworkWifi2BarLockedSharp

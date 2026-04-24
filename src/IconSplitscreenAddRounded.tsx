@@ -8,4 +8,4 @@ const IconSplitscreenAddRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSplitscreenAddRounded as default }
+export default IconSplitscreenAddRounded

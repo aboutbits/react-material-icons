@@ -10,4 +10,4 @@ const IconArrowSelectorToolRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconArrowSelectorToolRoundedFilled as default }
+export default IconArrowSelectorToolRoundedFilled

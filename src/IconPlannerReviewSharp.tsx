@@ -8,4 +8,4 @@ const IconPlannerReviewSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlannerReviewSharp as default }
+export default IconPlannerReviewSharp

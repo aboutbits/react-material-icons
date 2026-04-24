@@ -8,4 +8,4 @@ const IconViewSidebarRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewSidebarRounded as default }
+export default IconViewSidebarRounded

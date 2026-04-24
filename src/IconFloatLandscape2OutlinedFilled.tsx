@@ -10,4 +10,4 @@ const IconFloatLandscape2OutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFloatLandscape2OutlinedFilled as default }
+export default IconFloatLandscape2OutlinedFilled

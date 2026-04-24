@@ -8,4 +8,4 @@ const IconSweepSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSweepSharp as default }
+export default IconSweepSharp

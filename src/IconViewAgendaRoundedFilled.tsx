@@ -8,4 +8,4 @@ const IconViewAgendaRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewAgendaRoundedFilled as default }
+export default IconViewAgendaRoundedFilled

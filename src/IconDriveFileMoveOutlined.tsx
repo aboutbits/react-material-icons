@@ -8,4 +8,4 @@ const IconDriveFileMoveOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDriveFileMoveOutlined as default }
+export default IconDriveFileMoveOutlined

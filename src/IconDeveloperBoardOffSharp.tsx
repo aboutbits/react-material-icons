@@ -8,4 +8,4 @@ const IconDeveloperBoardOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDeveloperBoardOffSharp as default }
+export default IconDeveloperBoardOffSharp

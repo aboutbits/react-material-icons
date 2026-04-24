@@ -8,4 +8,4 @@ const IconHardDrive2Rounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHardDrive2Rounded as default }
+export default IconHardDrive2Rounded

@@ -10,4 +10,4 @@ const IconTransitionDissolveSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTransitionDissolveSharpFilled as default }
+export default IconTransitionDissolveSharpFilled

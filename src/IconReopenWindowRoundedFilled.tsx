@@ -8,4 +8,4 @@ const IconReopenWindowRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconReopenWindowRoundedFilled as default }
+export default IconReopenWindowRoundedFilled

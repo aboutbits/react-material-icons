@@ -8,4 +8,4 @@ const IconHeapSnapshotMultipleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHeapSnapshotMultipleSharp as default }
+export default IconHeapSnapshotMultipleSharp

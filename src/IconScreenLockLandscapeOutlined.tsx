@@ -8,4 +8,4 @@ const IconScreenLockLandscapeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenLockLandscapeOutlined as default }
+export default IconScreenLockLandscapeOutlined

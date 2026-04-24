@@ -8,4 +8,4 @@ const IconKeyVisualizerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyVisualizerSharp as default }
+export default IconKeyVisualizerSharp

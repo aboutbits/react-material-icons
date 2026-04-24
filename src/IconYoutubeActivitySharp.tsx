@@ -8,4 +8,4 @@ const IconYoutubeActivitySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconYoutubeActivitySharp as default }
+export default IconYoutubeActivitySharp

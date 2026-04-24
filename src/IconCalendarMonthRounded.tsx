@@ -8,4 +8,4 @@ const IconCalendarMonthRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCalendarMonthRounded as default }
+export default IconCalendarMonthRounded

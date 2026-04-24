@@ -10,4 +10,4 @@ const IconSettingsSlowMotionSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsSlowMotionSharpFilled as default }
+export default IconSettingsSlowMotionSharpFilled

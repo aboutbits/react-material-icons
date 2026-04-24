@@ -10,4 +10,4 @@ const IconMobileScreenShareOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMobileScreenShareOutlinedFilled as default }
+export default IconMobileScreenShareOutlinedFilled

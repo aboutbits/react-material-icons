@@ -8,4 +8,4 @@ const IconScreenRotationRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenRotationRounded as default }
+export default IconScreenRotationRounded

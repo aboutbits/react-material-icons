@@ -10,4 +10,4 @@ const IconPlannerBannerAdPtOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPlannerBannerAdPtOutlinedFilled as default }
+export default IconPlannerBannerAdPtOutlinedFilled

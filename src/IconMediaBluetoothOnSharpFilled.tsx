@@ -8,4 +8,4 @@ const IconMediaBluetoothOnSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMediaBluetoothOnSharpFilled as default }
+export default IconMediaBluetoothOnSharpFilled

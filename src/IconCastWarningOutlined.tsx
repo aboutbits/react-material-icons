@@ -8,4 +8,4 @@ const IconCastWarningOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCastWarningOutlined as default }
+export default IconCastWarningOutlined

@@ -8,4 +8,4 @@ const IconKeyboardTabRtlOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardTabRtlOutlined as default }
+export default IconKeyboardTabRtlOutlined

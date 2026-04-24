@@ -8,4 +8,4 @@ const IconTwoPagerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTwoPagerRounded as default }
+export default IconTwoPagerRounded

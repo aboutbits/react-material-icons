@@ -8,4 +8,4 @@ const IconFormatTextClipSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatTextClipSharp as default }
+export default IconFormatTextClipSharp

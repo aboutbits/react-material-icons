@@ -8,4 +8,4 @@ const IconDecimalIncreaseOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDecimalIncreaseOutlined as default }
+export default IconDecimalIncreaseOutlined

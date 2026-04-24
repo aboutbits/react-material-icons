@@ -8,4 +8,4 @@ const IconMfgNestYaleLockRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMfgNestYaleLockRounded as default }
+export default IconMfgNestYaleLockRounded

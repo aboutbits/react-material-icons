@@ -10,4 +10,4 @@ const IconChromeReaderModeOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconChromeReaderModeOutlinedFilled as default }
+export default IconChromeReaderModeOutlinedFilled

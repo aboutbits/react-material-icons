@@ -8,4 +8,4 @@ const IconCookieOffRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCookieOffRoundedFilled as default }
+export default IconCookieOffRoundedFilled

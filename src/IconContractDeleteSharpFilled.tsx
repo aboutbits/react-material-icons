@@ -8,4 +8,4 @@ const IconContractDeleteSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContractDeleteSharpFilled as default }
+export default IconContractDeleteSharpFilled

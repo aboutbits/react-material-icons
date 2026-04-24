@@ -8,4 +8,4 @@ const IconFontDownloadRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFontDownloadRounded as default }
+export default IconFontDownloadRounded

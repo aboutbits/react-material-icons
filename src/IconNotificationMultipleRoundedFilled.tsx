@@ -10,4 +10,4 @@ const IconNotificationMultipleRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNotificationMultipleRoundedFilled as default }
+export default IconNotificationMultipleRoundedFilled

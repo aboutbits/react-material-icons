@@ -8,4 +8,4 @@ const IconCombineColumnsRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCombineColumnsRounded as default }
+export default IconCombineColumnsRounded

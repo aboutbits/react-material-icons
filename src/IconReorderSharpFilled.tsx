@@ -8,4 +8,4 @@ const IconReorderSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconReorderSharpFilled as default }
+export default IconReorderSharpFilled

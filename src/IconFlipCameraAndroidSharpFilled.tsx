@@ -10,4 +10,4 @@ const IconFlipCameraAndroidSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFlipCameraAndroidSharpFilled as default }
+export default IconFlipCameraAndroidSharpFilled

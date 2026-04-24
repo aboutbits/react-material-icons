@@ -8,4 +8,4 @@ const IconScrollableHeaderOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScrollableHeaderOutlined as default }
+export default IconScrollableHeaderOutlined

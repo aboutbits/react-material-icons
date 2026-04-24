@@ -8,4 +8,4 @@ const IconThermometerAddOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThermometerAddOutlined as default }
+export default IconThermometerAddOutlined

@@ -8,4 +8,4 @@ const IconNoEncryptionRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoEncryptionRounded as default }
+export default IconNoEncryptionRounded

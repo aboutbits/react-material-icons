@@ -10,4 +10,4 @@ const IconIntegrationInstructionsOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIntegrationInstructionsOutlined as default }
+export default IconIntegrationInstructionsOutlined

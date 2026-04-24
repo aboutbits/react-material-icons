@@ -8,4 +8,4 @@ const IconWifiProxyRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWifiProxyRounded as default }
+export default IconWifiProxyRounded

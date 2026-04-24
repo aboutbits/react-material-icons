@@ -10,4 +10,4 @@ const IconRadioButtonPartialOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRadioButtonPartialOutlinedFilled as default }
+export default IconRadioButtonPartialOutlinedFilled

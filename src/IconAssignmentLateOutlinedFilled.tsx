@@ -10,4 +10,4 @@ const IconAssignmentLateOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAssignmentLateOutlinedFilled as default }
+export default IconAssignmentLateOutlinedFilled

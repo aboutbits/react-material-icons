@@ -8,4 +8,4 @@ const IconPermContactCalendarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermContactCalendarSharp as default }
+export default IconPermContactCalendarSharp

@@ -8,4 +8,4 @@ const IconMonorailSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMonorailSharp as default }
+export default IconMonorailSharp

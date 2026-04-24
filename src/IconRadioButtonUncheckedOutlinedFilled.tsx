@@ -10,4 +10,4 @@ const IconRadioButtonUncheckedOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRadioButtonUncheckedOutlinedFilled as default }
+export default IconRadioButtonUncheckedOutlinedFilled

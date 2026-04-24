@@ -8,4 +8,4 @@ const IconFilterAltRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilterAltRoundedFilled as default }
+export default IconFilterAltRoundedFilled

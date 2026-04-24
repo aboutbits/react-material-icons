@@ -10,4 +10,4 @@ const IconHeapSnapshotMultipleRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHeapSnapshotMultipleRoundedFilled as default }
+export default IconHeapSnapshotMultipleRoundedFilled

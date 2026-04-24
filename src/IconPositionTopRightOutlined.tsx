@@ -8,4 +8,4 @@ const IconPositionTopRightOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPositionTopRightOutlined as default }
+export default IconPositionTopRightOutlined

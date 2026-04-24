@@ -8,4 +8,4 @@ const IconLocationOnOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLocationOnOutlined as default }
+export default IconLocationOnOutlined

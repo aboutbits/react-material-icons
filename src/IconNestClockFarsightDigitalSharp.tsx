@@ -10,4 +10,4 @@ const IconNestClockFarsightDigitalSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestClockFarsightDigitalSharp as default }
+export default IconNestClockFarsightDigitalSharp

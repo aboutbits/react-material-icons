@@ -10,4 +10,4 @@ const IconPestControlRodentSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPestControlRodentSharpFilled as default }
+export default IconPestControlRodentSharpFilled

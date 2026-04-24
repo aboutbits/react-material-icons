@@ -8,4 +8,4 @@ const IconVolumeDownAltOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVolumeDownAltOutlined as default }
+export default IconVolumeDownAltOutlined

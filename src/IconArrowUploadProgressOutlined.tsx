@@ -8,4 +8,4 @@ const IconArrowUploadProgressOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowUploadProgressOutlined as default }
+export default IconArrowUploadProgressOutlined

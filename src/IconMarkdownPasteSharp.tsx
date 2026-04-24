@@ -8,4 +8,4 @@ const IconMarkdownPasteSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMarkdownPasteSharp as default }
+export default IconMarkdownPasteSharp

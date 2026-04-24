@@ -8,4 +8,4 @@ const IconNotificationsUnreadOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNotificationsUnreadOutlined as default }
+export default IconNotificationsUnreadOutlined

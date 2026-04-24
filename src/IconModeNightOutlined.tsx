@@ -8,4 +8,4 @@ const IconModeNightOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconModeNightOutlined as default }
+export default IconModeNightOutlined

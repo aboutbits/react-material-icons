@@ -10,4 +10,4 @@ const IconDisabledVisibleRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDisabledVisibleRoundedFilled as default }
+export default IconDisabledVisibleRoundedFilled

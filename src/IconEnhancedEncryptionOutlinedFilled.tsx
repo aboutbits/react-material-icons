@@ -10,4 +10,4 @@ const IconEnhancedEncryptionOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEnhancedEncryptionOutlinedFilled as default }
+export default IconEnhancedEncryptionOutlinedFilled

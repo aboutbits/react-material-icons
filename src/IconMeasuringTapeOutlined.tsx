@@ -8,4 +8,4 @@ const IconMeasuringTapeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMeasuringTapeOutlined as default }
+export default IconMeasuringTapeOutlined

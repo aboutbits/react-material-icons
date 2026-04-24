@@ -8,4 +8,4 @@ const IconSettingsInputSvideoRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsInputSvideoRounded as default }
+export default IconSettingsInputSvideoRounded

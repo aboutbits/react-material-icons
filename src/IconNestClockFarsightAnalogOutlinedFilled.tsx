@@ -10,4 +10,4 @@ const IconNestClockFarsightAnalogOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestClockFarsightAnalogOutlinedFilled as default }
+export default IconNestClockFarsightAnalogOutlinedFilled

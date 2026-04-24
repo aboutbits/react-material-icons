@@ -8,4 +8,4 @@ const IconPanoramaHorizontalRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPanoramaHorizontalRounded as default }
+export default IconPanoramaHorizontalRounded

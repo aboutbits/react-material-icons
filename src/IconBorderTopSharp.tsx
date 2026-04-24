@@ -8,4 +8,4 @@ const IconBorderTopSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBorderTopSharp as default }
+export default IconBorderTopSharp

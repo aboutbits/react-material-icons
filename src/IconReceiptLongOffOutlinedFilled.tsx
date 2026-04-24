@@ -10,4 +10,4 @@ const IconReceiptLongOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconReceiptLongOffOutlinedFilled as default }
+export default IconReceiptLongOffOutlinedFilled

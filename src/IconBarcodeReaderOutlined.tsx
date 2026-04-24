@@ -8,4 +8,4 @@ const IconBarcodeReaderOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBarcodeReaderOutlined as default }
+export default IconBarcodeReaderOutlined

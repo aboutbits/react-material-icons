@@ -10,4 +10,4 @@ const IconDataLossPreventionOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDataLossPreventionOutlinedFilled as default }
+export default IconDataLossPreventionOutlinedFilled

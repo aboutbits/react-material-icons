@@ -10,4 +10,4 @@ const IconTextRotationNoneOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextRotationNoneOutlinedFilled as default }
+export default IconTextRotationNoneOutlinedFilled

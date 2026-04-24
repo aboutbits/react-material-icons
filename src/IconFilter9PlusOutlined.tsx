@@ -8,4 +8,4 @@ const IconFilter9PlusOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilter9PlusOutlined as default }
+export default IconFilter9PlusOutlined

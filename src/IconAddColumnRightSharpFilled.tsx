@@ -8,4 +8,4 @@ const IconAddColumnRightSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAddColumnRightSharpFilled as default }
+export default IconAddColumnRightSharpFilled

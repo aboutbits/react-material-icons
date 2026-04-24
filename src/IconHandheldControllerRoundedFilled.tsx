@@ -10,4 +10,4 @@ const IconHandheldControllerRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHandheldControllerRoundedFilled as default }
+export default IconHandheldControllerRoundedFilled

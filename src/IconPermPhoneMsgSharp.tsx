@@ -8,4 +8,4 @@ const IconPermPhoneMsgSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermPhoneMsgSharp as default }
+export default IconPermPhoneMsgSharp

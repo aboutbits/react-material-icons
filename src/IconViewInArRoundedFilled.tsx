@@ -8,4 +8,4 @@ const IconViewInArRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewInArRoundedFilled as default }
+export default IconViewInArRoundedFilled

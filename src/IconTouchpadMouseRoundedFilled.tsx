@@ -8,4 +8,4 @@ const IconTouchpadMouseRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTouchpadMouseRoundedFilled as default }
+export default IconTouchpadMouseRoundedFilled

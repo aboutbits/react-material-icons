@@ -8,4 +8,4 @@ const IconScreenLockLandscapeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenLockLandscapeRounded as default }
+export default IconScreenLockLandscapeRounded

@@ -8,4 +8,4 @@ const IconStrikethroughSOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStrikethroughSOutlined as default }
+export default IconStrikethroughSOutlined

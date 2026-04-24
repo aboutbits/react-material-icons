@@ -10,4 +10,4 @@ const IconPositionBottomRightRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPositionBottomRightRoundedFilled as default }
+export default IconPositionBottomRightRoundedFilled

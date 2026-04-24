@@ -10,4 +10,4 @@ const IconClosedCaptionDisabledOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconClosedCaptionDisabledOutlined as default }
+export default IconClosedCaptionDisabledOutlined

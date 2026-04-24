@@ -8,4 +8,4 @@ const IconTransportationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransportationSharp as default }
+export default IconTransportationSharp

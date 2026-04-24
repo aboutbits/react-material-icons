@@ -8,4 +8,4 @@ const IconFilterBAndWRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilterBAndWRounded as default }
+export default IconFilterBAndWRounded

@@ -8,4 +8,4 @@ const IconCleaningServicesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCleaningServicesSharp as default }
+export default IconCleaningServicesSharp

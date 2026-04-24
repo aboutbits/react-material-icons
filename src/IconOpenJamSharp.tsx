@@ -8,4 +8,4 @@ const IconOpenJamSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOpenJamSharp as default }
+export default IconOpenJamSharp

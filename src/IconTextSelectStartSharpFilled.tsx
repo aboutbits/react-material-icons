@@ -8,4 +8,4 @@ const IconTextSelectStartSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectStartSharpFilled as default }
+export default IconTextSelectStartSharpFilled

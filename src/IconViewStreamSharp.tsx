@@ -8,4 +8,4 @@ const IconViewStreamSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewStreamSharp as default }
+export default IconViewStreamSharp

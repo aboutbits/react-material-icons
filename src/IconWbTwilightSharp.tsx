@@ -8,4 +8,4 @@ const IconWbTwilightSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWbTwilightSharp as default }
+export default IconWbTwilightSharp

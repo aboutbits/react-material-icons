@@ -8,4 +8,4 @@ const IconVariableInsertSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVariableInsertSharp as default }
+export default IconVariableInsertSharp

@@ -8,4 +8,4 @@ const IconResponsiveLayoutRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResponsiveLayoutRounded as default }
+export default IconResponsiveLayoutRounded

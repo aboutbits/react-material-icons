@@ -10,4 +10,4 @@ const IconBringYourOwnIpOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBringYourOwnIpOutlinedFilled as default }
+export default IconBringYourOwnIpOutlinedFilled

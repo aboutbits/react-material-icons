@@ -10,4 +10,4 @@ const IconContentPasteGoOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconContentPasteGoOutlinedFilled as default }
+export default IconContentPasteGoOutlinedFilled

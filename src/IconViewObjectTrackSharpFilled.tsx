@@ -8,4 +8,4 @@ const IconViewObjectTrackSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewObjectTrackSharpFilled as default }
+export default IconViewObjectTrackSharpFilled

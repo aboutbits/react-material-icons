@@ -10,4 +10,4 @@ const IconToolsInstallationKitRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconToolsInstallationKitRoundedFilled as default }
+export default IconToolsInstallationKitRoundedFilled

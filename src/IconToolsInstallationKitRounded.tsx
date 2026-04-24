@@ -8,4 +8,4 @@ const IconToolsInstallationKitRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconToolsInstallationKitRounded as default }
+export default IconToolsInstallationKitRounded

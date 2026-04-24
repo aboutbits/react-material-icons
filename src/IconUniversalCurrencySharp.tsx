@@ -8,4 +8,4 @@ const IconUniversalCurrencySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconUniversalCurrencySharp as default }
+export default IconUniversalCurrencySharp

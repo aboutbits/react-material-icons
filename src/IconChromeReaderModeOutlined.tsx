@@ -8,4 +8,4 @@ const IconChromeReaderModeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromeReaderModeOutlined as default }
+export default IconChromeReaderModeOutlined

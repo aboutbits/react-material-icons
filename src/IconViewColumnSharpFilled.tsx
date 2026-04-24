@@ -8,4 +8,4 @@ const IconViewColumnSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewColumnSharpFilled as default }
+export default IconViewColumnSharpFilled

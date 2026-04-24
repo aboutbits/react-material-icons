@@ -8,4 +8,4 @@ const IconTextRotateUpRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextRotateUpRounded as default }
+export default IconTextRotateUpRounded

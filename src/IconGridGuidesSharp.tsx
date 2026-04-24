@@ -8,4 +8,4 @@ const IconGridGuidesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGridGuidesSharp as default }
+export default IconGridGuidesSharp

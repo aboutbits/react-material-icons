@@ -8,4 +8,4 @@ const IconDataThresholdingRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataThresholdingRounded as default }
+export default IconDataThresholdingRounded

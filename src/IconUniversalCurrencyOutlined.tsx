@@ -8,4 +8,4 @@ const IconUniversalCurrencyOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconUniversalCurrencyOutlined as default }
+export default IconUniversalCurrencyOutlined

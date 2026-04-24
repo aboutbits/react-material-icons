@@ -10,4 +10,4 @@ const IconAirPurifierGenOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAirPurifierGenOutlinedFilled as default }
+export default IconAirPurifierGenOutlinedFilled

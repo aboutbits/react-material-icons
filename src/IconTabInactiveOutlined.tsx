@@ -8,4 +8,4 @@ const IconTabInactiveOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTabInactiveOutlined as default }
+export default IconTabInactiveOutlined

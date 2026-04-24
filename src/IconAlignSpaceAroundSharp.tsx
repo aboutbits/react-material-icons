@@ -8,4 +8,4 @@ const IconAlignSpaceAroundSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAlignSpaceAroundSharp as default }
+export default IconAlignSpaceAroundSharp

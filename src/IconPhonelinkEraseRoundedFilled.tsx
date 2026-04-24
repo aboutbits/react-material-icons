@@ -8,4 +8,4 @@ const IconPhonelinkEraseRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhonelinkEraseRoundedFilled as default }
+export default IconPhonelinkEraseRoundedFilled

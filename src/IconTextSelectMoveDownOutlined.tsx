@@ -8,4 +8,4 @@ const IconTextSelectMoveDownOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectMoveDownOutlined as default }
+export default IconTextSelectMoveDownOutlined

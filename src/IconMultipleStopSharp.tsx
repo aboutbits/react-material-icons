@@ -8,4 +8,4 @@ const IconMultipleStopSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMultipleStopSharp as default }
+export default IconMultipleStopSharp

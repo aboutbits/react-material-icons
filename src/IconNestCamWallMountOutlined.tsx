@@ -8,4 +8,4 @@ const IconNestCamWallMountOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamWallMountOutlined as default }
+export default IconNestCamWallMountOutlined

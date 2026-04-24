@@ -8,4 +8,4 @@ const IconChromecastDeviceSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromecastDeviceSharp as default }
+export default IconChromecastDeviceSharp

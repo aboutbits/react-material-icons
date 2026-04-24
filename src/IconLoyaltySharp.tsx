@@ -8,4 +8,4 @@ const IconLoyaltySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLoyaltySharp as default }
+export default IconLoyaltySharp

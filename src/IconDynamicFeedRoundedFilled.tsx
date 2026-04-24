@@ -8,4 +8,4 @@ const IconDynamicFeedRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDynamicFeedRoundedFilled as default }
+export default IconDynamicFeedRoundedFilled

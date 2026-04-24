@@ -10,4 +10,4 @@ const IconSwapDrivingAppsWheelSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSwapDrivingAppsWheelSharpFilled as default }
+export default IconSwapDrivingAppsWheelSharpFilled

@@ -10,4 +10,4 @@ const IconLineEndDiamondOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLineEndDiamondOutlinedFilled as default }
+export default IconLineEndDiamondOutlinedFilled

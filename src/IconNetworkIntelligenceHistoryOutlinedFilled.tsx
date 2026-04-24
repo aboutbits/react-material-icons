@@ -10,4 +10,4 @@ const IconNetworkIntelligenceHistoryOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNetworkIntelligenceHistoryOutlinedFilled as default }
+export default IconNetworkIntelligenceHistoryOutlinedFilled

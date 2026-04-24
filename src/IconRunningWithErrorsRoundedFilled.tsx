@@ -10,4 +10,4 @@ const IconRunningWithErrorsRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRunningWithErrorsRoundedFilled as default }
+export default IconRunningWithErrorsRoundedFilled

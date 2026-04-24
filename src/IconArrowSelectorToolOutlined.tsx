@@ -8,4 +8,4 @@ const IconArrowSelectorToolOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowSelectorToolOutlined as default }
+export default IconArrowSelectorToolOutlined

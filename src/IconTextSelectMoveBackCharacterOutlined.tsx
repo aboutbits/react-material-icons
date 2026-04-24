@@ -10,4 +10,4 @@ const IconTextSelectMoveBackCharacterOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectMoveBackCharacterOutlined as default }
+export default IconTextSelectMoveBackCharacterOutlined

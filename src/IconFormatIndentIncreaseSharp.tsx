@@ -8,4 +8,4 @@ const IconFormatIndentIncreaseSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatIndentIncreaseSharp as default }
+export default IconFormatIndentIncreaseSharp

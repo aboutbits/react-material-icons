@@ -10,4 +10,4 @@ const IconUniversalCurrencyAltOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconUniversalCurrencyAltOutlined as default }
+export default IconUniversalCurrencyAltOutlined

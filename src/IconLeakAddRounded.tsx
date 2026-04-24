@@ -8,4 +8,4 @@ const IconLeakAddRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLeakAddRounded as default }
+export default IconLeakAddRounded

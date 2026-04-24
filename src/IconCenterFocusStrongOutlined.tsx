@@ -8,4 +8,4 @@ const IconCenterFocusStrongOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCenterFocusStrongOutlined as default }
+export default IconCenterFocusStrongOutlined

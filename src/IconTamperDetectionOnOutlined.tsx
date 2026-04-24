@@ -8,4 +8,4 @@ const IconTamperDetectionOnOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTamperDetectionOnOutlined as default }
+export default IconTamperDetectionOnOutlined

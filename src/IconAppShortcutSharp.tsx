@@ -8,4 +8,4 @@ const IconAppShortcutSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAppShortcutSharp as default }
+export default IconAppShortcutSharp

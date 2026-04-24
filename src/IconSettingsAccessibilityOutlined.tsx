@@ -10,4 +10,4 @@ const IconSettingsAccessibilityOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsAccessibilityOutlined as default }
+export default IconSettingsAccessibilityOutlined

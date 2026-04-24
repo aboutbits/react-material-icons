@@ -8,4 +8,4 @@ const IconCaptivePortalSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCaptivePortalSharp as default }
+export default IconCaptivePortalSharp

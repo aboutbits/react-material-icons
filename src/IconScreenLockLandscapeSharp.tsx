@@ -8,4 +8,4 @@ const IconScreenLockLandscapeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenLockLandscapeSharp as default }
+export default IconScreenLockLandscapeSharp

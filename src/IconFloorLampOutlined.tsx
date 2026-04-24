@@ -8,4 +8,4 @@ const IconFloorLampOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFloorLampOutlined as default }
+export default IconFloorLampOutlined

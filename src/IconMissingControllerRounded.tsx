@@ -8,4 +8,4 @@ const IconMissingControllerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMissingControllerRounded as default }
+export default IconMissingControllerRounded

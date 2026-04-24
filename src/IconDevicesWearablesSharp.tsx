@@ -8,4 +8,4 @@ const IconDevicesWearablesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDevicesWearablesSharp as default }
+export default IconDevicesWearablesSharp

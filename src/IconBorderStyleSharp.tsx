@@ -8,4 +8,4 @@ const IconBorderStyleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBorderStyleSharp as default }
+export default IconBorderStyleSharp

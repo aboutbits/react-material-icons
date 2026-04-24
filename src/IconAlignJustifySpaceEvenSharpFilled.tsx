@@ -10,4 +10,4 @@ const IconAlignJustifySpaceEvenSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignJustifySpaceEvenSharpFilled as default }
+export default IconAlignJustifySpaceEvenSharpFilled

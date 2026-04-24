@@ -8,4 +8,4 @@ const IconRepeatOneOnOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRepeatOneOnOutlinedFilled as default }
+export default IconRepeatOneOnOutlinedFilled

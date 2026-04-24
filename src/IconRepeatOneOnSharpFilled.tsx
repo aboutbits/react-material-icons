@@ -8,4 +8,4 @@ const IconRepeatOneOnSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRepeatOneOnSharpFilled as default }
+export default IconRepeatOneOnSharpFilled

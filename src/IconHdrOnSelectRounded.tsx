@@ -8,4 +8,4 @@ const IconHdrOnSelectRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHdrOnSelectRounded as default }
+export default IconHdrOnSelectRounded

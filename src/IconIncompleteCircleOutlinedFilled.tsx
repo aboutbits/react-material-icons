@@ -10,4 +10,4 @@ const IconIncompleteCircleOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIncompleteCircleOutlinedFilled as default }
+export default IconIncompleteCircleOutlinedFilled

@@ -8,4 +8,4 @@ const IconBorderHorizontalRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBorderHorizontalRounded as default }
+export default IconBorderHorizontalRounded

@@ -8,4 +8,4 @@ const IconPolylineSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPolylineSharpFilled as default }
+export default IconPolylineSharpFilled

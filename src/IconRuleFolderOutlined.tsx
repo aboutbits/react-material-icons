@@ -8,4 +8,4 @@ const IconRuleFolderOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRuleFolderOutlined as default }
+export default IconRuleFolderOutlined

@@ -8,4 +8,4 @@ const IconWifiCallingBar3Sharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWifiCallingBar3Sharp as default }
+export default IconWifiCallingBar3Sharp

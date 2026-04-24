@@ -8,4 +8,4 @@ const IconWatchWakeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWatchWakeOutlined as default }
+export default IconWatchWakeOutlined

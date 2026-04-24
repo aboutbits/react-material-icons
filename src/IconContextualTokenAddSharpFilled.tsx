@@ -10,4 +10,4 @@ const IconContextualTokenAddSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconContextualTokenAddSharpFilled as default }
+export default IconContextualTokenAddSharpFilled

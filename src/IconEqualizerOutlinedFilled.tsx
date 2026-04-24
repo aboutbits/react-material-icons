@@ -8,4 +8,4 @@ const IconEqualizerOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEqualizerOutlinedFilled as default }
+export default IconEqualizerOutlinedFilled

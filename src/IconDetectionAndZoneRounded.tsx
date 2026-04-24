@@ -8,4 +8,4 @@ const IconDetectionAndZoneRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDetectionAndZoneRounded as default }
+export default IconDetectionAndZoneRounded

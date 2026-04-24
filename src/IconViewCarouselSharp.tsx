@@ -8,4 +8,4 @@ const IconViewCarouselSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewCarouselSharp as default }
+export default IconViewCarouselSharp

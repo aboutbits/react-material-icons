@@ -8,4 +8,4 @@ const IconSwipeUpRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSwipeUpRounded as default }
+export default IconSwipeUpRounded

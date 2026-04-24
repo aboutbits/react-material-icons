@@ -8,4 +8,4 @@ const IconAutorenewRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAutorenewRounded as default }
+export default IconAutorenewRounded

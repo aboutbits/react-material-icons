@@ -8,4 +8,4 @@ const IconFiberSmartRecordRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFiberSmartRecordRounded as default }
+export default IconFiberSmartRecordRounded

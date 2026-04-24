@@ -8,4 +8,4 @@ const IconTabCloseRightRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTabCloseRightRoundedFilled as default }
+export default IconTabCloseRightRoundedFilled

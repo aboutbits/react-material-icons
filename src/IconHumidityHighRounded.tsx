@@ -8,4 +8,4 @@ const IconHumidityHighRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHumidityHighRounded as default }
+export default IconHumidityHighRounded

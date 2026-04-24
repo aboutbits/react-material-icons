@@ -8,4 +8,4 @@ const IconStrokePartialOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStrokePartialOutlined as default }
+export default IconStrokePartialOutlined

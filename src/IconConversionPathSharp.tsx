@@ -8,4 +8,4 @@ const IconConversionPathSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconConversionPathSharp as default }
+export default IconConversionPathSharp

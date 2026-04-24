@@ -8,4 +8,4 @@ const IconGridViewRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGridViewRounded as default }
+export default IconGridViewRounded

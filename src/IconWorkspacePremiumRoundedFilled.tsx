@@ -10,4 +10,4 @@ const IconWorkspacePremiumRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconWorkspacePremiumRoundedFilled as default }
+export default IconWorkspacePremiumRoundedFilled

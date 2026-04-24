@@ -8,4 +8,4 @@ const IconViewHeadlineRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewHeadlineRoundedFilled as default }
+export default IconViewHeadlineRoundedFilled

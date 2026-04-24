@@ -8,4 +8,4 @@ const IconHeadsetMicOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHeadsetMicOutlined as default }
+export default IconHeadsetMicOutlined

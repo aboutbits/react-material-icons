@@ -8,4 +8,4 @@ const IconWrapTextSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWrapTextSharp as default }
+export default IconWrapTextSharp

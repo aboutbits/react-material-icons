@@ -8,4 +8,4 @@ const IconLocalBarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLocalBarSharp as default }
+export default IconLocalBarSharp

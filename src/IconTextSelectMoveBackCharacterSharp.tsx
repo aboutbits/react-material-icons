@@ -10,4 +10,4 @@ const IconTextSelectMoveBackCharacterSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectMoveBackCharacterSharp as default }
+export default IconTextSelectMoveBackCharacterSharp

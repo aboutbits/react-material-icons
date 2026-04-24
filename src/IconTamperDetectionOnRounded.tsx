@@ -8,4 +8,4 @@ const IconTamperDetectionOnRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTamperDetectionOnRounded as default }
+export default IconTamperDetectionOnRounded

@@ -8,4 +8,4 @@ const IconThumbDownRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThumbDownRounded as default }
+export default IconThumbDownRounded

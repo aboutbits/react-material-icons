@@ -8,4 +8,4 @@ const IconSpeechToTextSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpeechToTextSharp as default }
+export default IconSpeechToTextSharp

@@ -8,4 +8,4 @@ const IconBeachAccessRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBeachAccessRounded as default }
+export default IconBeachAccessRounded

@@ -8,4 +8,4 @@ const IconMotionPhotosPausedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMotionPhotosPausedSharp as default }
+export default IconMotionPhotosPausedSharp

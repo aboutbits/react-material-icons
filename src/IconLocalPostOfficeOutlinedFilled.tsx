@@ -10,4 +10,4 @@ const IconLocalPostOfficeOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLocalPostOfficeOutlinedFilled as default }
+export default IconLocalPostOfficeOutlinedFilled

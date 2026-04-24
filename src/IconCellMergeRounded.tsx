@@ -8,4 +8,4 @@ const IconCellMergeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCellMergeRounded as default }
+export default IconCellMergeRounded

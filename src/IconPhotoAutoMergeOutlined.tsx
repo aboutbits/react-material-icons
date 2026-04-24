@@ -8,4 +8,4 @@ const IconPhotoAutoMergeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhotoAutoMergeOutlined as default }
+export default IconPhotoAutoMergeOutlined

@@ -8,4 +8,4 @@ const IconSuperscriptSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSuperscriptSharp as default }
+export default IconSuperscriptSharp

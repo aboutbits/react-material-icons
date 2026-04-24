@@ -8,4 +8,4 @@ const IconPlagiarismRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlagiarismRounded as default }
+export default IconPlagiarismRounded

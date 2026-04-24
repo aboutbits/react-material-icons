@@ -8,4 +8,4 @@ const IconMotionSensorAlertSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMotionSensorAlertSharp as default }
+export default IconMotionSensorAlertSharp

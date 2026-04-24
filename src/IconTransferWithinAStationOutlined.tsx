@@ -10,4 +10,4 @@ const IconTransferWithinAStationOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTransferWithinAStationOutlined as default }
+export default IconTransferWithinAStationOutlined

@@ -8,4 +8,4 @@ const IconAvgTimeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAvgTimeSharp as default }
+export default IconAvgTimeSharp

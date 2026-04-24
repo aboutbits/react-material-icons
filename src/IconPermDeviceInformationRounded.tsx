@@ -10,4 +10,4 @@ const IconPermDeviceInformationRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPermDeviceInformationRounded as default }
+export default IconPermDeviceInformationRounded

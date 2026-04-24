@@ -8,4 +8,4 @@ const IconLiftToTalkSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLiftToTalkSharp as default }
+export default IconLiftToTalkSharp

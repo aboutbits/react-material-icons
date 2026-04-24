@@ -8,4 +8,4 @@ const IconTextSelectMoveDownSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectMoveDownSharp as default }
+export default IconTextSelectMoveDownSharp

@@ -10,4 +10,4 @@ const IconPublishedWithChangesOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPublishedWithChangesOutlined as default }
+export default IconPublishedWithChangesOutlined

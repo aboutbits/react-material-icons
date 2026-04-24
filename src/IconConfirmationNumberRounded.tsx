@@ -8,4 +8,4 @@ const IconConfirmationNumberRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconConfirmationNumberRounded as default }
+export default IconConfirmationNumberRounded

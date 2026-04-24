@@ -10,4 +10,4 @@ const IconDetectionAndZoneRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDetectionAndZoneRoundedFilled as default }
+export default IconDetectionAndZoneRoundedFilled

@@ -8,4 +8,4 @@ const IconTabsRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTabsRoundedFilled as default }
+export default IconTabsRoundedFilled

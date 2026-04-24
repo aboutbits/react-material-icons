@@ -8,4 +8,4 @@ const IconArrowUpwardSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowUpwardSharp as default }
+export default IconArrowUpwardSharp

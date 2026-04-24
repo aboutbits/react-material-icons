@@ -8,4 +8,4 @@ const IconKeyboardBackspaceSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardBackspaceSharp as default }
+export default IconKeyboardBackspaceSharp

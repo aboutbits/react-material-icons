@@ -10,4 +10,4 @@ const IconSettingsInputHdmiRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsInputHdmiRoundedFilled as default }
+export default IconSettingsInputHdmiRoundedFilled

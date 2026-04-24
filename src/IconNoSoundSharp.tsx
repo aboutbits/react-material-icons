@@ -8,4 +8,4 @@ const IconNoSoundSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoSoundSharp as default }
+export default IconNoSoundSharp

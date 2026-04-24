@@ -8,4 +8,4 @@ const IconFilterCenterFocusRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilterCenterFocusRounded as default }
+export default IconFilterCenterFocusRounded

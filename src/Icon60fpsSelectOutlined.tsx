@@ -8,4 +8,4 @@ const Icon60fpsSelectOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { Icon60fpsSelectOutlined as default }
+export default Icon60fpsSelectOutlined

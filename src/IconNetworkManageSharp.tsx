@@ -8,4 +8,4 @@ const IconNetworkManageSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNetworkManageSharp as default }
+export default IconNetworkManageSharp

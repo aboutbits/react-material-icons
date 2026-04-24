@@ -10,4 +10,4 @@ const IconFormatImageLeftRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatImageLeftRoundedFilled as default }
+export default IconFormatImageLeftRoundedFilled

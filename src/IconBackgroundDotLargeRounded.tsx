@@ -8,4 +8,4 @@ const IconBackgroundDotLargeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBackgroundDotLargeRounded as default }
+export default IconBackgroundDotLargeRounded

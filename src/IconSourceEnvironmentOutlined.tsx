@@ -8,4 +8,4 @@ const IconSourceEnvironmentOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSourceEnvironmentOutlined as default }
+export default IconSourceEnvironmentOutlined

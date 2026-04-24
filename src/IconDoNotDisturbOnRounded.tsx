@@ -8,4 +8,4 @@ const IconDoNotDisturbOnRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDoNotDisturbOnRounded as default }
+export default IconDoNotDisturbOnRounded

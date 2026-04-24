@@ -8,4 +8,4 @@ const IconEnergyProgramTimeUsedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEnergyProgramTimeUsedSharp as default }
+export default IconEnergyProgramTimeUsedSharp

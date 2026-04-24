@@ -10,4 +10,4 @@ const IconMenstrualHealthOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMenstrualHealthOutlinedFilled as default }
+export default IconMenstrualHealthOutlinedFilled

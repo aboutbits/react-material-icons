@@ -10,4 +10,4 @@ const IconNestThermostatZirconiumEuRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestThermostatZirconiumEuRoundedFilled as default }
+export default IconNestThermostatZirconiumEuRoundedFilled

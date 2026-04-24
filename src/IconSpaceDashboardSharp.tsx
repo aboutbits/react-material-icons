@@ -8,4 +8,4 @@ const IconSpaceDashboardSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpaceDashboardSharp as default }
+export default IconSpaceDashboardSharp

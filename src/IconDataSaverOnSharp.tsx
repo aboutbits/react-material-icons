@@ -8,4 +8,4 @@ const IconDataSaverOnSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataSaverOnSharp as default }
+export default IconDataSaverOnSharp

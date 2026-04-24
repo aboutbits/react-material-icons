@@ -10,4 +10,4 @@ const IconWatchScreentimeRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconWatchScreentimeRoundedFilled as default }
+export default IconWatchScreentimeRoundedFilled

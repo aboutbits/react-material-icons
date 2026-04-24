@@ -10,4 +10,4 @@ const IconDesktopAccessDisabledRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDesktopAccessDisabledRounded as default }
+export default IconDesktopAccessDisabledRounded

@@ -8,4 +8,4 @@ const IconPrintConnectSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPrintConnectSharpFilled as default }
+export default IconPrintConnectSharpFilled

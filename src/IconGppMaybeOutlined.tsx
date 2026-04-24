@@ -8,4 +8,4 @@ const IconGppMaybeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGppMaybeOutlined as default }
+export default IconGppMaybeOutlined

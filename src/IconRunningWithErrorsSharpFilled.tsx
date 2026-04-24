@@ -10,4 +10,4 @@ const IconRunningWithErrorsSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRunningWithErrorsSharpFilled as default }
+export default IconRunningWithErrorsSharpFilled

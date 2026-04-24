@@ -8,4 +8,4 @@ const IconTrackChangesOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTrackChangesOutlined as default }
+export default IconTrackChangesOutlined

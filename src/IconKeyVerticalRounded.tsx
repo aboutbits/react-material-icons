@@ -8,4 +8,4 @@ const IconKeyVerticalRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyVerticalRounded as default }
+export default IconKeyVerticalRounded

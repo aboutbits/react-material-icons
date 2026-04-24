@@ -8,4 +8,4 @@ const IconViewSidebarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewSidebarSharp as default }
+export default IconViewSidebarSharp

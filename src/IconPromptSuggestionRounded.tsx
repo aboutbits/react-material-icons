@@ -8,4 +8,4 @@ const IconPromptSuggestionRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPromptSuggestionRounded as default }
+export default IconPromptSuggestionRounded

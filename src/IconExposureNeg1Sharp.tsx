@@ -8,4 +8,4 @@ const IconExposureNeg1Sharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconExposureNeg1Sharp as default }
+export default IconExposureNeg1Sharp

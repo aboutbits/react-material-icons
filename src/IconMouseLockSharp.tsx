@@ -8,4 +8,4 @@ const IconMouseLockSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMouseLockSharp as default }
+export default IconMouseLockSharp

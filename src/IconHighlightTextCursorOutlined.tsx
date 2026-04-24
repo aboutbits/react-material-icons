@@ -8,4 +8,4 @@ const IconHighlightTextCursorOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHighlightTextCursorOutlined as default }
+export default IconHighlightTextCursorOutlined

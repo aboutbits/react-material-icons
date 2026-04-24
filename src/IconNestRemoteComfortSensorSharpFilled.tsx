@@ -10,4 +10,4 @@ const IconNestRemoteComfortSensorSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestRemoteComfortSensorSharpFilled as default }
+export default IconNestRemoteComfortSensorSharpFilled

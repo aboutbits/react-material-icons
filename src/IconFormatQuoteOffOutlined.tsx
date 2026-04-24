@@ -8,4 +8,4 @@ const IconFormatQuoteOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatQuoteOffOutlined as default }
+export default IconFormatQuoteOffOutlined

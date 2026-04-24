@@ -8,4 +8,4 @@ const IconEarlyOnSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEarlyOnSharp as default }
+export default IconEarlyOnSharp

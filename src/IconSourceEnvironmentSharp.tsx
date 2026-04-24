@@ -8,4 +8,4 @@ const IconSourceEnvironmentSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSourceEnvironmentSharp as default }
+export default IconSourceEnvironmentSharp

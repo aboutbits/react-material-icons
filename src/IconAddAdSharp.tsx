@@ -8,4 +8,4 @@ const IconAddAdSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAddAdSharp as default }
+export default IconAddAdSharp

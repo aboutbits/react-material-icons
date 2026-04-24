@@ -8,4 +8,4 @@ const IconDatasetLinkedRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDatasetLinkedRounded as default }
+export default IconDatasetLinkedRounded

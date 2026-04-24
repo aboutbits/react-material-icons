@@ -10,4 +10,4 @@ const IconSettingsBackupRestoreRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsBackupRestoreRoundedFilled as default }
+export default IconSettingsBackupRestoreRoundedFilled

@@ -8,4 +8,4 @@ const IconSanitizerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSanitizerSharp as default }
+export default IconSanitizerSharp

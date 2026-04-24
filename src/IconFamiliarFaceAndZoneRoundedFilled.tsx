@@ -10,4 +10,4 @@ const IconFamiliarFaceAndZoneRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFamiliarFaceAndZoneRoundedFilled as default }
+export default IconFamiliarFaceAndZoneRoundedFilled

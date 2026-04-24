@@ -8,4 +8,4 @@ const IconTabInactiveRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTabInactiveRoundedFilled as default }
+export default IconTabInactiveRoundedFilled

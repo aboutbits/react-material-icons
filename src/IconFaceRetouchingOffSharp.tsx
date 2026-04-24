@@ -8,4 +8,4 @@ const IconFaceRetouchingOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFaceRetouchingOffSharp as default }
+export default IconFaceRetouchingOffSharp

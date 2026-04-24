@@ -8,4 +8,4 @@ const IconSettingsBluetoothOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsBluetoothOutlined as default }
+export default IconSettingsBluetoothOutlined

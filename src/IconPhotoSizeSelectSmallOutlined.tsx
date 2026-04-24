@@ -10,4 +10,4 @@ const IconPhotoSizeSelectSmallOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPhotoSizeSelectSmallOutlined as default }
+export default IconPhotoSizeSelectSmallOutlined

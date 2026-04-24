@@ -8,4 +8,4 @@ const IconNightSightMaxOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNightSightMaxOutlined as default }
+export default IconNightSightMaxOutlined

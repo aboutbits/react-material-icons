@@ -10,4 +10,4 @@ const IconSettingsInputAntennaOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsInputAntennaOutlinedFilled as default }
+export default IconSettingsInputAntennaOutlinedFilled

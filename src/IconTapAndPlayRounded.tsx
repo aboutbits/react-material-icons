@@ -8,4 +8,4 @@ const IconTapAndPlayRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTapAndPlayRounded as default }
+export default IconTapAndPlayRounded

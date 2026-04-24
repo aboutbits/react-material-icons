@@ -10,4 +10,4 @@ const IconDesktopWindowsOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDesktopWindowsOutlinedFilled as default }
+export default IconDesktopWindowsOutlinedFilled

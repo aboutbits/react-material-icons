@@ -10,4 +10,4 @@ const IconSettingsInputSvideoOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsInputSvideoOutlinedFilled as default }
+export default IconSettingsInputSvideoOutlinedFilled

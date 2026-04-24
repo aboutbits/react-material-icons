@@ -8,4 +8,4 @@ const IconSimCardSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSimCardSharp as default }
+export default IconSimCardSharp

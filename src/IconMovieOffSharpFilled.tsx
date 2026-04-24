@@ -8,4 +8,4 @@ const IconMovieOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMovieOffSharpFilled as default }
+export default IconMovieOffSharpFilled

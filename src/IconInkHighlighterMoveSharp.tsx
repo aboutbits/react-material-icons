@@ -8,4 +8,4 @@ const IconInkHighlighterMoveSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInkHighlighterMoveSharp as default }
+export default IconInkHighlighterMoveSharp

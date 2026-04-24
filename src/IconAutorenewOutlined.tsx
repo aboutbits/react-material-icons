@@ -8,4 +8,4 @@ const IconAutorenewOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAutorenewOutlined as default }
+export default IconAutorenewOutlined

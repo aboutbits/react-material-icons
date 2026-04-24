@@ -8,4 +8,4 @@ const IconPictureInPictureMobileSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPictureInPictureMobileSharp as default }
+export default IconPictureInPictureMobileSharp

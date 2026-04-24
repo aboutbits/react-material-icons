@@ -10,4 +10,4 @@ const IconNotificationsUnreadSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNotificationsUnreadSharpFilled as default }
+export default IconNotificationsUnreadSharpFilled

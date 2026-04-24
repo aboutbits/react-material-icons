@@ -10,4 +10,4 @@ const IconDomainVerificationOffOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDomainVerificationOffOutlined as default }
+export default IconDomainVerificationOffOutlined

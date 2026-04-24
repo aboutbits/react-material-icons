@@ -8,4 +8,4 @@ const IconKeyboardReturnSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardReturnSharpFilled as default }
+export default IconKeyboardReturnSharpFilled

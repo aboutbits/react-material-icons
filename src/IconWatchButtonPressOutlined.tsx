@@ -8,4 +8,4 @@ const IconWatchButtonPressOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWatchButtonPressOutlined as default }
+export default IconWatchButtonPressOutlined

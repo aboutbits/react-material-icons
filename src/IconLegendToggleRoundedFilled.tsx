@@ -8,4 +8,4 @@ const IconLegendToggleRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLegendToggleRoundedFilled as default }
+export default IconLegendToggleRoundedFilled

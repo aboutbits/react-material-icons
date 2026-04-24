@@ -8,4 +8,4 @@ const IconPlagiarismSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlagiarismSharp as default }
+export default IconPlagiarismSharp

@@ -8,4 +8,4 @@ const IconPhotoSizeSelectLargeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhotoSizeSelectLargeRounded as default }
+export default IconPhotoSizeSelectLargeRounded

@@ -8,4 +8,4 @@ const IconPauseSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPauseSharp as default }
+export default IconPauseSharp

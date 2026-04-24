@@ -10,4 +10,4 @@ const IconToolsPliersWireStripperRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconToolsPliersWireStripperRoundedFilled as default }
+export default IconToolsPliersWireStripperRoundedFilled

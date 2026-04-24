@@ -8,4 +8,4 @@ const IconSettingsInputComponentSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsInputComponentSharp as default }
+export default IconSettingsInputComponentSharp

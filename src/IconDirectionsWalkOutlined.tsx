@@ -8,4 +8,4 @@ const IconDirectionsWalkOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirectionsWalkOutlined as default }
+export default IconDirectionsWalkOutlined

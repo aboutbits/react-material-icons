@@ -10,4 +10,4 @@ const IconChromeReaderModeRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconChromeReaderModeRoundedFilled as default }
+export default IconChromeReaderModeRoundedFilled

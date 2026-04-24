@@ -8,4 +8,4 @@ const IconEMobiledataBadgeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEMobiledataBadgeSharp as default }
+export default IconEMobiledataBadgeSharp

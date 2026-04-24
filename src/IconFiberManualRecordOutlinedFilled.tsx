@@ -10,4 +10,4 @@ const IconFiberManualRecordOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFiberManualRecordOutlinedFilled as default }
+export default IconFiberManualRecordOutlinedFilled

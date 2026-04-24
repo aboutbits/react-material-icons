@@ -8,4 +8,4 @@ const IconFastRewindSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFastRewindSharp as default }
+export default IconFastRewindSharp

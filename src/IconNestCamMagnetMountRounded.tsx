@@ -8,4 +8,4 @@ const IconNestCamMagnetMountRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamMagnetMountRounded as default }
+export default IconNestCamMagnetMountRounded

@@ -8,4 +8,4 @@ const IconSocialLeaderboardSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSocialLeaderboardSharp as default }
+export default IconSocialLeaderboardSharp

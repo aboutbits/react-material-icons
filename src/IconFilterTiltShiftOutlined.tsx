@@ -8,4 +8,4 @@ const IconFilterTiltShiftOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilterTiltShiftOutlined as default }
+export default IconFilterTiltShiftOutlined

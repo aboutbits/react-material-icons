@@ -8,4 +8,4 @@ const IconDriveFolderUploadSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDriveFolderUploadSharp as default }
+export default IconDriveFolderUploadSharp

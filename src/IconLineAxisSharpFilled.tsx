@@ -8,4 +8,4 @@ const IconLineAxisSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLineAxisSharpFilled as default }
+export default IconLineAxisSharpFilled

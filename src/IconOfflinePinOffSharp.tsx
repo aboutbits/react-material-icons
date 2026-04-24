@@ -8,4 +8,4 @@ const IconOfflinePinOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOfflinePinOffSharp as default }
+export default IconOfflinePinOffSharp

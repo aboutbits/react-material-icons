@@ -8,4 +8,4 @@ const IconFormatTextClipRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatTextClipRounded as default }
+export default IconFormatTextClipRounded

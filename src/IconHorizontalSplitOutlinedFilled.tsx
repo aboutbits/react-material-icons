@@ -10,4 +10,4 @@ const IconHorizontalSplitOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHorizontalSplitOutlinedFilled as default }
+export default IconHorizontalSplitOutlinedFilled

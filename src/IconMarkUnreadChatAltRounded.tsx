@@ -8,4 +8,4 @@ const IconMarkUnreadChatAltRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMarkUnreadChatAltRounded as default }
+export default IconMarkUnreadChatAltRounded

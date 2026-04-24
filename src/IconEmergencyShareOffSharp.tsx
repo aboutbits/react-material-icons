@@ -8,4 +8,4 @@ const IconEmergencyShareOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEmergencyShareOffSharp as default }
+export default IconEmergencyShareOffSharp

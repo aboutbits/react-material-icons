@@ -8,4 +8,4 @@ const IconContextualTokenAddSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContextualTokenAddSharp as default }
+export default IconContextualTokenAddSharp

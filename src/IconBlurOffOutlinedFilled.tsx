@@ -8,4 +8,4 @@ const IconBlurOffOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBlurOffOutlinedFilled as default }
+export default IconBlurOffOutlinedFilled

@@ -8,4 +8,4 @@ const IconSuperscriptRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSuperscriptRounded as default }
+export default IconSuperscriptRounded

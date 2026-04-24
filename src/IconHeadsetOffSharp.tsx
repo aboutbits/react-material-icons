@@ -8,4 +8,4 @@ const IconHeadsetOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHeadsetOffSharp as default }
+export default IconHeadsetOffSharp

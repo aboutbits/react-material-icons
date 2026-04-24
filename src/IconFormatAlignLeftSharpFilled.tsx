@@ -8,4 +8,4 @@ const IconFormatAlignLeftSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatAlignLeftSharpFilled as default }
+export default IconFormatAlignLeftSharpFilled

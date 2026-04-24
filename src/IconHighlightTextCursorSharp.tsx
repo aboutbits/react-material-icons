@@ -8,4 +8,4 @@ const IconHighlightTextCursorSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHighlightTextCursorSharp as default }
+export default IconHighlightTextCursorSharp

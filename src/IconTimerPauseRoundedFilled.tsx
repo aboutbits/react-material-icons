@@ -8,4 +8,4 @@ const IconTimerPauseRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTimerPauseRoundedFilled as default }
+export default IconTimerPauseRoundedFilled

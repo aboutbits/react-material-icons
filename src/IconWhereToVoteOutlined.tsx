@@ -8,4 +8,4 @@ const IconWhereToVoteOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWhereToVoteOutlined as default }
+export default IconWhereToVoteOutlined

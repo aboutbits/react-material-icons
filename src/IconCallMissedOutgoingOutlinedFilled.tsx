@@ -10,4 +10,4 @@ const IconCallMissedOutgoingOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCallMissedOutgoingOutlinedFilled as default }
+export default IconCallMissedOutgoingOutlinedFilled

@@ -8,4 +8,4 @@ const IconViewRealSizeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewRealSizeSharp as default }
+export default IconViewRealSizeSharp

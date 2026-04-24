@@ -8,4 +8,4 @@ const IconBatchPredictionSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBatchPredictionSharp as default }
+export default IconBatchPredictionSharp

@@ -10,4 +10,4 @@ const IconContentPasteSearchRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconContentPasteSearchRoundedFilled as default }
+export default IconContentPasteSearchRoundedFilled

@@ -10,4 +10,4 @@ const IconMissingControllerOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMissingControllerOutlinedFilled as default }
+export default IconMissingControllerOutlinedFilled

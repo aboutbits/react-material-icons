@@ -8,4 +8,4 @@ const IconScrollableHeaderSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScrollableHeaderSharpFilled as default }
+export default IconScrollableHeaderSharpFilled

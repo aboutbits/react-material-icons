@@ -8,4 +8,4 @@ const IconDetectionAndZoneSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDetectionAndZoneSharp as default }
+export default IconDetectionAndZoneSharp

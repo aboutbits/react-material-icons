@@ -8,4 +8,4 @@ const IconWebhookSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWebhookSharpFilled as default }
+export default IconWebhookSharpFilled

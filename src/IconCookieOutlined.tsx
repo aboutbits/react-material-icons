@@ -8,4 +8,4 @@ const IconCookieOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCookieOutlined as default }
+export default IconCookieOutlined

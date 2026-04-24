@@ -8,4 +8,4 @@ const IconSpatialTrackingOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpatialTrackingOutlined as default }
+export default IconSpatialTrackingOutlined

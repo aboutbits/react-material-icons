@@ -10,4 +10,4 @@ const IconDigitalOutOfHomeRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDigitalOutOfHomeRoundedFilled as default }
+export default IconDigitalOutOfHomeRoundedFilled

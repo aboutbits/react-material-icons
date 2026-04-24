@@ -8,4 +8,4 @@ const IconDistanceRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDistanceRounded as default }
+export default IconDistanceRounded

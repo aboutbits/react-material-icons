@@ -10,4 +10,4 @@ const IconSubdirectoryArrowLeftRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSubdirectoryArrowLeftRounded as default }
+export default IconSubdirectoryArrowLeftRounded

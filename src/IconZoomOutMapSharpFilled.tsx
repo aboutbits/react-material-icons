@@ -8,4 +8,4 @@ const IconZoomOutMapSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconZoomOutMapSharpFilled as default }
+export default IconZoomOutMapSharpFilled

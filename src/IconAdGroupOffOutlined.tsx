@@ -8,4 +8,4 @@ const IconAdGroupOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAdGroupOffOutlined as default }
+export default IconAdGroupOffOutlined

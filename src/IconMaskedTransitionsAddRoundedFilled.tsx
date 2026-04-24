@@ -10,4 +10,4 @@ const IconMaskedTransitionsAddRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMaskedTransitionsAddRoundedFilled as default }
+export default IconMaskedTransitionsAddRoundedFilled

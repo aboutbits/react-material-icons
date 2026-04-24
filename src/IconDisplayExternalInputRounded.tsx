@@ -8,4 +8,4 @@ const IconDisplayExternalInputRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDisplayExternalInputRounded as default }
+export default IconDisplayExternalInputRounded

@@ -10,4 +10,4 @@ const IconSimCardDownloadOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSimCardDownloadOutlinedFilled as default }
+export default IconSimCardDownloadOutlinedFilled

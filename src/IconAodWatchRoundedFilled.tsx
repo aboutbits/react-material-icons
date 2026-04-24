@@ -8,4 +8,4 @@ const IconAodWatchRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAodWatchRoundedFilled as default }
+export default IconAodWatchRoundedFilled

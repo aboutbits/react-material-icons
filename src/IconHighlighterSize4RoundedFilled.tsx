@@ -10,4 +10,4 @@ const IconHighlighterSize4RoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHighlighterSize4RoundedFilled as default }
+export default IconHighlighterSize4RoundedFilled

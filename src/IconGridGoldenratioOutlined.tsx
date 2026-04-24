@@ -8,4 +8,4 @@ const IconGridGoldenratioOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGridGoldenratioOutlined as default }
+export default IconGridGoldenratioOutlined

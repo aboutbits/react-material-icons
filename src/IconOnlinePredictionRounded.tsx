@@ -8,4 +8,4 @@ const IconOnlinePredictionRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOnlinePredictionRounded as default }
+export default IconOnlinePredictionRounded

@@ -8,4 +8,4 @@ const IconNotificationsActiveSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNotificationsActiveSharp as default }
+export default IconNotificationsActiveSharp

@@ -10,4 +10,4 @@ const IconBathPublicLargeOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBathPublicLargeOutlinedFilled as default }
+export default IconBathPublicLargeOutlinedFilled

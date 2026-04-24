@@ -10,4 +10,4 @@ const IconHdrEnhancedSelectRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHdrEnhancedSelectRoundedFilled as default }
+export default IconHdrEnhancedSelectRoundedFilled

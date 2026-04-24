@@ -8,4 +8,4 @@ const IconRollerShadesClosedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRollerShadesClosedSharp as default }
+export default IconRollerShadesClosedSharp

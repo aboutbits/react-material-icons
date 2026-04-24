@@ -8,4 +8,4 @@ const IconFingerprintOffRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFingerprintOffRoundedFilled as default }
+export default IconFingerprintOffRoundedFilled

@@ -8,4 +8,4 @@ const IconLanguageUsColemakSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLanguageUsColemakSharp as default }
+export default IconLanguageUsColemakSharp

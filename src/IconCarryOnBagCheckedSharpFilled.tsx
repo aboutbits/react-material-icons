@@ -10,4 +10,4 @@ const IconCarryOnBagCheckedSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCarryOnBagCheckedSharpFilled as default }
+export default IconCarryOnBagCheckedSharpFilled

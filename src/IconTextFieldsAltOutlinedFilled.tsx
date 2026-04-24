@@ -8,4 +8,4 @@ const IconTextFieldsAltOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextFieldsAltOutlinedFilled as default }
+export default IconTextFieldsAltOutlinedFilled

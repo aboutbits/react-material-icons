@@ -8,4 +8,4 @@ const IconScreenRotationUpSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenRotationUpSharp as default }
+export default IconScreenRotationUpSharp

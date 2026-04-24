@@ -10,4 +10,4 @@ const IconIndeterminateCheckBoxRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIndeterminateCheckBoxRounded as default }
+export default IconIndeterminateCheckBoxRounded

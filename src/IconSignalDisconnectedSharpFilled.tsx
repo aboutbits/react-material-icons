@@ -10,4 +10,4 @@ const IconSignalDisconnectedSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSignalDisconnectedSharpFilled as default }
+export default IconSignalDisconnectedSharpFilled

@@ -8,4 +8,4 @@ const IconTextFieldsAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextFieldsAltSharp as default }
+export default IconTextFieldsAltSharp

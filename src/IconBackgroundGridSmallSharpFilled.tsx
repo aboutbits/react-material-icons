@@ -10,4 +10,4 @@ const IconBackgroundGridSmallSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBackgroundGridSmallSharpFilled as default }
+export default IconBackgroundGridSmallSharpFilled

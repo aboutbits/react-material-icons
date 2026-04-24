@@ -8,4 +8,4 @@ const IconKeyboardOffOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardOffOutlinedFilled as default }
+export default IconKeyboardOffOutlinedFilled

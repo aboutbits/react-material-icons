@@ -8,4 +8,4 @@ const IconLeakAddOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLeakAddOutlined as default }
+export default IconLeakAddOutlined

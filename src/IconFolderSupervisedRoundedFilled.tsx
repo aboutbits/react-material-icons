@@ -10,4 +10,4 @@ const IconFolderSupervisedRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFolderSupervisedRoundedFilled as default }
+export default IconFolderSupervisedRoundedFilled

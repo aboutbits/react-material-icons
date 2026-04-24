@@ -8,4 +8,4 @@ const IconShelfAutoHideRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShelfAutoHideRounded as default }
+export default IconShelfAutoHideRounded

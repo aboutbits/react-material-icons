@@ -10,4 +10,4 @@ const IconTextSelectJumpToBeginningOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectJumpToBeginningOutlinedFilled as default }
+export default IconTextSelectJumpToBeginningOutlinedFilled

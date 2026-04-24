@@ -8,4 +8,4 @@ const IconLogoutRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLogoutRounded as default }
+export default IconLogoutRounded

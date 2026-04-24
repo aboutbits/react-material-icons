@@ -8,4 +8,4 @@ const IconDomainVerificationOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDomainVerificationOffSharp as default }
+export default IconDomainVerificationOffSharp

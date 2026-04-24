@@ -8,4 +8,4 @@ const IconLanguageChineseWubiOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLanguageChineseWubiOutlined as default }
+export default IconLanguageChineseWubiOutlined

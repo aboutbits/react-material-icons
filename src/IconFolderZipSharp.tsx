@@ -8,4 +8,4 @@ const IconFolderZipSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFolderZipSharp as default }
+export default IconFolderZipSharp

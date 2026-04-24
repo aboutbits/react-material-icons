@@ -10,4 +10,4 @@ const IconIndeterminateCheckBoxSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIndeterminateCheckBoxSharpFilled as default }
+export default IconIndeterminateCheckBoxSharpFilled

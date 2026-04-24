@@ -8,4 +8,4 @@ const IconRepartitionSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRepartitionSharp as default }
+export default IconRepartitionSharp

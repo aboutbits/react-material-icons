@@ -10,4 +10,4 @@ const IconHighlightKeyboardFocusRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHighlightKeyboardFocusRounded as default }
+export default IconHighlightKeyboardFocusRounded

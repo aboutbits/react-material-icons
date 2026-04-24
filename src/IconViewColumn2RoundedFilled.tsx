@@ -8,4 +8,4 @@ const IconViewColumn2RoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewColumn2RoundedFilled as default }
+export default IconViewColumn2RoundedFilled

@@ -10,4 +10,4 @@ const IconKeyboardArrowLeftRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardArrowLeftRoundedFilled as default }
+export default IconKeyboardArrowLeftRoundedFilled

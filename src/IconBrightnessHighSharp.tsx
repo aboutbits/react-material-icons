@@ -8,4 +8,4 @@ const IconBrightnessHighSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBrightnessHighSharp as default }
+export default IconBrightnessHighSharp

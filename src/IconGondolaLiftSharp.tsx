@@ -8,4 +8,4 @@ const IconGondolaLiftSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGondolaLiftSharp as default }
+export default IconGondolaLiftSharp

@@ -10,4 +10,4 @@ const IconArrowForwardIosRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconArrowForwardIosRoundedFilled as default }
+export default IconArrowForwardIosRoundedFilled

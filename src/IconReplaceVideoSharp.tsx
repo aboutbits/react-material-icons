@@ -8,4 +8,4 @@ const IconReplaceVideoSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconReplaceVideoSharp as default }
+export default IconReplaceVideoSharp

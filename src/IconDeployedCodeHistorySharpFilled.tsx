@@ -10,4 +10,4 @@ const IconDeployedCodeHistorySharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDeployedCodeHistorySharpFilled as default }
+export default IconDeployedCodeHistorySharpFilled

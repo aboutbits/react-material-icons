@@ -8,4 +8,4 @@ const IconPriorityHighSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPriorityHighSharp as default }
+export default IconPriorityHighSharp

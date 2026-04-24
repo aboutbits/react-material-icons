@@ -8,4 +8,4 @@ const IconHdrOffSelectOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHdrOffSelectOutlined as default }
+export default IconHdrOffSelectOutlined

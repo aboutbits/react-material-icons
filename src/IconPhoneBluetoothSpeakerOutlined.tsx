@@ -10,4 +10,4 @@ const IconPhoneBluetoothSpeakerOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPhoneBluetoothSpeakerOutlined as default }
+export default IconPhoneBluetoothSpeakerOutlined

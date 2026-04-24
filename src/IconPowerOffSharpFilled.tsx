@@ -8,4 +8,4 @@ const IconPowerOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPowerOffSharpFilled as default }
+export default IconPowerOffSharpFilled

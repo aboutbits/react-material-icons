@@ -8,4 +8,4 @@ const IconNestWifiPointSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestWifiPointSharp as default }
+export default IconNestWifiPointSharp

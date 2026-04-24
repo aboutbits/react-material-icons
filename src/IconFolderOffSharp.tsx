@@ -8,4 +8,4 @@ const IconFolderOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFolderOffSharp as default }
+export default IconFolderOffSharp

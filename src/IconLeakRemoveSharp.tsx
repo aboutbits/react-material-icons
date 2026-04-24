@@ -8,4 +8,4 @@ const IconLeakRemoveSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLeakRemoveSharp as default }
+export default IconLeakRemoveSharp

@@ -8,4 +8,4 @@ const IconFlipToBackRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlipToBackRoundedFilled as default }
+export default IconFlipToBackRoundedFilled

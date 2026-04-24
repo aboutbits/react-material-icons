@@ -8,4 +8,4 @@ const IconDatabaseOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDatabaseOffRounded as default }
+export default IconDatabaseOffRounded

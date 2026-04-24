@@ -8,4 +8,4 @@ const IconStackedLineChartOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStackedLineChartOutlined as default }
+export default IconStackedLineChartOutlined

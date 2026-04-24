@@ -8,4 +8,4 @@ const IconLetterSwitchRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLetterSwitchRoundedFilled as default }
+export default IconLetterSwitchRoundedFilled

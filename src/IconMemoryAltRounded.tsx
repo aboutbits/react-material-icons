@@ -8,4 +8,4 @@ const IconMemoryAltRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMemoryAltRounded as default }
+export default IconMemoryAltRounded

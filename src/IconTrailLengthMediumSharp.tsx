@@ -8,4 +8,4 @@ const IconTrailLengthMediumSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTrailLengthMediumSharp as default }
+export default IconTrailLengthMediumSharp

@@ -8,4 +8,4 @@ const IconCalendarAddOnSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCalendarAddOnSharpFilled as default }
+export default IconCalendarAddOnSharpFilled

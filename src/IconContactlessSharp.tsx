@@ -8,4 +8,4 @@ const IconContactlessSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContactlessSharp as default }
+export default IconContactlessSharp

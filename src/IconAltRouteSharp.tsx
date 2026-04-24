@@ -8,4 +8,4 @@ const IconAltRouteSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAltRouteSharp as default }
+export default IconAltRouteSharp

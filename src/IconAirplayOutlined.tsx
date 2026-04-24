@@ -8,4 +8,4 @@ const IconAirplayOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAirplayOutlined as default }
+export default IconAirplayOutlined

@@ -8,4 +8,4 @@ const IconDynamicFormSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDynamicFormSharp as default }
+export default IconDynamicFormSharp

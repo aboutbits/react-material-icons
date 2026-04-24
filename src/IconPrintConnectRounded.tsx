@@ -8,4 +8,4 @@ const IconPrintConnectRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPrintConnectRounded as default }
+export default IconPrintConnectRounded

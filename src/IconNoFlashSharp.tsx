@@ -8,4 +8,4 @@ const IconNoFlashSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoFlashSharp as default }
+export default IconNoFlashSharp

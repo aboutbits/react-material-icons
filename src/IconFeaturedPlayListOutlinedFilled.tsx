@@ -10,4 +10,4 @@ const IconFeaturedPlayListOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFeaturedPlayListOutlinedFilled as default }
+export default IconFeaturedPlayListOutlinedFilled

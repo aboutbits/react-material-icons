@@ -10,4 +10,4 @@ const IconEnergyProgramSavingOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEnergyProgramSavingOutlinedFilled as default }
+export default IconEnergyProgramSavingOutlinedFilled

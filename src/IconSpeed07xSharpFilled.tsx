@@ -8,4 +8,4 @@ const IconSpeed07xSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpeed07xSharpFilled as default }
+export default IconSpeed07xSharpFilled

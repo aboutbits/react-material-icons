@@ -10,4 +10,4 @@ const IconFormatIndentDecreaseSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatIndentDecreaseSharpFilled as default }
+export default IconFormatIndentDecreaseSharpFilled

@@ -10,4 +10,4 @@ const IconFamilyRestroomOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFamilyRestroomOutlinedFilled as default }
+export default IconFamilyRestroomOutlinedFilled

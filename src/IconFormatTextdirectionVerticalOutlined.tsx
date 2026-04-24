@@ -10,4 +10,4 @@ const IconFormatTextdirectionVerticalOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatTextdirectionVerticalOutlined as default }
+export default IconFormatTextdirectionVerticalOutlined

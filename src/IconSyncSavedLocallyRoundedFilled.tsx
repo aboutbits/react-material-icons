@@ -10,4 +10,4 @@ const IconSyncSavedLocallyRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSyncSavedLocallyRoundedFilled as default }
+export default IconSyncSavedLocallyRoundedFilled

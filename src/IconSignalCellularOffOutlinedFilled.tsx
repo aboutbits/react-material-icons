@@ -10,4 +10,4 @@ const IconSignalCellularOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSignalCellularOffOutlinedFilled as default }
+export default IconSignalCellularOffOutlinedFilled

@@ -8,4 +8,4 @@ const IconDetectorCoSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDetectorCoSharp as default }
+export default IconDetectorCoSharp

@@ -8,4 +8,4 @@ const IconStopScreenShareSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStopScreenShareSharpFilled as default }
+export default IconStopScreenShareSharpFilled

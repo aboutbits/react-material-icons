@@ -8,4 +8,4 @@ const IconMatchWordOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMatchWordOutlined as default }
+export default IconMatchWordOutlined

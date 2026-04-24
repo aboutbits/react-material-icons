@@ -10,4 +10,4 @@ const IconWatchButtonPressRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconWatchButtonPressRoundedFilled as default }
+export default IconWatchButtonPressRoundedFilled

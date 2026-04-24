@@ -8,4 +8,4 @@ const IconFormatItalicOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatItalicOutlined as default }
+export default IconFormatItalicOutlined

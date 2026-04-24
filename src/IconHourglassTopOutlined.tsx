@@ -8,4 +8,4 @@ const IconHourglassTopOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHourglassTopOutlined as default }
+export default IconHourglassTopOutlined

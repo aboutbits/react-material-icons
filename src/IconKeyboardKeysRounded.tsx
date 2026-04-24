@@ -8,4 +8,4 @@ const IconKeyboardKeysRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardKeysRounded as default }
+export default IconKeyboardKeysRounded

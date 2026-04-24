@@ -8,4 +8,4 @@ const IconListAltRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconListAltRounded as default }
+export default IconListAltRounded

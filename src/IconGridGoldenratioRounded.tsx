@@ -8,4 +8,4 @@ const IconGridGoldenratioRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGridGoldenratioRounded as default }
+export default IconGridGoldenratioRounded

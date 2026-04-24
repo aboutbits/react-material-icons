@@ -8,4 +8,4 @@ const IconMaximizeSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMaximizeSharpFilled as default }
+export default IconMaximizeSharpFilled

@@ -8,4 +8,4 @@ const IconRightPanelCloseSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRightPanelCloseSharpFilled as default }
+export default IconRightPanelCloseSharpFilled

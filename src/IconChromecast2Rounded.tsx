@@ -8,4 +8,4 @@ const IconChromecast2Rounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromecast2Rounded as default }
+export default IconChromecast2Rounded

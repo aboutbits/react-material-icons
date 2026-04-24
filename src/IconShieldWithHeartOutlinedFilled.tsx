@@ -10,4 +10,4 @@ const IconShieldWithHeartOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconShieldWithHeartOutlinedFilled as default }
+export default IconShieldWithHeartOutlinedFilled

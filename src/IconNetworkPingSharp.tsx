@@ -8,4 +8,4 @@ const IconNetworkPingSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNetworkPingSharp as default }
+export default IconNetworkPingSharp

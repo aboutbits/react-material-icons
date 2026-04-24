@@ -8,4 +8,4 @@ const IconCollapseAllSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCollapseAllSharp as default }
+export default IconCollapseAllSharp

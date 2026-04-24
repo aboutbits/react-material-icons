@@ -10,4 +10,4 @@ const IconHomeImprovementAndToolsOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHomeImprovementAndToolsOutlined as default }
+export default IconHomeImprovementAndToolsOutlined

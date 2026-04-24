@@ -8,4 +8,4 @@ const IconHorizontalRuleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHorizontalRuleSharp as default }
+export default IconHorizontalRuleSharp

@@ -10,4 +10,4 @@ const IconDetectorOfflineRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDetectorOfflineRoundedFilled as default }
+export default IconDetectorOfflineRoundedFilled

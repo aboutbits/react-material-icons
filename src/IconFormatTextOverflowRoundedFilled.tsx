@@ -10,4 +10,4 @@ const IconFormatTextOverflowRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatTextOverflowRoundedFilled as default }
+export default IconFormatTextOverflowRoundedFilled

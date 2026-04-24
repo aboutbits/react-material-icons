@@ -10,4 +10,4 @@ const IconArrowCircleRightOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconArrowCircleRightOutlinedFilled as default }
+export default IconArrowCircleRightOutlinedFilled

@@ -8,4 +8,4 @@ const IconZonePersonAlertRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconZonePersonAlertRounded as default }
+export default IconZonePersonAlertRounded

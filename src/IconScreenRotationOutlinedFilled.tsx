@@ -10,4 +10,4 @@ const IconScreenRotationOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenRotationOutlinedFilled as default }
+export default IconScreenRotationOutlinedFilled

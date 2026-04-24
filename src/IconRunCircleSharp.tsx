@@ -8,4 +8,4 @@ const IconRunCircleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRunCircleSharp as default }
+export default IconRunCircleSharp

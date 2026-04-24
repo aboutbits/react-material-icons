@@ -8,4 +8,4 @@ const IconCastConnectedSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCastConnectedSharpFilled as default }
+export default IconCastConnectedSharpFilled

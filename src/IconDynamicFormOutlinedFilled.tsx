@@ -8,4 +8,4 @@ const IconDynamicFormOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDynamicFormOutlinedFilled as default }
+export default IconDynamicFormOutlinedFilled

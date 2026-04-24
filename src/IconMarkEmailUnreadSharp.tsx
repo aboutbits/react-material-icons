@@ -8,4 +8,4 @@ const IconMarkEmailUnreadSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMarkEmailUnreadSharp as default }
+export default IconMarkEmailUnreadSharp

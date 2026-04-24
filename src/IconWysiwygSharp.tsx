@@ -8,4 +8,4 @@ const IconWysiwygSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWysiwygSharp as default }
+export default IconWysiwygSharp

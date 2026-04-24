@@ -8,4 +8,4 @@ const IconQueryStatsOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconQueryStatsOutlined as default }
+export default IconQueryStatsOutlined

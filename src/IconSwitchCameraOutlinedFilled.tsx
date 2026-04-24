@@ -8,4 +8,4 @@ const IconSwitchCameraOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSwitchCameraOutlinedFilled as default }
+export default IconSwitchCameraOutlinedFilled

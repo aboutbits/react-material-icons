@@ -10,4 +10,4 @@ const IconFormatImageRightOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatImageRightOutlinedFilled as default }
+export default IconFormatImageRightOutlinedFilled

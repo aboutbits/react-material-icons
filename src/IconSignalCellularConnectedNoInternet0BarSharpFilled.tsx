@@ -10,4 +10,4 @@ const IconSignalCellularConnectedNoInternet0BarSharpFilled: React.FC<
   </svg>
 )
 
-export { IconSignalCellularConnectedNoInternet0BarSharpFilled as default }
+export default IconSignalCellularConnectedNoInternet0BarSharpFilled

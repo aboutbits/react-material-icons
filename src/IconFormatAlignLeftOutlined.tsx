@@ -8,4 +8,4 @@ const IconFormatAlignLeftOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatAlignLeftOutlined as default }
+export default IconFormatAlignLeftOutlined

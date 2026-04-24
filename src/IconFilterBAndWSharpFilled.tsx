@@ -8,4 +8,4 @@ const IconFilterBAndWSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilterBAndWSharpFilled as default }
+export default IconFilterBAndWSharpFilled

@@ -8,4 +8,4 @@ const IconMagnifyDockedSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMagnifyDockedSharpFilled as default }
+export default IconMagnifyDockedSharpFilled

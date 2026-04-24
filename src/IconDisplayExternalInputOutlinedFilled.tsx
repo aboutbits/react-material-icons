@@ -10,4 +10,4 @@ const IconDisplayExternalInputOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDisplayExternalInputOutlinedFilled as default }
+export default IconDisplayExternalInputOutlinedFilled

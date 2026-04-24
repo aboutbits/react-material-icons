@@ -10,4 +10,4 @@ const IconRunningWithErrorsOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRunningWithErrorsOutlinedFilled as default }
+export default IconRunningWithErrorsOutlinedFilled

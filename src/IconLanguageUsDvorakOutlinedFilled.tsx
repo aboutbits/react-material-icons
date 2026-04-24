@@ -10,4 +10,4 @@ const IconLanguageUsDvorakOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLanguageUsDvorakOutlinedFilled as default }
+export default IconLanguageUsDvorakOutlinedFilled

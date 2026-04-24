@@ -8,4 +8,4 @@ const IconMonitorWeightGainSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMonitorWeightGainSharp as default }
+export default IconMonitorWeightGainSharp

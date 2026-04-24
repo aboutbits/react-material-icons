@@ -8,4 +8,4 @@ const IconShelfAutoHideSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShelfAutoHideSharpFilled as default }
+export default IconShelfAutoHideSharpFilled

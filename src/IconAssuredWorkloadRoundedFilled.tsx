@@ -10,4 +10,4 @@ const IconAssuredWorkloadRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAssuredWorkloadRoundedFilled as default }
+export default IconAssuredWorkloadRoundedFilled

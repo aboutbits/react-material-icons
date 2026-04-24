@@ -8,4 +8,4 @@ const IconSpeechToTextRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpeechToTextRounded as default }
+export default IconSpeechToTextRounded

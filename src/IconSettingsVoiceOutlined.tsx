@@ -8,4 +8,4 @@ const IconSettingsVoiceOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsVoiceOutlined as default }
+export default IconSettingsVoiceOutlined

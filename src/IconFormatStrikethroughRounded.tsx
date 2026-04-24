@@ -8,4 +8,4 @@ const IconFormatStrikethroughRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatStrikethroughRounded as default }
+export default IconFormatStrikethroughRounded

@@ -8,4 +8,4 @@ const IconPublishedWithChangesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPublishedWithChangesSharp as default }
+export default IconPublishedWithChangesSharp

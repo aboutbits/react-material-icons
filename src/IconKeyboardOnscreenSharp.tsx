@@ -8,4 +8,4 @@ const IconKeyboardOnscreenSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardOnscreenSharp as default }
+export default IconKeyboardOnscreenSharp

@@ -8,4 +8,4 @@ const IconMatchWordSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMatchWordSharp as default }
+export default IconMatchWordSharp

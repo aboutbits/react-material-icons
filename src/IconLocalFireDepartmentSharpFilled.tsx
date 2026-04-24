@@ -10,4 +10,4 @@ const IconLocalFireDepartmentSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLocalFireDepartmentSharpFilled as default }
+export default IconLocalFireDepartmentSharpFilled

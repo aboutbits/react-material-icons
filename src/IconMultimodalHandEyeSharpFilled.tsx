@@ -10,4 +10,4 @@ const IconMultimodalHandEyeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMultimodalHandEyeSharpFilled as default }
+export default IconMultimodalHandEyeSharpFilled

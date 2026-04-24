@@ -10,4 +10,4 @@ const IconBatteryChargingFullSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBatteryChargingFullSharpFilled as default }
+export default IconBatteryChargingFullSharpFilled

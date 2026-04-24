@@ -8,4 +8,4 @@ const IconDensityMediumSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDensityMediumSharp as default }
+export default IconDensityMediumSharp

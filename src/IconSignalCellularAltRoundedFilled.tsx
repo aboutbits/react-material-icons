@@ -10,4 +10,4 @@ const IconSignalCellularAltRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSignalCellularAltRoundedFilled as default }
+export default IconSignalCellularAltRoundedFilled

@@ -10,4 +10,4 @@ const IconNestCamWiredStandSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestCamWiredStandSharpFilled as default }
+export default IconNestCamWiredStandSharpFilled

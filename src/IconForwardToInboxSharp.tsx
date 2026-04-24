@@ -8,4 +8,4 @@ const IconForwardToInboxSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconForwardToInboxSharp as default }
+export default IconForwardToInboxSharp

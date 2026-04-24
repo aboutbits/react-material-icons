@@ -10,4 +10,4 @@ const IconSettingsApplicationsSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsApplicationsSharpFilled as default }
+export default IconSettingsApplicationsSharpFilled

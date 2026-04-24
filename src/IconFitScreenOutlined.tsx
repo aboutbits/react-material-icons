@@ -8,4 +8,4 @@ const IconFitScreenOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFitScreenOutlined as default }
+export default IconFitScreenOutlined

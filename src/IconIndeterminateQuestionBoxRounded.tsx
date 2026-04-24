@@ -10,4 +10,4 @@ const IconIndeterminateQuestionBoxRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIndeterminateQuestionBoxRounded as default }
+export default IconIndeterminateQuestionBoxRounded

@@ -8,4 +8,4 @@ const IconOfflineBoltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOfflineBoltSharp as default }
+export default IconOfflineBoltSharp

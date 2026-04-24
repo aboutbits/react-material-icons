@@ -10,4 +10,4 @@ const IconPrivateConnectivitySharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPrivateConnectivitySharpFilled as default }
+export default IconPrivateConnectivitySharpFilled

@@ -8,4 +8,4 @@ const IconBackToTabSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBackToTabSharpFilled as default }
+export default IconBackToTabSharpFilled

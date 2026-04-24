@@ -8,4 +8,4 @@ const IconQueuePlayNextOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconQueuePlayNextOutlinedFilled as default }
+export default IconQueuePlayNextOutlinedFilled

@@ -8,4 +8,4 @@ const IconLaptopChromebookOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLaptopChromebookOutlined as default }
+export default IconLaptopChromebookOutlined

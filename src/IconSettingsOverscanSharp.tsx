@@ -8,4 +8,4 @@ const IconSettingsOverscanSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsOverscanSharp as default }
+export default IconSettingsOverscanSharp

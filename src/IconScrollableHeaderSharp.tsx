@@ -8,4 +8,4 @@ const IconScrollableHeaderSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScrollableHeaderSharp as default }
+export default IconScrollableHeaderSharp

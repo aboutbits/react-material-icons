@@ -10,4 +10,4 @@ const IconAlignHorizontalRightRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignHorizontalRightRoundedFilled as default }
+export default IconAlignHorizontalRightRoundedFilled

@@ -10,4 +10,4 @@ const IconSoundDetectionGlassBreakSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSoundDetectionGlassBreakSharp as default }
+export default IconSoundDetectionGlassBreakSharp

@@ -10,4 +10,4 @@ const IconDirectionsAltOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDirectionsAltOffRoundedFilled as default }
+export default IconDirectionsAltOffRoundedFilled

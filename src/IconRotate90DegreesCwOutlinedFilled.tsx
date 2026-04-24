@@ -10,4 +10,4 @@ const IconRotate90DegreesCwOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRotate90DegreesCwOutlinedFilled as default }
+export default IconRotate90DegreesCwOutlinedFilled

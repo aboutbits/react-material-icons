@@ -8,4 +8,4 @@ const IconInvertColorsOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInvertColorsOffSharpFilled as default }
+export default IconInvertColorsOffSharpFilled

@@ -8,4 +8,4 @@ const IconRepeatOnRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRepeatOnRounded as default }
+export default IconRepeatOnRounded

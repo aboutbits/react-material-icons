@@ -10,4 +10,4 @@ const IconDoNotDisturbOnTotalSilenceSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDoNotDisturbOnTotalSilenceSharpFilled as default }
+export default IconDoNotDisturbOnTotalSilenceSharpFilled

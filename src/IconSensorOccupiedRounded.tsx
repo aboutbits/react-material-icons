@@ -8,4 +8,4 @@ const IconSensorOccupiedRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSensorOccupiedRounded as default }
+export default IconSensorOccupiedRounded

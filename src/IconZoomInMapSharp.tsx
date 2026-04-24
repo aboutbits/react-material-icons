@@ -8,4 +8,4 @@ const IconZoomInMapSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconZoomInMapSharp as default }
+export default IconZoomInMapSharp

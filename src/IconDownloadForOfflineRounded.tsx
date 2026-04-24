@@ -8,4 +8,4 @@ const IconDownloadForOfflineRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDownloadForOfflineRounded as default }
+export default IconDownloadForOfflineRounded

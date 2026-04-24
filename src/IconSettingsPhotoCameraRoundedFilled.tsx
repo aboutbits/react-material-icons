@@ -10,4 +10,4 @@ const IconSettingsPhotoCameraRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsPhotoCameraRoundedFilled as default }
+export default IconSettingsPhotoCameraRoundedFilled

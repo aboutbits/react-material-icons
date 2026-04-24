@@ -8,4 +8,4 @@ const IconDirectionsRunRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirectionsRunRounded as default }
+export default IconDirectionsRunRounded

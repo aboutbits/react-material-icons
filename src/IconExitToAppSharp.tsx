@@ -8,4 +8,4 @@ const IconExitToAppSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconExitToAppSharp as default }
+export default IconExitToAppSharp

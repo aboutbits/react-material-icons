@@ -10,4 +10,4 @@ const IconBackgroundReplaceRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBackgroundReplaceRoundedFilled as default }
+export default IconBackgroundReplaceRoundedFilled

@@ -8,4 +8,4 @@ const IconZoomOutMapRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconZoomOutMapRounded as default }
+export default IconZoomOutMapRounded

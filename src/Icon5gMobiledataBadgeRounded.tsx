@@ -8,4 +8,4 @@ const Icon5gMobiledataBadgeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { Icon5gMobiledataBadgeRounded as default }
+export default Icon5gMobiledataBadgeRounded

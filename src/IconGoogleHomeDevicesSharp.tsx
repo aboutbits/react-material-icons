@@ -8,4 +8,4 @@ const IconGoogleHomeDevicesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGoogleHomeDevicesSharp as default }
+export default IconGoogleHomeDevicesSharp

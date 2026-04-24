@@ -10,4 +10,4 @@ const IconFormatTextdirectionLToRSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatTextdirectionLToRSharpFilled as default }
+export default IconFormatTextdirectionLToRSharpFilled

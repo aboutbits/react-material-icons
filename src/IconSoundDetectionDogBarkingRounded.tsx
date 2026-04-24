@@ -10,4 +10,4 @@ const IconSoundDetectionDogBarkingRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSoundDetectionDogBarkingRounded as default }
+export default IconSoundDetectionDogBarkingRounded

@@ -8,4 +8,4 @@ const IconSignalWifi0BarSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSignalWifi0BarSharpFilled as default }
+export default IconSignalWifi0BarSharpFilled

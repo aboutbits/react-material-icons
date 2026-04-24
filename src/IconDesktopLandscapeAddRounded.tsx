@@ -8,4 +8,4 @@ const IconDesktopLandscapeAddRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDesktopLandscapeAddRounded as default }
+export default IconDesktopLandscapeAddRounded

@@ -8,4 +8,4 @@ const IconMouseLockRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMouseLockRounded as default }
+export default IconMouseLockRounded

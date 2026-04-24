@@ -10,4 +10,4 @@ const IconDashboardCustomizeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDashboardCustomizeSharpFilled as default }
+export default IconDashboardCustomizeSharpFilled

@@ -8,4 +8,4 @@ const IconHdrStrongRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHdrStrongRoundedFilled as default }
+export default IconHdrStrongRoundedFilled

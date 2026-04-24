@@ -8,4 +8,4 @@ const IconWheelchairPickupRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWheelchairPickupRounded as default }
+export default IconWheelchairPickupRounded

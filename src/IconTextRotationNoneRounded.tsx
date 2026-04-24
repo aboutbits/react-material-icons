@@ -8,4 +8,4 @@ const IconTextRotationNoneRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextRotationNoneRounded as default }
+export default IconTextRotationNoneRounded

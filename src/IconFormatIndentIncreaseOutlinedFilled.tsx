@@ -10,4 +10,4 @@ const IconFormatIndentIncreaseOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatIndentIncreaseOutlinedFilled as default }
+export default IconFormatIndentIncreaseOutlinedFilled

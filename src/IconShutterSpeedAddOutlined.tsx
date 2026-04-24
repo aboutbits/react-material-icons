@@ -8,4 +8,4 @@ const IconShutterSpeedAddOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShutterSpeedAddOutlined as default }
+export default IconShutterSpeedAddOutlined

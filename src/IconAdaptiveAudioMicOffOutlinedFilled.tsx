@@ -10,4 +10,4 @@ const IconAdaptiveAudioMicOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAdaptiveAudioMicOffOutlinedFilled as default }
+export default IconAdaptiveAudioMicOffOutlinedFilled

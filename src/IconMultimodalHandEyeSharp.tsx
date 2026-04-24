@@ -8,4 +8,4 @@ const IconMultimodalHandEyeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMultimodalHandEyeSharp as default }
+export default IconMultimodalHandEyeSharp

@@ -8,4 +8,4 @@ const IconDialerSipSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDialerSipSharp as default }
+export default IconDialerSipSharp

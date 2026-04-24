@@ -8,4 +8,4 @@ const IconKeyVisualizerSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyVisualizerSharpFilled as default }
+export default IconKeyVisualizerSharpFilled

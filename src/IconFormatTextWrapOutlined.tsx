@@ -8,4 +8,4 @@ const IconFormatTextWrapOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatTextWrapOutlined as default }
+export default IconFormatTextWrapOutlined

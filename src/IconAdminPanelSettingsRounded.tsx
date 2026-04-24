@@ -8,4 +8,4 @@ const IconAdminPanelSettingsRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAdminPanelSettingsRounded as default }
+export default IconAdminPanelSettingsRounded

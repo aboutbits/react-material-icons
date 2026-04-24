@@ -8,4 +8,4 @@ const IconTransitionDissolveOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransitionDissolveOutlined as default }
+export default IconTransitionDissolveOutlined

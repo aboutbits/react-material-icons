@@ -10,4 +10,4 @@ const IconSecurityUpdateWarningRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSecurityUpdateWarningRounded as default }
+export default IconSecurityUpdateWarningRounded

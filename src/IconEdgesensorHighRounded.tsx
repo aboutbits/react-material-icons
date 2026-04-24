@@ -8,4 +8,4 @@ const IconEdgesensorHighRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEdgesensorHighRounded as default }
+export default IconEdgesensorHighRounded

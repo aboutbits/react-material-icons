@@ -8,4 +8,4 @@ const IconFullscreenRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFullscreenRoundedFilled as default }
+export default IconFullscreenRoundedFilled

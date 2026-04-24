@@ -8,4 +8,4 @@ const IconExpandCircleUpSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconExpandCircleUpSharp as default }
+export default IconExpandCircleUpSharp

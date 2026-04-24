@@ -10,4 +10,4 @@ const IconAddPhotoAlternateRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAddPhotoAlternateRoundedFilled as default }
+export default IconAddPhotoAlternateRoundedFilled

@@ -8,4 +8,4 @@ const IconShiftLockOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShiftLockOffRounded as default }
+export default IconShiftLockOffRounded

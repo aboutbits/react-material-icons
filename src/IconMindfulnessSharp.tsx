@@ -8,4 +8,4 @@ const IconMindfulnessSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMindfulnessSharp as default }
+export default IconMindfulnessSharp

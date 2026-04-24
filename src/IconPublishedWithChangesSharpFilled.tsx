@@ -10,4 +10,4 @@ const IconPublishedWithChangesSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPublishedWithChangesSharpFilled as default }
+export default IconPublishedWithChangesSharpFilled

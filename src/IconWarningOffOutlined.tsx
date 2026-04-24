@@ -8,4 +8,4 @@ const IconWarningOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWarningOffOutlined as default }
+export default IconWarningOffOutlined

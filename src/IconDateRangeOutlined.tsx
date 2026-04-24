@@ -8,4 +8,4 @@ const IconDateRangeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDateRangeOutlined as default }
+export default IconDateRangeOutlined

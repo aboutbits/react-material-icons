@@ -8,4 +8,4 @@ const IconMeetingRoomSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMeetingRoomSharp as default }
+export default IconMeetingRoomSharp

@@ -8,4 +8,4 @@ const IconDeployedCodeHistorySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDeployedCodeHistorySharp as default }
+export default IconDeployedCodeHistorySharp

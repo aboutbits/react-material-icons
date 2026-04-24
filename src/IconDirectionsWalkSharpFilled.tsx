@@ -8,4 +8,4 @@ const IconDirectionsWalkSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirectionsWalkSharpFilled as default }
+export default IconDirectionsWalkSharpFilled

@@ -8,4 +8,4 @@ const IconCoolToDrySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCoolToDrySharp as default }
+export default IconCoolToDrySharp

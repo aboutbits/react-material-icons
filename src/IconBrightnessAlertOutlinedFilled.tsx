@@ -10,4 +10,4 @@ const IconBrightnessAlertOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBrightnessAlertOutlinedFilled as default }
+export default IconBrightnessAlertOutlinedFilled

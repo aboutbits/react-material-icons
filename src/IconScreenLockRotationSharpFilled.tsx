@@ -10,4 +10,4 @@ const IconScreenLockRotationSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenLockRotationSharpFilled as default }
+export default IconScreenLockRotationSharpFilled

@@ -10,4 +10,4 @@ const IconDataLossPreventionSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDataLossPreventionSharpFilled as default }
+export default IconDataLossPreventionSharpFilled

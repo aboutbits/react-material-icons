@@ -8,4 +8,4 @@ const IconRssFeedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRssFeedSharp as default }
+export default IconRssFeedSharp

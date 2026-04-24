@@ -8,4 +8,4 @@ const IconFlashAutoOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlashAutoOutlined as default }
+export default IconFlashAutoOutlined

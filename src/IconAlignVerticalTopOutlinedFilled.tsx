@@ -10,4 +10,4 @@ const IconAlignVerticalTopOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignVerticalTopOutlinedFilled as default }
+export default IconAlignVerticalTopOutlinedFilled

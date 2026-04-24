@@ -8,4 +8,4 @@ const IconHorizontalDistributeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHorizontalDistributeSharp as default }
+export default IconHorizontalDistributeSharp

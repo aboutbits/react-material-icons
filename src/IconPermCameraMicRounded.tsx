@@ -8,4 +8,4 @@ const IconPermCameraMicRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermCameraMicRounded as default }
+export default IconPermCameraMicRounded

@@ -8,4 +8,4 @@ const IconStayPrimaryPortraitOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStayPrimaryPortraitOutlined as default }
+export default IconStayPrimaryPortraitOutlined

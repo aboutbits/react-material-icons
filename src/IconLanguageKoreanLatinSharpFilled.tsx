@@ -10,4 +10,4 @@ const IconLanguageKoreanLatinSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLanguageKoreanLatinSharpFilled as default }
+export default IconLanguageKoreanLatinSharpFilled

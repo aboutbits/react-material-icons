@@ -8,4 +8,4 @@ const IconMediaOutputOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMediaOutputOutlined as default }
+export default IconMediaOutputOutlined

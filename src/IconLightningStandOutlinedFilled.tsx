@@ -10,4 +10,4 @@ const IconLightningStandOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLightningStandOutlinedFilled as default }
+export default IconLightningStandOutlinedFilled

@@ -10,4 +10,4 @@ const IconSourceEnvironmentOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSourceEnvironmentOutlinedFilled as default }
+export default IconSourceEnvironmentOutlinedFilled

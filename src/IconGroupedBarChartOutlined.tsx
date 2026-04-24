@@ -8,4 +8,4 @@ const IconGroupedBarChartOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGroupedBarChartOutlined as default }
+export default IconGroupedBarChartOutlined

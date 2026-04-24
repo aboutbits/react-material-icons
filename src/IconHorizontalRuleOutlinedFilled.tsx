@@ -10,4 +10,4 @@ const IconHorizontalRuleOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHorizontalRuleOutlinedFilled as default }
+export default IconHorizontalRuleOutlinedFilled

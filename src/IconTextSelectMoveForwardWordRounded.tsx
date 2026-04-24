@@ -10,4 +10,4 @@ const IconTextSelectMoveForwardWordRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectMoveForwardWordRounded as default }
+export default IconTextSelectMoveForwardWordRounded

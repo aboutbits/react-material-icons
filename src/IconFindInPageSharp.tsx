@@ -8,4 +8,4 @@ const IconFindInPageSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFindInPageSharp as default }
+export default IconFindInPageSharp

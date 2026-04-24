@@ -8,4 +8,4 @@ const IconImageAspectRatioOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconImageAspectRatioOutlined as default }
+export default IconImageAspectRatioOutlined

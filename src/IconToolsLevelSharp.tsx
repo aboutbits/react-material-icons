@@ -8,4 +8,4 @@ const IconToolsLevelSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconToolsLevelSharp as default }
+export default IconToolsLevelSharp

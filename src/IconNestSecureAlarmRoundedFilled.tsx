@@ -10,4 +10,4 @@ const IconNestSecureAlarmRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestSecureAlarmRoundedFilled as default }
+export default IconNestSecureAlarmRoundedFilled

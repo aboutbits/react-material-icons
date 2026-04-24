@@ -10,4 +10,4 @@ const IconScreenshotKeyboardOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenshotKeyboardOutlinedFilled as default }
+export default IconScreenshotKeyboardOutlinedFilled

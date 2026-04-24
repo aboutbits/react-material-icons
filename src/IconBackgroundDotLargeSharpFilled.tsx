@@ -10,4 +10,4 @@ const IconBackgroundDotLargeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBackgroundDotLargeSharpFilled as default }
+export default IconBackgroundDotLargeSharpFilled

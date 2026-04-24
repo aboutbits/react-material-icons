@@ -8,4 +8,4 @@ const IconPieChartRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPieChartRounded as default }
+export default IconPieChartRounded

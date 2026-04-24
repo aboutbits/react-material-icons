@@ -8,4 +8,4 @@ const IconNoiseAwareOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoiseAwareOutlined as default }
+export default IconNoiseAwareOutlined

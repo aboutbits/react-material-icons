@@ -8,4 +8,4 @@ const IconFullscreenOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFullscreenOutlined as default }
+export default IconFullscreenOutlined

@@ -10,4 +10,4 @@ const IconTextRotateVerticalOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextRotateVerticalOutlinedFilled as default }
+export default IconTextRotateVerticalOutlinedFilled

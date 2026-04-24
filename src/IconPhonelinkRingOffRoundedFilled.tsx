@@ -10,4 +10,4 @@ const IconPhonelinkRingOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPhonelinkRingOffRoundedFilled as default }
+export default IconPhonelinkRingOffRoundedFilled

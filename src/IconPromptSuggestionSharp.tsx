@@ -8,4 +8,4 @@ const IconPromptSuggestionSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPromptSuggestionSharp as default }
+export default IconPromptSuggestionSharp

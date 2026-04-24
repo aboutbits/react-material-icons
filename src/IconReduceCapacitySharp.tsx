@@ -8,4 +8,4 @@ const IconReduceCapacitySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconReduceCapacitySharp as default }
+export default IconReduceCapacitySharp

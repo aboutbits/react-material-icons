@@ -8,4 +8,4 @@ const IconSubheaderSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSubheaderSharpFilled as default }
+export default IconSubheaderSharpFilled

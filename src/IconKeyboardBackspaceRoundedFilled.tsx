@@ -10,4 +10,4 @@ const IconKeyboardBackspaceRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardBackspaceRoundedFilled as default }
+export default IconKeyboardBackspaceRoundedFilled

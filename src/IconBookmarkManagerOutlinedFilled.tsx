@@ -10,4 +10,4 @@ const IconBookmarkManagerOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBookmarkManagerOutlinedFilled as default }
+export default IconBookmarkManagerOutlinedFilled

@@ -8,4 +8,4 @@ const IconWifiAddRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWifiAddRoundedFilled as default }
+export default IconWifiAddRoundedFilled

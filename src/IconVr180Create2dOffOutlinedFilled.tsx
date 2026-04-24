@@ -10,4 +10,4 @@ const IconVr180Create2dOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconVr180Create2dOffOutlinedFilled as default }
+export default IconVr180Create2dOffOutlinedFilled

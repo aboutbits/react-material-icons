@@ -8,4 +8,4 @@ const IconCurrencyBitcoinSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCurrencyBitcoinSharpFilled as default }
+export default IconCurrencyBitcoinSharpFilled

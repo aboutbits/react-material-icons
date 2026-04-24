@@ -10,4 +10,4 @@ const IconConversionPathOffSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconConversionPathOffSharpFilled as default }
+export default IconConversionPathOffSharpFilled

@@ -10,4 +10,4 @@ const IconPermContactCalendarOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPermContactCalendarOutlinedFilled as default }
+export default IconPermContactCalendarOutlinedFilled

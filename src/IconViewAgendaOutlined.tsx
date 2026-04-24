@@ -8,4 +8,4 @@ const IconViewAgendaOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewAgendaOutlined as default }
+export default IconViewAgendaOutlined

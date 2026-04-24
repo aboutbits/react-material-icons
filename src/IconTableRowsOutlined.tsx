@@ -8,4 +8,4 @@ const IconTableRowsOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTableRowsOutlined as default }
+export default IconTableRowsOutlined

@@ -8,4 +8,4 @@ const IconSendToMobileSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSendToMobileSharpFilled as default }
+export default IconSendToMobileSharpFilled

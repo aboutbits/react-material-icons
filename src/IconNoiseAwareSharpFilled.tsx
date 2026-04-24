@@ -8,4 +8,4 @@ const IconNoiseAwareSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoiseAwareSharpFilled as default }
+export default IconNoiseAwareSharpFilled

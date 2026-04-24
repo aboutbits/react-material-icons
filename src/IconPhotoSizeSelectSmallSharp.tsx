@@ -8,4 +8,4 @@ const IconPhotoSizeSelectSmallSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhotoSizeSelectSmallSharp as default }
+export default IconPhotoSizeSelectSmallSharp

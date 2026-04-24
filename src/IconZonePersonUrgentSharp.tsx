@@ -8,4 +8,4 @@ const IconZonePersonUrgentSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconZonePersonUrgentSharp as default }
+export default IconZonePersonUrgentSharp

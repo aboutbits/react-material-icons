@@ -8,4 +8,4 @@ const IconDiagonalLineOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDiagonalLineOutlined as default }
+export default IconDiagonalLineOutlined

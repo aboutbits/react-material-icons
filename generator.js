@@ -115,6 +115,6 @@ function mapSVGToTemplate(name, svg) {
         ${svg}
     )
     
-    export { ${name} as default } 
+    export default ${name}
   `
 }

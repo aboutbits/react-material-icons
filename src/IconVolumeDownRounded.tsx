@@ -8,4 +8,4 @@ const IconVolumeDownRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVolumeDownRounded as default }
+export default IconVolumeDownRounded

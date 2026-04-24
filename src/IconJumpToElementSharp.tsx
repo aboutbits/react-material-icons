@@ -8,4 +8,4 @@ const IconJumpToElementSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconJumpToElementSharp as default }
+export default IconJumpToElementSharp

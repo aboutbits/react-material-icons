@@ -10,4 +10,4 @@ const IconMagnificationLargeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMagnificationLargeSharpFilled as default }
+export default IconMagnificationLargeSharpFilled

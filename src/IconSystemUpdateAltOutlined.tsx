@@ -8,4 +8,4 @@ const IconSystemUpdateAltOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSystemUpdateAltOutlined as default }
+export default IconSystemUpdateAltOutlined

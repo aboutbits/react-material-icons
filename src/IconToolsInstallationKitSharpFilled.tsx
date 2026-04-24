@@ -10,4 +10,4 @@ const IconToolsInstallationKitSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconToolsInstallationKitSharpFilled as default }
+export default IconToolsInstallationKitSharpFilled

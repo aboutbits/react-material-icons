@@ -10,4 +10,4 @@ const IconSelectCheckBoxOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSelectCheckBoxOutlinedFilled as default }
+export default IconSelectCheckBoxOutlinedFilled

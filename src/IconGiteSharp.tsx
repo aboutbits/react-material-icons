@@ -8,4 +8,4 @@ const IconGiteSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGiteSharp as default }
+export default IconGiteSharp

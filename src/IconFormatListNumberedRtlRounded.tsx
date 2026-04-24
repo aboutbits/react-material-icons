@@ -10,4 +10,4 @@ const IconFormatListNumberedRtlRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatListNumberedRtlRounded as default }
+export default IconFormatListNumberedRtlRounded

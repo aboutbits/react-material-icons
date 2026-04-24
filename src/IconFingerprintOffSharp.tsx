@@ -8,4 +8,4 @@ const IconFingerprintOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFingerprintOffSharp as default }
+export default IconFingerprintOffSharp

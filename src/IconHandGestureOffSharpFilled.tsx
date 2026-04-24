@@ -8,4 +8,4 @@ const IconHandGestureOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHandGestureOffSharpFilled as default }
+export default IconHandGestureOffSharpFilled

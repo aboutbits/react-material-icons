@@ -8,4 +8,4 @@ const IconSearchInsightsRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSearchInsightsRounded as default }
+export default IconSearchInsightsRounded

@@ -10,4 +10,4 @@ const IconIntegrationInstructionsSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIntegrationInstructionsSharp as default }
+export default IconIntegrationInstructionsSharp

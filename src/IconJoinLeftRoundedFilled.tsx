@@ -8,4 +8,4 @@ const IconJoinLeftRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconJoinLeftRoundedFilled as default }
+export default IconJoinLeftRoundedFilled

@@ -8,4 +8,4 @@ const IconTapAndPlayOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTapAndPlayOutlined as default }
+export default IconTapAndPlayOutlined

@@ -10,4 +10,4 @@ const IconDetectionAndZoneOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDetectionAndZoneOutlinedFilled as default }
+export default IconDetectionAndZoneOutlinedFilled

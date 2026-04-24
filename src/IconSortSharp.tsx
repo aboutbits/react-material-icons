@@ -8,4 +8,4 @@ const IconSortSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSortSharp as default }
+export default IconSortSharp

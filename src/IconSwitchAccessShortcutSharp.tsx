@@ -8,4 +8,4 @@ const IconSwitchAccessShortcutSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSwitchAccessShortcutSharp as default }
+export default IconSwitchAccessShortcutSharp

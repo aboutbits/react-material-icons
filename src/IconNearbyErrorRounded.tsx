@@ -8,4 +8,4 @@ const IconNearbyErrorRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNearbyErrorRounded as default }
+export default IconNearbyErrorRounded

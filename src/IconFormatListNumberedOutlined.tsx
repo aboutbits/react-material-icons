@@ -8,4 +8,4 @@ const IconFormatListNumberedOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatListNumberedOutlined as default }
+export default IconFormatListNumberedOutlined

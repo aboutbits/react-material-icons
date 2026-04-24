@@ -10,4 +10,4 @@ const IconPictureInPictureSmallRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPictureInPictureSmallRoundedFilled as default }
+export default IconPictureInPictureSmallRoundedFilled

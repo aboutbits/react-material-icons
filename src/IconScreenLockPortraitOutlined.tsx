@@ -8,4 +8,4 @@ const IconScreenLockPortraitOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenLockPortraitOutlined as default }
+export default IconScreenLockPortraitOutlined

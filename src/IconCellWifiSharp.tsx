@@ -8,4 +8,4 @@ const IconCellWifiSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCellWifiSharp as default }
+export default IconCellWifiSharp

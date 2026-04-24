@@ -10,4 +10,4 @@ const IconWatchButtonPressOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconWatchButtonPressOutlinedFilled as default }
+export default IconWatchButtonPressOutlinedFilled

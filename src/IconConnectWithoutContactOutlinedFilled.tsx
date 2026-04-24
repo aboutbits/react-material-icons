@@ -10,4 +10,4 @@ const IconConnectWithoutContactOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconConnectWithoutContactOutlinedFilled as default }
+export default IconConnectWithoutContactOutlinedFilled

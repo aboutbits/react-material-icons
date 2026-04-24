@@ -8,4 +8,4 @@ const IconVideoLabelSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVideoLabelSharpFilled as default }
+export default IconVideoLabelSharpFilled

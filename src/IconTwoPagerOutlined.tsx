@@ -8,4 +8,4 @@ const IconTwoPagerOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTwoPagerOutlined as default }
+export default IconTwoPagerOutlined

@@ -8,4 +8,4 @@ const IconResponsiveLayoutSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResponsiveLayoutSharpFilled as default }
+export default IconResponsiveLayoutSharpFilled

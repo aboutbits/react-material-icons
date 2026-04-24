@@ -8,4 +8,4 @@ const IconDishwasherGenRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDishwasherGenRounded as default }
+export default IconDishwasherGenRounded

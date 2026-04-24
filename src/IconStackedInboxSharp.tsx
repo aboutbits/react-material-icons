@@ -8,4 +8,4 @@ const IconStackedInboxSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStackedInboxSharp as default }
+export default IconStackedInboxSharp

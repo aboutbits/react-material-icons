@@ -8,4 +8,4 @@ const IconSyncSavedLocallyRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSyncSavedLocallyRounded as default }
+export default IconSyncSavedLocallyRounded

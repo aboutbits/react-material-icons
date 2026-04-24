@@ -8,4 +8,4 @@ const IconInactiveOrderSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInactiveOrderSharp as default }
+export default IconInactiveOrderSharp

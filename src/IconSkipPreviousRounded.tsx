@@ -8,4 +8,4 @@ const IconSkipPreviousRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSkipPreviousRounded as default }
+export default IconSkipPreviousRounded

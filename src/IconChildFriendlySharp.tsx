@@ -8,4 +8,4 @@ const IconChildFriendlySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChildFriendlySharp as default }
+export default IconChildFriendlySharp

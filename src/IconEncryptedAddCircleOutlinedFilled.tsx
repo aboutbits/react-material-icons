@@ -10,4 +10,4 @@ const IconEncryptedAddCircleOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEncryptedAddCircleOutlinedFilled as default }
+export default IconEncryptedAddCircleOutlinedFilled

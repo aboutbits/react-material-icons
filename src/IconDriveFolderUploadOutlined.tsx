@@ -8,4 +8,4 @@ const IconDriveFolderUploadOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDriveFolderUploadOutlined as default }
+export default IconDriveFolderUploadOutlined

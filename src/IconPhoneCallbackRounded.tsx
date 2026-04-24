@@ -8,4 +8,4 @@ const IconPhoneCallbackRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhoneCallbackRounded as default }
+export default IconPhoneCallbackRounded

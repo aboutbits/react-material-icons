@@ -10,4 +10,4 @@ const IconHistoryToggleOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHistoryToggleOffRoundedFilled as default }
+export default IconHistoryToggleOffRoundedFilled

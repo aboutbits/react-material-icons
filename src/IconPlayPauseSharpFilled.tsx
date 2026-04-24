@@ -8,4 +8,4 @@ const IconPlayPauseSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlayPauseSharpFilled as default }
+export default IconPlayPauseSharpFilled

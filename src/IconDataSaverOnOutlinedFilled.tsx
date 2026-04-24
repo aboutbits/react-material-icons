@@ -8,4 +8,4 @@ const IconDataSaverOnOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataSaverOnOutlinedFilled as default }
+export default IconDataSaverOnOutlinedFilled

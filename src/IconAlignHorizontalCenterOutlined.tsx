@@ -10,4 +10,4 @@ const IconAlignHorizontalCenterOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignHorizontalCenterOutlined as default }
+export default IconAlignHorizontalCenterOutlined

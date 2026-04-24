@@ -8,4 +8,4 @@ const IconAirwaveSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAirwaveSharp as default }
+export default IconAirwaveSharp

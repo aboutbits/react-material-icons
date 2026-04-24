@@ -8,4 +8,4 @@ const IconBurstModeRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBurstModeRoundedFilled as default }
+export default IconBurstModeRoundedFilled

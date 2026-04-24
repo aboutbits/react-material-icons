@@ -8,4 +8,4 @@ const IconPlaylistAddCheckSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlaylistAddCheckSharp as default }
+export default IconPlaylistAddCheckSharp

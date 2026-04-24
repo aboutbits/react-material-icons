@@ -10,4 +10,4 @@ const IconBidLandscapeDisabledOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBidLandscapeDisabledOutlined as default }
+export default IconBidLandscapeDisabledOutlined

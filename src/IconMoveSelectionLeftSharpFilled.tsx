@@ -10,4 +10,4 @@ const IconMoveSelectionLeftSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMoveSelectionLeftSharpFilled as default }
+export default IconMoveSelectionLeftSharpFilled

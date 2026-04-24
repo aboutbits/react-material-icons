@@ -10,4 +10,4 @@ const IconCheckIndeterminateSmallSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCheckIndeterminateSmallSharp as default }
+export default IconCheckIndeterminateSmallSharp

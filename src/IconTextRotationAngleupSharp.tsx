@@ -8,4 +8,4 @@ const IconTextRotationAngleupSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextRotationAngleupSharp as default }
+export default IconTextRotationAngleupSharp

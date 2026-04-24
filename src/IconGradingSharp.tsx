@@ -8,4 +8,4 @@ const IconGradingSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGradingSharp as default }
+export default IconGradingSharp

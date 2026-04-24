@@ -8,4 +8,4 @@ const IconContentCopySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContentCopySharp as default }
+export default IconContentCopySharp

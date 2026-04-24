@@ -8,4 +8,4 @@ const IconDataArrayRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataArrayRounded as default }
+export default IconDataArrayRounded

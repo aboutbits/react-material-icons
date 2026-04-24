@@ -8,4 +8,4 @@ const IconSyncAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSyncAltSharp as default }
+export default IconSyncAltSharp

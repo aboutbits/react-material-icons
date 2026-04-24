@@ -10,4 +10,4 @@ const IconHeapSnapshotLargeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHeapSnapshotLargeSharpFilled as default }
+export default IconHeapSnapshotLargeSharpFilled

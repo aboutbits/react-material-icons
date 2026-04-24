@@ -8,4 +8,4 @@ const IconPowerSettingsNewSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPowerSettingsNewSharp as default }
+export default IconPowerSettingsNewSharp

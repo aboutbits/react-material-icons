@@ -8,4 +8,4 @@ const IconAlignFlexEndOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAlignFlexEndOutlinedFilled as default }
+export default IconAlignFlexEndOutlinedFilled

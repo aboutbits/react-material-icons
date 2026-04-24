@@ -8,4 +8,4 @@ const IconNestDisplayMaxRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestDisplayMaxRounded as default }
+export default IconNestDisplayMaxRounded

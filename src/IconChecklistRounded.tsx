@@ -8,4 +8,4 @@ const IconChecklistRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChecklistRounded as default }
+export default IconChecklistRounded

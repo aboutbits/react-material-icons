@@ -8,4 +8,4 @@ const IconTransitEnterexitSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransitEnterexitSharp as default }
+export default IconTransitEnterexitSharp

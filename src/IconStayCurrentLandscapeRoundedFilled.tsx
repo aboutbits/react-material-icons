@@ -10,4 +10,4 @@ const IconStayCurrentLandscapeRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconStayCurrentLandscapeRoundedFilled as default }
+export default IconStayCurrentLandscapeRoundedFilled

@@ -10,4 +10,4 @@ const IconBathPublicLargeRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBathPublicLargeRoundedFilled as default }
+export default IconBathPublicLargeRoundedFilled

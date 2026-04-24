@@ -10,4 +10,4 @@ const IconKeyboardLockOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardLockOffOutlinedFilled as default }
+export default IconKeyboardLockOffOutlinedFilled

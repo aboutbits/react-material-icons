@@ -8,4 +8,4 @@ const IconDecimalDecreaseSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDecimalDecreaseSharp as default }
+export default IconDecimalDecreaseSharp

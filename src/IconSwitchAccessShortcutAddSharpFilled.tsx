@@ -10,4 +10,4 @@ const IconSwitchAccessShortcutAddSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSwitchAccessShortcutAddSharpFilled as default }
+export default IconSwitchAccessShortcutAddSharpFilled

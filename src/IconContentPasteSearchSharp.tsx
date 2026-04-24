@@ -8,4 +8,4 @@ const IconContentPasteSearchSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContentPasteSearchSharp as default }
+export default IconContentPasteSearchSharp

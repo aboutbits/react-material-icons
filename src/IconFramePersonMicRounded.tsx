@@ -8,4 +8,4 @@ const IconFramePersonMicRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFramePersonMicRounded as default }
+export default IconFramePersonMicRounded

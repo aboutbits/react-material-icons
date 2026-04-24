@@ -10,4 +10,4 @@ const IconAssignmentReturnedSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAssignmentReturnedSharpFilled as default }
+export default IconAssignmentReturnedSharpFilled

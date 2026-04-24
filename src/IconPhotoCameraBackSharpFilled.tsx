@@ -8,4 +8,4 @@ const IconPhotoCameraBackSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhotoCameraBackSharpFilled as default }
+export default IconPhotoCameraBackSharpFilled

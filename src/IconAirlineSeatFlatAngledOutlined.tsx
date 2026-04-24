@@ -10,4 +10,4 @@ const IconAirlineSeatFlatAngledOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAirlineSeatFlatAngledOutlined as default }
+export default IconAirlineSeatFlatAngledOutlined

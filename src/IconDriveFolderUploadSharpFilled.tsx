@@ -10,4 +10,4 @@ const IconDriveFolderUploadSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDriveFolderUploadSharpFilled as default }
+export default IconDriveFolderUploadSharpFilled

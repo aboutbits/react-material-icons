@@ -10,4 +10,4 @@ const IconSelectWindowOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSelectWindowOffOutlinedFilled as default }
+export default IconSelectWindowOffOutlinedFilled

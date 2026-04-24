@@ -10,4 +10,4 @@ const IconCollapseContentOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCollapseContentOutlinedFilled as default }
+export default IconCollapseContentOutlinedFilled

@@ -8,4 +8,4 @@ const IconChromeReaderModeSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromeReaderModeSharpFilled as default }
+export default IconChromeReaderModeSharpFilled

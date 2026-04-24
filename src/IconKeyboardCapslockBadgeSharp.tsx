@@ -8,4 +8,4 @@ const IconKeyboardCapslockBadgeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardCapslockBadgeSharp as default }
+export default IconKeyboardCapslockBadgeSharp

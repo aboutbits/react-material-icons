@@ -10,4 +10,4 @@ const IconFormatLetterSpacingWiderOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatLetterSpacingWiderOutlinedFilled as default }
+export default IconFormatLetterSpacingWiderOutlinedFilled

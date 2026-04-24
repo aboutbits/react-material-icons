@@ -8,4 +8,4 @@ const IconOrbitSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOrbitSharp as default }
+export default IconOrbitSharp

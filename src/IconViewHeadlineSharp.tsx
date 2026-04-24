@@ -8,4 +8,4 @@ const IconViewHeadlineSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewHeadlineSharp as default }
+export default IconViewHeadlineSharp

@@ -8,4 +8,4 @@ const IconOrderApproveSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOrderApproveSharp as default }
+export default IconOrderApproveSharp

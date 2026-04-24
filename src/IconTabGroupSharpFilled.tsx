@@ -8,4 +8,4 @@ const IconTabGroupSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTabGroupSharpFilled as default }
+export default IconTabGroupSharpFilled

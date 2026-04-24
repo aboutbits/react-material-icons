@@ -8,4 +8,4 @@ const IconNoiseControlOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoiseControlOffRounded as default }
+export default IconNoiseControlOffRounded

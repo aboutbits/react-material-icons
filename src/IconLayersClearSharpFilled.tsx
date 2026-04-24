@@ -8,4 +8,4 @@ const IconLayersClearSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLayersClearSharpFilled as default }
+export default IconLayersClearSharpFilled

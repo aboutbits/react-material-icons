@@ -8,4 +8,4 @@ const IconAssignmentIndSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAssignmentIndSharp as default }
+export default IconAssignmentIndSharp

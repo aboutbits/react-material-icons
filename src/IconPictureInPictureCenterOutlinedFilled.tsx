@@ -10,4 +10,4 @@ const IconPictureInPictureCenterOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPictureInPictureCenterOutlinedFilled as default }
+export default IconPictureInPictureCenterOutlinedFilled

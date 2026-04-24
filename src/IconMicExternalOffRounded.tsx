@@ -8,4 +8,4 @@ const IconMicExternalOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMicExternalOffRounded as default }
+export default IconMicExternalOffRounded

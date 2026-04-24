@@ -10,4 +10,4 @@ const IconTransferWithinAStationRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTransferWithinAStationRoundedFilled as default }
+export default IconTransferWithinAStationRoundedFilled

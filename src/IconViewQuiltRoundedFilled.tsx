@@ -8,4 +8,4 @@ const IconViewQuiltRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewQuiltRoundedFilled as default }
+export default IconViewQuiltRoundedFilled

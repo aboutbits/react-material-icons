@@ -8,4 +8,4 @@ const IconResponsiveLayoutSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResponsiveLayoutSharp as default }
+export default IconResponsiveLayoutSharp

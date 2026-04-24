@@ -8,4 +8,4 @@ const IconLanguageUsDvorakSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLanguageUsDvorakSharpFilled as default }
+export default IconLanguageUsDvorakSharpFilled

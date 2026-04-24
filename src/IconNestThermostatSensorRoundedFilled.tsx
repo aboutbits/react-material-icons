@@ -10,4 +10,4 @@ const IconNestThermostatSensorRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestThermostatSensorRoundedFilled as default }
+export default IconNestThermostatSensorRoundedFilled

@@ -10,4 +10,4 @@ const IconDirectionsRailway2RoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDirectionsRailway2RoundedFilled as default }
+export default IconDirectionsRailway2RoundedFilled

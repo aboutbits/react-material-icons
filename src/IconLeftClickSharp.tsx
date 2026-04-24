@@ -8,4 +8,4 @@ const IconLeftClickSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLeftClickSharp as default }
+export default IconLeftClickSharp

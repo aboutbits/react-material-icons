@@ -10,4 +10,4 @@ const IconKeyboardCapslockRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardCapslockRoundedFilled as default }
+export default IconKeyboardCapslockRoundedFilled

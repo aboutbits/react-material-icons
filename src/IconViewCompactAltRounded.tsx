@@ -8,4 +8,4 @@ const IconViewCompactAltRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewCompactAltRounded as default }
+export default IconViewCompactAltRounded

@@ -10,4 +10,4 @@ const IconBluetoothDisabledRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBluetoothDisabledRoundedFilled as default }
+export default IconBluetoothDisabledRoundedFilled

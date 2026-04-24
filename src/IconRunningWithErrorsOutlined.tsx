@@ -8,4 +8,4 @@ const IconRunningWithErrorsOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRunningWithErrorsOutlined as default }
+export default IconRunningWithErrorsOutlined

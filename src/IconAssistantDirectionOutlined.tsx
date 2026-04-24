@@ -8,4 +8,4 @@ const IconAssistantDirectionOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAssistantDirectionOutlined as default }
+export default IconAssistantDirectionOutlined

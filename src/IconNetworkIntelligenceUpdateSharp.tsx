@@ -10,4 +10,4 @@ const IconNetworkIntelligenceUpdateSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNetworkIntelligenceUpdateSharp as default }
+export default IconNetworkIntelligenceUpdateSharp
