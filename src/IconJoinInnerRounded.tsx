@@ -8,4 +8,4 @@ const IconJoinInnerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconJoinInnerRounded as default }
+export default IconJoinInnerRounded

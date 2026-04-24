@@ -8,4 +8,4 @@ const IconEmptyDashboardOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEmptyDashboardOutlined as default }
+export default IconEmptyDashboardOutlined

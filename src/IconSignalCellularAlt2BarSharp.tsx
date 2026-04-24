@@ -8,4 +8,4 @@ const IconSignalCellularAlt2BarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSignalCellularAlt2BarSharp as default }
+export default IconSignalCellularAlt2BarSharp

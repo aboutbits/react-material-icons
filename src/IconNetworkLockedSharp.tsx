@@ -8,4 +8,4 @@ const IconNetworkLockedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNetworkLockedSharp as default }
+export default IconNetworkLockedSharp

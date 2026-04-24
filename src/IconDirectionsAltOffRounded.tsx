@@ -8,4 +8,4 @@ const IconDirectionsAltOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirectionsAltOffRounded as default }
+export default IconDirectionsAltOffRounded

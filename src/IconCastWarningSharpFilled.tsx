@@ -8,4 +8,4 @@ const IconCastWarningSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCastWarningSharpFilled as default }
+export default IconCastWarningSharpFilled

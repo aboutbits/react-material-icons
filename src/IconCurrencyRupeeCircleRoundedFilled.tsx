@@ -10,4 +10,4 @@ const IconCurrencyRupeeCircleRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCurrencyRupeeCircleRoundedFilled as default }
+export default IconCurrencyRupeeCircleRoundedFilled

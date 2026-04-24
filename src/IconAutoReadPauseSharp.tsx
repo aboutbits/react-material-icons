@@ -8,4 +8,4 @@ const IconAutoReadPauseSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAutoReadPauseSharp as default }
+export default IconAutoReadPauseSharp

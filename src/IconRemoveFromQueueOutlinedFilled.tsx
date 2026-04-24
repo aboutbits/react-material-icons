@@ -10,4 +10,4 @@ const IconRemoveFromQueueOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRemoveFromQueueOutlinedFilled as default }
+export default IconRemoveFromQueueOutlinedFilled

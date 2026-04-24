@@ -8,4 +8,4 @@ const IconDynamicFormRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDynamicFormRoundedFilled as default }
+export default IconDynamicFormRoundedFilled

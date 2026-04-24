@@ -8,4 +8,4 @@ const IconHeadsetMicSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHeadsetMicSharpFilled as default }
+export default IconHeadsetMicSharpFilled

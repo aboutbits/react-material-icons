@@ -8,4 +8,4 @@ const IconChromeReaderModeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromeReaderModeRounded as default }
+export default IconChromeReaderModeRounded

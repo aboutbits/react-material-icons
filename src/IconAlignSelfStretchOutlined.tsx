@@ -8,4 +8,4 @@ const IconAlignSelfStretchOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAlignSelfStretchOutlined as default }
+export default IconAlignSelfStretchOutlined

@@ -10,4 +10,4 @@ const IconProductionQuantityLimitsSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconProductionQuantityLimitsSharp as default }
+export default IconProductionQuantityLimitsSharp

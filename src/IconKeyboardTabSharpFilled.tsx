@@ -8,4 +8,4 @@ const IconKeyboardTabSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardTabSharpFilled as default }
+export default IconKeyboardTabSharpFilled

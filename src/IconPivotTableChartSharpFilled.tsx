@@ -8,4 +8,4 @@ const IconPivotTableChartSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPivotTableChartSharpFilled as default }
+export default IconPivotTableChartSharpFilled

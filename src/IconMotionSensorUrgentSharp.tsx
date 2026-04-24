@@ -8,4 +8,4 @@ const IconMotionSensorUrgentSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMotionSensorUrgentSharp as default }
+export default IconMotionSensorUrgentSharp

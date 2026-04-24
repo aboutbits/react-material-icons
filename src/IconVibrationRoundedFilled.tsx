@@ -8,4 +8,4 @@ const IconVibrationRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVibrationRoundedFilled as default }
+export default IconVibrationRoundedFilled

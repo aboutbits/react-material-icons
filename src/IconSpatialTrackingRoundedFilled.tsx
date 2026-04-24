@@ -10,4 +10,4 @@ const IconSpatialTrackingRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSpatialTrackingRoundedFilled as default }
+export default IconSpatialTrackingRoundedFilled

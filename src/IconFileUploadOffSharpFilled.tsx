@@ -8,4 +8,4 @@ const IconFileUploadOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFileUploadOffSharpFilled as default }
+export default IconFileUploadOffSharpFilled

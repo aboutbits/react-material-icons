@@ -8,4 +8,4 @@ const IconTrackpadInput3Rounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTrackpadInput3Rounded as default }
+export default IconTrackpadInput3Rounded

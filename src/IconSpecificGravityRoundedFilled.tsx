@@ -10,4 +10,4 @@ const IconSpecificGravityRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSpecificGravityRoundedFilled as default }
+export default IconSpecificGravityRoundedFilled

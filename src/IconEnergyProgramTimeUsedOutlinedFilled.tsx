@@ -10,4 +10,4 @@ const IconEnergyProgramTimeUsedOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEnergyProgramTimeUsedOutlinedFilled as default }
+export default IconEnergyProgramTimeUsedOutlinedFilled

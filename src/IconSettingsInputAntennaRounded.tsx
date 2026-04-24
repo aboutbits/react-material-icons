@@ -8,4 +8,4 @@ const IconSettingsInputAntennaRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsInputAntennaRounded as default }
+export default IconSettingsInputAntennaRounded

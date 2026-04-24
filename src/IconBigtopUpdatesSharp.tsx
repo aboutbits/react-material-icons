@@ -8,4 +8,4 @@ const IconBigtopUpdatesSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBigtopUpdatesSharp as default }
+export default IconBigtopUpdatesSharp

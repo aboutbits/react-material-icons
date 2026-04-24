@@ -10,4 +10,4 @@ const IconLanguageChineseCangjieRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLanguageChineseCangjieRounded as default }
+export default IconLanguageChineseCangjieRounded

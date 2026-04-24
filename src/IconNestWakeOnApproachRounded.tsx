@@ -8,4 +8,4 @@ const IconNestWakeOnApproachRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestWakeOnApproachRounded as default }
+export default IconNestWakeOnApproachRounded

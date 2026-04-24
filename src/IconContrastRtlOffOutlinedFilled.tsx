@@ -10,4 +10,4 @@ const IconContrastRtlOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconContrastRtlOffOutlinedFilled as default }
+export default IconContrastRtlOffOutlinedFilled

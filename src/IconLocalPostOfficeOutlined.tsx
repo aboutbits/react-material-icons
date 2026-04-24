@@ -8,4 +8,4 @@ const IconLocalPostOfficeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLocalPostOfficeOutlined as default }
+export default IconLocalPostOfficeOutlined

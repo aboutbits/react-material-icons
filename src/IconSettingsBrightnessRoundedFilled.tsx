@@ -10,4 +10,4 @@ const IconSettingsBrightnessRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsBrightnessRoundedFilled as default }
+export default IconSettingsBrightnessRoundedFilled

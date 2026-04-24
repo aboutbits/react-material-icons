@@ -10,4 +10,4 @@ const IconControlPointDuplicateOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconControlPointDuplicateOutlined as default }
+export default IconControlPointDuplicateOutlined

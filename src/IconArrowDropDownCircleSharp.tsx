@@ -8,4 +8,4 @@ const IconArrowDropDownCircleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowDropDownCircleSharp as default }
+export default IconArrowDropDownCircleSharp

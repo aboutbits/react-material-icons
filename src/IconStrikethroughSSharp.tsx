@@ -8,4 +8,4 @@ const IconStrikethroughSSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStrikethroughSSharp as default }
+export default IconStrikethroughSSharp

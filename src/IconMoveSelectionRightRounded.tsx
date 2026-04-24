@@ -8,4 +8,4 @@ const IconMoveSelectionRightRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMoveSelectionRightRounded as default }
+export default IconMoveSelectionRightRounded

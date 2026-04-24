@@ -8,4 +8,4 @@ const IconFolderSupervisedOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFolderSupervisedOutlined as default }
+export default IconFolderSupervisedOutlined

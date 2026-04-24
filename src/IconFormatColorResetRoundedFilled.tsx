@@ -10,4 +10,4 @@ const IconFormatColorResetRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatColorResetRoundedFilled as default }
+export default IconFormatColorResetRoundedFilled

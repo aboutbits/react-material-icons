@@ -8,4 +8,4 @@ const IconRemoveModeratorSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRemoveModeratorSharp as default }
+export default IconRemoveModeratorSharp

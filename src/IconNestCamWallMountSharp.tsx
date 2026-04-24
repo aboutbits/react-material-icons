@@ -8,4 +8,4 @@ const IconNestCamWallMountSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamWallMountSharp as default }
+export default IconNestCamWallMountSharp

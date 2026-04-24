@@ -8,4 +8,4 @@ const IconFormatTextWrapRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatTextWrapRounded as default }
+export default IconFormatTextWrapRounded

@@ -8,4 +8,4 @@ const IconBookmarkFlagRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBookmarkFlagRoundedFilled as default }
+export default IconBookmarkFlagRoundedFilled

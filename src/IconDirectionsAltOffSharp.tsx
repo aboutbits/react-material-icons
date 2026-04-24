@@ -8,4 +8,4 @@ const IconDirectionsAltOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirectionsAltOffSharp as default }
+export default IconDirectionsAltOffSharp

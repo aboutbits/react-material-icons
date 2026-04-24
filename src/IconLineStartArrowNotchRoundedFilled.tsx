@@ -10,4 +10,4 @@ const IconLineStartArrowNotchRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLineStartArrowNotchRoundedFilled as default }
+export default IconLineStartArrowNotchRoundedFilled

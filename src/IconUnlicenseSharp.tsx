@@ -8,4 +8,4 @@ const IconUnlicenseSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconUnlicenseSharp as default }
+export default IconUnlicenseSharp

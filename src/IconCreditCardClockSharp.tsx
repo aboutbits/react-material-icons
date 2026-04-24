@@ -8,4 +8,4 @@ const IconCreditCardClockSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCreditCardClockSharp as default }
+export default IconCreditCardClockSharp

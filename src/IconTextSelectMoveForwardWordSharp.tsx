@@ -10,4 +10,4 @@ const IconTextSelectMoveForwardWordSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectMoveForwardWordSharp as default }
+export default IconTextSelectMoveForwardWordSharp

@@ -8,4 +8,4 @@ const IconFlexNoWrapSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlexNoWrapSharp as default }
+export default IconFlexNoWrapSharp

@@ -10,4 +10,4 @@ const IconInsertPageBreakRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconInsertPageBreakRoundedFilled as default }
+export default IconInsertPageBreakRoundedFilled

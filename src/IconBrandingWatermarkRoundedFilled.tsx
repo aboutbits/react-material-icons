@@ -10,4 +10,4 @@ const IconBrandingWatermarkRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBrandingWatermarkRoundedFilled as default }
+export default IconBrandingWatermarkRoundedFilled

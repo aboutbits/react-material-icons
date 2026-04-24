@@ -8,4 +8,4 @@ const IconTempPreferencesEcoOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTempPreferencesEcoOutlined as default }
+export default IconTempPreferencesEcoOutlined

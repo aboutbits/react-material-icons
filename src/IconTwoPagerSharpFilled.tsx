@@ -8,4 +8,4 @@ const IconTwoPagerSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTwoPagerSharpFilled as default }
+export default IconTwoPagerSharpFilled

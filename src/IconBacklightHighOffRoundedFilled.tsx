@@ -10,4 +10,4 @@ const IconBacklightHighOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBacklightHighOffRoundedFilled as default }
+export default IconBacklightHighOffRoundedFilled

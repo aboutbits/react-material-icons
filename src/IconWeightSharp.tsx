@@ -8,4 +8,4 @@ const IconWeightSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWeightSharp as default }
+export default IconWeightSharp

@@ -8,4 +8,4 @@ const IconAppBlockingRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAppBlockingRounded as default }
+export default IconAppBlockingRounded

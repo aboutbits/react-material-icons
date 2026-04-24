@@ -10,4 +10,4 @@ const IconScreenshotMonitorRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenshotMonitorRoundedFilled as default }
+export default IconScreenshotMonitorRoundedFilled

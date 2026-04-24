@@ -8,4 +8,4 @@ const IconAssistantOnHubSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAssistantOnHubSharp as default }
+export default IconAssistantOnHubSharp

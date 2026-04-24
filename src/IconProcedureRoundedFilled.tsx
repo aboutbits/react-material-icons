@@ -8,4 +8,4 @@ const IconProcedureRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconProcedureRoundedFilled as default }
+export default IconProcedureRoundedFilled

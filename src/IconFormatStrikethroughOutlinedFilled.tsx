@@ -10,4 +10,4 @@ const IconFormatStrikethroughOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatStrikethroughOutlinedFilled as default }
+export default IconFormatStrikethroughOutlinedFilled

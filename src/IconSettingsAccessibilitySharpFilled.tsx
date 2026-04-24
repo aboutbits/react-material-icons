@@ -10,4 +10,4 @@ const IconSettingsAccessibilitySharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsAccessibilitySharpFilled as default }
+export default IconSettingsAccessibilitySharpFilled

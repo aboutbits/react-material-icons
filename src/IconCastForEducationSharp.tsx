@@ -8,4 +8,4 @@ const IconCastForEducationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCastForEducationSharp as default }
+export default IconCastForEducationSharp

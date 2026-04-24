@@ -8,4 +8,4 @@ const IconSettingsBRollRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsBRollRoundedFilled as default }
+export default IconSettingsBRollRoundedFilled

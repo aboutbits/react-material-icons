@@ -8,4 +8,4 @@ const IconDragClickSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDragClickSharp as default }
+export default IconDragClickSharp

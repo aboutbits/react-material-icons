@@ -10,4 +10,4 @@ const IconHighlightMouseCursorRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHighlightMouseCursorRoundedFilled as default }
+export default IconHighlightMouseCursorRoundedFilled

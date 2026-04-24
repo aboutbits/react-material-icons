@@ -8,4 +8,4 @@ const IconNestThermostatSensorSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestThermostatSensorSharp as default }
+export default IconNestThermostatSensorSharp

@@ -8,4 +8,4 @@ const IconGroupRemoveRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGroupRemoveRounded as default }
+export default IconGroupRemoveRounded

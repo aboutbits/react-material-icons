@@ -10,4 +10,4 @@ const IconApprovalDelegationRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconApprovalDelegationRoundedFilled as default }
+export default IconApprovalDelegationRoundedFilled

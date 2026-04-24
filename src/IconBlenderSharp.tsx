@@ -8,4 +8,4 @@ const IconBlenderSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBlenderSharp as default }
+export default IconBlenderSharp

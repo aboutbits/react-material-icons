@@ -8,4 +8,4 @@ const IconMonitorWeightLossRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMonitorWeightLossRounded as default }
+export default IconMonitorWeightLossRounded

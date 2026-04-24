@@ -10,4 +10,4 @@ const IconOnlinePredictionRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconOnlinePredictionRoundedFilled as default }
+export default IconOnlinePredictionRoundedFilled

@@ -8,4 +8,4 @@ const IconDynamicFeedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDynamicFeedSharp as default }
+export default IconDynamicFeedSharp

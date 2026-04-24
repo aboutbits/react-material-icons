@@ -10,4 +10,4 @@ const IconAlignJustifySpaceEvenOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignJustifySpaceEvenOutlined as default }
+export default IconAlignJustifySpaceEvenOutlined

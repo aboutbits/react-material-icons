@@ -8,4 +8,4 @@ const IconHorizontalSplitSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHorizontalSplitSharp as default }
+export default IconHorizontalSplitSharp

@@ -8,4 +8,4 @@ const IconBottomRightClickOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBottomRightClickOutlined as default }
+export default IconBottomRightClickOutlined

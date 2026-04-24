@@ -8,4 +8,4 @@ const IconBringYourOwnIpSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBringYourOwnIpSharp as default }
+export default IconBringYourOwnIpSharp

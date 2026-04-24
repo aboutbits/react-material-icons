@@ -8,4 +8,4 @@ const IconNearbyErrorOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNearbyErrorOutlinedFilled as default }
+export default IconNearbyErrorOutlinedFilled

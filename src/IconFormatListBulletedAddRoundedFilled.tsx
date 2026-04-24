@@ -10,4 +10,4 @@ const IconFormatListBulletedAddRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatListBulletedAddRoundedFilled as default }
+export default IconFormatListBulletedAddRoundedFilled

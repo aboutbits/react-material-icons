@@ -8,4 +8,4 @@ const IconViewKanbanSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewKanbanSharp as default }
+export default IconViewKanbanSharp

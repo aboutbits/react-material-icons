@@ -8,4 +8,4 @@ const IconSettingsInputAntennaSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsInputAntennaSharp as default }
+export default IconSettingsInputAntennaSharp

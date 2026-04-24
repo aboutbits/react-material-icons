@@ -8,4 +8,4 @@ const IconSettingsOverscanRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsOverscanRounded as default }
+export default IconSettingsOverscanRounded

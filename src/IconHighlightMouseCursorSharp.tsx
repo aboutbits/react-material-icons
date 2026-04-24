@@ -8,4 +8,4 @@ const IconHighlightMouseCursorSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHighlightMouseCursorSharp as default }
+export default IconHighlightMouseCursorSharp

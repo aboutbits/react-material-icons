@@ -8,4 +8,4 @@ const IconWebhookOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWebhookOutlined as default }
+export default IconWebhookOutlined

@@ -8,4 +8,4 @@ const IconEqualizerSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEqualizerSharpFilled as default }
+export default IconEqualizerSharpFilled

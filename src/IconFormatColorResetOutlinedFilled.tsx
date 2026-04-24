@@ -10,4 +10,4 @@ const IconFormatColorResetOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatColorResetOutlinedFilled as default }
+export default IconFormatColorResetOutlinedFilled

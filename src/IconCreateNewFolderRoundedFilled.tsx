@@ -10,4 +10,4 @@ const IconCreateNewFolderRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCreateNewFolderRoundedFilled as default }
+export default IconCreateNewFolderRoundedFilled

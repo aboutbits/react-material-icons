@@ -8,4 +8,4 @@ const IconViewModuleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewModuleSharp as default }
+export default IconViewModuleSharp

@@ -8,4 +8,4 @@ const IconTransitionPushRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransitionPushRoundedFilled as default }
+export default IconTransitionPushRoundedFilled

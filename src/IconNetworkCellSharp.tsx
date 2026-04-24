@@ -8,4 +8,4 @@ const IconNetworkCellSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNetworkCellSharp as default }
+export default IconNetworkCellSharp

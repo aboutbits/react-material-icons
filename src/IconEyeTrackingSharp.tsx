@@ -8,4 +8,4 @@ const IconEyeTrackingSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEyeTrackingSharp as default }
+export default IconEyeTrackingSharp

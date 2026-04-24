@@ -8,4 +8,4 @@ const IconViewObjectTrackSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewObjectTrackSharp as default }
+export default IconViewObjectTrackSharp

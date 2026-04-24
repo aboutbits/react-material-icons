@@ -8,4 +8,4 @@ const IconCombineColumnsSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCombineColumnsSharp as default }
+export default IconCombineColumnsSharp

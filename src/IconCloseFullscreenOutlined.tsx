@@ -8,4 +8,4 @@ const IconCloseFullscreenOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCloseFullscreenOutlined as default }
+export default IconCloseFullscreenOutlined

@@ -10,4 +10,4 @@ const IconSettingsAccountBoxSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsAccountBoxSharpFilled as default }
+export default IconSettingsAccountBoxSharpFilled

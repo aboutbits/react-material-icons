@@ -10,4 +10,4 @@ const IconMarkunreadMailboxOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMarkunreadMailboxOutlinedFilled as default }
+export default IconMarkunreadMailboxOutlinedFilled

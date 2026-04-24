@@ -8,4 +8,4 @@ const IconFormatParagraphRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatParagraphRounded as default }
+export default IconFormatParagraphRounded

@@ -10,4 +10,4 @@ const IconPortableWifiOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPortableWifiOffOutlinedFilled as default }
+export default IconPortableWifiOffOutlinedFilled

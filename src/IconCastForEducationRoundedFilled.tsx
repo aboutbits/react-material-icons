@@ -10,4 +10,4 @@ const IconCastForEducationRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCastForEducationRoundedFilled as default }
+export default IconCastForEducationRoundedFilled

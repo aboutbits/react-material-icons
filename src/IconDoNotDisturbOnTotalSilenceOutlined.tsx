@@ -10,4 +10,4 @@ const IconDoNotDisturbOnTotalSilenceOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDoNotDisturbOnTotalSilenceOutlined as default }
+export default IconDoNotDisturbOnTotalSilenceOutlined

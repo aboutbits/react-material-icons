@@ -8,4 +8,4 @@ const IconWidthFullRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWidthFullRounded as default }
+export default IconWidthFullRounded

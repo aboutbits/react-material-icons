@@ -8,4 +8,4 @@ const IconEventRepeatSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEventRepeatSharp as default }
+export default IconEventRepeatSharp

@@ -8,4 +8,4 @@ const IconEditLocationAltOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEditLocationAltOutlined as default }
+export default IconEditLocationAltOutlined

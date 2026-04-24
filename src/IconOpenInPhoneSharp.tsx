@@ -8,4 +8,4 @@ const IconOpenInPhoneSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOpenInPhoneSharp as default }
+export default IconOpenInPhoneSharp

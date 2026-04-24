@@ -8,4 +8,4 @@ const IconPageviewSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPageviewSharp as default }
+export default IconPageviewSharp

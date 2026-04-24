@@ -8,4 +8,4 @@ const IconPermPhoneMsgRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermPhoneMsgRounded as default }
+export default IconPermPhoneMsgRounded

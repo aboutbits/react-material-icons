@@ -8,4 +8,4 @@ const IconLocationOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLocationOffSharp as default }
+export default IconLocationOffSharp

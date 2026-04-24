@@ -10,4 +10,4 @@ const IconDriveFolderUploadRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDriveFolderUploadRoundedFilled as default }
+export default IconDriveFolderUploadRoundedFilled

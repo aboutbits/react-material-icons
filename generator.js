@@ -1,6 +1,6 @@
-const fs = require('fs')
-const path = require('path')
-const axios = require('axios')
+import fs from 'fs'
+import path from 'path'
+import axios from 'axios'
 
 const GOOGLE_FONTS_URL =
   'https://fonts.google.com/metadata/icons?key=material_symbols&incomplete=true'
@@ -41,7 +41,7 @@ function generatePropsFile() {
     }
     `
 
-  fs.writeFileSync(path.join(__dirname, 'src', 'types.ts'), typesFile)
+  fs.writeFileSync(path.join(import.meta.dirname, 'src', 'types.ts'), typesFile)
 }
 
 async function generateComponentsForAllFamilies(icon) {
@@ -64,7 +64,7 @@ async function generateComponent(icon, family, filled = false) {
     console.log(`Downloading ${name}`)
 
     await fs.writeFileSync(
-      path.join(__dirname, 'src', `${name}.tsx`),
+      path.join(import.meta.dirname, 'src', `${name}.tsx`),
       mapSVGToTemplate(name, svg),
     )
   } catch {
@@ -115,6 +115,6 @@ function mapSVGToTemplate(name, svg) {
         ${svg}
     )
     
-    export { ${name} as default } 
+    export default ${name}
   `
 }

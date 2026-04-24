@@ -8,4 +8,4 @@ const IconSignalCellularNullSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSignalCellularNullSharp as default }
+export default IconSignalCellularNullSharp

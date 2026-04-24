@@ -8,4 +8,4 @@ const IconViewDayOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewDayOutlined as default }
+export default IconViewDayOutlined

@@ -8,4 +8,4 @@ const IconFormatInkHighlighterSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatInkHighlighterSharp as default }
+export default IconFormatInkHighlighterSharp

@@ -10,4 +10,4 @@ const IconFormatUnderlinedSquiggleOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatUnderlinedSquiggleOutlined as default }
+export default IconFormatUnderlinedSquiggleOutlined

@@ -8,4 +8,4 @@ const IconClimateMiniSplitRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconClimateMiniSplitRounded as default }
+export default IconClimateMiniSplitRounded

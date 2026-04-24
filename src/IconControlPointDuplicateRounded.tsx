@@ -10,4 +10,4 @@ const IconControlPointDuplicateRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconControlPointDuplicateRounded as default }
+export default IconControlPointDuplicateRounded

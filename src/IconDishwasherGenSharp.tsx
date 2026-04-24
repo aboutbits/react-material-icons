@@ -8,4 +8,4 @@ const IconDishwasherGenSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDishwasherGenSharp as default }
+export default IconDishwasherGenSharp

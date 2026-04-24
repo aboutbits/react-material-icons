@@ -8,4 +8,4 @@ const IconTimelineRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTimelineRounded as default }
+export default IconTimelineRounded

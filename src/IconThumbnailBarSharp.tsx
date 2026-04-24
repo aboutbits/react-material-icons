@@ -8,4 +8,4 @@ const IconThumbnailBarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThumbnailBarSharp as default }
+export default IconThumbnailBarSharp

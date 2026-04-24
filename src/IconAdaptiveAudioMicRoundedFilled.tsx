@@ -10,4 +10,4 @@ const IconAdaptiveAudioMicRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAdaptiveAudioMicRoundedFilled as default }
+export default IconAdaptiveAudioMicRoundedFilled

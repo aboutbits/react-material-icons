@@ -10,4 +10,4 @@ const IconTvOptionsInputSettingsRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTvOptionsInputSettingsRounded as default }
+export default IconTvOptionsInputSettingsRounded

@@ -8,4 +8,4 @@ const IconConversionPathOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconConversionPathOffRounded as default }
+export default IconConversionPathOffRounded

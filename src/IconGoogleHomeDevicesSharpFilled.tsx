@@ -10,4 +10,4 @@ const IconGoogleHomeDevicesSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconGoogleHomeDevicesSharpFilled as default }
+export default IconGoogleHomeDevicesSharpFilled

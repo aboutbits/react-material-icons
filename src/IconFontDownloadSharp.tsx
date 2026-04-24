@@ -8,4 +8,4 @@ const IconFontDownloadSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFontDownloadSharp as default }
+export default IconFontDownloadSharp

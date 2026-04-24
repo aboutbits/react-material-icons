@@ -8,4 +8,4 @@ const IconSentimentNeutralRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSentimentNeutralRounded as default }
+export default IconSentimentNeutralRounded

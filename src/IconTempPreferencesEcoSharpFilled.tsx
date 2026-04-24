@@ -10,4 +10,4 @@ const IconTempPreferencesEcoSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTempPreferencesEcoSharpFilled as default }
+export default IconTempPreferencesEcoSharpFilled

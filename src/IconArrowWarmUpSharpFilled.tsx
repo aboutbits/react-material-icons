@@ -8,4 +8,4 @@ const IconArrowWarmUpSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowWarmUpSharpFilled as default }
+export default IconArrowWarmUpSharpFilled

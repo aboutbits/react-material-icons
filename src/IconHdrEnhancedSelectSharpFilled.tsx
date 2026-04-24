@@ -10,4 +10,4 @@ const IconHdrEnhancedSelectSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHdrEnhancedSelectSharpFilled as default }
+export default IconHdrEnhancedSelectSharpFilled

@@ -8,4 +8,4 @@ const IconClockLoader90RoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconClockLoader90RoundedFilled as default }
+export default IconClockLoader90RoundedFilled

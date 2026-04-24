@@ -10,4 +10,4 @@ const IconFaceRetouchingOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFaceRetouchingOffRoundedFilled as default }
+export default IconFaceRetouchingOffRoundedFilled

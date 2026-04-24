@@ -10,4 +10,4 @@ const IconSettingsOverscanOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsOverscanOutlinedFilled as default }
+export default IconSettingsOverscanOutlinedFilled

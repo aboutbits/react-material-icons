@@ -8,4 +8,4 @@ const IconSendTimeExtensionOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSendTimeExtensionOutlined as default }
+export default IconSendTimeExtensionOutlined

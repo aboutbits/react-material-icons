@@ -10,4 +10,4 @@ const IconStayPrimaryLandscapeOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconStayPrimaryLandscapeOutlined as default }
+export default IconStayPrimaryLandscapeOutlined

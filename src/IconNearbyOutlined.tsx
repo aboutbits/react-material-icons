@@ -8,4 +8,4 @@ const IconNearbyOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNearbyOutlined as default }
+export default IconNearbyOutlined

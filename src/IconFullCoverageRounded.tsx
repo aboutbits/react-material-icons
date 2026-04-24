@@ -8,4 +8,4 @@ const IconFullCoverageRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFullCoverageRounded as default }
+export default IconFullCoverageRounded

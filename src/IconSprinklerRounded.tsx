@@ -8,4 +8,4 @@ const IconSprinklerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSprinklerRounded as default }
+export default IconSprinklerRounded

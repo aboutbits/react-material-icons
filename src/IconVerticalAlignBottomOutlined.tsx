@@ -8,4 +8,4 @@ const IconVerticalAlignBottomOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVerticalAlignBottomOutlined as default }
+export default IconVerticalAlignBottomOutlined

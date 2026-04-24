@@ -8,4 +8,4 @@ const IconAccountBalanceWalletSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAccountBalanceWalletSharp as default }
+export default IconAccountBalanceWalletSharp

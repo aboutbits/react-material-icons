@@ -10,4 +10,4 @@ const IconHighlightTextCursorSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHighlightTextCursorSharpFilled as default }
+export default IconHighlightTextCursorSharpFilled

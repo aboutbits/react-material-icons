@@ -8,4 +8,4 @@ const IconContentPasteOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContentPasteOffRounded as default }
+export default IconContentPasteOffRounded

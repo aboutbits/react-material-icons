@@ -10,4 +10,4 @@ const IconNestCamFloodlightRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestCamFloodlightRoundedFilled as default }
+export default IconNestCamFloodlightRoundedFilled

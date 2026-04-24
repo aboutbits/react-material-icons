@@ -8,4 +8,4 @@ const IconVpnKeySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVpnKeySharp as default }
+export default IconVpnKeySharp

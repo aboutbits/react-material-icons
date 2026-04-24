@@ -10,4 +10,4 @@ const IconSubdirectoryArrowRightSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSubdirectoryArrowRightSharpFilled as default }
+export default IconSubdirectoryArrowRightSharpFilled

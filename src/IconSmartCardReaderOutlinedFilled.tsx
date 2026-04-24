@@ -10,4 +10,4 @@ const IconSmartCardReaderOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSmartCardReaderOutlinedFilled as default }
+export default IconSmartCardReaderOutlinedFilled

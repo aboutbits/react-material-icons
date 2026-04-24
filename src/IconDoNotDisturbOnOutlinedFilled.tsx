@@ -10,4 +10,4 @@ const IconDoNotDisturbOnOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDoNotDisturbOnOutlinedFilled as default }
+export default IconDoNotDisturbOnOutlinedFilled

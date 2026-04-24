@@ -10,4 +10,4 @@ const IconToolsInstallationKitOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconToolsInstallationKitOutlined as default }
+export default IconToolsInstallationKitOutlined

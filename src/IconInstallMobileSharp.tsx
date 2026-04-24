@@ -8,4 +8,4 @@ const IconInstallMobileSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInstallMobileSharp as default }
+export default IconInstallMobileSharp

@@ -8,4 +8,4 @@ const IconStrokePartialSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStrokePartialSharp as default }
+export default IconStrokePartialSharp

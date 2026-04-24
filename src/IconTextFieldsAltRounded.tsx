@@ -8,4 +8,4 @@ const IconTextFieldsAltRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextFieldsAltRounded as default }
+export default IconTextFieldsAltRounded

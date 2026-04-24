@@ -10,4 +10,4 @@ const IconFilterTiltShiftOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFilterTiltShiftOutlinedFilled as default }
+export default IconFilterTiltShiftOutlinedFilled

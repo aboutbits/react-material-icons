@@ -8,4 +8,4 @@ const IconHdrOnSelectSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHdrOnSelectSharpFilled as default }
+export default IconHdrOnSelectSharpFilled

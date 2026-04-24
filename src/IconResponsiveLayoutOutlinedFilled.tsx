@@ -10,4 +10,4 @@ const IconResponsiveLayoutOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconResponsiveLayoutOutlinedFilled as default }
+export default IconResponsiveLayoutOutlinedFilled

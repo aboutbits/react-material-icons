@@ -8,4 +8,4 @@ const IconQrCodeScannerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconQrCodeScannerRounded as default }
+export default IconQrCodeScannerRounded

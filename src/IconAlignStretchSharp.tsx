@@ -8,4 +8,4 @@ const IconAlignStretchSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAlignStretchSharp as default }
+export default IconAlignStretchSharp

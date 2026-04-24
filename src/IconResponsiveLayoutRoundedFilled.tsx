@@ -10,4 +10,4 @@ const IconResponsiveLayoutRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconResponsiveLayoutRoundedFilled as default }
+export default IconResponsiveLayoutRoundedFilled

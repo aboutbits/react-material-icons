@@ -8,4 +8,4 @@ const IconModeHeatRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconModeHeatRounded as default }
+export default IconModeHeatRounded

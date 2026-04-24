@@ -8,4 +8,4 @@ const IconViewComfySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewComfySharp as default }
+export default IconViewComfySharp

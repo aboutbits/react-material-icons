@@ -10,4 +10,4 @@ const IconScreenRotationAltRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenRotationAltRoundedFilled as default }
+export default IconScreenRotationAltRoundedFilled

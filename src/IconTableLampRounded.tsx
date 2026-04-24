@@ -8,4 +8,4 @@ const IconTableLampRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTableLampRounded as default }
+export default IconTableLampRounded

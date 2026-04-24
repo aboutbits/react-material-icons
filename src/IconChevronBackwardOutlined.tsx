@@ -8,4 +8,4 @@ const IconChevronBackwardOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChevronBackwardOutlined as default }
+export default IconChevronBackwardOutlined

@@ -10,4 +10,4 @@ const IconPrivateConnectivityRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPrivateConnectivityRoundedFilled as default }
+export default IconPrivateConnectivityRoundedFilled

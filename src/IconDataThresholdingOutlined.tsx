@@ -8,4 +8,4 @@ const IconDataThresholdingOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataThresholdingOutlined as default }
+export default IconDataThresholdingOutlined

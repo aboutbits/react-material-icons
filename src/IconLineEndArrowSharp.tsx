@@ -8,4 +8,4 @@ const IconLineEndArrowSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLineEndArrowSharp as default }
+export default IconLineEndArrowSharp

@@ -10,4 +10,4 @@ const IconHourglassDisabledSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHourglassDisabledSharpFilled as default }
+export default IconHourglassDisabledSharpFilled

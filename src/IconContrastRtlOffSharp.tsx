@@ -8,4 +8,4 @@ const IconContrastRtlOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContrastRtlOffSharp as default }
+export default IconContrastRtlOffSharp

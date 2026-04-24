@@ -8,4 +8,4 @@ const IconDensitySmallOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDensitySmallOutlined as default }
+export default IconDensitySmallOutlined

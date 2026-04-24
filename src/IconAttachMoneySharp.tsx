@@ -8,4 +8,4 @@ const IconAttachMoneySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAttachMoneySharp as default }
+export default IconAttachMoneySharp

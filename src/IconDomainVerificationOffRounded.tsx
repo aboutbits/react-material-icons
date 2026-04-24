@@ -10,4 +10,4 @@ const IconDomainVerificationOffRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDomainVerificationOffRounded as default }
+export default IconDomainVerificationOffRounded

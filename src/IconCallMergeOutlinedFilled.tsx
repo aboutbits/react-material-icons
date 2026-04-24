@@ -8,4 +8,4 @@ const IconCallMergeOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCallMergeOutlinedFilled as default }
+export default IconCallMergeOutlinedFilled

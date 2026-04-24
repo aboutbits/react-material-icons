@@ -8,4 +8,4 @@ const IconModeDualRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconModeDualRounded as default }
+export default IconModeDualRounded

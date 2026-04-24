@@ -10,4 +10,4 @@ const IconPhoneBluetoothSpeakerRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPhoneBluetoothSpeakerRoundedFilled as default }
+export default IconPhoneBluetoothSpeakerRoundedFilled

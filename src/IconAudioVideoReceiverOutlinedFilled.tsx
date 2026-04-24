@@ -10,4 +10,4 @@ const IconAudioVideoReceiverOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAudioVideoReceiverOutlinedFilled as default }
+export default IconAudioVideoReceiverOutlinedFilled

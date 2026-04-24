@@ -8,4 +8,4 @@ const IconAttachEmailOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAttachEmailOutlined as default }
+export default IconAttachEmailOutlined

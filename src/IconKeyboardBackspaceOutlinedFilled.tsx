@@ -10,4 +10,4 @@ const IconKeyboardBackspaceOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardBackspaceOutlinedFilled as default }
+export default IconKeyboardBackspaceOutlinedFilled

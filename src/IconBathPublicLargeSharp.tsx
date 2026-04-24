@@ -8,4 +8,4 @@ const IconBathPublicLargeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBathPublicLargeSharp as default }
+export default IconBathPublicLargeSharp

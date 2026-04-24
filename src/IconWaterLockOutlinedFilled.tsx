@@ -8,4 +8,4 @@ const IconWaterLockOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWaterLockOutlinedFilled as default }
+export default IconWaterLockOutlinedFilled

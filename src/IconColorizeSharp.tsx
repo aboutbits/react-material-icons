@@ -8,4 +8,4 @@ const IconColorizeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconColorizeSharp as default }
+export default IconColorizeSharp

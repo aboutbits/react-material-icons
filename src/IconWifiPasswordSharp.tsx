@@ -8,4 +8,4 @@ const IconWifiPasswordSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWifiPasswordSharp as default }
+export default IconWifiPasswordSharp

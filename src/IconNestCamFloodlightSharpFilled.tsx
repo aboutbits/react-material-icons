@@ -10,4 +10,4 @@ const IconNestCamFloodlightSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestCamFloodlightSharpFilled as default }
+export default IconNestCamFloodlightSharpFilled

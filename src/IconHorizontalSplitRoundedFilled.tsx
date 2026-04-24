@@ -10,4 +10,4 @@ const IconHorizontalSplitRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHorizontalSplitRoundedFilled as default }
+export default IconHorizontalSplitRoundedFilled

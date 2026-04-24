@@ -8,4 +8,4 @@ const IconSplitscreenRightOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSplitscreenRightOutlined as default }
+export default IconSplitscreenRightOutlined

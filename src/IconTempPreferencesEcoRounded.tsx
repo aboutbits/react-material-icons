@@ -8,4 +8,4 @@ const IconTempPreferencesEcoRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTempPreferencesEcoRounded as default }
+export default IconTempPreferencesEcoRounded

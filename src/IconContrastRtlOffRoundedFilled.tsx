@@ -8,4 +8,4 @@ const IconContrastRtlOffRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContrastRtlOffRoundedFilled as default }
+export default IconContrastRtlOffRoundedFilled

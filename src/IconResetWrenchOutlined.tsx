@@ -8,4 +8,4 @@ const IconResetWrenchOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResetWrenchOutlined as default }
+export default IconResetWrenchOutlined

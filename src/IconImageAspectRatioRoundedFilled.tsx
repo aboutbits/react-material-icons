@@ -10,4 +10,4 @@ const IconImageAspectRatioRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconImageAspectRatioRoundedFilled as default }
+export default IconImageAspectRatioRoundedFilled

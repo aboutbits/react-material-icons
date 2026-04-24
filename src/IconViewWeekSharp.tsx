@@ -8,4 +8,4 @@ const IconViewWeekSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewWeekSharp as default }
+export default IconViewWeekSharp

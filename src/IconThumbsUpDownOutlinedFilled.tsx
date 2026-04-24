@@ -8,4 +8,4 @@ const IconThumbsUpDownOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThumbsUpDownOutlinedFilled as default }
+export default IconThumbsUpDownOutlinedFilled

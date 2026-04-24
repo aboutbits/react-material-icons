@@ -8,4 +8,4 @@ const IconAddTriangleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAddTriangleSharp as default }
+export default IconAddTriangleSharp

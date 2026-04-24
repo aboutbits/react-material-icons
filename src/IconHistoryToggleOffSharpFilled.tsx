@@ -8,4 +8,4 @@ const IconHistoryToggleOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHistoryToggleOffSharpFilled as default }
+export default IconHistoryToggleOffSharpFilled

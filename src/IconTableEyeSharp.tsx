@@ -8,4 +8,4 @@ const IconTableEyeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTableEyeSharp as default }
+export default IconTableEyeSharp

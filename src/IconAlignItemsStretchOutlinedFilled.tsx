@@ -10,4 +10,4 @@ const IconAlignItemsStretchOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignItemsStretchOutlinedFilled as default }
+export default IconAlignItemsStretchOutlinedFilled

@@ -8,4 +8,4 @@ const IconNestWakeOnApproachOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestWakeOnApproachOutlined as default }
+export default IconNestWakeOnApproachOutlined

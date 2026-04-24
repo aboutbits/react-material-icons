@@ -10,4 +10,4 @@ const IconLanguageChineseQuickOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconLanguageChineseQuickOutlined as default }
+export default IconLanguageChineseQuickOutlined

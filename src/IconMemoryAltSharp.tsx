@@ -8,4 +8,4 @@ const IconMemoryAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMemoryAltSharp as default }
+export default IconMemoryAltSharp

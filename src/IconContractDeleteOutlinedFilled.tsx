@@ -10,4 +10,4 @@ const IconContractDeleteOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconContractDeleteOutlinedFilled as default }
+export default IconContractDeleteOutlinedFilled

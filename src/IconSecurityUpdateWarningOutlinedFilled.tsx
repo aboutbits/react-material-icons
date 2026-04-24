@@ -10,4 +10,4 @@ const IconSecurityUpdateWarningOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSecurityUpdateWarningOutlinedFilled as default }
+export default IconSecurityUpdateWarningOutlinedFilled

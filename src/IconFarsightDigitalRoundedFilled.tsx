@@ -10,4 +10,4 @@ const IconFarsightDigitalRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFarsightDigitalRoundedFilled as default }
+export default IconFarsightDigitalRoundedFilled

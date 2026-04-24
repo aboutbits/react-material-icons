@@ -8,4 +8,4 @@ const IconCirclesExtOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCirclesExtOutlined as default }
+export default IconCirclesExtOutlined

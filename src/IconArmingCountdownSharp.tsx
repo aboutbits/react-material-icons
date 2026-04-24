@@ -8,4 +8,4 @@ const IconArmingCountdownSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArmingCountdownSharp as default }
+export default IconArmingCountdownSharp

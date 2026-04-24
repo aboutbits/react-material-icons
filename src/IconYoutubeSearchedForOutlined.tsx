@@ -8,4 +8,4 @@ const IconYoutubeSearchedForOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconYoutubeSearchedForOutlined as default }
+export default IconYoutubeSearchedForOutlined

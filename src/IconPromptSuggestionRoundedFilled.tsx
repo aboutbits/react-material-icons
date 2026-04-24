@@ -10,4 +10,4 @@ const IconPromptSuggestionRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPromptSuggestionRoundedFilled as default }
+export default IconPromptSuggestionRoundedFilled

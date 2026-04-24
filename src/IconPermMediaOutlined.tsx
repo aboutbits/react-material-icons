@@ -8,4 +8,4 @@ const IconPermMediaOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermMediaOutlined as default }
+export default IconPermMediaOutlined

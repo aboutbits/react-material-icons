@@ -8,4 +8,4 @@ const IconSideNavigationOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSideNavigationOutlined as default }
+export default IconSideNavigationOutlined

@@ -8,4 +8,4 @@ const IconVoiceSelectionOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVoiceSelectionOffOutlined as default }
+export default IconVoiceSelectionOffOutlined

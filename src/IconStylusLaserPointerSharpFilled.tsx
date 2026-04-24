@@ -10,4 +10,4 @@ const IconStylusLaserPointerSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconStylusLaserPointerSharpFilled as default }
+export default IconStylusLaserPointerSharpFilled

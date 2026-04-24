@@ -10,4 +10,4 @@ const IconPositionBottomLeftOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPositionBottomLeftOutlinedFilled as default }
+export default IconPositionBottomLeftOutlinedFilled

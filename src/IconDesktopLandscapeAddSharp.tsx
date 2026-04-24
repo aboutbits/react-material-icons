@@ -8,4 +8,4 @@ const IconDesktopLandscapeAddSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDesktopLandscapeAddSharp as default }
+export default IconDesktopLandscapeAddSharp

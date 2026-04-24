@@ -8,4 +8,4 @@ const IconSoundSamplerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSoundSamplerSharp as default }
+export default IconSoundSamplerSharp

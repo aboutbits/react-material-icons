@@ -10,4 +10,4 @@ const IconSoundDetectionGlassBreakRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSoundDetectionGlassBreakRoundedFilled as default }
+export default IconSoundDetectionGlassBreakRoundedFilled

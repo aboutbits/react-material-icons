@@ -10,4 +10,4 @@ const IconSendAndArchiveOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSendAndArchiveOutlinedFilled as default }
+export default IconSendAndArchiveOutlinedFilled

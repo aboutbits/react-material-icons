@@ -10,4 +10,4 @@ const IconAlignJustifySpaceAroundRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignJustifySpaceAroundRoundedFilled as default }
+export default IconAlignJustifySpaceAroundRoundedFilled

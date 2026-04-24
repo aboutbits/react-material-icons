@@ -8,4 +8,4 @@ const IconTvOptionsEditChannelsSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTvOptionsEditChannelsSharp as default }
+export default IconTvOptionsEditChannelsSharp

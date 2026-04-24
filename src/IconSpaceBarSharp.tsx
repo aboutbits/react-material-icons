@@ -8,4 +8,4 @@ const IconSpaceBarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpaceBarSharp as default }
+export default IconSpaceBarSharp

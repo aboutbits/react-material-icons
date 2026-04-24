@@ -10,4 +10,4 @@ const IconSettingsMotionModeOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsMotionModeOutlinedFilled as default }
+export default IconSettingsMotionModeOutlinedFilled

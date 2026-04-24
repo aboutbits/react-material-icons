@@ -8,4 +8,4 @@ const IconPanToolAltRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPanToolAltRoundedFilled as default }
+export default IconPanToolAltRoundedFilled

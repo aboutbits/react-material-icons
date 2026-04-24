@@ -8,4 +8,4 @@ const IconAddToHomeScreenOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAddToHomeScreenOutlined as default }
+export default IconAddToHomeScreenOutlined

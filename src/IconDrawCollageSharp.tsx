@@ -8,4 +8,4 @@ const IconDrawCollageSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDrawCollageSharp as default }
+export default IconDrawCollageSharp

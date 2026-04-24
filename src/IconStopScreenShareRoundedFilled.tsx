@@ -10,4 +10,4 @@ const IconStopScreenShareRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconStopScreenShareRoundedFilled as default }
+export default IconStopScreenShareRoundedFilled

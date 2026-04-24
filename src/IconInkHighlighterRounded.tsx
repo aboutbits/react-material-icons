@@ -8,4 +8,4 @@ const IconInkHighlighterRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInkHighlighterRounded as default }
+export default IconInkHighlighterRounded

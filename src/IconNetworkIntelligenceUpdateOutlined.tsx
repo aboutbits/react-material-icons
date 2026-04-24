@@ -10,4 +10,4 @@ const IconNetworkIntelligenceUpdateOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNetworkIntelligenceUpdateOutlined as default }
+export default IconNetworkIntelligenceUpdateOutlined

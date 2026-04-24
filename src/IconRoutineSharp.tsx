@@ -8,4 +8,4 @@ const IconRoutineSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRoutineSharp as default }
+export default IconRoutineSharp

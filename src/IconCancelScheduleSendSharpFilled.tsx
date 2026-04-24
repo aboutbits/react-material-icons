@@ -10,4 +10,4 @@ const IconCancelScheduleSendSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCancelScheduleSendSharpFilled as default }
+export default IconCancelScheduleSendSharpFilled

@@ -10,4 +10,4 @@ const IconCompassCalibrationOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCompassCalibrationOutlinedFilled as default }
+export default IconCompassCalibrationOutlinedFilled

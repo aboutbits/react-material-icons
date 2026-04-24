@@ -10,4 +10,4 @@ const IconBottomPanelCloseRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBottomPanelCloseRoundedFilled as default }
+export default IconBottomPanelCloseRoundedFilled

@@ -10,4 +10,4 @@ const IconNotificationImportantOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNotificationImportantOutlined as default }
+export default IconNotificationImportantOutlined

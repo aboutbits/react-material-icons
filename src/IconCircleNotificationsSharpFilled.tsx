@@ -10,4 +10,4 @@ const IconCircleNotificationsSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCircleNotificationsSharpFilled as default }
+export default IconCircleNotificationsSharpFilled

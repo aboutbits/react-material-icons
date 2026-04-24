@@ -10,4 +10,4 @@ const IconMultilineChartOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMultilineChartOutlinedFilled as default }
+export default IconMultilineChartOutlinedFilled

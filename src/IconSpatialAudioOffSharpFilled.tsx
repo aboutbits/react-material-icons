@@ -8,4 +8,4 @@ const IconSpatialAudioOffSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpatialAudioOffSharpFilled as default }
+export default IconSpatialAudioOffSharpFilled

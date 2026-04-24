@@ -10,4 +10,4 @@ const IconFormatListNumberedRtlOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatListNumberedRtlOutlined as default }
+export default IconFormatListNumberedRtlOutlined

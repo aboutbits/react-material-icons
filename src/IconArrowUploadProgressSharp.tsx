@@ -8,4 +8,4 @@ const IconArrowUploadProgressSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowUploadProgressSharp as default }
+export default IconArrowUploadProgressSharp

@@ -10,4 +10,4 @@ const IconHangoutVideoOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHangoutVideoOffRoundedFilled as default }
+export default IconHangoutVideoOffRoundedFilled

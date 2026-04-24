@@ -8,4 +8,4 @@ const IconShuffleRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShuffleRounded as default }
+export default IconShuffleRounded

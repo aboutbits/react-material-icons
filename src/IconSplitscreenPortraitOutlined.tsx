@@ -8,4 +8,4 @@ const IconSplitscreenPortraitOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSplitscreenPortraitOutlined as default }
+export default IconSplitscreenPortraitOutlined

@@ -8,4 +8,4 @@ const IconVisibilityOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVisibilityOffRounded as default }
+export default IconVisibilityOffRounded

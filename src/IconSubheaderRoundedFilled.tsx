@@ -8,4 +8,4 @@ const IconSubheaderRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSubheaderRoundedFilled as default }
+export default IconSubheaderRoundedFilled

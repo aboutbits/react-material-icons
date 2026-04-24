@@ -8,4 +8,4 @@ const IconViewWeekSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewWeekSharpFilled as default }
+export default IconViewWeekSharpFilled

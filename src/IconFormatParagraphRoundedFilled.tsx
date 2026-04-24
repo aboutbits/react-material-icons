@@ -10,4 +10,4 @@ const IconFormatParagraphRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatParagraphRoundedFilled as default }
+export default IconFormatParagraphRoundedFilled

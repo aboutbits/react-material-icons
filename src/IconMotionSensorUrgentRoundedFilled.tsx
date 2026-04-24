@@ -10,4 +10,4 @@ const IconMotionSensorUrgentRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMotionSensorUrgentRoundedFilled as default }
+export default IconMotionSensorUrgentRoundedFilled

@@ -8,4 +8,4 @@ const IconPartyModeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPartyModeOutlined as default }
+export default IconPartyModeOutlined

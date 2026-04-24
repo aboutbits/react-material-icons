@@ -8,4 +8,4 @@ const IconSplitscreenBottomSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSplitscreenBottomSharp as default }
+export default IconSplitscreenBottomSharp

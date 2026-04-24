@@ -8,4 +8,4 @@ const IconShutterSpeedMinusRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShutterSpeedMinusRounded as default }
+export default IconShutterSpeedMinusRounded

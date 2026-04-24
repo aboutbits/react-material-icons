@@ -8,4 +8,4 @@ const IconSettingsEthernetOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsEthernetOutlined as default }
+export default IconSettingsEthernetOutlined

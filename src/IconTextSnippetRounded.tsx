@@ -8,4 +8,4 @@ const IconTextSnippetRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSnippetRounded as default }
+export default IconTextSnippetRounded

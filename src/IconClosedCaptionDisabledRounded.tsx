@@ -10,4 +10,4 @@ const IconClosedCaptionDisabledRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconClosedCaptionDisabledRounded as default }
+export default IconClosedCaptionDisabledRounded

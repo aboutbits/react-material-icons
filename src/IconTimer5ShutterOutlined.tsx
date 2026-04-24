@@ -8,4 +8,4 @@ const IconTimer5ShutterOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTimer5ShutterOutlined as default }
+export default IconTimer5ShutterOutlined

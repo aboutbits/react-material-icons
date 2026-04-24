@@ -10,4 +10,4 @@ const IconSettingsSystemDaydreamOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsSystemDaydreamOutlinedFilled as default }
+export default IconSettingsSystemDaydreamOutlinedFilled

@@ -8,4 +8,4 @@ const IconVpnLockSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVpnLockSharpFilled as default }
+export default IconVpnLockSharpFilled

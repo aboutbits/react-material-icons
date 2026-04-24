@@ -10,4 +10,4 @@ const IconKeyboardExternalInputRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardExternalInputRounded as default }
+export default IconKeyboardExternalInputRounded

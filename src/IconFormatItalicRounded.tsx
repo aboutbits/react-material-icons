@@ -8,4 +8,4 @@ const IconFormatItalicRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatItalicRounded as default }
+export default IconFormatItalicRounded

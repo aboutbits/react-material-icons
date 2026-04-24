@@ -8,4 +8,4 @@ const IconHumerusAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHumerusAltSharp as default }
+export default IconHumerusAltSharp

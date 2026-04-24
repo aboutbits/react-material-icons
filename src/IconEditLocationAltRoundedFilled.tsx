@@ -10,4 +10,4 @@ const IconEditLocationAltRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEditLocationAltRoundedFilled as default }
+export default IconEditLocationAltRoundedFilled

@@ -10,4 +10,4 @@ const IconWatchVibrationOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconWatchVibrationOutlinedFilled as default }
+export default IconWatchVibrationOutlinedFilled

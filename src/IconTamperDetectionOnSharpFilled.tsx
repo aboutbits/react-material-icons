@@ -10,4 +10,4 @@ const IconTamperDetectionOnSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTamperDetectionOnSharpFilled as default }
+export default IconTamperDetectionOnSharpFilled

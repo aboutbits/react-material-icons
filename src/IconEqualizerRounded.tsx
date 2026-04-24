@@ -8,4 +8,4 @@ const IconEqualizerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEqualizerRounded as default }
+export default IconEqualizerRounded

@@ -8,4 +8,4 @@ const IconGoogleTvRemoteRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGoogleTvRemoteRoundedFilled as default }
+export default IconGoogleTvRemoteRoundedFilled

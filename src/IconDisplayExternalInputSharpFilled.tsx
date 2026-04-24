@@ -10,4 +10,4 @@ const IconDisplayExternalInputSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDisplayExternalInputSharpFilled as default }
+export default IconDisplayExternalInputSharpFilled

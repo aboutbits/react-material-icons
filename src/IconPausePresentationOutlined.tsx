@@ -8,4 +8,4 @@ const IconPausePresentationOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPausePresentationOutlined as default }
+export default IconPausePresentationOutlined

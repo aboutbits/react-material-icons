@@ -8,4 +8,4 @@ const IconSmartCardReaderSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSmartCardReaderSharpFilled as default }
+export default IconSmartCardReaderSharpFilled

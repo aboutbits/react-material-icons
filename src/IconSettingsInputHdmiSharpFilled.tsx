@@ -10,4 +10,4 @@ const IconSettingsInputHdmiSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsInputHdmiSharpFilled as default }
+export default IconSettingsInputHdmiSharpFilled

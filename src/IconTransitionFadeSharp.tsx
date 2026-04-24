@@ -8,4 +8,4 @@ const IconTransitionFadeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransitionFadeSharp as default }
+export default IconTransitionFadeSharp

@@ -8,4 +8,4 @@ const IconFastRewindOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFastRewindOutlined as default }
+export default IconFastRewindOutlined

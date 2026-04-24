@@ -8,4 +8,4 @@ const IconVo2MaxRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVo2MaxRounded as default }
+export default IconVo2MaxRounded

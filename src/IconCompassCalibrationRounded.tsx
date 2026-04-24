@@ -8,4 +8,4 @@ const IconCompassCalibrationRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCompassCalibrationRounded as default }
+export default IconCompassCalibrationRounded

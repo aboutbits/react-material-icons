@@ -8,4 +8,4 @@ const IconPrivateConnectivityOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPrivateConnectivityOutlined as default }
+export default IconPrivateConnectivityOutlined

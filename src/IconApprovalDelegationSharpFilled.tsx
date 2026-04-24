@@ -10,4 +10,4 @@ const IconApprovalDelegationSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconApprovalDelegationSharpFilled as default }
+export default IconApprovalDelegationSharpFilled

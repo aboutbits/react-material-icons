@@ -8,4 +8,4 @@ const IconHandGestureSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHandGestureSharp as default }
+export default IconHandGestureSharp

@@ -8,4 +8,4 @@ const IconTurnSharpRightSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTurnSharpRightSharp as default }
+export default IconTurnSharpRightSharp

@@ -8,4 +8,4 @@ const IconFormatUnderlinedSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatUnderlinedSharp as default }
+export default IconFormatUnderlinedSharp

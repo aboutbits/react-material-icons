@@ -10,4 +10,4 @@ const IconNestDoorbellVisitorRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestDoorbellVisitorRoundedFilled as default }
+export default IconNestDoorbellVisitorRoundedFilled

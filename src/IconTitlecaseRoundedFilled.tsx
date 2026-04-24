@@ -8,4 +8,4 @@ const IconTitlecaseRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTitlecaseRoundedFilled as default }
+export default IconTitlecaseRoundedFilled

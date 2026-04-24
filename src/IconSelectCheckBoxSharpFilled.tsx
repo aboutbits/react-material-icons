@@ -8,4 +8,4 @@ const IconSelectCheckBoxSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSelectCheckBoxSharpFilled as default }
+export default IconSelectCheckBoxSharpFilled

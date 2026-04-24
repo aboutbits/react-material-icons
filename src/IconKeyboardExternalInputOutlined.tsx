@@ -10,4 +10,4 @@ const IconKeyboardExternalInputOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardExternalInputOutlined as default }
+export default IconKeyboardExternalInputOutlined

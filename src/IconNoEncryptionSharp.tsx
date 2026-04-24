@@ -8,4 +8,4 @@ const IconNoEncryptionSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoEncryptionSharp as default }
+export default IconNoEncryptionSharp

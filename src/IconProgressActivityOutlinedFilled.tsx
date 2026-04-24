@@ -10,4 +10,4 @@ const IconProgressActivityOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconProgressActivityOutlinedFilled as default }
+export default IconProgressActivityOutlinedFilled

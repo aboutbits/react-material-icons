@@ -8,4 +8,4 @@ const IconSpaceBarRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpaceBarRounded as default }
+export default IconSpaceBarRounded

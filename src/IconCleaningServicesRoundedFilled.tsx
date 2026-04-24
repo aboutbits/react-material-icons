@@ -10,4 +10,4 @@ const IconCleaningServicesRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCleaningServicesRoundedFilled as default }
+export default IconCleaningServicesRoundedFilled

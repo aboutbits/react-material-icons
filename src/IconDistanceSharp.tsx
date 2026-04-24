@@ -8,4 +8,4 @@ const IconDistanceSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDistanceSharp as default }
+export default IconDistanceSharp

@@ -10,4 +10,4 @@ const IconCenterFocusWeakRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCenterFocusWeakRoundedFilled as default }
+export default IconCenterFocusWeakRoundedFilled

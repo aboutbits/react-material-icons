@@ -8,4 +8,4 @@ const IconNestCamFloodlightOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamFloodlightOutlined as default }
+export default IconNestCamFloodlightOutlined

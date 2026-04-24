@@ -10,4 +10,4 @@ const IconNestCamWallMountRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestCamWallMountRoundedFilled as default }
+export default IconNestCamWallMountRoundedFilled

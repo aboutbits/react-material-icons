@@ -8,4 +8,4 @@ const IconPermScanWifiSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermScanWifiSharpFilled as default }
+export default IconPermScanWifiSharpFilled

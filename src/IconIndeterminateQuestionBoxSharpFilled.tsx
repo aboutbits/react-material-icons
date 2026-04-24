@@ -10,4 +10,4 @@ const IconIndeterminateQuestionBoxSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconIndeterminateQuestionBoxSharpFilled as default }
+export default IconIndeterminateQuestionBoxSharpFilled

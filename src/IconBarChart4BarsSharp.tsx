@@ -8,4 +8,4 @@ const IconBarChart4BarsSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBarChart4BarsSharp as default }
+export default IconBarChart4BarsSharp

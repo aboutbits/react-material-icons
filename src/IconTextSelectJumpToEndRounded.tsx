@@ -8,4 +8,4 @@ const IconTextSelectJumpToEndRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectJumpToEndRounded as default }
+export default IconTextSelectJumpToEndRounded

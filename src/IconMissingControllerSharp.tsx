@@ -8,4 +8,4 @@ const IconMissingControllerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMissingControllerSharp as default }
+export default IconMissingControllerSharp

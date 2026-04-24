@@ -8,4 +8,4 @@ const IconPermDeviceInformationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermDeviceInformationSharp as default }
+export default IconPermDeviceInformationSharp

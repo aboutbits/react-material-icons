@@ -8,4 +8,4 @@ const IconMultipleStopOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMultipleStopOutlined as default }
+export default IconMultipleStopOutlined

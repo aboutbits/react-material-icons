@@ -8,4 +8,4 @@ const IconSignalCellular3BarOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSignalCellular3BarOutlined as default }
+export default IconSignalCellular3BarOutlined

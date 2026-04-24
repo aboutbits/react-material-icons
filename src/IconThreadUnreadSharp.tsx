@@ -8,4 +8,4 @@ const IconThreadUnreadSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThreadUnreadSharp as default }
+export default IconThreadUnreadSharp

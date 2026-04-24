@@ -8,4 +8,4 @@ const IconBorderInnerRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBorderInnerRounded as default }
+export default IconBorderInnerRounded

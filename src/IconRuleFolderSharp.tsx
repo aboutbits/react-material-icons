@@ -8,4 +8,4 @@ const IconRuleFolderSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRuleFolderSharp as default }
+export default IconRuleFolderSharp

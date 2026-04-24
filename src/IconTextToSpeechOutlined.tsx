@@ -8,4 +8,4 @@ const IconTextToSpeechOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextToSpeechOutlined as default }
+export default IconTextToSpeechOutlined

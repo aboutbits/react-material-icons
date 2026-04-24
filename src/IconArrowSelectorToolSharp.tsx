@@ -8,4 +8,4 @@ const IconArrowSelectorToolSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowSelectorToolSharp as default }
+export default IconArrowSelectorToolSharp

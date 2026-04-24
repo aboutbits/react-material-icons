@@ -8,4 +8,4 @@ const IconEventListOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEventListOutlinedFilled as default }
+export default IconEventListOutlinedFilled

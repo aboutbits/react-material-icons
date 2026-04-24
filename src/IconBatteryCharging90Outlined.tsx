@@ -8,4 +8,4 @@ const IconBatteryCharging90Outlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBatteryCharging90Outlined as default }
+export default IconBatteryCharging90Outlined

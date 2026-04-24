@@ -10,4 +10,4 @@ const IconPanoramaHorizontalRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPanoramaHorizontalRoundedFilled as default }
+export default IconPanoramaHorizontalRoundedFilled

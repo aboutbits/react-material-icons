@@ -8,4 +8,4 @@ const IconHomeIotDeviceSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHomeIotDeviceSharpFilled as default }
+export default IconHomeIotDeviceSharpFilled

@@ -8,4 +8,4 @@ const IconSerifSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSerifSharp as default }
+export default IconSerifSharp

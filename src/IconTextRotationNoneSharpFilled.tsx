@@ -8,4 +8,4 @@ const IconTextRotationNoneSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextRotationNoneSharpFilled as default }
+export default IconTextRotationNoneSharpFilled

@@ -8,4 +8,4 @@ const IconMarkEmailReadSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMarkEmailReadSharpFilled as default }
+export default IconMarkEmailReadSharpFilled

@@ -8,4 +8,4 @@ const IconFindInPageRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFindInPageRounded as default }
+export default IconFindInPageRounded

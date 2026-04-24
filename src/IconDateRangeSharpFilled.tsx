@@ -8,4 +8,4 @@ const IconDateRangeSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDateRangeSharpFilled as default }
+export default IconDateRangeSharpFilled

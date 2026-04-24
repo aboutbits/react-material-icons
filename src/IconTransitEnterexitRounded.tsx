@@ -8,4 +8,4 @@ const IconTransitEnterexitRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransitEnterexitRounded as default }
+export default IconTransitEnterexitRounded

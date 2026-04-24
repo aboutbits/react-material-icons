@@ -8,4 +8,4 @@ const IconBackgroundDotLargeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBackgroundDotLargeOutlined as default }
+export default IconBackgroundDotLargeOutlined

@@ -10,4 +10,4 @@ const IconThermostatCarbonOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconThermostatCarbonOutlinedFilled as default }
+export default IconThermostatCarbonOutlinedFilled

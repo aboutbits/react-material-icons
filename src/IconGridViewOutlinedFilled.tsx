@@ -8,4 +8,4 @@ const IconGridViewOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGridViewOutlinedFilled as default }
+export default IconGridViewOutlinedFilled

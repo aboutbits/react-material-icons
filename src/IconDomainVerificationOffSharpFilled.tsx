@@ -10,4 +10,4 @@ const IconDomainVerificationOffSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDomainVerificationOffSharpFilled as default }
+export default IconDomainVerificationOffSharpFilled

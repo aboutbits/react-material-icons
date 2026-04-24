@@ -8,4 +8,4 @@ const IconPanToolAltOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPanToolAltOutlined as default }
+export default IconPanToolAltOutlined

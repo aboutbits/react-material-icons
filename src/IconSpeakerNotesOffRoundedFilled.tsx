@@ -10,4 +10,4 @@ const IconSpeakerNotesOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSpeakerNotesOffRoundedFilled as default }
+export default IconSpeakerNotesOffRoundedFilled

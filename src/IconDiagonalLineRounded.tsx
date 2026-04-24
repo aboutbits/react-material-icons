@@ -8,4 +8,4 @@ const IconDiagonalLineRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDiagonalLineRounded as default }
+export default IconDiagonalLineRounded

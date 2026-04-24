@@ -8,4 +8,4 @@ const IconPositionBottomLeftSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPositionBottomLeftSharp as default }
+export default IconPositionBottomLeftSharp

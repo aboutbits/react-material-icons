@@ -10,4 +10,4 @@ const IconCollapseContentRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCollapseContentRoundedFilled as default }
+export default IconCollapseContentRoundedFilled

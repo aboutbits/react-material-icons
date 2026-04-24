@@ -8,4 +8,4 @@ const IconTabRecentSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTabRecentSharp as default }
+export default IconTabRecentSharp

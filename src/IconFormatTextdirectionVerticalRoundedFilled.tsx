@@ -10,4 +10,4 @@ const IconFormatTextdirectionVerticalRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatTextdirectionVerticalRoundedFilled as default }
+export default IconFormatTextdirectionVerticalRoundedFilled

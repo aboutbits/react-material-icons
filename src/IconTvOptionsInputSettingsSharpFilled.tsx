@@ -10,4 +10,4 @@ const IconTvOptionsInputSettingsSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTvOptionsInputSettingsSharpFilled as default }
+export default IconTvOptionsInputSettingsSharpFilled

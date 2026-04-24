@@ -8,4 +8,4 @@ const IconMultilineChartRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMultilineChartRounded as default }
+export default IconMultilineChartRounded

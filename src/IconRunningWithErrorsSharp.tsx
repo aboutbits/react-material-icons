@@ -8,4 +8,4 @@ const IconRunningWithErrorsSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRunningWithErrorsSharp as default }
+export default IconRunningWithErrorsSharp

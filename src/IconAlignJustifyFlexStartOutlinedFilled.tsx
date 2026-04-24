@@ -10,4 +10,4 @@ const IconAlignJustifyFlexStartOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignJustifyFlexStartOutlinedFilled as default }
+export default IconAlignJustifyFlexStartOutlinedFilled

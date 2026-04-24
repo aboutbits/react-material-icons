@@ -8,4 +8,4 @@ const IconArmingCountdownOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArmingCountdownOutlined as default }
+export default IconArmingCountdownOutlined

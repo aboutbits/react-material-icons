@@ -8,4 +8,4 @@ const IconInsertPageBreakSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconInsertPageBreakSharp as default }
+export default IconInsertPageBreakSharp

@@ -10,4 +10,4 @@ const IconScrollableHeaderRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScrollableHeaderRoundedFilled as default }
+export default IconScrollableHeaderRoundedFilled

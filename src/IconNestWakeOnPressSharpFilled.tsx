@@ -8,4 +8,4 @@ const IconNestWakeOnPressSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestWakeOnPressSharpFilled as default }
+export default IconNestWakeOnPressSharpFilled

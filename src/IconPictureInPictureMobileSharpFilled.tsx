@@ -10,4 +10,4 @@ const IconPictureInPictureMobileSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPictureInPictureMobileSharpFilled as default }
+export default IconPictureInPictureMobileSharpFilled

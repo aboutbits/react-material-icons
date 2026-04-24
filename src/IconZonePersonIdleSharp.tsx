@@ -8,4 +8,4 @@ const IconZonePersonIdleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconZonePersonIdleSharp as default }
+export default IconZonePersonIdleSharp

@@ -8,4 +8,4 @@ const IconRemoveFromQueueRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRemoveFromQueueRounded as default }
+export default IconRemoveFromQueueRounded

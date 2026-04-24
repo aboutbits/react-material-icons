@@ -8,4 +8,4 @@ const IconViewModuleRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewModuleRounded as default }
+export default IconViewModuleRounded

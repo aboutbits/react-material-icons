@@ -8,4 +8,4 @@ const IconShiftLockOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShiftLockOffSharp as default }
+export default IconShiftLockOffSharp

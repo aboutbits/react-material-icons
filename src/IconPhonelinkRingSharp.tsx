@@ -8,4 +8,4 @@ const IconPhonelinkRingSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhonelinkRingSharp as default }
+export default IconPhonelinkRingSharp

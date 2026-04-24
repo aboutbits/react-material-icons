@@ -8,4 +8,4 @@ const IconScreenLockPortraitSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenLockPortraitSharp as default }
+export default IconScreenLockPortraitSharp

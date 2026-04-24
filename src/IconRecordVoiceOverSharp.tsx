@@ -8,4 +8,4 @@ const IconRecordVoiceOverSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRecordVoiceOverSharp as default }
+export default IconRecordVoiceOverSharp

@@ -8,4 +8,4 @@ const IconBluetoothDriveRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBluetoothDriveRounded as default }
+export default IconBluetoothDriveRounded

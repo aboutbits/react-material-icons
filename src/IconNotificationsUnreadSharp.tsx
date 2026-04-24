@@ -8,4 +8,4 @@ const IconNotificationsUnreadSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNotificationsUnreadSharp as default }
+export default IconNotificationsUnreadSharp

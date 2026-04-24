@@ -10,4 +10,4 @@ const IconPermDeviceInformationOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPermDeviceInformationOutlinedFilled as default }
+export default IconPermDeviceInformationOutlinedFilled

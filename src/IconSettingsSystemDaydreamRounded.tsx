@@ -10,4 +10,4 @@ const IconSettingsSystemDaydreamRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsSystemDaydreamRounded as default }
+export default IconSettingsSystemDaydreamRounded

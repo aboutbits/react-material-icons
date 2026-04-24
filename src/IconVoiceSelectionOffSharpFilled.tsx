@@ -10,4 +10,4 @@ const IconVoiceSelectionOffSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconVoiceSelectionOffSharpFilled as default }
+export default IconVoiceSelectionOffSharpFilled

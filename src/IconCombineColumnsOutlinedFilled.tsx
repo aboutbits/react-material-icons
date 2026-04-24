@@ -10,4 +10,4 @@ const IconCombineColumnsOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCombineColumnsOutlinedFilled as default }
+export default IconCombineColumnsOutlinedFilled

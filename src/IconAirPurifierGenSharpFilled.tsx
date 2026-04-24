@@ -8,4 +8,4 @@ const IconAirPurifierGenSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAirPurifierGenSharpFilled as default }
+export default IconAirPurifierGenSharpFilled

@@ -8,4 +8,4 @@ const IconResetFocusSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResetFocusSharpFilled as default }
+export default IconResetFocusSharpFilled

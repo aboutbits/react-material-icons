@@ -8,4 +8,4 @@ const IconPinchZoomInSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPinchZoomInSharp as default }
+export default IconPinchZoomInSharp

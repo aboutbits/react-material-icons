@@ -8,4 +8,4 @@ const IconVerticalDistributeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVerticalDistributeSharp as default }
+export default IconVerticalDistributeSharp

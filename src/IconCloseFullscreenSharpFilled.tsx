@@ -8,4 +8,4 @@ const IconCloseFullscreenSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCloseFullscreenSharpFilled as default }
+export default IconCloseFullscreenSharpFilled

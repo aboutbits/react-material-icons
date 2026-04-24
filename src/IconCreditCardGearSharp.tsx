@@ -8,4 +8,4 @@ const IconCreditCardGearSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCreditCardGearSharp as default }
+export default IconCreditCardGearSharp

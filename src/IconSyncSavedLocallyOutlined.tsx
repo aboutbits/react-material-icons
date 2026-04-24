@@ -8,4 +8,4 @@ const IconSyncSavedLocallyOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSyncSavedLocallyOutlined as default }
+export default IconSyncSavedLocallyOutlined

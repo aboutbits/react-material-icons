@@ -10,4 +10,4 @@ const IconDetectorOfflineOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDetectorOfflineOutlinedFilled as default }
+export default IconDetectorOfflineOutlinedFilled

@@ -8,4 +8,4 @@ const IconVoicemailSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVoicemailSharp as default }
+export default IconVoicemailSharp

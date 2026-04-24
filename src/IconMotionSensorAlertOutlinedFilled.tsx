@@ -10,4 +10,4 @@ const IconMotionSensorAlertOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMotionSensorAlertOutlinedFilled as default }
+export default IconMotionSensorAlertOutlinedFilled

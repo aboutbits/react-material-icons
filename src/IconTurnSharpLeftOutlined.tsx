@@ -8,4 +8,4 @@ const IconTurnSharpLeftOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTurnSharpLeftOutlined as default }
+export default IconTurnSharpLeftOutlined

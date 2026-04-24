@@ -8,4 +8,4 @@ const IconJoinRightOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconJoinRightOutlined as default }
+export default IconJoinRightOutlined

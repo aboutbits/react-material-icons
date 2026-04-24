@@ -8,4 +8,4 @@ const IconKeyboardTabRtlRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardTabRtlRoundedFilled as default }
+export default IconKeyboardTabRtlRoundedFilled

@@ -8,4 +8,4 @@ const IconFormatH6Sharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatH6Sharp as default }
+export default IconFormatH6Sharp

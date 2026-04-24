@@ -8,4 +8,4 @@ const IconNestMultiRoomRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestMultiRoomRounded as default }
+export default IconNestMultiRoomRounded

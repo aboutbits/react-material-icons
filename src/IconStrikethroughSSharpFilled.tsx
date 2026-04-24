@@ -8,4 +8,4 @@ const IconStrikethroughSSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStrikethroughSSharpFilled as default }
+export default IconStrikethroughSSharpFilled

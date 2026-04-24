@@ -8,4 +8,4 @@ const IconFilterTiltShiftSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFilterTiltShiftSharpFilled as default }
+export default IconFilterTiltShiftSharpFilled

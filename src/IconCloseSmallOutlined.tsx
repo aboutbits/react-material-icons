@@ -8,4 +8,4 @@ const IconCloseSmallOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCloseSmallOutlined as default }
+export default IconCloseSmallOutlined

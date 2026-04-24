@@ -8,4 +8,4 @@ const IconDoNotDisturbOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDoNotDisturbOffOutlined as default }
+export default IconDoNotDisturbOffOutlined

@@ -8,4 +8,4 @@ const IconSleepScoreRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSleepScoreRounded as default }
+export default IconSleepScoreRounded

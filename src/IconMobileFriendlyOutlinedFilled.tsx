@@ -10,4 +10,4 @@ const IconMobileFriendlyOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMobileFriendlyOutlinedFilled as default }
+export default IconMobileFriendlyOutlinedFilled

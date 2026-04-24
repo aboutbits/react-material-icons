@@ -8,4 +8,4 @@ const IconPunchClockSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPunchClockSharp as default }
+export default IconPunchClockSharp

@@ -8,4 +8,4 @@ const IconShareLocationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShareLocationSharp as default }
+export default IconShareLocationSharp

@@ -10,4 +10,4 @@ const IconBottomPanelOpenOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBottomPanelOpenOutlinedFilled as default }
+export default IconBottomPanelOpenOutlinedFilled

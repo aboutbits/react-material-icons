@@ -8,4 +8,4 @@ const IconImagesearchRollerOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconImagesearchRollerOutlined as default }
+export default IconImagesearchRollerOutlined

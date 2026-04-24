@@ -8,4 +8,4 @@ const IconNestHeatLinkEOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestHeatLinkEOutlinedFilled as default }
+export default IconNestHeatLinkEOutlinedFilled

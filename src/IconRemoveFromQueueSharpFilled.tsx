@@ -8,4 +8,4 @@ const IconRemoveFromQueueSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRemoveFromQueueSharpFilled as default }
+export default IconRemoveFromQueueSharpFilled

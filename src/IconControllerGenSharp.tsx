@@ -8,4 +8,4 @@ const IconControllerGenSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconControllerGenSharp as default }
+export default IconControllerGenSharp

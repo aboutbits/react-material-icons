@@ -8,4 +8,4 @@ const IconResponsiveLayoutOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResponsiveLayoutOutlined as default }
+export default IconResponsiveLayoutOutlined

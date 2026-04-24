@@ -8,4 +8,4 @@ const IconDirtyLensSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirtyLensSharp as default }
+export default IconDirtyLensSharp

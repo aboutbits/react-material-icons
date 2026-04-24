@@ -10,4 +10,4 @@ const IconContextualTokenAddRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconContextualTokenAddRoundedFilled as default }
+export default IconContextualTokenAddRoundedFilled

@@ -8,4 +8,4 @@ const IconScreenLockRotationOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenLockRotationOutlined as default }
+export default IconScreenLockRotationOutlined

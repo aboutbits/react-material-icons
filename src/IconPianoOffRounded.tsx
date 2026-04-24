@@ -8,4 +8,4 @@ const IconPianoOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPianoOffRounded as default }
+export default IconPianoOffRounded

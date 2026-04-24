@@ -8,4 +8,4 @@ const IconRestoreFromTrashSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRestoreFromTrashSharp as default }
+export default IconRestoreFromTrashSharp

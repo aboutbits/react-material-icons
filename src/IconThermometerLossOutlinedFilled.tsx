@@ -10,4 +10,4 @@ const IconThermometerLossOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconThermometerLossOutlinedFilled as default }
+export default IconThermometerLossOutlinedFilled

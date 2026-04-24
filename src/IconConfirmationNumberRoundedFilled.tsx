@@ -10,4 +10,4 @@ const IconConfirmationNumberRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconConfirmationNumberRoundedFilled as default }
+export default IconConfirmationNumberRoundedFilled

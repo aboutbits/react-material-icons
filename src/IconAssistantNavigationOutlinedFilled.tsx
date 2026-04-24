@@ -10,4 +10,4 @@ const IconAssistantNavigationOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAssistantNavigationOutlinedFilled as default }
+export default IconAssistantNavigationOutlinedFilled

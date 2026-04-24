@@ -8,4 +8,4 @@ const IconAutoAwesomeMotionSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAutoAwesomeMotionSharp as default }
+export default IconAutoAwesomeMotionSharp

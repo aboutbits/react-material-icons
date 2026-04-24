@@ -8,4 +8,4 @@ const IconAdaptiveAudioMicOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAdaptiveAudioMicOffSharp as default }
+export default IconAdaptiveAudioMicOffSharp

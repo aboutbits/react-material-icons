@@ -8,4 +8,4 @@ const IconRotateRightRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRotateRightRounded as default }
+export default IconRotateRightRounded

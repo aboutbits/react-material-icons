@@ -10,4 +10,4 @@ const IconFormatLineSpacingSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatLineSpacingSharpFilled as default }
+export default IconFormatLineSpacingSharpFilled

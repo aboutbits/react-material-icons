@@ -10,4 +10,4 @@ const IconNotAccessibleForwardOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNotAccessibleForwardOutlined as default }
+export default IconNotAccessibleForwardOutlined

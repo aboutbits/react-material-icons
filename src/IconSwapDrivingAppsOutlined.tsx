@@ -8,4 +8,4 @@ const IconSwapDrivingAppsOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSwapDrivingAppsOutlined as default }
+export default IconSwapDrivingAppsOutlined

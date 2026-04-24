@@ -8,4 +8,4 @@ const IconUngroupRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconUngroupRounded as default }
+export default IconUngroupRounded

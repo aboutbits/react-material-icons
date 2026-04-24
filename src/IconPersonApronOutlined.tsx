@@ -8,4 +8,4 @@ const IconPersonApronOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPersonApronOutlined as default }
+export default IconPersonApronOutlined

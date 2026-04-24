@@ -8,4 +8,4 @@ const IconRingVolumeSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRingVolumeSharpFilled as default }
+export default IconRingVolumeSharpFilled

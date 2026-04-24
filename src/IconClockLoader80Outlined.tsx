@@ -8,4 +8,4 @@ const IconClockLoader80Outlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconClockLoader80Outlined as default }
+export default IconClockLoader80Outlined

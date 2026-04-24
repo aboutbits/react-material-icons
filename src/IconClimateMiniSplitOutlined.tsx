@@ -8,4 +8,4 @@ const IconClimateMiniSplitOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconClimateMiniSplitOutlined as default }
+export default IconClimateMiniSplitOutlined

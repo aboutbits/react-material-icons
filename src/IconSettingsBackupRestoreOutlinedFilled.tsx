@@ -10,4 +10,4 @@ const IconSettingsBackupRestoreOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsBackupRestoreOutlinedFilled as default }
+export default IconSettingsBackupRestoreOutlinedFilled

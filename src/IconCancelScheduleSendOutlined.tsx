@@ -8,4 +8,4 @@ const IconCancelScheduleSendOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCancelScheduleSendOutlined as default }
+export default IconCancelScheduleSendOutlined

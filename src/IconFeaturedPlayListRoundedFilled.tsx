@@ -10,4 +10,4 @@ const IconFeaturedPlayListRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFeaturedPlayListRoundedFilled as default }
+export default IconFeaturedPlayListRoundedFilled

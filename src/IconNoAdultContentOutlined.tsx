@@ -8,4 +8,4 @@ const IconNoAdultContentOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoAdultContentOutlined as default }
+export default IconNoAdultContentOutlined

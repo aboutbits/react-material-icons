@@ -8,4 +8,4 @@ const IconGrid3x3OffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGrid3x3OffSharp as default }
+export default IconGrid3x3OffSharp

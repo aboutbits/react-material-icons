@@ -10,4 +10,4 @@ const IconDocsAppsScriptOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDocsAppsScriptOutlinedFilled as default }
+export default IconDocsAppsScriptOutlinedFilled

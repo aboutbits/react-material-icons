@@ -10,4 +10,4 @@ const IconStayCurrentPortraitSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconStayCurrentPortraitSharpFilled as default }
+export default IconStayCurrentPortraitSharpFilled

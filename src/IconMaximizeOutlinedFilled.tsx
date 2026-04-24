@@ -8,4 +8,4 @@ const IconMaximizeOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMaximizeOutlinedFilled as default }
+export default IconMaximizeOutlinedFilled

@@ -8,4 +8,4 @@ const IconRvHookupOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRvHookupOutlined as default }
+export default IconRvHookupOutlined

@@ -10,4 +10,4 @@ const IconFormsAppsScriptRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormsAppsScriptRoundedFilled as default }
+export default IconFormsAppsScriptRoundedFilled

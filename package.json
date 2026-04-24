@@ -18,6 +18,7 @@
     "react"
   ],
   "private": false,
+  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"

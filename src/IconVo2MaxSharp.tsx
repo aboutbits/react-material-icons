@@ -8,4 +8,4 @@ const IconVo2MaxSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVo2MaxSharp as default }
+export default IconVo2MaxSharp

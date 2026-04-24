@@ -10,4 +10,4 @@ const IconToolsPliersWireStripperOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconToolsPliersWireStripperOutlined as default }
+export default IconToolsPliersWireStripperOutlined

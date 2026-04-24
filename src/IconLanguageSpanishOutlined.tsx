@@ -8,4 +8,4 @@ const IconLanguageSpanishOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLanguageSpanishOutlined as default }
+export default IconLanguageSpanishOutlined

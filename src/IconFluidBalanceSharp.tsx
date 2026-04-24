@@ -8,4 +8,4 @@ const IconFluidBalanceSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFluidBalanceSharp as default }
+export default IconFluidBalanceSharp

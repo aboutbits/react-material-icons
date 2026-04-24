@@ -8,4 +8,4 @@ const IconPanZoomRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPanZoomRoundedFilled as default }
+export default IconPanZoomRoundedFilled

@@ -8,4 +8,4 @@ const IconDataLossPreventionOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataLossPreventionOutlined as default }
+export default IconDataLossPreventionOutlined

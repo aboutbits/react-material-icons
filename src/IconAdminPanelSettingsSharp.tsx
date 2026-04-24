@@ -8,4 +8,4 @@ const IconAdminPanelSettingsSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAdminPanelSettingsSharp as default }
+export default IconAdminPanelSettingsSharp

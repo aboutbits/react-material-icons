@@ -8,4 +8,4 @@ const IconAlignJustifyFlexEndRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAlignJustifyFlexEndRounded as default }
+export default IconAlignJustifyFlexEndRounded

@@ -8,4 +8,4 @@ const IconTransferWithinAStationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTransferWithinAStationSharp as default }
+export default IconTransferWithinAStationSharp

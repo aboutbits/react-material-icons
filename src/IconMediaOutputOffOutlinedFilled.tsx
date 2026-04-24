@@ -10,4 +10,4 @@ const IconMediaOutputOffOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMediaOutputOffOutlinedFilled as default }
+export default IconMediaOutputOffOutlinedFilled

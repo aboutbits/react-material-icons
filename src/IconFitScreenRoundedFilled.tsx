@@ -8,4 +8,4 @@ const IconFitScreenRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFitScreenRoundedFilled as default }
+export default IconFitScreenRoundedFilled

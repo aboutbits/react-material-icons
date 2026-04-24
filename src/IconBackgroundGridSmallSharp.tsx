@@ -8,4 +8,4 @@ const IconBackgroundGridSmallSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBackgroundGridSmallSharp as default }
+export default IconBackgroundGridSmallSharp

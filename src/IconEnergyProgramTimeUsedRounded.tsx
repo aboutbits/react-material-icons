@@ -10,4 +10,4 @@ const IconEnergyProgramTimeUsedRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEnergyProgramTimeUsedRounded as default }
+export default IconEnergyProgramTimeUsedRounded

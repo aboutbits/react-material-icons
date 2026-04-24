@@ -8,4 +8,4 @@ const IconSlabSerifOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSlabSerifOutlined as default }
+export default IconSlabSerifOutlined

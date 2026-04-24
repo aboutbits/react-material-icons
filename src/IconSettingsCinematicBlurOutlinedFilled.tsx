@@ -10,4 +10,4 @@ const IconSettingsCinematicBlurOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsCinematicBlurOutlinedFilled as default }
+export default IconSettingsCinematicBlurOutlinedFilled

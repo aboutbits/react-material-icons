@@ -8,4 +8,4 @@ const IconSpaceBarOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpaceBarOutlined as default }
+export default IconSpaceBarOutlined

@@ -8,4 +8,4 @@ const IconMeasuringTapeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMeasuringTapeSharp as default }
+export default IconMeasuringTapeSharp

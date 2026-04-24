@@ -10,4 +10,4 @@ const IconFormatTextdirectionVerticalSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatTextdirectionVerticalSharp as default }
+export default IconFormatTextdirectionVerticalSharp

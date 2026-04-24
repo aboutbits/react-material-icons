@@ -10,4 +10,4 @@ const IconMfgNestYaleLockOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMfgNestYaleLockOutlinedFilled as default }
+export default IconMfgNestYaleLockOutlinedFilled

@@ -8,4 +8,4 @@ const IconQrCode2AddOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconQrCode2AddOutlinedFilled as default }
+export default IconQrCode2AddOutlinedFilled

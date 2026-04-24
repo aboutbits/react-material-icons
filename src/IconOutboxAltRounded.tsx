@@ -8,4 +8,4 @@ const IconOutboxAltRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOutboxAltRounded as default }
+export default IconOutboxAltRounded

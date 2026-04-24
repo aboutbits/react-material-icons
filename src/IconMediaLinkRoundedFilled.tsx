@@ -8,4 +8,4 @@ const IconMediaLinkRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMediaLinkRoundedFilled as default }
+export default IconMediaLinkRoundedFilled

@@ -10,4 +10,4 @@ const IconCandlestickChartRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCandlestickChartRoundedFilled as default }
+export default IconCandlestickChartRoundedFilled

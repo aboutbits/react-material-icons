@@ -10,4 +10,4 @@ const IconNightSightAutoOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNightSightAutoOffRoundedFilled as default }
+export default IconNightSightAutoOffRoundedFilled

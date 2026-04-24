@@ -10,4 +10,4 @@ const IconScreenSearchDesktopOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenSearchDesktopOutlinedFilled as default }
+export default IconScreenSearchDesktopOutlinedFilled

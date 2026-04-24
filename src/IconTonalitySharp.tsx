@@ -8,4 +8,4 @@ const IconTonalitySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTonalitySharp as default }
+export default IconTonalitySharp

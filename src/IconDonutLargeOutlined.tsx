@@ -8,4 +8,4 @@ const IconDonutLargeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDonutLargeOutlined as default }
+export default IconDonutLargeOutlined

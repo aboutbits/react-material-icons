@@ -8,4 +8,4 @@ const IconAlignSpaceBetweenRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAlignSpaceBetweenRounded as default }
+export default IconAlignSpaceBetweenRounded

@@ -8,4 +8,4 @@ const IconPointScanSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPointScanSharp as default }
+export default IconPointScanSharp

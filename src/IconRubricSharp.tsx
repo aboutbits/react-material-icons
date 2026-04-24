@@ -8,4 +8,4 @@ const IconRubricSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRubricSharp as default }
+export default IconRubricSharp

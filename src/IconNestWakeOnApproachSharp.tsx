@@ -8,4 +8,4 @@ const IconNestWakeOnApproachSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestWakeOnApproachSharp as default }
+export default IconNestWakeOnApproachSharp

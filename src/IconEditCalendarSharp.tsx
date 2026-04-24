@@ -8,4 +8,4 @@ const IconEditCalendarSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEditCalendarSharp as default }
+export default IconEditCalendarSharp

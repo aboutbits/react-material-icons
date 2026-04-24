@@ -8,4 +8,4 @@ const IconResetWhiteBalanceOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconResetWhiteBalanceOutlined as default }
+export default IconResetWhiteBalanceOutlined

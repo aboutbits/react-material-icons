@@ -8,4 +8,4 @@ const IconPhonelinkRingOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhonelinkRingOffSharp as default }
+export default IconPhonelinkRingOffSharp

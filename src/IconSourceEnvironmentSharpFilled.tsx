@@ -10,4 +10,4 @@ const IconSourceEnvironmentSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSourceEnvironmentSharpFilled as default }
+export default IconSourceEnvironmentSharpFilled

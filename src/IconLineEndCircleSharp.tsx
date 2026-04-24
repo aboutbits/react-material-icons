@@ -8,4 +8,4 @@ const IconLineEndCircleSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLineEndCircleSharp as default }
+export default IconLineEndCircleSharp

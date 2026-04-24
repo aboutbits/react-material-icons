@@ -8,4 +8,4 @@ const IconEditRoadSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEditRoadSharp as default }
+export default IconEditRoadSharp

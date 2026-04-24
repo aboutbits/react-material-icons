@@ -10,4 +10,4 @@ const IconFullStackedBarChartSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFullStackedBarChartSharpFilled as default }
+export default IconFullStackedBarChartSharpFilled

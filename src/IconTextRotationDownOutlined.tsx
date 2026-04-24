@@ -8,4 +8,4 @@ const IconTextRotationDownOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextRotationDownOutlined as default }
+export default IconTextRotationDownOutlined

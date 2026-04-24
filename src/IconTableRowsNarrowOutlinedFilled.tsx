@@ -10,4 +10,4 @@ const IconTableRowsNarrowOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTableRowsNarrowOutlinedFilled as default }
+export default IconTableRowsNarrowOutlinedFilled

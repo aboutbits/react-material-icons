@@ -8,4 +8,4 @@ const IconScreenshotTabletSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScreenshotTabletSharp as default }
+export default IconScreenshotTabletSharp

@@ -8,4 +8,4 @@ const IconFormatAlignLeftRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatAlignLeftRounded as default }
+export default IconFormatAlignLeftRounded

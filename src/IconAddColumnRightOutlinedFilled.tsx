@@ -10,4 +10,4 @@ const IconAddColumnRightOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAddColumnRightOutlinedFilled as default }
+export default IconAddColumnRightOutlinedFilled

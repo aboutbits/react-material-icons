@@ -10,4 +10,4 @@ const IconSplitscreenLandscapeOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSplitscreenLandscapeOutlinedFilled as default }
+export default IconSplitscreenLandscapeOutlinedFilled

@@ -8,4 +8,4 @@ const IconDeployedCodeAlertRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDeployedCodeAlertRounded as default }
+export default IconDeployedCodeAlertRounded

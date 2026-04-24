@@ -8,4 +8,4 @@ const IconLanguagePinyinSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLanguagePinyinSharp as default }
+export default IconLanguagePinyinSharp

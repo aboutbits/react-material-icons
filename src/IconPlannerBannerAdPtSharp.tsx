@@ -8,4 +8,4 @@ const IconPlannerBannerAdPtSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlannerBannerAdPtSharp as default }
+export default IconPlannerBannerAdPtSharp

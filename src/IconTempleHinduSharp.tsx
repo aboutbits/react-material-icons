@@ -8,4 +8,4 @@ const IconTempleHinduSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTempleHinduSharp as default }
+export default IconTempleHinduSharp

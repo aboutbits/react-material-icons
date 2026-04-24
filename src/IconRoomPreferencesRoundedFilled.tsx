@@ -10,4 +10,4 @@ const IconRoomPreferencesRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRoomPreferencesRoundedFilled as default }
+export default IconRoomPreferencesRoundedFilled

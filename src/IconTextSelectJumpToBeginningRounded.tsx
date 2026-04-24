@@ -10,4 +10,4 @@ const IconTextSelectJumpToBeginningRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectJumpToBeginningRounded as default }
+export default IconTextSelectJumpToBeginningRounded

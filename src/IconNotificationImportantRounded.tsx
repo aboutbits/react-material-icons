@@ -10,4 +10,4 @@ const IconNotificationImportantRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNotificationImportantRounded as default }
+export default IconNotificationImportantRounded

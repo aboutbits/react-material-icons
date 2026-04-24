@@ -8,4 +8,4 @@ const IconFingerprintOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFingerprintOutlined as default }
+export default IconFingerprintOutlined

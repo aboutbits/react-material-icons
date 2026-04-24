@@ -8,4 +8,4 @@ const IconDataLossPreventionRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataLossPreventionRounded as default }
+export default IconDataLossPreventionRounded

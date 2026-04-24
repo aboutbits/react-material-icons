@@ -8,4 +8,4 @@ const IconSprinklerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSprinklerSharp as default }
+export default IconSprinklerSharp

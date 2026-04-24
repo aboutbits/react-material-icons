@@ -8,4 +8,4 @@ const IconBookmarkAddSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBookmarkAddSharp as default }
+export default IconBookmarkAddSharp

@@ -10,4 +10,4 @@ const IconCleaningServicesOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCleaningServicesOutlinedFilled as default }
+export default IconCleaningServicesOutlinedFilled

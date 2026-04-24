@@ -10,4 +10,4 @@ const IconFormatTextClipOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatTextClipOutlinedFilled as default }
+export default IconFormatTextClipOutlinedFilled

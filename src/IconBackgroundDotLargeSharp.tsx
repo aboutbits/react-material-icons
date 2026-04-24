@@ -8,4 +8,4 @@ const IconBackgroundDotLargeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBackgroundDotLargeSharp as default }
+export default IconBackgroundDotLargeSharp

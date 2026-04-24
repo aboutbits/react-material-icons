@@ -8,4 +8,4 @@ const IconCastPauseRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCastPauseRoundedFilled as default }
+export default IconCastPauseRoundedFilled

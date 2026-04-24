@@ -8,4 +8,4 @@ const IconVerifiedUserSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVerifiedUserSharp as default }
+export default IconVerifiedUserSharp

@@ -10,4 +10,4 @@ const IconMediaBluetoothOffSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconMediaBluetoothOffSharpFilled as default }
+export default IconMediaBluetoothOffSharpFilled

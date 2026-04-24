@@ -8,4 +8,4 @@ const IconBedtimeSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBedtimeSharp as default }
+export default IconBedtimeSharp

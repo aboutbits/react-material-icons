@@ -8,4 +8,4 @@ const IconMedicalMaskSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMedicalMaskSharp as default }
+export default IconMedicalMaskSharp

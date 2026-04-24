@@ -8,4 +8,4 @@ const IconWallpaperSlideshowSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWallpaperSlideshowSharp as default }
+export default IconWallpaperSlideshowSharp

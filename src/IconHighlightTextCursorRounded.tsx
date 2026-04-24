@@ -8,4 +8,4 @@ const IconHighlightTextCursorRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHighlightTextCursorRounded as default }
+export default IconHighlightTextCursorRounded

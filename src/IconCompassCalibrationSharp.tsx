@@ -8,4 +8,4 @@ const IconCompassCalibrationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCompassCalibrationSharp as default }
+export default IconCompassCalibrationSharp

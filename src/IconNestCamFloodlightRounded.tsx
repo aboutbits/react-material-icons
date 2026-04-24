@@ -8,4 +8,4 @@ const IconNestCamFloodlightRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamFloodlightRounded as default }
+export default IconNestCamFloodlightRounded

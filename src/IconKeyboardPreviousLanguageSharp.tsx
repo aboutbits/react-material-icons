@@ -10,4 +10,4 @@ const IconKeyboardPreviousLanguageSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconKeyboardPreviousLanguageSharp as default }
+export default IconKeyboardPreviousLanguageSharp

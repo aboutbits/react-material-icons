@@ -8,4 +8,4 @@ const IconWidthNormalSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWidthNormalSharp as default }
+export default IconWidthNormalSharp

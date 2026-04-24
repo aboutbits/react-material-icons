@@ -8,4 +8,4 @@ const IconTrackpadInputSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTrackpadInputSharp as default }
+export default IconTrackpadInputSharp

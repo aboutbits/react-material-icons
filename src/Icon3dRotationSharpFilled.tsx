@@ -8,4 +8,4 @@ const Icon3dRotationSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { Icon3dRotationSharpFilled as default }
+export default Icon3dRotationSharpFilled

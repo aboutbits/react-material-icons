@@ -8,4 +8,4 @@ const IconFlashOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlashOffRounded as default }
+export default IconFlashOffRounded

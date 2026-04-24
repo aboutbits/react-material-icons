@@ -8,4 +8,4 @@ const IconScheduleSendSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScheduleSendSharp as default }
+export default IconScheduleSendSharp

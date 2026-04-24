@@ -8,4 +8,4 @@ const IconMediationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMediationSharp as default }
+export default IconMediationSharp

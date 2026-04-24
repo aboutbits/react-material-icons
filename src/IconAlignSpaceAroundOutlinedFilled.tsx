@@ -10,4 +10,4 @@ const IconAlignSpaceAroundOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignSpaceAroundOutlinedFilled as default }
+export default IconAlignSpaceAroundOutlinedFilled

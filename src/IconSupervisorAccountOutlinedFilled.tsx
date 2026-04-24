@@ -10,4 +10,4 @@ const IconSupervisorAccountOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSupervisorAccountOutlinedFilled as default }
+export default IconSupervisorAccountOutlinedFilled

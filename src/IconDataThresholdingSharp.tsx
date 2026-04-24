@@ -8,4 +8,4 @@ const IconDataThresholdingSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataThresholdingSharp as default }
+export default IconDataThresholdingSharp

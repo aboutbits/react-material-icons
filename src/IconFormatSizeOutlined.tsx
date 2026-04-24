@@ -8,4 +8,4 @@ const IconFormatSizeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatSizeOutlined as default }
+export default IconFormatSizeOutlined

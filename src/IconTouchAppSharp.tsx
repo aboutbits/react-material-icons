@@ -8,4 +8,4 @@ const IconTouchAppSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTouchAppSharp as default }
+export default IconTouchAppSharp

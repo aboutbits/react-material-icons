@@ -8,4 +8,4 @@ const IconPhoneBluetoothSpeakerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPhoneBluetoothSpeakerSharp as default }
+export default IconPhoneBluetoothSpeakerSharp

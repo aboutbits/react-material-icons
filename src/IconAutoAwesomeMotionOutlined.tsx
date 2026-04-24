@@ -8,4 +8,4 @@ const IconAutoAwesomeMotionOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAutoAwesomeMotionOutlined as default }
+export default IconAutoAwesomeMotionOutlined

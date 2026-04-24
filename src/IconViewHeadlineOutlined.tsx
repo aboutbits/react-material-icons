@@ -8,4 +8,4 @@ const IconViewHeadlineOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewHeadlineOutlined as default }
+export default IconViewHeadlineOutlined

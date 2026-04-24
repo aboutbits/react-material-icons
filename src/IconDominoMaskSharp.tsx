@@ -8,4 +8,4 @@ const IconDominoMaskSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDominoMaskSharp as default }
+export default IconDominoMaskSharp

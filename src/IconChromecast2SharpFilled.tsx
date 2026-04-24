@@ -8,4 +8,4 @@ const IconChromecast2SharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromecast2SharpFilled as default }
+export default IconChromecast2SharpFilled

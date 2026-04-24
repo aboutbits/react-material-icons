@@ -8,4 +8,4 @@ const IconOutboxAltSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOutboxAltSharpFilled as default }
+export default IconOutboxAltSharpFilled

@@ -8,4 +8,4 @@ const IconFormatStrikethroughSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatStrikethroughSharp as default }
+export default IconFormatStrikethroughSharp

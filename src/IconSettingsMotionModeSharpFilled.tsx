@@ -10,4 +10,4 @@ const IconSettingsMotionModeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSettingsMotionModeSharpFilled as default }
+export default IconSettingsMotionModeSharpFilled

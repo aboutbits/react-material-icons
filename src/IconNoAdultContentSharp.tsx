@@ -8,4 +8,4 @@ const IconNoAdultContentSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNoAdultContentSharp as default }
+export default IconNoAdultContentSharp

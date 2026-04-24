@@ -8,4 +8,4 @@ const IconPictureInPictureAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPictureInPictureAltSharp as default }
+export default IconPictureInPictureAltSharp

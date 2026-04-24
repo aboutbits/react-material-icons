@@ -10,4 +10,4 @@ const IconRoundaboutLeftOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRoundaboutLeftOutlinedFilled as default }
+export default IconRoundaboutLeftOutlinedFilled

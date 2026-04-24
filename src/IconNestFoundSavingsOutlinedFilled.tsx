@@ -10,4 +10,4 @@ const IconNestFoundSavingsOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNestFoundSavingsOutlinedFilled as default }
+export default IconNestFoundSavingsOutlinedFilled

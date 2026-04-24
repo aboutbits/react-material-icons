@@ -8,4 +8,4 @@ const IconWidthFullSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWidthFullSharp as default }
+export default IconWidthFullSharp

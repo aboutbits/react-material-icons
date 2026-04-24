@@ -10,4 +10,4 @@ const IconFormatUnderlinedRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatUnderlinedRoundedFilled as default }
+export default IconFormatUnderlinedRoundedFilled

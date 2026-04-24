@@ -8,4 +8,4 @@ const IconVolumeDownAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconVolumeDownAltSharp as default }
+export default IconVolumeDownAltSharp

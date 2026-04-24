@@ -8,4 +8,4 @@ const IconNearbyErrorSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNearbyErrorSharp as default }
+export default IconNearbyErrorSharp

@@ -10,4 +10,4 @@ const IconFormatInkHighlighterSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFormatInkHighlighterSharpFilled as default }
+export default IconFormatInkHighlighterSharpFilled

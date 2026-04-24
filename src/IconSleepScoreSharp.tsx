@@ -8,4 +8,4 @@ const IconSleepScoreSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSleepScoreSharp as default }
+export default IconSleepScoreSharp

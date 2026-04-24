@@ -10,4 +10,4 @@ const IconSocialLeaderboardRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSocialLeaderboardRoundedFilled as default }
+export default IconSocialLeaderboardRoundedFilled

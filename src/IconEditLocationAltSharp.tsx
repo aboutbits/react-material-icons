@@ -8,4 +8,4 @@ const IconEditLocationAltSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconEditLocationAltSharp as default }
+export default IconEditLocationAltSharp

@@ -8,4 +8,4 @@ const IconBatchPredictionRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBatchPredictionRounded as default }
+export default IconBatchPredictionRounded

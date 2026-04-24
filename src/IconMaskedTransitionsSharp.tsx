@@ -8,4 +8,4 @@ const IconMaskedTransitionsSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMaskedTransitionsSharp as default }
+export default IconMaskedTransitionsSharp

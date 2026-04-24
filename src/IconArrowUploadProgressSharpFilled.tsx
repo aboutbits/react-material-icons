@@ -10,4 +10,4 @@ const IconArrowUploadProgressSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconArrowUploadProgressSharpFilled as default }
+export default IconArrowUploadProgressSharpFilled

@@ -8,4 +8,4 @@ const IconLineCurveRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLineCurveRounded as default }
+export default IconLineCurveRounded

@@ -10,4 +10,4 @@ const IconSupervisorAccountSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSupervisorAccountSharpFilled as default }
+export default IconSupervisorAccountSharpFilled

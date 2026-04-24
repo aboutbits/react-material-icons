@@ -8,4 +8,4 @@ const IconSearchOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSearchOffOutlined as default }
+export default IconSearchOffOutlined

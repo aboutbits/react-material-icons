@@ -8,4 +8,4 @@ const IconCarryOnBagOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCarryOnBagOutlined as default }
+export default IconCarryOnBagOutlined

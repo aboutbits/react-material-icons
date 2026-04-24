@@ -10,4 +10,4 @@ const IconThermostatAutoOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconThermostatAutoOutlinedFilled as default }
+export default IconThermostatAutoOutlinedFilled

@@ -10,4 +10,4 @@ const IconRecordVoiceOverOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRecordVoiceOverOutlinedFilled as default }
+export default IconRecordVoiceOverOutlinedFilled

@@ -8,4 +8,4 @@ const IconFullStackedBarChartRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFullStackedBarChartRounded as default }
+export default IconFullStackedBarChartRounded

@@ -8,4 +8,4 @@ const IconShuffleOnOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShuffleOnOutlined as default }
+export default IconShuffleOnOutlined

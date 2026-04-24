@@ -10,4 +10,4 @@ const IconElectricRickshawOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconElectricRickshawOutlinedFilled as default }
+export default IconElectricRickshawOutlinedFilled

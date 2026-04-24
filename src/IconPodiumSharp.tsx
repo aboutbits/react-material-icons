@@ -8,4 +8,4 @@ const IconPodiumSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPodiumSharp as default }
+export default IconPodiumSharp

@@ -8,4 +8,4 @@ const IconPriorityHighRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPriorityHighRoundedFilled as default }
+export default IconPriorityHighRoundedFilled

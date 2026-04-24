@@ -8,4 +8,4 @@ const IconTimer10RoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTimer10RoundedFilled as default }
+export default IconTimer10RoundedFilled

@@ -10,4 +10,4 @@ const IconRadioButtonCheckedSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconRadioButtonCheckedSharpFilled as default }
+export default IconRadioButtonCheckedSharpFilled

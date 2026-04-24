@@ -8,4 +8,4 @@ const IconQuickPhrasesOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconQuickPhrasesOutlinedFilled as default }
+export default IconQuickPhrasesOutlinedFilled

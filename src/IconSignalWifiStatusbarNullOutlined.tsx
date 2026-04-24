@@ -10,4 +10,4 @@ const IconSignalWifiStatusbarNullOutlined: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSignalWifiStatusbarNullOutlined as default }
+export default IconSignalWifiStatusbarNullOutlined

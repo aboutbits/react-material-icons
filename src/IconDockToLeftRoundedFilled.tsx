@@ -8,4 +8,4 @@ const IconDockToLeftRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDockToLeftRoundedFilled as default }
+export default IconDockToLeftRoundedFilled

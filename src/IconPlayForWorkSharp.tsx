@@ -8,4 +8,4 @@ const IconPlayForWorkSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPlayForWorkSharp as default }
+export default IconPlayForWorkSharp

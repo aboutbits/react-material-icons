@@ -10,4 +10,4 @@ const IconWatchScreentimeOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconWatchScreentimeOutlinedFilled as default }
+export default IconWatchScreentimeOutlinedFilled

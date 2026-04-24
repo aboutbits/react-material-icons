@@ -8,4 +8,4 @@ const IconSettingsEthernetSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsEthernetSharp as default }
+export default IconSettingsEthernetSharp

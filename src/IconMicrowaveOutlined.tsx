@@ -8,4 +8,4 @@ const IconMicrowaveOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMicrowaveOutlined as default }
+export default IconMicrowaveOutlined

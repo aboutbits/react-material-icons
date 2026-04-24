@@ -8,4 +8,4 @@ const IconBrowseActivityRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBrowseActivityRounded as default }
+export default IconBrowseActivityRounded

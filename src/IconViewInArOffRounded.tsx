@@ -8,4 +8,4 @@ const IconViewInArOffRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewInArOffRounded as default }
+export default IconViewInArOffRounded

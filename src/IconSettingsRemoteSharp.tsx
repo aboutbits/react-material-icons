@@ -8,4 +8,4 @@ const IconSettingsRemoteSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsRemoteSharp as default }
+export default IconSettingsRemoteSharp

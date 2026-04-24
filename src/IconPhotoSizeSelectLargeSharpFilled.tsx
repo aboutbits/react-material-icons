@@ -10,4 +10,4 @@ const IconPhotoSizeSelectLargeSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPhotoSizeSelectLargeSharpFilled as default }
+export default IconPhotoSizeSelectLargeSharpFilled

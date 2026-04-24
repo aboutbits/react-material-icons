@@ -8,4 +8,4 @@ const IconKeyboardCapslockOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyboardCapslockOutlined as default }
+export default IconKeyboardCapslockOutlined

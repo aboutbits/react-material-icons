@@ -8,4 +8,4 @@ const IconReorderRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconReorderRounded as default }
+export default IconReorderRounded

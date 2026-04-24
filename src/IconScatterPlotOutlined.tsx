@@ -8,4 +8,4 @@ const IconScatterPlotOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconScatterPlotOutlined as default }
+export default IconScatterPlotOutlined

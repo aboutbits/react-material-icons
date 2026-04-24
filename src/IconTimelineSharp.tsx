@@ -8,4 +8,4 @@ const IconTimelineSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTimelineSharp as default }
+export default IconTimelineSharp

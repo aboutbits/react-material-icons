@@ -8,4 +8,4 @@ const IconCandlestickChartOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCandlestickChartOutlined as default }
+export default IconCandlestickChartOutlined

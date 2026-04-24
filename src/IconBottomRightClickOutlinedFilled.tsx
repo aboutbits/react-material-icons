@@ -10,4 +10,4 @@ const IconBottomRightClickOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconBottomRightClickOutlinedFilled as default }
+export default IconBottomRightClickOutlinedFilled

@@ -8,4 +8,4 @@ const IconToolsPowerDrillSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconToolsPowerDrillSharp as default }
+export default IconToolsPowerDrillSharp

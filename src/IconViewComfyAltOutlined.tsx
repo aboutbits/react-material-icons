@@ -8,4 +8,4 @@ const IconViewComfyAltOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconViewComfyAltOutlined as default }
+export default IconViewComfyAltOutlined

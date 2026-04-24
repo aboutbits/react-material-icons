@@ -8,4 +8,4 @@ const IconTooltipSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTooltipSharp as default }
+export default IconTooltipSharp

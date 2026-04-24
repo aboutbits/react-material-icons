@@ -10,4 +10,4 @@ const IconGoogleTvRemoteOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconGoogleTvRemoteOutlinedFilled as default }
+export default IconGoogleTvRemoteOutlinedFilled

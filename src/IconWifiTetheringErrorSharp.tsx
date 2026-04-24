@@ -8,4 +8,4 @@ const IconWifiTetheringErrorSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconWifiTetheringErrorSharp as default }
+export default IconWifiTetheringErrorSharp

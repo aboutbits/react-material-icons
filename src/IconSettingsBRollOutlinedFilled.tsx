@@ -8,4 +8,4 @@ const IconSettingsBRollOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsBRollOutlinedFilled as default }
+export default IconSettingsBRollOutlinedFilled

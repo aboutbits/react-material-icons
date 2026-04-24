@@ -8,4 +8,4 @@ const IconDataSaverOnRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDataSaverOnRounded as default }
+export default IconDataSaverOnRounded

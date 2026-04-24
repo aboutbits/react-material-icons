@@ -8,4 +8,4 @@ const IconHdrAutoSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconHdrAutoSharp as default }
+export default IconHdrAutoSharp

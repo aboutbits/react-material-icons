@@ -10,4 +10,4 @@ const IconSportsMartialArtsSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSportsMartialArtsSharpFilled as default }
+export default IconSportsMartialArtsSharpFilled

@@ -8,4 +8,4 @@ const IconModeHeatOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconModeHeatOffSharp as default }
+export default IconModeHeatOffSharp

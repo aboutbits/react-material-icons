@@ -8,4 +8,4 @@ const IconStackedEmailSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStackedEmailSharp as default }
+export default IconStackedEmailSharp

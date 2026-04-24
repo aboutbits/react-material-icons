@@ -8,4 +8,4 @@ const IconProgressActivitySharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconProgressActivitySharpFilled as default }
+export default IconProgressActivitySharpFilled

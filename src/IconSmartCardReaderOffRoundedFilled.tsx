@@ -10,4 +10,4 @@ const IconSmartCardReaderOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSmartCardReaderOffRoundedFilled as default }
+export default IconSmartCardReaderOffRoundedFilled

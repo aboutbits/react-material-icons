@@ -8,4 +8,4 @@ const IconTrophySharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTrophySharp as default }
+export default IconTrophySharp

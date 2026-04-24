@@ -8,4 +8,4 @@ const IconPendingSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPendingSharp as default }
+export default IconPendingSharp

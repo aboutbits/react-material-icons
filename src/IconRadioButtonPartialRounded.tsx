@@ -8,4 +8,4 @@ const IconRadioButtonPartialRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRadioButtonPartialRounded as default }
+export default IconRadioButtonPartialRounded

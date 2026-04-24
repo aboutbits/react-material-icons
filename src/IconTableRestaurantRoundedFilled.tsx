@@ -10,4 +10,4 @@ const IconTableRestaurantRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTableRestaurantRoundedFilled as default }
+export default IconTableRestaurantRoundedFilled

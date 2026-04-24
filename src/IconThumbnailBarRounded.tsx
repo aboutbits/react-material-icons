@@ -8,4 +8,4 @@ const IconThumbnailBarRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThumbnailBarRounded as default }
+export default IconThumbnailBarRounded

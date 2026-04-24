@@ -8,4 +8,4 @@ const IconAirlinesRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAirlinesRoundedFilled as default }
+export default IconAirlinesRoundedFilled

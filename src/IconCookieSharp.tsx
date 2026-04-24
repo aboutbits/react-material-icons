@@ -8,4 +8,4 @@ const IconCookieSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCookieSharp as default }
+export default IconCookieSharp

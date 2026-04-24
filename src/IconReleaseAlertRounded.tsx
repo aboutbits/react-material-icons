@@ -8,4 +8,4 @@ const IconReleaseAlertRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconReleaseAlertRounded as default }
+export default IconReleaseAlertRounded

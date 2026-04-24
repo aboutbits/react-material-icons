@@ -8,4 +8,4 @@ const IconFormatBoldSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatBoldSharp as default }
+export default IconFormatBoldSharp

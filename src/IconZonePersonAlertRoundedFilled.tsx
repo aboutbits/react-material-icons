@@ -10,4 +10,4 @@ const IconZonePersonAlertRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconZonePersonAlertRoundedFilled as default }
+export default IconZonePersonAlertRoundedFilled

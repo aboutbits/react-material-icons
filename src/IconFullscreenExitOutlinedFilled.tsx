@@ -10,4 +10,4 @@ const IconFullscreenExitOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconFullscreenExitOutlinedFilled as default }
+export default IconFullscreenExitOutlinedFilled

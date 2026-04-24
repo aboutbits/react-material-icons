@@ -8,4 +8,4 @@ const IconDetectorOfflineSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDetectorOfflineSharp as default }
+export default IconDetectorOfflineSharp

@@ -10,4 +10,4 @@ const IconToolsPowerDrillOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconToolsPowerDrillOutlinedFilled as default }
+export default IconToolsPowerDrillOutlinedFilled

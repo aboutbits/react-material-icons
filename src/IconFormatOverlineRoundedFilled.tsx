@@ -8,4 +8,4 @@ const IconFormatOverlineRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatOverlineRoundedFilled as default }
+export default IconFormatOverlineRoundedFilled

@@ -8,4 +8,4 @@ const IconTextSelectStartRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectStartRounded as default }
+export default IconTextSelectStartRounded

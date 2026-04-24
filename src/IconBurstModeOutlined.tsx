@@ -8,4 +8,4 @@ const IconBurstModeOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBurstModeOutlined as default }
+export default IconBurstModeOutlined

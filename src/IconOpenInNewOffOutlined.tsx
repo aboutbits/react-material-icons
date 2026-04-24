@@ -8,4 +8,4 @@ const IconOpenInNewOffOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconOpenInNewOffOutlined as default }
+export default IconOpenInNewOffOutlined

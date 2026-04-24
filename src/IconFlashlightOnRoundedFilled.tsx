@@ -8,4 +8,4 @@ const IconFlashlightOnRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlashlightOnRoundedFilled as default }
+export default IconFlashlightOnRoundedFilled

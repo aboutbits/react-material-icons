@@ -8,4 +8,4 @@ const IconDateRangeRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDateRangeRounded as default }
+export default IconDateRangeRounded

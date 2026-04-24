@@ -8,4 +8,4 @@ const IconArrowCircleUpRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconArrowCircleUpRounded as default }
+export default IconArrowCircleUpRounded

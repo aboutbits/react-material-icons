@@ -8,4 +8,4 @@ const IconAirplanemodeInactiveSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAirplanemodeInactiveSharp as default }
+export default IconAirplanemodeInactiveSharp

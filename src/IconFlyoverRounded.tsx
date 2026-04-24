@@ -8,4 +8,4 @@ const IconFlyoverRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlyoverRounded as default }
+export default IconFlyoverRounded

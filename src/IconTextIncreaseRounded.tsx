@@ -8,4 +8,4 @@ const IconTextIncreaseRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextIncreaseRounded as default }
+export default IconTextIncreaseRounded

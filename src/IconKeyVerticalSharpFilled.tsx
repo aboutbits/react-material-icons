@@ -8,4 +8,4 @@ const IconKeyVerticalSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeyVerticalSharpFilled as default }
+export default IconKeyVerticalSharpFilled

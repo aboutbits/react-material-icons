@@ -8,4 +8,4 @@ const IconFlipToBackSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFlipToBackSharp as default }
+export default IconFlipToBackSharp

@@ -8,4 +8,4 @@ const IconActivityZoneSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconActivityZoneSharp as default }
+export default IconActivityZoneSharp

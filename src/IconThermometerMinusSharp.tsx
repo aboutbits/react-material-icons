@@ -8,4 +8,4 @@ const IconThermometerMinusSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconThermometerMinusSharp as default }
+export default IconThermometerMinusSharp

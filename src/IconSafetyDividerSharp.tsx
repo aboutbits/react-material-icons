@@ -8,4 +8,4 @@ const IconSafetyDividerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSafetyDividerSharp as default }
+export default IconSafetyDividerSharp

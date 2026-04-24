@@ -10,4 +10,4 @@ const IconQuickReferenceAllSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconQuickReferenceAllSharpFilled as default }
+export default IconQuickReferenceAllSharpFilled

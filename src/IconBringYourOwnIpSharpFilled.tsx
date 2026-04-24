@@ -8,4 +8,4 @@ const IconBringYourOwnIpSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBringYourOwnIpSharpFilled as default }
+export default IconBringYourOwnIpSharpFilled

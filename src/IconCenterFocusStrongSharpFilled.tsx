@@ -10,4 +10,4 @@ const IconCenterFocusStrongSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCenterFocusStrongSharpFilled as default }
+export default IconCenterFocusStrongSharpFilled

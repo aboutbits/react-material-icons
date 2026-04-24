@@ -10,4 +10,4 @@ const IconVr180Create2dOffRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconVr180Create2dOffRoundedFilled as default }
+export default IconVr180Create2dOffRoundedFilled

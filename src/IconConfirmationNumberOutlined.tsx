@@ -8,4 +8,4 @@ const IconConfirmationNumberOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconConfirmationNumberOutlined as default }
+export default IconConfirmationNumberOutlined

@@ -8,4 +8,4 @@ const IconRecenterSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRecenterSharp as default }
+export default IconRecenterSharp

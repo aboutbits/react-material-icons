@@ -8,4 +8,4 @@ const IconFormatTextClipOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatTextClipOutlined as default }
+export default IconFormatTextClipOutlined

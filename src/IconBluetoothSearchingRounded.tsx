@@ -8,4 +8,4 @@ const IconBluetoothSearchingRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBluetoothSearchingRounded as default }
+export default IconBluetoothSearchingRounded

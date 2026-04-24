@@ -8,4 +8,4 @@ const IconQueueMusicRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconQueueMusicRounded as default }
+export default IconQueueMusicRounded

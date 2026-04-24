@@ -8,4 +8,4 @@ const IconFolderOpenRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFolderOpenRounded as default }
+export default IconFolderOpenRounded

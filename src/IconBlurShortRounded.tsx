@@ -8,4 +8,4 @@ const IconBlurShortRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBlurShortRounded as default }
+export default IconBlurShortRounded

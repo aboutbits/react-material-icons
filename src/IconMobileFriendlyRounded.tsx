@@ -8,4 +8,4 @@ const IconMobileFriendlyRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMobileFriendlyRounded as default }
+export default IconMobileFriendlyRounded

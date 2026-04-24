@@ -10,4 +10,4 @@ const IconAutoAwesomeMosaicSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAutoAwesomeMosaicSharpFilled as default }
+export default IconAutoAwesomeMosaicSharpFilled

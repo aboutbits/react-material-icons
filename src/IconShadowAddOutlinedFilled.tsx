@@ -8,4 +8,4 @@ const IconShadowAddOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShadowAddOutlinedFilled as default }
+export default IconShadowAddOutlinedFilled

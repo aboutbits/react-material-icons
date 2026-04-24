@@ -8,4 +8,4 @@ const IconNestCamIqOutdoorRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamIqOutdoorRounded as default }
+export default IconNestCamIqOutdoorRounded

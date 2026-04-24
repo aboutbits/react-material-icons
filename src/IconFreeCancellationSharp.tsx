@@ -8,4 +8,4 @@ const IconFreeCancellationSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFreeCancellationSharp as default }
+export default IconFreeCancellationSharp

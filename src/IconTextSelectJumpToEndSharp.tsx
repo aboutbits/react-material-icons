@@ -8,4 +8,4 @@ const IconTextSelectJumpToEndSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTextSelectJumpToEndSharp as default }
+export default IconTextSelectJumpToEndSharp

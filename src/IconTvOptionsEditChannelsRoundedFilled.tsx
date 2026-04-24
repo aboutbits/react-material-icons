@@ -10,4 +10,4 @@ const IconTvOptionsEditChannelsRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTvOptionsEditChannelsRoundedFilled as default }
+export default IconTvOptionsEditChannelsRoundedFilled

@@ -8,4 +8,4 @@ const IconDirectionsWalkSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconDirectionsWalkSharp as default }
+export default IconDirectionsWalkSharp

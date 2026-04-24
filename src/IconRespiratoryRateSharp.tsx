@@ -8,4 +8,4 @@ const IconRespiratoryRateSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconRespiratoryRateSharp as default }
+export default IconRespiratoryRateSharp

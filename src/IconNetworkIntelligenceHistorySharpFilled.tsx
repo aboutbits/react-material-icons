@@ -10,4 +10,4 @@ const IconNetworkIntelligenceHistorySharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconNetworkIntelligenceHistorySharpFilled as default }
+export default IconNetworkIntelligenceHistorySharpFilled

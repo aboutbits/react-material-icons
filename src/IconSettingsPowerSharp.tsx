@@ -8,4 +8,4 @@ const IconSettingsPowerSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsPowerSharp as default }
+export default IconSettingsPowerSharp

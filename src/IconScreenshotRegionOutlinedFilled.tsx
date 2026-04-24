@@ -10,4 +10,4 @@ const IconScreenshotRegionOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconScreenshotRegionOutlinedFilled as default }
+export default IconScreenshotRegionOutlinedFilled

@@ -8,4 +8,4 @@ const IconProgressActivityOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconProgressActivityOutlined as default }
+export default IconProgressActivityOutlined

@@ -8,4 +8,4 @@ const IconContextualTokenAddOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconContextualTokenAddOutlined as default }
+export default IconContextualTokenAddOutlined

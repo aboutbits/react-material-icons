@@ -8,4 +8,4 @@ const IconMenuSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMenuSharp as default }
+export default IconMenuSharp

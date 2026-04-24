@@ -8,4 +8,4 @@ const IconKeepOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeepOffSharp as default }
+export default IconKeepOffSharp

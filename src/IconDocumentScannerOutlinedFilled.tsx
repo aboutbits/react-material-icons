@@ -10,4 +10,4 @@ const IconDocumentScannerOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconDocumentScannerOutlinedFilled as default }
+export default IconDocumentScannerOutlinedFilled

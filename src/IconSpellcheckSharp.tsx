@@ -8,4 +8,4 @@ const IconSpellcheckSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpellcheckSharp as default }
+export default IconSpellcheckSharp

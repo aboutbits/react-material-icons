@@ -10,4 +10,4 @@ const IconSoundDetectionGlassBreakOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconSoundDetectionGlassBreakOutlinedFilled as default }
+export default IconSoundDetectionGlassBreakOutlinedFilled

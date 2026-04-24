@@ -10,4 +10,4 @@ const IconTextSelectJumpToBeginningSharp: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconTextSelectJumpToBeginningSharp as default }
+export default IconTextSelectJumpToBeginningSharp

@@ -8,4 +8,4 @@ const IconBatteryAlertRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconBatteryAlertRounded as default }
+export default IconBatteryAlertRounded

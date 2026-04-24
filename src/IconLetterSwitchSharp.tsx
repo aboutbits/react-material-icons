@@ -8,4 +8,4 @@ const IconLetterSwitchSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconLetterSwitchSharp as default }
+export default IconLetterSwitchSharp

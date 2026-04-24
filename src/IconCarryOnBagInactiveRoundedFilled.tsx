@@ -10,4 +10,4 @@ const IconCarryOnBagInactiveRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCarryOnBagInactiveRoundedFilled as default }
+export default IconCarryOnBagInactiveRoundedFilled

@@ -10,4 +10,4 @@ const IconHighlightKeyboardFocusOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconHighlightKeyboardFocusOutlinedFilled as default }
+export default IconHighlightKeyboardFocusOutlinedFilled

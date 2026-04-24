@@ -8,4 +8,4 @@ const IconFormatLineSpacingOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFormatLineSpacingOutlined as default }
+export default IconFormatLineSpacingOutlined

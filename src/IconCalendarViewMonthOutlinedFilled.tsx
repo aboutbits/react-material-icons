@@ -10,4 +10,4 @@ const IconCalendarViewMonthOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconCalendarViewMonthOutlinedFilled as default }
+export default IconCalendarViewMonthOutlinedFilled

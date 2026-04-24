@@ -8,4 +8,4 @@ const IconKeepPublicSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconKeepPublicSharpFilled as default }
+export default IconKeepPublicSharpFilled

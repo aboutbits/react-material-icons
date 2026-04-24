@@ -8,4 +8,4 @@ const IconSpatialAudioOffSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSpatialAudioOffSharp as default }
+export default IconSpatialAudioOffSharp

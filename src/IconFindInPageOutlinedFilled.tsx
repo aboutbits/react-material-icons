@@ -8,4 +8,4 @@ const IconFindInPageOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconFindInPageOutlinedFilled as default }
+export default IconFindInPageOutlinedFilled

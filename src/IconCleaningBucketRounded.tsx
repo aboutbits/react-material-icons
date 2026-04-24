@@ -8,4 +8,4 @@ const IconCleaningBucketRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconCleaningBucketRounded as default }
+export default IconCleaningBucketRounded

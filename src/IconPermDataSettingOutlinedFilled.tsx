@@ -10,4 +10,4 @@ const IconPermDataSettingOutlinedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPermDataSettingOutlinedFilled as default }
+export default IconPermDataSettingOutlinedFilled

@@ -8,4 +8,4 @@ const IconMimoDisconnectRoundedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconMimoDisconnectRoundedFilled as default }
+export default IconMimoDisconnectRoundedFilled

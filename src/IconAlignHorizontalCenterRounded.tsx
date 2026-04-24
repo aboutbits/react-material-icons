@@ -10,4 +10,4 @@ const IconAlignHorizontalCenterRounded: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconAlignHorizontalCenterRounded as default }
+export default IconAlignHorizontalCenterRounded

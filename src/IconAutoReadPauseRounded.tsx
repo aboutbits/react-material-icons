@@ -8,4 +8,4 @@ const IconAutoReadPauseRounded: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconAutoReadPauseRounded as default }
+export default IconAutoReadPauseRounded

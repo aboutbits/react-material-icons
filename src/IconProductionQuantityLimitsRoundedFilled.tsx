@@ -10,4 +10,4 @@ const IconProductionQuantityLimitsRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconProductionQuantityLimitsRoundedFilled as default }
+export default IconProductionQuantityLimitsRoundedFilled

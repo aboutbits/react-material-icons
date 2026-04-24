@@ -8,4 +8,4 @@ const IconTooltipOutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconTooltipOutlinedFilled as default }
+export default IconTooltipOutlinedFilled

@@ -8,4 +8,4 @@ const IconChromecast2OutlinedFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconChromecast2OutlinedFilled as default }
+export default IconChromecast2OutlinedFilled

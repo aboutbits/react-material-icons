@@ -8,4 +8,4 @@ const IconNestCamMagnetMountSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconNestCamMagnetMountSharp as default }
+export default IconNestCamMagnetMountSharp

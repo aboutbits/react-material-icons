@@ -8,4 +8,4 @@ const IconGasMeterSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconGasMeterSharp as default }
+export default IconGasMeterSharp

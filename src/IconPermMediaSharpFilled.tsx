@@ -8,4 +8,4 @@ const IconPermMediaSharpFilled: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconPermMediaSharpFilled as default }
+export default IconPermMediaSharpFilled

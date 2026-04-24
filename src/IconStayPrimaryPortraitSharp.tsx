@@ -8,4 +8,4 @@ const IconStayPrimaryPortraitSharp: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconStayPrimaryPortraitSharp as default }
+export default IconStayPrimaryPortraitSharp

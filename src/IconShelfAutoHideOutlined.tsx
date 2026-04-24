@@ -8,4 +8,4 @@ const IconShelfAutoHideOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconShelfAutoHideOutlined as default }
+export default IconShelfAutoHideOutlined

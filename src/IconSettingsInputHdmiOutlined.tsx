@@ -8,4 +8,4 @@ const IconSettingsInputHdmiOutlined: React.FC<IconProps> = ({ ...props }) => (
   </svg>
 )
 
-export { IconSettingsInputHdmiOutlined as default }
+export default IconSettingsInputHdmiOutlined

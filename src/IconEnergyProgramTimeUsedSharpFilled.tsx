@@ -10,4 +10,4 @@ const IconEnergyProgramTimeUsedSharpFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconEnergyProgramTimeUsedSharpFilled as default }
+export default IconEnergyProgramTimeUsedSharpFilled

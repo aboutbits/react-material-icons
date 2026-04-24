@@ -10,4 +10,4 @@ const IconPlannerBannerAdPtRoundedFilled: React.FC<IconProps> = ({
   </svg>
 )
 
-export { IconPlannerBannerAdPtRoundedFilled as default }
+export default IconPlannerBannerAdPtRoundedFilled
