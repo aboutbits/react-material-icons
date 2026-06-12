@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable no-console */
+
 const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
@@ -28,8 +31,8 @@ const getIncludedFamilies = (unsupportedFamilies) => {
   const data = res.data.substring(4)
   const icons = await JSON.parse(data)
 
-  for (let i = 0; i < icons.icons.length; i++) {
-    await generateComponentsForAllFamilies(icons.icons[i])
+  for (const icon of icons.icons) {
+    await generateComponentsForAllFamilies(icon)
   }
 })()
 
@@ -47,10 +50,10 @@ function generatePropsFile() {
 async function generateComponentsForAllFamilies(icon) {
   const families = getIncludedFamilies(icon.unsupported_families)
 
-  for (let i = 0; i < families.length; i++) {
+  for (const family of families) {
     await Promise.all([
-      generateComponent(icon, families[i]),
-      generateComponent(icon, families[i], true),
+      generateComponent(icon, family),
+      generateComponent(icon, family, true),
     ])
   }
 }
