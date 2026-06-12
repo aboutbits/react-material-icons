@@ -1,4 +1,4 @@
 import React from 'react'
-export interface IconProps extends React.SVGProps<SVGSVGElement> {
+export type IconProps = {
   title?: string
-}
+} & React.SVGProps<SVGSVGElement>
