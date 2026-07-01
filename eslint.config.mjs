@@ -6,6 +6,6 @@ export default defineConfig([
   ts,
   jest,
   {
-    ignores: ['dist', 'node_modules', 'src'],
+    ignores: ['dist', 'node_modules'],
   },
 ])
