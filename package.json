@@ -34,8 +34,8 @@
   "scripts": {
     "build": "tsc",
     "clear": "rm -rf src/*",
-    "generate": "node generator.js",
-    "lint": "eslint --cache",
+    "generate": "node generator.js && eslint --fix src",
+    "lint": "eslint --cache --ignore-pattern src",
     "lint:fix": "npm run lint -- --fix",
     "typecheck": "tsc --noEmit",
     "test": "jest --config jestconfig.json --passWithNoTests",
