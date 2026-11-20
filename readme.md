@@ -9,6 +9,7 @@ This package includes all [Material Icons](https://material.io/resources/icons/?
 ## Table of content
 
 - [Usage](#usage)
+- [Migrating from 2.x](#migrating-from-2x)
 - [Generate Components](#generate-components)
 - [Build & Publish](#build--publish)
 - [Information](#information)
@@ -33,7 +34,7 @@ const MyComponent = () => {
 
 Every icon is its own entry point, so only the icons you import end up in your bundle. There is intentionally no root entry that exports all icons.
 
-The package is ESM only and requires Node.js 20.19 or newer.
+The package is ESM only and requires Node.js 26 or newer and npm 11 or newer.
 
 SVG related parameters like height and width can be passed as props. The props type can be imported as well:
 
@@ -47,6 +48,20 @@ To import the different variants of an icon you can add the variants as a postfi
 - `Icon10kRounded` > Rounded
 - `Icon10kSharp` > Sharp
 - `Icon10kOutlinedFilled`, `Icon10kRoundedFilled`, `Icon10kSharpFilled` > Filled versions of the above
+
+## Migrating from 2.x
+
+Version 3 has breaking changes:
+
+- **Named exports:** every icon is a named export. Replace `import IconCached from '…'` with `import { IconCached } from '…'`.
+- **No `dist/` in the import path:** import from `@aboutbits/react-material-icons/IconCached` instead of `@aboutbits/react-material-icons/dist/IconCached`.
+- **ESM only:** the package has no CommonJS build, so `require()` no longer works.
+- **Node.js 26 and npm 11:** the package requires Node.js 26 or newer and npm 11 or newer.
+
+```diff
+-import IconCached from '@aboutbits/react-material-icons/dist/IconCached'
++import { IconCached } from '@aboutbits/react-material-icons/IconCached'
+```
 
 ## Generate Components
 
