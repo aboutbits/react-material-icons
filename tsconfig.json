@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "ES5",
-    "jsx": "react",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "outDir": "./dist",
-    "declaration": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
     "strict": true,
-    "sourceMap": false
+    "noEmit": true,
+    "declaration": true,
+    "isolatedDeclarations": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__test__/*", "**/__tests__/*"]
+  "include": ["src", "tsdown.config.ts"]
 }

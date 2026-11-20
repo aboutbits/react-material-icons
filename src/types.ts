@@ -1,4 +1,5 @@
-import React from 'react'
+import type { SVGProps } from 'react'
+
 export type IconProps = {
   title?: string
-} & React.SVGProps<SVGSVGElement>
+} & SVGProps<SVGSVGElement>
