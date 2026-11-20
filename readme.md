@@ -53,14 +53,14 @@ To import the different variants of an icon you can add the variants as a postfi
 
 Version 3 has breaking changes:
 
-- **Named exports:** every icon is a named export. Replace `import IconCached from '…'` with `import { IconCached } from '…'`.
-- **No `dist/` in the import path:** import from `@aboutbits/react-material-icons/IconCached` instead of `@aboutbits/react-material-icons/dist/IconCached`.
+- **Named exports:** every icon is a named export. Replace `import IconCachedOutlined from '…'` with `import { IconCachedOutlined } from '…'`.
+- **No `dist/` in the import path:** import from `@aboutbits/react-material-icons/IconCachedOutlined` instead of `@aboutbits/react-material-icons/dist/IconCachedOutlined`.
 - **ESM only:** the package has no CommonJS build, so `require()` no longer works.
 - **Node.js 26 and npm 11:** the package requires Node.js 26 or newer and npm 11 or newer.
 
 ```diff
--import IconCached from '@aboutbits/react-material-icons/dist/IconCached'
-+import { IconCached } from '@aboutbits/react-material-icons/IconCached'
+-import IconCachedOutlined from '@aboutbits/react-material-icons/dist/IconCachedOutlined'
++import { IconCachedOutlined } from '@aboutbits/react-material-icons/IconCachedOutlined'
 ```
 
 ## Generate Components
