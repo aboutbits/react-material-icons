@@ -36,8 +36,8 @@
     "dist"
   ],
   "engines": {
-    "npm": ">=10",
-    "node": ">=20.19"
+    "npm": ">=11",
+    "node": ">=26"
   },
   "scripts": {
     "build": "tsdown && tsc -p tsconfig.build.json",
