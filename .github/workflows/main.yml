@@ -26,3 +26,6 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
         shell: bash
+      - name: Smoke test
+        run: node --input-type=module -e "import { IconCachedOutlined } from '@aboutbits/react-material-icons/IconCachedOutlined'"
+        shell: bash
