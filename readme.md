@@ -9,6 +9,7 @@ This package includes all [Material Icons](https://material.io/resources/icons/?
 ## Table of content
 
 - [Usage](#usage)
+- [Migrating from 2.x](#migrating-from-2x)
 - [Generate Components](#generate-components)
 - [Build & Publish](#build--publish)
 - [Information](#information)
@@ -24,25 +25,43 @@ npm install @aboutbits/react-material-icons
 Second, you can use the icons in you React application like this:
 
 ```jsx
-import React from 'react'
-import IconCached from '@aboutbits/react-material-icons/dist/IconCached'
+import { IconCachedOutlined } from '@aboutbits/react-material-icons/IconCachedOutlined'
 
-const MyCommponent = () => {
-    return (
-        <IconCached/>
-    );
+const MyComponent = () => {
+    return <IconCachedOutlined />
 }
-``` 
+```
 
-SVG related parameters like height and width can be passed as props.
+Every icon is its own entry point, so only the icons you import end up in your bundle. There is intentionally no root entry that exports all icons.
+
+The package is ESM only and requires Node.js 26 or newer and npm 11 or newer.
+
+SVG related parameters like height and width can be passed as props. The props type can be imported as well:
+
+```ts
+import type { IconProps } from '@aboutbits/react-material-icons/types'
+```
 
 To import the different variants of an icon you can add the variants as a postfix:
 
-- `Icon10k` > Default filled
 - `Icon10kOutlined` > Outlined
 - `Icon10kRounded` > Rounded
 - `Icon10kSharp` > Sharp
-- `Icon10kTwoTone` > Tow tone
+- `Icon10kOutlinedFilled`, `Icon10kRoundedFilled`, `Icon10kSharpFilled` > Filled versions of the above
+
+## Migrating from 2.x
+
+Version 3 has breaking changes:
+
+- **Named exports:** every icon is a named export. Replace `import IconCachedOutlined from '…'` with `import { IconCachedOutlined } from '…'`.
+- **No `dist/` in the import path:** import from `@aboutbits/react-material-icons/IconCachedOutlined` instead of `@aboutbits/react-material-icons/dist/IconCachedOutlined`.
+- **ESM only:** the package has no CommonJS build, so `require()` no longer works.
+- **Node.js 26 and npm 11:** the package requires Node.js 26 or newer and npm 11 or newer.
+
+```diff
+-import IconCachedOutlined from '@aboutbits/react-material-icons/dist/IconCachedOutlined'
++import { IconCachedOutlined } from '@aboutbits/react-material-icons/IconCachedOutlined'
+```
 
 ## Generate Components
 

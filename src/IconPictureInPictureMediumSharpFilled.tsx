@@ -1,13 +1,9 @@
-import React from 'react'
-import { IconProps } from './types'
+import type { IconProps } from './types.js'
+import type { FC } from 'react'
 
-const IconPictureInPictureMediumSharpFilled: React.FC<IconProps> = ({
-  ...props
-}) => (
+export const IconPictureInPictureMediumSharpFilled: FC<IconProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" {...props}>
     {props.title && <title>{props.title}</title>}
     <path d="M320-320v-320h400v320H320ZM80-160v-80h720v-560h80v640H80Z" />
   </svg>
 )
-
-export { IconPictureInPictureMediumSharpFilled as default }

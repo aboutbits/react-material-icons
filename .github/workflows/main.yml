@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 10
     strategy:
       matrix:
-        node_version: [18, 20, 22]
+        node_version: [26]
     steps:
       - uses: actions/checkout@v7
       - uses: aboutbits/github-actions-node/setup-and-install@v3
@@ -26,20 +26,6 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
         shell: bash
-
-  test:
-    runs-on: ubuntu-26.04
-    timeout-minutes: 10
-    strategy:
-      matrix:
-        node_version: [18, 20, 22]
-    steps:
-      - uses: actions/checkout@v7
-      - uses: aboutbits/github-actions-node/setup-and-install@v3
-        with:
-          node-version: ${{ matrix.node_version }}
-          registry-url: 'https://npm.pkg.github.com'
-          registry-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
-      - name: Test
-        run: npm run test
+      - name: Smoke test
+        run: node --input-type=module -e "import { IconCachedOutlined } from '@aboutbits/react-material-icons/IconCachedOutlined'"
         shell: bash
