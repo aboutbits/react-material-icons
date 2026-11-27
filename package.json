@@ -62,7 +62,7 @@
     "@aboutbits/eslint-config": "^6.2.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "axios": "^1.6.8",
+    "axios": "^1.21.1",
     "eslint": "^9.39.0",
     "prettier": "^3.2.5",
     "react": "^19.2.7",
