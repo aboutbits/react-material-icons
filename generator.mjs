@@ -24,6 +24,8 @@ const getIncludedFamilies = (unsupportedFamilies) => {
 }
 
 ;(async () => {
+  const failures = []
+
   generatePropsFile()
 
   const res = await axios.get(GOOGLE_FONTS_URL)
@@ -33,9 +35,20 @@ const getIncludedFamilies = (unsupportedFamilies) => {
   const icons = await JSON.parse(data)
 
   for (const icon of icons.icons) {
-    await generateComponentsForAllFamilies(icon)
+    await generateComponentsForAllFamilies(icon, failures)
   }
-})()
+
+  if (failures.length > 0) {
+    console.error(`\nFailed to generate ${failures.length} component(s):`)
+    for (const { name, error } of failures) {
+      console.error(`  ${name}: ${error.message}`)
+    }
+    process.exitCode = 1
+  }
+})().catch((error) => {
+  console.error(error)
+  process.exitCode = 1
+})
 
 function generatePropsFile() {
   const typesFile = `
@@ -49,32 +62,32 @@ function generatePropsFile() {
   fs.writeFileSync(path.join(SRC_DIR, 'types.ts'), typesFile)
 }
 
-async function generateComponentsForAllFamilies(icon) {
+async function generateComponentsForAllFamilies(icon, failures) {
   const families = getIncludedFamilies(icon.unsupported_families)
 
   for (const family of families) {
     await Promise.all([
-      generateComponent(icon, family),
-      generateComponent(icon, family, true),
+      generateComponent(icon, family, false, failures),
+      generateComponent(icon, family, true, failures),
     ])
   }
 }
 
-async function generateComponent(icon, family, filled = false) {
-  try {
-    const name = formatName(icon.name, family.postfix, filled)
+async function generateComponent(icon, family, filled, failures) {
+  const name = formatName(icon.name, family.postfix, filled)
 
+  try {
     const svg = await downloadSVG(icon.name, family.id, filled)
 
     console.log(`Downloading ${name}`)
 
-    await fs.writeFileSync(
+    fs.writeFileSync(
       path.join(SRC_DIR, `${name}.tsx`),
       mapSVGToTemplate(name, svg),
     )
-  } catch {
-    console.log('Error generating component for', icon.name)
-    //process.abort()
+  } catch (error) {
+    console.error(`Error generating ${name}: ${error.message}`)
+    failures.push({ name, error })
   }
 }
 
@@ -91,11 +104,9 @@ function formatName(string, familyPostfix, filled) {
 
 async function downloadSVG(icon, familyId, filled) {
   const filledConfig = filled ? 'fill1' : 'default'
-  const svg = await axios
-    .get(
-      `https://fonts.gstatic.com/s/i/short-term/release/${familyId}/${icon}/${filledConfig}/24px.svg`,
-    )
-    .catch((err) => console.log(err))
+  const svg = await axios.get(
+    `https://fonts.gstatic.com/s/i/short-term/release/${familyId}/${icon}/${filledConfig}/24px.svg`,
+  )
 
   return svg.data
     .replace('height="24"', '')
